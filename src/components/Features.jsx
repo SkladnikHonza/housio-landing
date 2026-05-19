@@ -14,7 +14,7 @@ export default function Features() {
   ]
 
   return (
-    <section id="funkce" className="px-6 py-12 lg:py-16 scroll-mt-20" style={{ background: 'var(--bg-clean)' }}>
+    <section id="funkce" className="px-6 py-12 lg:py-16 scroll-mt-32" style={{ background: 'var(--bg-clean)' }}>
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-2xl mx-auto mb-16">
