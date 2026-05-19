@@ -1,81 +1,57 @@
+import { useTranslations } from 'next-intl'
 import { Check } from 'lucide-react'
 
-const tiers = [
-  {
-    name: 'Free',
-    price: '0 Kč',
-    period: 'navždy zdarma',
-    features: [
-      '1 nemovitost',
-      'Až 2 nájemníci',
-      'Základní cash flow',
-      'Email notifikace',
-    ],
-    cta: 'Začít zdarma',
-    ctaUrl: 'https://housio.vercel.app/login',
-    highlighted: false,
-  },
-  {
-    name: 'Pro',
-    price: '199 Kč',
-    suffix: '/měs',
-    period: '14 dní zdarma na zkoušku',
-    features: [
-      'Až 5 nemovitostí',
-      'Neomezené nájemníky',
-      'Pokročilý cash flow + grafy',
-      'Automatické notifikace',
-      'Multi-měna + multi-jazyk',
-      'Prioritní podpora',
-    ],
-    cta: 'Vyzkoušet 14 dní zdarma',
-    ctaUrl: 'https://housio.vercel.app/login',
-    highlighted: true,
-  },
-  {
-    name: 'Business',
-    price: '499 Kč',
-    suffix: '/měs',
-    period: '14 dní zdarma na zkoušku',
-    features: [
-      'Neomezené nemovitosti',
-      'Vše z PRO plánu',
-      'PDF výkazy + faktury',
-      'Multi-user (až 5 účtů)',
-      'API přístup',
-    ],
-    cta: 'Kontaktovat sales',
-    ctaUrl: 'mailto:info@useuropegroup.cz',
-    highlighted: false,
-  },
-]
-
 export default function Pricing() {
+  const t = useTranslations('pricing')
+  
+  const tiers = [
+    {
+      key: 'free',
+      features: ['feature1', 'feature2', 'feature3', 'feature4'],
+      ctaUrl: 'https://housio.vercel.app/login',
+      highlighted: false,
+    },
+    {
+      key: 'pro',
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
+      ctaUrl: 'https://housio.vercel.app/login',
+      highlighted: true,
+    },
+    {
+      key: 'business',
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      ctaUrl: 'mailto:info@useuropegroup.cz',
+      highlighted: false,
+    },
+  ]
+
   return (
     <section id="ceny" className="px-6 py-12 lg:py-16 scroll-mt-20" style={{ background: 'var(--bg-clean)' }}>
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-2xl mx-auto mb-12">
           <p className="text-xs font-medium uppercase tracking-widest mb-3" style={{ color: 'var(--orange)' }}>
-            Ceny
+            {t('label')}
           </p>
           <h2 className="text-4xl md:text-5xl font-medium leading-tight tracking-tight mb-4" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-            Férové ceny.<br/>Bez skrytých poplatků.
+            {t('title')}<br/>{t('title2')}
           </h2>
           <p className="text-lg leading-relaxed mb-6" style={{ color: 'var(--olive-dark)' }}>
-            Začni zdarma. Upgraduj kdykoli. Zruš kdykoli.
+            {t('subtitle')}
           </p>
           
           <div className="inline-flex p-1 rounded-full gap-1" style={{ background: 'var(--bg-warm)' }}>
-            <span className="text-sm text-white px-4 py-1.5 rounded-full font-medium" style={{ background: 'var(--teal-900)' }}>Měsíčně</span>
-            <span className="text-sm px-4 py-1.5 font-medium" style={{ color: 'var(--olive-dark)' }}>Ročně <span style={{ color: 'var(--orange)' }}>-20%</span></span>
+            <span className="text-sm text-white px-4 py-1.5 rounded-full font-medium" style={{ background: 'var(--teal-900)' }}>{t('monthly')}</span>
+            <span className="text-sm px-4 py-1.5 font-medium" style={{ color: 'var(--olive-dark)' }}>
+              {t('yearly')} <span style={{ color: 'var(--orange)' }}>{t('yearlyDiscount')}</span>
+            </span>
           </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5">
-          {tiers.map((tier, i) => (
+          {tiers.map((tier) => (
             <div 
-              key={i} 
+              key={tier.key} 
               className={`rounded-2xl p-8 ${tier.highlighted ? 'relative' : ''}`}
               style={{
                 background: tier.highlighted ? 'var(--bg-clean)' : 'var(--bg-warm)',
@@ -85,25 +61,25 @@ export default function Pricing() {
             >
               {tier.highlighted && (
                 <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 text-white text-xs font-medium px-3.5 py-1 rounded-full tracking-wide" style={{ background: 'linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%)' }}>
-                  Nejoblíbenější
+                  {t('mostPopular')}
                 </div>
               )}
               
               <p className="text-xs font-medium uppercase tracking-widest mb-2" style={{ color: tier.highlighted ? 'var(--orange)' : 'var(--olive)' }}>
-                {tier.name}
+                {t(`${tier.key}.name`)}
               </p>
               
               <p className="text-4xl font-medium tracking-tight mb-1" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-                {tier.price}
-                {tier.suffix && <span className="text-base font-normal" style={{ color: 'var(--olive-dark)' }}>{tier.suffix}</span>}
+                {t(`${tier.key}.price`)}
+                {t.has(`${tier.key}.suffix`) && <span className="text-base font-normal" style={{ color: 'var(--olive-dark)' }}>{t(`${tier.key}.suffix`)}</span>}
               </p>
-              <p className="text-sm mb-6" style={{ color: 'var(--olive-dark)' }}>{tier.period}</p>
+              <p className="text-sm mb-6" style={{ color: 'var(--olive-dark)' }}>{t(`${tier.key}.period`)}</p>
               
               <ul className="space-y-3 mb-8">
-                {tier.features.map((feature, j) => (
-                  <li key={j} className="flex items-center gap-2.5">
+                {tier.features.map((featureKey) => (
+                  <li key={featureKey} className="flex items-center gap-2.5">
                     <Check className="w-4 h-4 flex-shrink-0" style={{ color: tier.highlighted ? 'var(--orange)' : 'var(--teal-500)' }} />
-                    <span className="text-sm" style={{ color: 'var(--olive-dark)' }}>{feature}</span>
+                    <span className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t(`${tier.key}.${featureKey}`)}</span>
                   </li>
                 ))}
               </ul>
@@ -117,7 +93,7 @@ export default function Pricing() {
                   border: tier.highlighted ? 'none' : '1px solid rgba(31, 78, 95, 0.15)',
                 }}
               >
-                {tier.cta}
+                {t(`${tier.key}.cta`)}
               </a>
             </div>
           ))}

@@ -2,9 +2,71 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import { ArrowRight, Play, Check, Home, Star, Menu, X, Lock } from 'lucide-react'
+import { useTranslations, useLocale } from 'next-intl'
+import { useRouter, usePathname, Link } from '@/i18n/navigation'
+import { routing } from '@/i18n/routing'
+import { ArrowRight, Play, Check, Home, Star, Menu, X, Lock, Globe } from 'lucide-react'
+
+const localeNames = {
+  cs: { flag: '🇨🇿', label: 'Čeština' },
+  en: { flag: '🇬🇧', label: 'English' },
+  de: { flag: '🇩🇪', label: 'Deutsch' },
+  it: { flag: '🇮🇹', label: 'Italiano' },
+  es: { flag: '🇪🇸', label: 'Español' },
+}
+
+function LanguageSwitcher({ mobile = false }) {
+  const router = useRouter()
+  const pathname = usePathname()
+  const locale = useLocale()
+  const [open, setOpen] = useState(false)
+
+  const switchLocale = (newLocale) => {
+    router.replace(pathname, { locale: newLocale })
+    setOpen(false)
+  }
+
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-1.5 px-3 py-2 rounded-lg hover:bg-white/40 transition cursor-pointer"
+        style={{ color: 'var(--teal-900)' }}
+        aria-label="Change language"
+      >
+        <Globe className="w-4 h-4" />
+        <span className="text-sm font-medium">{localeNames[locale].flag}</span>
+      </button>
+      
+      {open && (
+        <>
+          <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
+          <div 
+            className={`absolute ${mobile ? 'bottom-full mb-2 left-0' : 'top-full mt-2 right-0'} z-50 bg-white rounded-xl py-2 min-w-[160px]`}
+            style={{ boxShadow: '0 10px 30px rgba(31, 78, 95, 0.15)', border: '1px solid rgba(31, 78, 95, 0.08)' }}
+          >
+            {routing.locales.map((lng) => (
+              <button
+                key={lng}
+                onClick={() => switchLocale(lng)}
+                className={`w-full flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition text-left ${locale === lng ? 'font-semibold' : ''}`}
+                style={{ color: 'var(--teal-900)' }}
+              >
+                <span className="text-base">{localeNames[lng].flag}</span>
+                <span className="text-sm">{localeNames[lng].label}</span>
+                {locale === lng && <Check className="w-4 h-4 ml-auto" style={{ color: 'var(--orange)' }} />}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  )
+}
 
 export default function Hero() {
+  const t = useTranslations('hero')
+  const tNav = useTranslations('nav')
   const [menuOpen, setMenuOpen] = useState(false)
 
   const scrollTo = (id) => (e) => {
@@ -21,35 +83,36 @@ export default function Hero() {
       <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full blur-3xl opacity-20 pointer-events-none" style={{ background: 'radial-gradient(circle, var(--teal-500) 0%, transparent 70%)' }} />
       
       <nav className="relative max-w-7xl mx-auto flex items-center justify-between mb-12 md:mb-16 lg:mb-24">
-        <a href="#" onClick={scrollTo('top')} className="flex items-center gap-2.5 cursor-pointer">
+        <Link href="/" className="flex items-center gap-2.5 cursor-pointer">
           <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--teal-900)' }}>
             <Home className="w-5 h-5 text-white" />
           </div>
           <span className="text-lg font-semibold" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
             Housio
           </span>
-        </a>
+        </Link>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#funkce" onClick={scrollTo('funkce')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Funkce</a>
-          <a href="#ceny" onClick={scrollTo('ceny')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Ceny</a>
-          <a href="#faq" onClick={scrollTo('faq')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>FAQ</a>
-          <a href="mailto:info@useuropegroup.cz" className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Kontakt</a>
+          <a href="#funkce" onClick={scrollTo('funkce')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('features')}</a>
+          <a href="#ceny" onClick={scrollTo('ceny')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('pricing')}</a>
+          <a href="#faq" onClick={scrollTo('faq')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('faq')}</a>
+          <a href="mailto:info@useuropegroup.cz" className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('contact')}</a>
         </div>
         
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-2">
+          <LanguageSwitcher />
           <a href="https://housio.vercel.app/login" className="text-sm font-medium px-4 py-2 rounded-lg hover:bg-white/60 transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
-            Přihlásit
+            {tNav('login')}
           </a>
           <a href="https://housio.vercel.app/login" className="text-sm font-medium px-4 py-2 rounded-lg text-white hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--orange)' }}>
-            Vyzkoušet zdarma
+            {tNav('tryFree')}
           </a>
         </div>
 
         <button 
           className="md:hidden p-2 rounded-lg hover:bg-white/40 transition"
           onClick={() => setMenuOpen(true)}
-          aria-label="Otevřít menu"
+          aria-label="Open menu"
         >
           <Menu className="w-6 h-6" style={{ color: 'var(--teal-900)' }} />
         </button>
@@ -72,7 +135,7 @@ export default function Hero() {
             <button 
               className="p-2 rounded-lg hover:bg-white/40 transition"
               onClick={() => setMenuOpen(false)}
-              aria-label="Zavřít menu"
+              aria-label="Close menu"
             >
               <X className="w-6 h-6" style={{ color: 'var(--teal-900)' }} />
             </button>
@@ -80,25 +143,26 @@ export default function Hero() {
 
           <nav className="flex flex-col gap-2 mb-8">
             <a href="#funkce" onClick={scrollTo('funkce')} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-              Funkce
+              {tNav('features')}
             </a>
             <a href="#ceny" onClick={scrollTo('ceny')} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-              Ceny
+              {tNav('pricing')}
             </a>
             <a href="#faq" onClick={scrollTo('faq')} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-              FAQ
+              {tNav('faq')}
             </a>
             <a href="mailto:info@useuropegroup.cz" onClick={() => setMenuOpen(false)} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
-              Kontakt
+              {tNav('contact')}
             </a>
           </nav>
 
           <div className="mt-auto flex flex-col gap-3">
+            <LanguageSwitcher mobile />
             <a href="https://housio.vercel.app/login" className="text-base font-medium px-6 py-4 rounded-xl text-center hover:bg-white/60 transition cursor-pointer" style={{ color: 'var(--teal-900)', border: '1px solid rgba(31, 78, 95, 0.2)' }}>
-              Přihlásit
+              {tNav('login')}
             </a>
             <a href="https://housio.vercel.app/login" className="text-base font-medium px-6 py-4 rounded-xl text-white text-center hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--orange)' }}>
-              Vyzkoušet zdarma
+              {tNav('tryFree')}
             </a>
           </div>
         </div>
@@ -108,47 +172,47 @@ export default function Hero() {
         
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full mb-6 md:mb-8" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: 'var(--orange)' }}></span>
-          <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>Novinka — Notifikace končících smluv</span>
+          <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>{t('badge')}</span>
         </div>
 
         <h1 
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium leading-[1.05] tracking-tight mb-5 md:mb-6"
           style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.035em' }}
         >
-          Správa nemovitostí.<br />
+          {t('title1')}<br />
           <span style={{ background: 'linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
-            Jednoduše.
+            {t('title2')}
           </span>
         </h1>
 
         <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10" style={{ color: 'var(--olive-dark)' }}>
-          Sleduj nájemníky, platby, smlouvy a cash flow z jednoho místa.<br className="hidden md:block" />
-          Bez Excelu, bez chaosu. V češtině.
+          {t('subtitle')}<br className="hidden md:block" />
+          {t('subtitle2')}
         </p>
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 mb-8 max-w-md sm:max-w-none mx-auto">
           <a href="https://housio.vercel.app/login" className="inline-flex items-center justify-center gap-2 text-base font-medium text-white px-7 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)', boxShadow: '0 10px 25px rgba(31, 78, 95, 0.2)' }}>
-            Vyzkoušet zdarma
+            {t('ctaPrimary')}
             <ArrowRight className="w-4 h-4" />
           </a>
           <a href="#funkce" onClick={scrollTo('funkce')} className="inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
             <Play className="w-4 h-4" />
-            Prohlédnout funkce
+            {t('ctaSecondary')}
           </a>
         </div>
 
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm" style={{ color: 'var(--olive)' }}>
           <span className="inline-flex items-center gap-1.5">
             <Check className="w-4 h-4" style={{ color: 'var(--teal-500)' }} />
-            Bez instalace
+            {t('trustNoInstall')}
           </span>
           <span className="inline-flex items-center gap-1.5">
             <Check className="w-4 h-4" style={{ color: 'var(--teal-500)' }} />
-            14 dní trial
+            {t('trustTrial')}
           </span>
           <span className="inline-flex items-center gap-1.5">
             <Check className="w-4 h-4" style={{ color: 'var(--teal-500)' }} />
-            Zruš kdykoli
+            {t('trustCancel')}
           </span>
         </div>
 
@@ -159,7 +223,7 @@ export default function Hero() {
                 <Check className="w-5 h-5" style={{ color: '#10B981' }} />
               </div>
               <div className="text-left">
-                <p className="text-xs" style={{ color: 'var(--olive-dark)' }}>Nájemné zaplaceno</p>
+                <p className="text-xs" style={{ color: 'var(--olive-dark)' }}>{t('badgePayment')}</p>
                 <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>+15 900 Kč</p>
               </div>
             </div>
@@ -171,8 +235,8 @@ export default function Hero() {
                 <Star className="w-5 h-5 fill-current" style={{ color: 'var(--orange)' }} />
               </div>
               <div className="text-left">
-                <p className="text-xs" style={{ color: 'var(--olive-dark)' }}>Smlouva končí za</p>
-                <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>23 dní</p>
+                <p className="text-xs" style={{ color: 'var(--olive-dark)' }}>{t('badgeContract')}</p>
+                <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>{t('badgeDays')}</p>
               </div>
             </div>
           </div>
@@ -225,32 +289,22 @@ export default function Hero() {
         </div>
 
         <div className="mt-12 md:mt-16 pt-8 border-t" style={{ borderColor: 'rgba(31, 78, 95, 0.1)' }}>
-          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>Důvěřuje nám 500+ pronajímatelů z celé EU</p>
+          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>{t('trustBadge')}</p>
           <div className="flex flex-wrap justify-center items-center gap-1">
             {[1,2,3,4,5].map(i => (
               <Star key={i} className="w-4 h-4 fill-current" style={{ color: 'var(--orange)' }} />
             ))}
-            <span className="text-sm font-medium ml-2" style={{ color: 'var(--olive-dark)' }}>4.9/5 z 234 hodnocení</span>
+            <span className="text-sm font-medium ml-2" style={{ color: 'var(--olive-dark)' }}>{t('rating')}</span>
           </div>
         </div>
 
       </div>
 
       <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-12px); }
-        }
-        @keyframes float-delayed {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-15px); }
-        }
-        .animate-float {
-          animation: float 4s ease-in-out infinite;
-        }
-        .animate-float-delayed {
-          animation: float-delayed 5s ease-in-out infinite 1s;
-        }
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
+        @keyframes float-delayed { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+        .animate-float-delayed { animation: float-delayed 5s ease-in-out infinite 1s; }
       `}</style>
     </section>
   )

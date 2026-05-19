@@ -1,43 +1,43 @@
+import { useTranslations } from 'next-intl'
 import { Home, Sparkles, ArrowRight } from 'lucide-react'
 
 export default function Footer() {
+  const t = useTranslations('footer')
+
   return (
     <>
-      {/* === FINAL CTA === */}
       <section className="px-6 py-20 lg:py-24" style={{ background: 'linear-gradient(135deg, var(--bg-warm) 0%, var(--bg-clean) 100%)' }}>
         <div className="max-w-3xl mx-auto text-center">
           
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full mb-6" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
             <Sparkles className="w-3.5 h-3.5" style={{ color: 'var(--orange)' }} />
-            <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>Začni za 60 sekund</span>
+            <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>{t('ctaBadge')}</span>
           </div>
 
           <h2 className="text-4xl md:text-6xl font-medium leading-tight tracking-tight mb-4" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.03em' }}>
-            Připraven mít přehled?
+            {t('ctaTitle')}
           </h2>
           <p className="text-lg md:text-xl leading-relaxed max-w-lg mx-auto mb-8" style={{ color: 'var(--olive-dark)' }}>
-            Zdarma. Bez kreditky. Bez závazků.
+            {t('ctaSubtitle')}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a href="https://housio.vercel.app/login" className="inline-flex items-center gap-2 text-base font-medium text-white px-8 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
-              Vyzkoušet zdarma
+              {t('ctaPrimary')}
               <ArrowRight className="w-4 h-4" />
             </a>
             <a href="mailto:info@useuropegroup.cz" className="inline-flex items-center text-base font-medium px-8 py-4 rounded-xl bg-white hover:bg-white/80 transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
-              Kontakt
+              {t('ctaContact')}
             </a>
           </div>
         </div>
       </section>
 
-      {/* === FOOTER === */}
       <footer className="px-6 py-16" style={{ background: 'var(--bg-dark)' }}>
         <div className="max-w-7xl mx-auto">
           
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             
-            {/* Logo + popis */}
             <div className="col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
                 <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--orange)' }}>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="text-sm leading-relaxed mb-5 max-w-xs" style={{ color: 'rgba(255,255,255,0.7)' }}>
-                Správa nemovitostí pro pronajímatele, kteří mají na práci něco lepšího.
+                {t('tagline')}
               </p>
               <div className="flex gap-3">
                 <a href="https://instagram.com/housio.app" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-white/20 transition" style={{ background: 'rgba(255,255,255,0.1)' }}>
@@ -58,39 +58,34 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>Produkt</p>
+              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('productHeading')}</p>
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                <li><a href="#funkce" className="hover:text-white transition cursor-pointer">Funkce</a></li>
-                <li><a href="#ceny" className="hover:text-white transition cursor-pointer">Ceny</a></li>
-                <li><a href="https://housio.vercel.app/login" className="hover:text-white transition cursor-pointer">Přihlásit</a></li>
+                <li><a href="#funkce" className="hover:text-white transition cursor-pointer">{t('productFeatures')}</a></li>
+                <li><a href="#ceny" className="hover:text-white transition cursor-pointer">{t('productPricing')}</a></li>
+                <li><a href="https://housio.vercel.app/login" className="hover:text-white transition cursor-pointer">{t('productLogin')}</a></li>
               </ul>
             </div>
 
             <div>
-              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>Společnost</p>
+              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('companyHeading')}</p>
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                <li><a href="mailto:info@useuropegroup.cz" className="hover:text-white transition cursor-pointer">Kontakt</a></li>
-                <li><a href="https://instagram.com/housio.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">Instagram</a></li>
+                <li><a href="mailto:info@useuropegroup.cz" className="hover:text-white transition cursor-pointer">{t('companyContact')}</a></li>
+                <li><a href="https://instagram.com/housio.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('companyInstagram')}</a></li>
               </ul>
             </div>
 
             <div>
-              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>Právní</p>
+              <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('legalHeading')}</p>
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                <li className="hover:text-white transition cursor-pointer">Obchodní podmínky</li>
-                <li className="hover:text-white transition cursor-pointer">GDPR</li>
-                <li className="hover:text-white transition cursor-pointer">Cookies</li>
+                <li className="hover:text-white transition cursor-pointer">{t('legalTerms')}</li>
+                <li className="hover:text-white transition cursor-pointer">{t('legalGdpr')}</li>
+                <li className="hover:text-white transition cursor-pointer">{t('legalCookies')}</li>
               </ul>
             </div>
           </div>
 
-          <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4" style={{ borderTop: '0.5px solid rgba(255,255,255,0.15)' }}>
-            <p className="text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>© 2026 Housio. Všechna práva vyhrazena.</p>
-            <div className="flex gap-2">
-              <span className="text-xs text-white px-3 py-1.5 rounded-lg font-medium" style={{ background: 'rgba(255,255,255,0.1)' }}>🇨🇿 CS</span>
-              <span className="text-xs px-3 py-1.5 rounded-lg cursor-pointer" style={{ color: 'rgba(255,255,255,0.6)' }}>🇬🇧 EN</span>
-              <span className="text-xs px-3 py-1.5 rounded-lg cursor-pointer" style={{ color: 'rgba(255,255,255,0.6)' }}>🇩🇪 DE</span>
-            </div>
+          <div className="pt-8" style={{ borderTop: '0.5px solid rgba(255,255,255,0.15)' }}>
+            <p className="text-sm text-center" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('copyright')}</p>
           </div>
         </div>
       </footer>
