@@ -57,7 +57,7 @@ export default function FAQ() {
   ]
 
   return (
-    <section id="faq" className="px-6 py-12 lg:py-16 scroll-mt-32" style={{ background: 'var(--bg-warm)' }}>
+    <section id="faq" className="px-6 py-12 lg:py-16 scroll-mt-8" style={{ background: 'var(--bg-warm)' }}>
       <div className="max-w-4xl mx-auto">
         
         <div className="text-center max-w-2xl mx-auto mb-12">
