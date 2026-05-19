@@ -3,6 +3,7 @@ import Stats from '@/components/Stats'
 import Pricing from '@/components/Pricing'
 import Features from '@/components/Features'
 import Personae from '@/components/Personae'
+import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Pricing />
       <Features />
       <Personae />
+      <FAQ />
       <Footer />
     </main>
   )
