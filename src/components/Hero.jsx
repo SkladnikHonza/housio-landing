@@ -1,17 +1,18 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowRight, Play, Check, Sparkles, Home, Star, Menu, X } from 'lucide-react'
+import Image from 'next/image'
+import { ArrowRight, Play, Check, Home, Star, Menu, X } from 'lucide-react'
 
 export default function Hero() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <section className="relative px-6 py-8 md:py-12 lg:py-20" style={{ background: 'var(--bg-warm)' }}>
+    <section className="relative px-4 sm:px-6 py-8 md:py-12 lg:py-20 overflow-hidden" style={{ background: 'var(--bg-warm)' }}>
       
       {/* === NAVIGATION === */}
       <nav className="max-w-7xl mx-auto flex items-center justify-between mb-12 md:mb-16 lg:mb-24">
-        {/* LOGO */}
+        {/* Logo */}
         <div className="flex items-center gap-2.5">
           <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--teal-900)' }}>
             <Home className="w-5 h-5 text-white" />
@@ -21,7 +22,7 @@ export default function Hero() {
           </span>
         </div>
         
-        {/* DESKTOP MENU */}
+        {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
           <a className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Funkce</a>
           <a className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Ceny</a>
@@ -29,7 +30,7 @@ export default function Hero() {
           <a className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>Kontakt</a>
         </div>
         
-        {/* DESKTOP CTA */}
+        {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3">
           <a className="text-sm font-medium px-4 py-2 rounded-lg hover:bg-white/60 transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
             Přihlásit
@@ -39,23 +40,19 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* MOBILE BURGER */}
+        {/* Mobile burger */}
         <button 
-          className="md:hidden p-2 rounded-lg hover:bg-white/40 transition"
           onClick={() => setMenuOpen(true)}
+          className="md:hidden w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/60 transition"
           aria-label="Otevřít menu"
         >
           <Menu className="w-6 h-6" style={{ color: 'var(--teal-900)' }} />
         </button>
       </nav>
 
-      {/* === MOBILE FULL-SCREEN MENU === */}
+      {/* === MOBILE MENU OVERLAY === */}
       {menuOpen && (
-        <div 
-          className="fixed inset-0 z-50 md:hidden flex flex-col p-6"
-          style={{ background: 'var(--bg-warm)' }}
-        >
-          {/* HEADER s logem a X */}
+        <div className="fixed inset-0 z-50 md:hidden flex flex-col px-6 py-8" style={{ background: 'var(--bg-warm)' }}>
           <div className="flex items-center justify-between mb-12">
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--teal-900)' }}>
@@ -66,60 +63,26 @@ export default function Hero() {
               </span>
             </div>
             <button 
-              className="p-2 rounded-lg hover:bg-white/40 transition"
               onClick={() => setMenuOpen(false)}
+              className="w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/60 transition"
               aria-label="Zavřít menu"
             >
               <X className="w-6 h-6" style={{ color: 'var(--teal-900)' }} />
             </button>
           </div>
 
-          {/* NAV LINKS */}
-          <nav className="flex flex-col gap-2 mb-8">
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
-              style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-            >
-              Funkce
-            </a>
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
-              style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-            >
-              Ceny
-            </a>
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
-              style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-            >
-              Blog
-            </a>
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
-              style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-            >
-              Kontakt
-            </a>
-          </nav>
+          <div className="flex flex-col gap-6 text-2xl font-medium">
+            <a onClick={() => setMenuOpen(false)} className="cursor-pointer hover:opacity-70 transition" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>Funkce</a>
+            <a onClick={() => setMenuOpen(false)} className="cursor-pointer hover:opacity-70 transition" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>Ceny</a>
+            <a onClick={() => setMenuOpen(false)} className="cursor-pointer hover:opacity-70 transition" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>Blog</a>
+            <a onClick={() => setMenuOpen(false)} className="cursor-pointer hover:opacity-70 transition" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>Kontakt</a>
+          </div>
 
-          {/* CTA TLAČÍTKA DOLE */}
           <div className="mt-auto flex flex-col gap-3">
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-base font-medium px-6 py-4 rounded-xl text-center hover:bg-white/60 transition cursor-pointer"
-              style={{ color: 'var(--teal-900)', border: '1px solid rgba(31, 78, 95, 0.2)' }}
-            >
+            <a className="text-base font-medium text-center px-6 py-4 rounded-xl border-2 cursor-pointer" style={{ color: 'var(--teal-900)', borderColor: 'var(--teal-900)' }}>
               Přihlásit
             </a>
-            <a 
-              onClick={() => setMenuOpen(false)}
-              className="text-base font-medium px-6 py-4 rounded-xl text-white text-center hover:opacity-90 transition cursor-pointer"
-              style={{ background: 'var(--orange)' }}
-            >
+            <a className="text-base font-medium text-center text-white px-6 py-4 rounded-xl cursor-pointer" style={{ background: 'var(--orange)' }}>
               Vyzkoušet zdarma
             </a>
           </div>
@@ -135,7 +98,7 @@ export default function Hero() {
           <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>Novinka — Notifikace končících smluv</span>
         </div>
 
-        {/* Hlavní nadpis — MENŠÍ FONT NA MOBILE */}
+        {/* Hlavní nadpis */}
         <h1 
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium leading-[1.05] tracking-tight mb-5 md:mb-6"
           style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.035em' }}
@@ -147,18 +110,18 @@ export default function Hero() {
         </h1>
 
         {/* Podtitul */}
-        <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10" style={{ color: 'var(--olive-dark)' }}>
+        <p className="text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10 px-2" style={{ color: 'var(--olive-dark)' }}>
           Sleduj nájemníky, platby, smlouvy a cash flow z jednoho místa.<br className="hidden md:block" />
           Bez Excelu, bez chaosu. V češtině.
         </p>
 
         {/* CTA tlačítka */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 mb-8 max-w-md sm:max-w-none mx-auto">
-          <a className="inline-flex items-center justify-center gap-2 text-base font-medium text-white px-7 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8 px-4 sm:px-0">
+          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium text-white px-7 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
             Vyzkoušet zdarma
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a className="inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
+          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
             <Play className="w-4 h-4" />
             Demo (60 sec)
           </a>
@@ -180,15 +143,43 @@ export default function Hero() {
           </span>
         </div>
 
-        {/* === SCREENSHOT MOCKUP === */}
+        {/* === REAL DASHBOARD SCREENSHOT === */}
         <div className="mt-12 md:mt-16 relative">
-          <div className="bg-white rounded-2xl p-4 md:p-6 mx-auto max-w-4xl" style={{ boxShadow: '0 30px 80px rgba(31, 78, 95, 0.15)' }}>
-            <div className="rounded-xl p-8 md:p-12 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, var(--bg-warm) 0%, var(--bg-clean) 100%)', minHeight: '240px' }}>
-              <div className="text-center">
-                <Sparkles className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-3" style={{ color: 'var(--teal-900)' }} />
-                <p className="font-medium text-base md:text-lg" style={{ color: 'var(--teal-900)' }}>Tady přijde screenshot Dashboardu</p>
-                <p className="text-xs md:text-sm mt-1" style={{ color: 'var(--text-light)' }}>3D tilt + floating effect</p>
+          {/* Floating glow effect za screenshotem */}
+          <div 
+            className="absolute inset-x-0 top-1/4 mx-auto max-w-4xl h-2/3 blur-3xl opacity-40 -z-10"
+            style={{ background: 'radial-gradient(ellipse at center, var(--orange) 0%, transparent 70%)' }}
+          />
+          
+          {/* Browser window chrome */}
+          <div 
+            className="bg-white rounded-2xl mx-auto max-w-5xl overflow-hidden"
+            style={{ boxShadow: '0 30px 80px rgba(31, 78, 95, 0.25), 0 10px 30px rgba(31, 78, 95, 0.15)' }}
+          >
+            {/* Top bar with traffic lights */}
+            <div className="flex items-center gap-2 px-4 py-3 border-b" style={{ background: '#F5F5F4', borderColor: 'rgba(0,0,0,0.06)' }}>
+              <div className="flex gap-1.5">
+                <div className="w-3 h-3 rounded-full" style={{ background: '#FF5F57' }}></div>
+                <div className="w-3 h-3 rounded-full" style={{ background: '#FFBD2E' }}></div>
+                <div className="w-3 h-3 rounded-full" style={{ background: '#28C940' }}></div>
               </div>
+              <div className="flex-1 flex justify-center">
+                <div className="px-3 py-1 rounded-md text-xs font-mono" style={{ background: 'white', color: 'var(--olive)' }}>
+                  housio.app/dashboard
+                </div>
+              </div>
+            </div>
+
+            {/* Dashboard screenshot */}
+            <div className="relative w-full">
+              <Image 
+                src="/dashboard.png" 
+                alt="Housio Dashboard — přehled portfolia nemovitostí, cash flow, nájemníci" 
+                width={2400} 
+                height={1500}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -196,7 +187,7 @@ export default function Hero() {
         {/* Trust badge dole */}
         <div className="mt-12 md:mt-16 pt-8 border-t" style={{ borderColor: 'rgba(31, 78, 95, 0.1)' }}>
           <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>Důvěřuje nám 500+ pronajímatelů z celé EU</p>
-          <div className="flex flex-wrap justify-center items-center gap-1">
+          <div className="flex justify-center items-center gap-1">
             {[1,2,3,4,5].map(i => (
               <Star key={i} className="w-4 h-4 fill-current" style={{ color: 'var(--orange)' }} />
             ))}
