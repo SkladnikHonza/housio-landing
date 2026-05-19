@@ -41,10 +41,9 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="px-6 py-12 lg:py-16" style={{ background: 'var(--bg-clean)' }}>
+    <section id="funkce" className="px-6 py-12 lg:py-16 scroll-mt-20" style={{ background: 'var(--bg-clean)' }}>
       <div className="max-w-6xl mx-auto">
         
-        {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="text-xs font-medium uppercase tracking-widest mb-3" style={{ color: 'var(--orange)' }}>
             Funkce
@@ -57,7 +56,6 @@ export default function Features() {
           </p>
         </div>
 
-        {/* Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, i) => {
             const Icon = feature.icon

@@ -12,6 +12,7 @@ const tiers = [
       'Email notifikace',
     ],
     cta: 'Začít zdarma',
+    ctaUrl: 'https://housio.vercel.app/login',
     highlighted: false,
   },
   {
@@ -28,6 +29,7 @@ const tiers = [
       'Prioritní podpora',
     ],
     cta: 'Vyzkoušet 14 dní zdarma',
+    ctaUrl: 'https://housio.vercel.app/login',
     highlighted: true,
   },
   {
@@ -43,13 +45,14 @@ const tiers = [
       'API přístup',
     ],
     cta: 'Kontaktovat sales',
+    ctaUrl: 'mailto:info@useuropegroup.cz',
     highlighted: false,
   },
 ]
 
 export default function Pricing() {
   return (
-    <section className="px-6 py-12 lg:py-16" style={{ background: 'var(--bg-clean)' }}>
+    <section id="ceny" className="px-6 py-12 lg:py-16 scroll-mt-20" style={{ background: 'var(--bg-clean)' }}>
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-2xl mx-auto mb-12">
@@ -105,15 +108,17 @@ export default function Pricing() {
                 ))}
               </ul>
               
-              <button 
-                className="w-full py-3 rounded-xl text-sm font-medium transition hover:opacity-90"
+              <a 
+                href={tier.ctaUrl}
+                className="block w-full py-3 rounded-xl text-sm font-medium transition hover:opacity-90 text-center cursor-pointer"
                 style={{
                   background: tier.highlighted ? 'linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%)' : 'var(--bg-clean)',
                   color: tier.highlighted ? 'white' : 'var(--teal-900)',
+                  border: tier.highlighted ? 'none' : '1px solid rgba(31, 78, 95, 0.15)',
                 }}
               >
                 {tier.cta}
-              </button>
+              </a>
             </div>
           ))}
         </div>

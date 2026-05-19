@@ -54,6 +54,10 @@
   --font-body: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   background: var(--bg-warm);
   color: var(--text-dark);
