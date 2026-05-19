@@ -161,5 +161,32 @@
   "meta": {
     "title": "Housio — Gestione immobili. Semplice.",
     "description": "SaaS per proprietari di immobili in tutta l'UE. Monitora inquilini, pagamenti, contratti e cash flow da un unico posto. 14 giorni di prova gratuita."
+  },
+  "kontakt": {
+    "badge": "CONTATTI",
+    "title": "Siamo qui per te",
+    "subtitle": "Scegli come vuoi contattarci",
+    "emailTitle": "Email",
+    "emailSubtitle": "Per richieste generali",
+    "chatTitle": "Chat",
+    "chatSubtitle": "Supporto in tempo reale",
+    "chatBadge": "Presto",
+    "instagramTitle": "Instagram",
+    "instagramSubtitle": "Segui le novità",
+    "formTitle": "Oppure scrivici direttamente",
+    "formSubtitle": "Rispondiamo entro 24 ore nei giorni lavorativi",
+    "labelName": "Nome",
+    "labelEmail": "Email",
+    "labelMessage": "Messaggio",
+    "placeholderName": "Marco Rossi",
+    "placeholderEmail": "marco@esempio.it",
+    "placeholderMessage": "Ciao, ho una domanda su...",
+    "submitButton": "Invia messaggio",
+    "formAlert": "Grazie! Il modulo sarà funzionante a breve. Per ora scrivici a info@useuropegroup.cz",
+    "footerResponse": "Rispondiamo entro 24 ore",
+    "footerLocation": "Frýdek-Místek, Repubblica Ceca"
+  },
+  "kontaktNav": {
+    "backToHome": "Torna alla home"
   }
 }

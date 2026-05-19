@@ -161,5 +161,32 @@
   "meta": {
     "title": "Housio — Property management. Simple.",
     "description": "SaaS for landlords across the EU. Track tenants, payments, contracts and cash flow from one place. No Excel, no chaos. 14-day free trial."
+  },
+  "kontakt": {
+    "badge": "CONTACT",
+    "title": "We're here for you",
+    "subtitle": "Choose how you want to reach us",
+    "emailTitle": "Email",
+    "emailSubtitle": "For general inquiries",
+    "chatTitle": "Chat",
+    "chatSubtitle": "Real-time support",
+    "chatBadge": "Soon",
+    "instagramTitle": "Instagram",
+    "instagramSubtitle": "Follow news",
+    "formTitle": "Or write to us directly",
+    "formSubtitle": "We reply within 24 hours on business days",
+    "labelName": "Name",
+    "labelEmail": "Email",
+    "labelMessage": "Message",
+    "placeholderName": "John Smith",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "Hi, I have a question about...",
+    "submitButton": "Send message",
+    "formAlert": "Thank you! Form will be functional soon. For now, please email us at info@useuropegroup.cz",
+    "footerResponse": "We reply within 24 hours",
+    "footerLocation": "Frýdek-Místek, Czech Republic"
+  },
+  "kontaktNav": {
+    "backToHome": "Back to home"
   }
 }

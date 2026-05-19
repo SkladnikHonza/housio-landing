@@ -161,5 +161,32 @@
   "meta": {
     "title": "Housio — Správa nemovitostí. Jednoduše.",
     "description": "SaaS pro pronajímatele v Česku a EU. Sleduj nájemníky, platby, smlouvy a cash flow z jednoho místa. Bez Excelu, bez chaosu. V češtině. 14 dní zdarma."
+  },
+  "kontakt": {
+    "badge": "KONTAKT",
+    "title": "Jsme tady pro tebe",
+    "subtitle": "Vyber způsob jak nás chceš oslovit",
+    "emailTitle": "Email",
+    "emailSubtitle": "Pro obecné dotazy",
+    "chatTitle": "Chat",
+    "chatSubtitle": "Real-time podpora",
+    "chatBadge": "Brzy",
+    "instagramTitle": "Instagram",
+    "instagramSubtitle": "Sleduj novinky",
+    "formTitle": "Nebo nám napiš rovnou",
+    "formSubtitle": "Odpovíme do 24 hodin v pracovní dny",
+    "labelName": "Jméno",
+    "labelEmail": "Email",
+    "labelMessage": "Zpráva",
+    "placeholderName": "Honza Novák",
+    "placeholderEmail": "honza@example.com",
+    "placeholderMessage": "Ahoj, mám dotaz ohledně...",
+    "submitButton": "Odeslat zprávu",
+    "formAlert": "Děkujeme! Formulář bude funkční brzy. Zatím nám napiš na info@useuropegroup.cz",
+    "footerResponse": "Odpovíme do 24 hodin",
+    "footerLocation": "Frýdek-Místek, Česká republika"
+  },
+  "kontaktNav": {
+    "backToHome": "Zpět na hlavní"
   }
 }
