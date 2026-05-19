@@ -96,7 +96,7 @@ export default function Hero() {
           <a href="#funkce" onClick={scrollTo('funkce')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('features')}</a>
           <a href="#ceny" onClick={scrollTo('ceny')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('pricing')}</a>
           <a href="#faq" onClick={scrollTo('faq')} className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('faq')}</a>
-          <a href="mailto:info@useuropegroup.cz" className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('contact')}</a>
+          <a href="/kontakt" className="text-sm hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--olive-dark)' }}>{tNav('contact')}</a>
         </div>
         
         <div className="hidden md:flex items-center gap-2">
@@ -151,7 +151,7 @@ export default function Hero() {
             <a href="#faq" onClick={scrollTo('faq')} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
               {tNav('faq')}
             </a>
-            <a href="mailto:info@useuropegroup.cz" onClick={() => setMenuOpen(false)} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
+            <a href="/kontakt" onClick={() => setMenuOpen(false)} className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>
               {tNav('contact')}
             </a>
           </nav>
