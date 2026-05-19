@@ -168,9 +168,6 @@
     "subtitle": "Vyber způsob jak nás chceš oslovit",
     "emailTitle": "Email",
     "emailSubtitle": "Pro obecné dotazy",
-    "chatTitle": "Chat",
-    "chatSubtitle": "Real-time podpora",
-    "chatBadge": "Brzy",
     "instagramTitle": "Instagram",
     "instagramSubtitle": "Sleduj novinky",
     "formTitle": "Nebo nám napiš rovnou",
@@ -184,7 +181,9 @@
     "submitButton": "Odeslat zprávu",
     "formAlert": "Děkujeme! Formulář bude funkční brzy. Zatím nám napiš na info@useuropegroup.cz",
     "footerResponse": "Odpovíme do 24 hodin",
-    "footerLocation": "Frýdek-Místek, Česká republika"
+    "footerLocation": "Frýdek-Místek, Česká republika",
+    "facebookTitle": "Facebook",
+    "facebookSubtitle": "Sleduj nás na FB"
   },
   "kontaktNav": {
     "backToHome": "Zpět na hlavní"

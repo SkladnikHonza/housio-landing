@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
-import { Mail, MessageCircle, ArrowRight, Clock, MapPin } from 'lucide-react'
+import { Mail, ArrowRight, Clock, MapPin } from 'lucide-react'
 
 export default function Kontakt() {
   const t = useTranslations('kontakt')
@@ -49,23 +49,26 @@ export default function Kontakt() {
             <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>info@useuropegroup.cz</p>
           </a>
           
-          {/* Chat - Coming Soon */}
-          <div 
-            className="block bg-white rounded-2xl p-6 text-center relative"
-            style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)', opacity: 0.65 }}
+          {/* Facebook */}
+          <a 
+            href="https://facebook.com/housioapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-2xl p-6 text-center hover:shadow-lg transition cursor-pointer group"
+            style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}
           >
-            <div className="absolute top-3 right-3 text-xs font-medium px-2 py-0.5 rounded-full" style={{ background: 'var(--bg-warm)', color: 'var(--olive-dark)' }}>
-              {t('chatBadge')}
-            </div>
             <div 
-              className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4"
-              style={{ background: 'var(--teal-900)' }}
+              className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition"
+              style={{ background: '#1877F2' }}
             >
-              <MessageCircle className="w-6 h-6 text-white" />
+              <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
             </div>
-            <p className="font-medium mb-1" style={{ color: 'var(--teal-900)' }}>{t('chatTitle')}</p>
-            <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('chatSubtitle')}</p>
-          </div>
+            <p className="font-medium mb-1" style={{ color: 'var(--teal-900)' }}>{t('facebookTitle')}</p>
+            <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('facebookSubtitle')}</p>
+            <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>@housioapp</p>
+          </a>
           
           {/* Instagram */}
           <a 
