@@ -1,8 +1,8 @@
 import Hero from '@/components/Hero'
 import Stats from '@/components/Stats'
+import Pricing from '@/components/Pricing'
 import Features from '@/components/Features'
 import Personae from '@/components/Personae'
-import Pricing from '@/components/Pricing'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -10,9 +10,9 @@ export default function Home() {
     <main>
       <Hero />
       <Stats />
+      <Pricing />
       <Features />
       <Personae />
-      <Pricing />
       <Footer />
     </main>
   )
