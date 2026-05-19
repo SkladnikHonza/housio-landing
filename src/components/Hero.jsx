@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import { ArrowRight, Play, Check, Home, Star, Menu, X } from 'lucide-react'
+import { ArrowRight, Play, Check, Home, Star, Menu, X, TrendingUp, Bell, Zap } from 'lucide-react'
 
 export default function Hero() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -10,8 +10,12 @@ export default function Hero() {
   return (
     <section className="relative px-4 sm:px-6 py-8 md:py-12 lg:py-20 overflow-hidden" style={{ background: 'var(--bg-warm)' }}>
       
+      {/* === BACKGROUND DECORATIVE BLOBS === */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full blur-3xl opacity-20 -z-10" style={{ background: 'var(--orange)' }} />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 rounded-full blur-3xl opacity-15 -z-10" style={{ background: 'var(--teal-500)' }} />
+
       {/* === NAVIGATION === */}
-      <nav className="max-w-7xl mx-auto flex items-center justify-between mb-12 md:mb-16 lg:mb-24">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between mb-12 md:mb-16 lg:mb-20 relative z-10">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
           <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--teal-900)' }}>
@@ -90,11 +94,11 @@ export default function Hero() {
       )}
 
       {/* === HERO CONTENT === */}
-      <div className="max-w-5xl mx-auto text-center">
+      <div className="max-w-5xl mx-auto text-center relative z-10">
         
         {/* Novinka badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full mb-6 md:mb-8" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
-          <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--orange)' }}></span>
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full mb-6 md:mb-8 backdrop-blur-sm" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
+          <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: 'var(--orange)' }}></span>
           <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>Novinka — Notifikace končících smluv</span>
         </div>
 
@@ -117,18 +121,18 @@ export default function Hero() {
 
         {/* CTA tlačítka */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8 px-4 sm:px-0">
-          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium text-white px-7 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
+          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium text-white px-7 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)', boxShadow: '0 8px 24px rgba(31, 78, 95, 0.25)' }}>
             Vyzkoušet zdarma
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
+          <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer backdrop-blur-sm" style={{ color: 'var(--teal-900)' }}>
             <Play className="w-4 h-4" />
             Demo (60 sec)
           </a>
         </div>
 
         {/* Trust indikátory */}
-        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm" style={{ color: 'var(--olive)' }}>
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mb-16 md:mb-24" style={{ color: 'var(--olive)' }}>
           <span className="inline-flex items-center gap-1.5">
             <Check className="w-4 h-4" style={{ color: 'var(--teal-500)' }} />
             Bez instalace
@@ -143,59 +147,168 @@ export default function Hero() {
           </span>
         </div>
 
-        {/* === REAL DASHBOARD SCREENSHOT === */}
-        <div className="mt-12 md:mt-16 relative">
-          {/* Floating glow effect za screenshotem */}
-          <div 
-            className="absolute inset-x-0 top-1/4 mx-auto max-w-4xl h-2/3 blur-3xl opacity-40 -z-10"
-            style={{ background: 'radial-gradient(ellipse at center, var(--orange) 0%, transparent 70%)' }}
-          />
+      </div>
+
+      {/* === PREMIUM 3D MACBOOK MOCKUP === */}
+      <div className="relative max-w-6xl mx-auto perspective-distant">
+        
+        {/* Multi-layer glow effect */}
+        <div className="absolute inset-x-0 top-1/4 mx-auto w-3/4 h-2/3 blur-3xl opacity-50 -z-10" 
+             style={{ background: 'radial-gradient(ellipse at center, var(--orange) 0%, transparent 70%)' }} />
+        <div className="absolute inset-x-0 bottom-0 mx-auto w-1/2 h-1/2 blur-3xl opacity-30 -z-10" 
+             style={{ background: 'radial-gradient(ellipse at center, var(--teal-500) 0%, transparent 70%)' }} />
+
+        {/* Floating decorative badges - LEFT */}
+        <div className="hidden lg:block absolute -left-4 top-1/4 z-20 animate-float-slow">
+          <div className="bg-white px-4 py-3 rounded-2xl flex items-center gap-3" style={{ boxShadow: '0 20px 40px rgba(31, 78, 95, 0.15)' }}>
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'rgba(40, 201, 64, 0.12)' }}>
+              <Check className="w-5 h-5" style={{ color: '#28C940' }} />
+            </div>
+            <div className="text-left">
+              <p className="text-xs font-medium" style={{ color: 'var(--olive)' }}>Nájemné zaplaceno</p>
+              <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>+15 900 Kč</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Floating decorative badges - RIGHT */}
+        <div className="hidden lg:block absolute -right-4 top-1/2 z-20 animate-float-slow-delayed">
+          <div className="bg-white px-4 py-3 rounded-2xl flex items-center gap-3" style={{ boxShadow: '0 20px 40px rgba(31, 78, 95, 0.15)' }}>
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
+              <Bell className="w-5 h-5" style={{ color: 'var(--orange)' }} />
+            </div>
+            <div className="text-left">
+              <p className="text-xs font-medium" style={{ color: 'var(--olive)' }}>Smlouva končí za</p>
+              <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>23 dní</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Floating decorative badge - BOTTOM LEFT */}
+        <div className="hidden xl:block absolute -left-8 -bottom-4 z-20 animate-float">
+          <div className="bg-white px-4 py-3 rounded-2xl flex items-center gap-3" style={{ boxShadow: '0 20px 40px rgba(31, 78, 95, 0.15)' }}>
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'rgba(31, 78, 95, 0.08)' }}>
+              <TrendingUp className="w-5 h-5" style={{ color: 'var(--teal-900)' }} />
+            </div>
+            <div className="text-left">
+              <p className="text-xs font-medium" style={{ color: 'var(--olive)' }}>Cash flow</p>
+              <p className="text-sm font-semibold" style={{ color: '#28C940' }}>+12.4%</p>
+            </div>
+          </div>
+        </div>
+
+        {/* MACBOOK FRAME with tilt */}
+        <div className="relative mx-auto max-w-5xl tilt-frame">
           
-          {/* Browser window chrome */}
+          {/* Screen bezel */}
           <div 
-            className="bg-white rounded-2xl mx-auto max-w-5xl overflow-hidden"
-            style={{ boxShadow: '0 30px 80px rgba(31, 78, 95, 0.25), 0 10px 30px rgba(31, 78, 95, 0.15)' }}
+            className="relative rounded-t-2xl pt-3 pb-2 px-3"
+            style={{ 
+              background: 'linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%)',
+              boxShadow: '0 40px 80px rgba(31, 78, 95, 0.35), 0 20px 40px rgba(31, 78, 95, 0.2)'
+            }}
           >
-            {/* Top bar with traffic lights */}
-            <div className="flex items-center gap-2 px-4 py-3 border-b" style={{ background: '#F5F5F4', borderColor: 'rgba(0,0,0,0.06)' }}>
-              <div className="flex gap-1.5">
-                <div className="w-3 h-3 rounded-full" style={{ background: '#FF5F57' }}></div>
-                <div className="w-3 h-3 rounded-full" style={{ background: '#FFBD2E' }}></div>
-                <div className="w-3 h-3 rounded-full" style={{ background: '#28C940' }}></div>
-              </div>
-              <div className="flex-1 flex justify-center">
-                <div className="px-3 py-1 rounded-md text-xs font-mono" style={{ background: 'white', color: 'var(--olive)' }}>
-                  housio.app/dashboard
+            {/* Camera notch */}
+            <div className="absolute top-1.5 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full" style={{ background: '#444' }}></div>
+            
+            {/* Screen */}
+            <div className="bg-white rounded-lg overflow-hidden">
+              {/* Browser top bar */}
+              <div className="flex items-center gap-2 px-4 py-2.5 border-b" style={{ background: '#F5F5F4', borderColor: 'rgba(0,0,0,0.06)' }}>
+                <div className="flex gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#FF5F57' }}></div>
+                  <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#FFBD2E' }}></div>
+                  <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#28C940' }}></div>
+                </div>
+                <div className="flex-1 flex justify-center">
+                  <div className="px-3 py-0.5 rounded-md text-xs font-mono inline-flex items-center gap-1.5" style={{ background: 'white', color: 'var(--olive)' }}>
+                    <span className="text-xs" style={{ color: '#28C940' }}>🔒</span>
+                    housio.app/dashboard
+                  </div>
                 </div>
               </div>
-            </div>
-
-            {/* Dashboard screenshot */}
-            <div className="relative w-full">
+              
+              {/* Dashboard screenshot */}
               <Image 
                 src="/dashboard.png" 
                 alt="Housio Dashboard — přehled portfolia nemovitostí, cash flow, nájemníci" 
                 width={2400} 
                 height={1500}
-                className="w-full h-auto"
+                className="w-full h-auto block"
                 priority
               />
             </div>
           </div>
-        </div>
 
-        {/* Trust badge dole */}
-        <div className="mt-12 md:mt-16 pt-8 border-t" style={{ borderColor: 'rgba(31, 78, 95, 0.1)' }}>
-          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>Důvěřuje nám 500+ pronajímatelů z celé EU</p>
-          <div className="flex justify-center items-center gap-1">
-            {[1,2,3,4,5].map(i => (
-              <Star key={i} className="w-4 h-4 fill-current" style={{ color: 'var(--orange)' }} />
-            ))}
-            <span className="text-sm font-medium ml-2" style={{ color: 'var(--olive-dark)' }}>4.9/5 z 234 hodnocení</span>
+          {/* MacBook bottom (keyboard hinge) */}
+          <div 
+            className="mx-auto h-3 rounded-b-2xl"
+            style={{ 
+              background: 'linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%)',
+              width: '102%',
+              marginLeft: '-1%',
+              boxShadow: '0 8px 20px rgba(0,0,0,0.15)'
+            }}
+          >
+            {/* Hinge slot */}
+            <div className="mx-auto w-24 h-1 rounded-b-lg" style={{ background: '#333', marginTop: '0px' }}></div>
           </div>
         </div>
-
       </div>
+
+      {/* === TRUST BADGE BELOW === */}
+      <div className="max-w-5xl mx-auto text-center mt-16 md:mt-24 pt-8 border-t" style={{ borderColor: 'rgba(31, 78, 95, 0.1)' }}>
+        <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>Důvěřuje nám 500+ pronajímatelů z celé EU</p>
+        <div className="flex justify-center items-center gap-1">
+          {[1,2,3,4,5].map(i => (
+            <Star key={i} className="w-4 h-4 fill-current" style={{ color: 'var(--orange)' }} />
+          ))}
+          <span className="text-sm font-medium ml-2" style={{ color: 'var(--olive-dark)' }}>4.9/5 z 234 hodnocení</span>
+        </div>
+      </div>
+
+      {/* === CSS PRO ANIMACE === */}
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-12px); }
+        }
+        @keyframes float-slow {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-8px); }
+        }
+        @keyframes float-slow-delayed {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+          animation: float 4s ease-in-out infinite;
+        }
+        .animate-float-slow {
+          animation: float-slow 5s ease-in-out infinite;
+        }
+        .animate-float-slow-delayed {
+          animation: float-slow-delayed 6s ease-in-out infinite 1s;
+        }
+        .perspective-distant {
+          perspective: 2000px;
+        }
+        .tilt-frame {
+          transform: rotateX(2deg);
+          transform-style: preserve-3d;
+          transition: transform 0.6s ease;
+        }
+        @media (min-width: 1024px) {
+          .tilt-frame:hover {
+            transform: rotateX(0deg);
+          }
+        }
+        @media (max-width: 768px) {
+          .tilt-frame {
+            transform: none;
+          }
+        }
+      `}</style>
     </section>
   )
 }
