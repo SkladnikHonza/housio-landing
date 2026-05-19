@@ -2,7 +2,7 @@ import { Home, TrendingUp, Building2 } from 'lucide-react'
 
 export default function Personae() {
   return (
-    <section className="px-6 py-20 lg:py-28" style={{ background: 'var(--bg-warm)' }}>
+    <section className="px-6 py-12 lg:py-16" style={{ background: 'var(--bg-warm)' }}>
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-2xl mx-auto mb-16">

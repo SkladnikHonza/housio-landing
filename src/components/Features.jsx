@@ -41,7 +41,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="px-6 py-20 lg:py-28" style={{ background: 'var(--bg-clean)' }}>
+    <section className="px-6 py-12 lg:py-16" style={{ background: 'var(--bg-clean)' }}>
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}
