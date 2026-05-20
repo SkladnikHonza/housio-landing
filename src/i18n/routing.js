@@ -1,12 +1,17 @@
-import { defineRouting } from 'next-intl/routing'
+import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-  // Podporované jazyky
-  locales: ['cs', 'en', 'de', 'it', 'es'],
+  // Všechny podporované locales
+  locales: ['cs', 'en', 'de', 'it', 'es', 'uk', 'ru', 'fr'],
   
-  // Default jazyk - česky bez prefixu
+  // Default locale (žádný prefix v URL)
   defaultLocale: 'cs',
   
-  // 'as-needed' = /en, /de, /it, /es prefix, ale /cs je bez (čisté URL)
-  localePrefix: 'as-needed',
-})
+  // 'as-needed' = default locale nemá prefix, ostatní ano
+  // housio.app → CZ
+  // housio.app/en → EN
+  // housio.app/uk → UA
+  // housio.app/ru → RU
+  // housio.app/fr → FR
+  localePrefix: 'as-needed'
+});

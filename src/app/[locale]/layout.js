@@ -58,11 +58,14 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: `https://housio.app${locale === 'cs' ? '' : '/' + locale}`,
       languages: {
-        'cs-CZ': 'https://housio.app',
-        'en-US': 'https://housio.app/en',
-        'de-DE': 'https://housio.app/de',
-        'it-IT': 'https://housio.app/it',
-        'es-ES': 'https://housio.app/es',
+        'cs': 'https://housio.app',
+        'en': 'https://housio.app/en',
+        'de': 'https://housio.app/de',
+        'it': 'https://housio.app/it',
+        'es': 'https://housio.app/es',
+        'uk': 'https://housio.app/uk',
+        'ru': 'https://housio.app/ru',
+        'fr': 'https://housio.app/fr'
       },
     },
   }
