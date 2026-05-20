@@ -8,13 +8,13 @@ export default function Pricing() {
     {
       key: 'free',
       features: ['feature1', 'feature2', 'feature3', 'feature4'],
-      ctaUrl: 'https://www.housio.online/login',
+      ctaUrl: 'https://www.housio.online',
       highlighted: false,
     },
     {
       key: 'pro',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
-      ctaUrl: 'https://www.housio.online/login',
+      ctaUrl: 'https://www.housio.online',
       highlighted: true,
     },
     {

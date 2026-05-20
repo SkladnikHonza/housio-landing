@@ -22,7 +22,7 @@ export default function Footer() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <a href="https://www.housio.online/login" className="inline-flex items-center gap-2 text-base font-medium text-white px-8 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
+            <a href="https://www.housio.online" className="inline-flex items-center gap-2 text-base font-medium text-white px-8 py-4 rounded-xl hover:opacity-90 transition cursor-pointer" style={{ background: 'var(--teal-900)' }}>
               {t('ctaPrimary')}
               <ArrowRight className="w-4 h-4" />
             </a>
@@ -65,7 +65,7 @@ export default function Footer() {
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
                 <li><a href="#funkce" className="hover:text-white transition cursor-pointer">{t('productFeatures')}</a></li>
                 <li><a href="#ceny" className="hover:text-white transition cursor-pointer">{t('productPricing')}</a></li>
-                <li><a href="https://www.housio.online/login" className="hover:text-white transition cursor-pointer">{t('productLogin')}</a></li>
+                <li><a href="https://www.housio.online" className="hover:text-white transition cursor-pointer">{t('productLogin')}</a></li>
               </ul>
             </div>
 
