@@ -43,3 +43,7 @@ next-env.d.ts
 # Backup files from sed
 *.bak
 *.bak2
+
+# Local design/preview mockups (not for production)
+nav-mockups.html
+*-mockups.html
