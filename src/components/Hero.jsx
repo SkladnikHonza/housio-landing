@@ -139,16 +139,6 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-16 pt-8 border-t" style={{ borderColor: 'rgba(31, 78, 95, 0.1)' }}>
-          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: 'var(--olive)' }}>{t('trustBadge')}</p>
-          <div className="flex flex-wrap justify-center items-center gap-1">
-            {[1,2,3,4,5].map(i => (
-              <Star key={i} className="w-4 h-4 fill-current" style={{ color: 'var(--orange)' }} />
-            ))}
-            <span className="text-sm font-medium ml-2" style={{ color: 'var(--olive-dark)' }}>{t('rating')}</span>
-          </div>
-        </div>
-
       </div>
 
       <style jsx>{`
