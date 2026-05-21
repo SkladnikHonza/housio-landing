@@ -17,20 +17,20 @@ const ACTIVE = new Set(['SK', 'DE', 'AT', 'CH', 'FR', 'BE', 'IT', 'ES', 'GB', 'I
 const FUTURE = new Set(['PL', 'NL', 'DK', 'SE', 'NO', 'FI', 'HU', 'RO', 'PT', 'GR'])
 
 const COUNTRY_DATA = {
-  CZ: { landlords: '1.2M', market: '24', lang: 'Čeština', langFlag: '🇨🇿' },
-  SK: { landlords: '0.3M', market: '5',   lang: 'Čeština', langFlag: '🇨🇿' },
-  DE: { landlords: '5.8M', market: '198', lang: 'Deutsch', langFlag: '🇩🇪' },
-  AT: { landlords: '0.6M', market: '16',  lang: 'Deutsch', langFlag: '🇩🇪' },
-  CH: { landlords: '0.5M', market: '21',  lang: 'Deutsch', langFlag: '🇩🇪' },
-  FR: { landlords: '4.2M', market: '124', lang: 'Français', langFlag: '🇫🇷' },
-  BE: { landlords: '0.4M', market: '11',  lang: 'Français', langFlag: '🇫🇷' },
-  IT: { landlords: '3.6M', market: '78',  lang: 'Italiano', langFlag: '🇮🇹' },
-  ES: { landlords: '3.1M', market: '56',  lang: 'Español', langFlag: '🇪🇸' },
-  GB: { landlords: '2.8M', market: '89',  lang: 'English', langFlag: '🇬🇧' },
-  IE: { landlords: '0.3M', market: '7',   lang: 'English', langFlag: '🇬🇧' },
+  CZ: { landlords: '1.2M', market: '24',  lang: 'Čeština',    langFlag: '🇨🇿' },
+  SK: { landlords: '0.3M', market: '5',   lang: 'Čeština',    langFlag: '🇨🇿' },
+  DE: { landlords: '5.8M', market: '198', lang: 'Deutsch',    langFlag: '🇩🇪' },
+  AT: { landlords: '0.6M', market: '16',  lang: 'Deutsch',    langFlag: '🇩🇪' },
+  CH: { landlords: '0.5M', market: '21',  lang: 'Deutsch',    langFlag: '🇩🇪' },
+  FR: { landlords: '4.2M', market: '124', lang: 'Français',   langFlag: '🇫🇷' },
+  BE: { landlords: '0.4M', market: '11',  lang: 'Français',   langFlag: '🇫🇷' },
+  IT: { landlords: '3.6M', market: '78',  lang: 'Italiano',   langFlag: '🇮🇹' },
+  ES: { landlords: '3.1M', market: '56',  lang: 'Español',    langFlag: '🇪🇸' },
+  GB: { landlords: '2.8M', market: '89',  lang: 'English',    langFlag: '🇬🇧' },
+  IE: { landlords: '0.3M', market: '7',   lang: 'English',    langFlag: '🇬🇧' },
   UA: { landlords: '2.1M', market: '18',  lang: 'Українська', langFlag: '🇺🇦' },
-  RU: { landlords: '6.4M', market: '42',  lang: 'Русский', langFlag: '🇷🇺' },
-  BY: { landlords: '0.4M', market: '4',   lang: 'Русский', langFlag: '🇷🇺' },
+  RU: { landlords: '6.4M', market: '42',  lang: 'Русский',    langFlag: '🇷🇺' },
+  BY: { landlords: '0.4M', market: '4',   lang: 'Русский',    langFlag: '🇷🇺' },
 }
 
 function statusOf(code) {
@@ -40,7 +40,6 @@ function statusOf(code) {
   return null
 }
 
-// Convert ISO 2-letter code to flag emoji (e.g. "CZ" → 🇨🇿)
 function flagEmoji(code) {
   if (!code || code.length !== 2) return ''
   return code.toUpperCase().replace(/./g, (c) =>
@@ -48,38 +47,8 @@ function flagEmoji(code) {
   )
 }
 
-// Simple equirectangular projection tuned for Europe
-// SVG viewBox: 0 0 800 560 (with bottom legend strip)
-function project(lng, lat) {
-  const centerLng = 18
-  const centerLat = 56
-  const scale = 13
-  const cosLat = Math.cos(centerLat * Math.PI / 180)
-  const x = 400 + (lng - centerLng) * scale * cosLat
-  const y = 280 + (centerLat - lat) * scale
-  return [x, y]
-}
-
-function polygonToPath(rings) {
-  let d = ''
-  for (const ring of rings) {
-    for (let i = 0; i < ring.length; i++) {
-      const [x, y] = project(ring[i][0], ring[i][1])
-      d += (i === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1)
-    }
-    d += 'Z'
-  }
-  return d
-}
-
-function geomToPath(geom) {
-  if (!geom) return ''
-  if (geom.type === 'Polygon') return polygonToPath(geom.coordinates)
-  if (geom.type === 'MultiPolygon') {
-    return geom.coordinates.map(polygonToPath).join('')
-  }
-  return ''
-}
+const WIDTH = 800
+const HEIGHT = 560
 
 export default function EuropeMap() {
   const t = useTranslations('europeMap')
@@ -92,16 +61,25 @@ export default function EuropeMap() {
     Promise.all([
       fetch('/data/world-110m.json').then((r) => r.json()),
       import('topojson-client'),
+      import('d3-geo'),
     ])
-      .then(([topo, { feature }]) => {
+      .then(([topo, { feature }, { geoMercator, geoPath }]) => {
         if (cancelled) return
+        const projection = geoMercator()
+          .center([15, 54])
+          .scale(720)
+          .translate([WIDTH / 2, HEIGHT / 2 - 40])
+        const pathGen = geoPath(projection)
+
         const fc = feature(topo, topo.objects.countries)
         const mapped = fc.features
           .map((f) => {
-            const alpha = ISO_NUM_TO_ALPHA[String(f.id).padStart(3, '0')] || null
-            return { id: f.id, alpha, path: geomToPath(f.geometry) }
+            const id = String(f.id).padStart(3, '0')
+            const alpha = ISO_NUM_TO_ALPHA[id] || null
+            const d = pathGen(f)
+            return { id, alpha, d }
           })
-          .filter((f) => f.path)
+          .filter((f) => f.d)
         setFeatures(mapped)
       })
       .catch(() => {})
@@ -170,39 +148,38 @@ export default function EuropeMap() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-6">
-          {/* Map */}
           <div
-            className="md:col-span-2 rounded-2xl p-4 md:p-6 relative"
+            className="md:col-span-2 rounded-2xl p-4 md:p-6 relative overflow-hidden"
             style={{ background: 'white', border: '1px solid var(--border-warm)' }}
             onMouseLeave={() => setHovered(null)}
           >
-            <svg viewBox="0 0 800 560" className="w-full h-auto block" preserveAspectRatio="xMidYMid meet">
+            <svg
+              viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+              className="w-full h-auto block"
+              preserveAspectRatio="xMidYMid meet"
+              style={{ overflow: 'hidden' }}
+            >
               {features ? (
-                <>
-                  {features.map((f) => (
-                    <path
-                      key={f.id}
-                      d={f.path}
-                      fill={colorFor(f.alpha)}
-                      fillOpacity={opacityFor(f.alpha)}
-                      stroke={f.alpha === hovered ? 'var(--orange)' : 'white'}
-                      strokeWidth={f.alpha === hovered ? 2.5 : 0.5}
-                      style={{
-                        cursor: isHoverable(f.alpha) ? 'pointer' : 'default',
-                        transition: 'fill-opacity 0.2s, stroke-width 0.2s',
-                      }}
-                      onMouseEnter={() => isHoverable(f.alpha) && setHovered(f.alpha)}
-                    />
-                  ))}
-                </>
+                features.map((f) => (
+                  <path
+                    key={f.id}
+                    d={f.d}
+                    fill={colorFor(f.alpha)}
+                    fillOpacity={opacityFor(f.alpha)}
+                    stroke={f.alpha === hovered ? 'var(--orange)' : 'white'}
+                    strokeWidth={f.alpha === hovered ? 2 : 0.5}
+                    style={{
+                      cursor: isHoverable(f.alpha) ? 'pointer' : 'default',
+                      transition: 'fill-opacity 0.2s, stroke-width 0.2s',
+                    }}
+                    onMouseEnter={() => isHoverable(f.alpha) && setHovered(f.alpha)}
+                  />
+                ))
               ) : (
-                <text x="400" y="280" textAnchor="middle" fill="var(--olive)" fontSize="13">
-                  …
-                </text>
+                <text x={WIDTH / 2} y={HEIGHT / 2} textAnchor="middle" fill="var(--olive)" fontSize="13">…</text>
               )}
 
-              {/* Legend */}
-              <g transform="translate(20, 525)">
+              <g transform={`translate(20, ${HEIGHT - 30})`}>
                 <rect width="12" height="12" fill="var(--orange)" rx="2" />
                 <text x="18" y="10" fontSize="11" fill="var(--olive-dark)">{t('legendHome')}</text>
                 <rect x="90" width="12" height="12" fill="var(--teal-900)" rx="2" />
@@ -213,7 +190,6 @@ export default function EuropeMap() {
             </svg>
           </div>
 
-          {/* Info panel */}
           <div
             className="rounded-2xl p-6 flex flex-col"
             style={{ background: 'white', border: '1px solid var(--border-warm)' }}
@@ -235,31 +211,15 @@ export default function EuropeMap() {
             {data ? (
               <div className="space-y-4">
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>
-                    {t('labelLandlords')}
-                  </p>
-                  <p
-                    className="text-2xl font-medium"
-                    style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-                  >
-                    {data.landlords}
-                  </p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelLandlords')}</p>
+                  <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.landlords}</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>
-                    {t('labelMarket')}
-                  </p>
-                  <p
-                    className="text-2xl font-medium"
-                    style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
-                  >
-                    {data.market} mld €
-                  </p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelMarket')}</p>
+                  <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.market} mld €</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>
-                    {t('labelLanguage')}
-                  </p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelLanguage')}</p>
                   <p className="text-base" style={{ color: 'var(--teal-900)' }}>
                     <span className="mr-2">{data.langFlag}</span>
                     {data.lang}
@@ -267,14 +227,11 @@ export default function EuropeMap() {
                 </div>
               </div>
             ) : (
-              <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>
-                {t('futureLabel')}
-              </p>
+              <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('futureLabel')}</p>
             )}
           </div>
         </div>
 
-        {/* Stats grid */}
         <div
           className="grid grid-cols-2 md:grid-cols-4 gap-4 rounded-2xl p-6 md:p-8"
           style={{ background: 'white', border: '1px solid var(--border-warm)' }}
