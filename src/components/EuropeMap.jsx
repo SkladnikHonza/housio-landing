@@ -73,13 +73,16 @@ export default function EuropeMap() {
 
         const fc = feature(topo, topo.objects.countries)
         const mapped = fc.features
-          .map((f) => {
-            const id = String(f.id).padStart(3, '0')
+          .map((f, i) => {
+            const id = f.id != null ? String(f.id).padStart(3, '0') : `feat-${i}`
             const alpha = ISO_NUM_TO_ALPHA[id] || null
             const d = pathGen(f)
             return { id, alpha, d }
           })
           .filter((f) => f.d)
+        if (mapped.some((f) => !f.id)) {
+          console.warn('[EuropeMap] feature(s) bez id detekovany — fallback na index')
+        }
         setFeatures(mapped)
       })
       .catch(() => {})
