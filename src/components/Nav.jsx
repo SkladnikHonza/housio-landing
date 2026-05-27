@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname, Link } from '@/i18n/navigation'
 import { routing } from '@/i18n/routing'
@@ -74,6 +74,13 @@ export default function Nav() {
   const isHome = pathname === '/'
   const [menuOpen, setMenuOpen] = useState(false)
 
+  useEffect(() => {
+    if (!menuOpen) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => { document.body.style.overflow = prev }
+  }, [menuOpen])
+
   const anchorClick = (id) => (e) => {
     if (!isHome) return
     e.preventDefault()
@@ -89,6 +96,7 @@ export default function Nav() {
   ]
 
   return (
+    <>
     <header
       className="sticky top-0 z-40 nav-blur"
       style={{
@@ -166,9 +174,49 @@ export default function Nav() {
         </button>
       </nav>
 
-      {menuOpen && (
+      <style jsx global>{`
+        .nav-blur {
+          -webkit-backdrop-filter: saturate(180%) blur(16px);
+          backdrop-filter: saturate(180%) blur(16px);
+        }
+        .nav-link {
+          position: relative;
+          transition: opacity 0.15s;
+        }
+        .nav-link::before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          bottom: -6px;
+          height: 2px;
+          background: var(--teal-900);
+          transition: left 0.25s ease, right 0.25s ease;
+          border-radius: 2px;
+        }
+        .nav-link:hover::before {
+          left: 0;
+          right: 0;
+        }
+        .nav-cta {
+          transition: transform 0.15s ease, box-shadow 0.2s ease;
+        }
+        .nav-cta:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 8px 24px rgba(31, 78, 95, 0.25);
+        }
+        .nav-cta-arrow {
+          transition: transform 0.2s ease;
+        }
+        .nav-cta:hover .nav-cta-arrow {
+          transform: translateX(3px);
+        }
+      `}</style>
+    </header>
+
+    {menuOpen && (
         <div
-          className="fixed inset-0 z-50 md:hidden flex flex-col p-6"
+          className="fixed inset-0 z-[60] md:hidden flex flex-col p-6 overflow-y-auto"
           style={{ background: 'var(--bg-warm)' }}
         >
           <div className="flex items-center justify-between mb-12">
@@ -243,45 +291,6 @@ export default function Nav() {
           </div>
         </div>
       )}
-
-      <style jsx global>{`
-        .nav-blur {
-          -webkit-backdrop-filter: saturate(180%) blur(16px);
-          backdrop-filter: saturate(180%) blur(16px);
-        }
-        .nav-link {
-          position: relative;
-          transition: opacity 0.15s;
-        }
-        .nav-link::before {
-          content: '';
-          position: absolute;
-          left: 50%;
-          right: 50%;
-          bottom: -6px;
-          height: 2px;
-          background: var(--teal-900);
-          transition: left 0.25s ease, right 0.25s ease;
-          border-radius: 2px;
-        }
-        .nav-link:hover::before {
-          left: 0;
-          right: 0;
-        }
-        .nav-cta {
-          transition: transform 0.15s ease, box-shadow 0.2s ease;
-        }
-        .nav-cta:hover {
-          transform: translateY(-1px);
-          box-shadow: 0 8px 24px rgba(31, 78, 95, 0.25);
-        }
-        .nav-cta-arrow {
-          transition: transform 0.2s ease;
-        }
-        .nav-cta:hover .nav-cta-arrow {
-          transform: translateX(3px);
-        }
-      `}</style>
-    </header>
+    </>
   )
 }
