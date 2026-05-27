@@ -4,23 +4,30 @@ import { Check } from 'lucide-react'
 export default function Pricing() {
   const t = useTranslations('pricing')
   
+  const ctaUrl = 'https://housio.online/signup'
   const tiers = [
     {
       key: 'free',
       features: ['feature1', 'feature2', 'feature3', 'feature4'],
-      ctaUrl: 'https://www.housio.online',
+      ctaUrl,
+      highlighted: false,
+    },
+    {
+      key: 'basic',
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      ctaUrl,
       highlighted: false,
     },
     {
       key: 'pro',
-      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
-      ctaUrl: 'https://www.housio.online',
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      ctaUrl,
       highlighted: true,
     },
     {
       key: 'business',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
-      ctaUrl: 'mailto:info@useuropegroup.cz',
+      ctaUrl,
       highlighted: false,
     },
   ]
@@ -48,7 +55,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {tiers.map((tier) => (
             <div 
               key={tier.key} 
