@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import Nav from '@/components/Nav'
+import AnalyticsTracker from '@/components/AnalyticsTracker'
 import '../globals.css'
 
 const inter = Inter({
@@ -85,6 +86,7 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale} className={`${inter.variable} ${interTight.variable}`}>
       <body>
         <NextIntlClientProvider>
+          <AnalyticsTracker />
           <Nav />
           {children}
         </NextIntlClientProvider>
