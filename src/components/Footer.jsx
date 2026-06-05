@@ -81,9 +81,9 @@ export default function Footer() {
             <div>
               <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('legalHeading')}</p>
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                <li className="hover:text-white transition cursor-pointer">{t('legalTerms')}</li>
-                <li className="hover:text-white transition cursor-pointer">{t('legalGdpr')}</li>
-                <li className="hover:text-white transition cursor-pointer">{t('legalCookies')}</li>
+                <li><a href="https://housio.online/terms" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalTerms')}</a></li>
+                <li><a href="https://housio.online/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalGdpr')}</a></li>
+                <li><a href="https://housio.online/cookies" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalCookies')}</a></li>
               </ul>
             </div>
           </div>
