@@ -95,7 +95,7 @@ export default function FAQ() {
             {t('emailUs')}
           </p>
           <a 
-            href="mailto:info@useuropegroup.cz"
+            href="mailto:housio@housio.app"
             className="inline-flex items-center gap-2 text-base font-medium text-white px-7 py-3.5 rounded-xl hover:opacity-90 transition cursor-pointer"
             style={{ background: 'var(--teal-900)' }}
           >

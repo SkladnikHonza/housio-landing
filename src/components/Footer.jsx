@@ -26,7 +26,7 @@ export default function Footer() {
               {t('ctaPrimary')}
               <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="mailto:info@useuropegroup.cz" className="inline-flex items-center text-base font-medium px-8 py-4 rounded-xl bg-white hover:bg-white/80 transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
+            <a href="mailto:housio@housio.app" className="inline-flex items-center text-base font-medium px-8 py-4 rounded-xl bg-white hover:bg-white/80 transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
               {t('ctaContact')}
             </a>
           </div>

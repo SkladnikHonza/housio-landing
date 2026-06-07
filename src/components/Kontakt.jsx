@@ -34,7 +34,7 @@ export default function Kontakt() {
           
           {/* Email */}
           <a 
-            href="mailto:info@useuropegroup.cz"
+            href="mailto:housio@housio.app"
             className="block bg-white rounded-2xl p-6 text-center hover:shadow-lg transition cursor-pointer group"
             style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}
           >
@@ -46,7 +46,7 @@ export default function Kontakt() {
             </div>
             <p className="font-medium mb-1" style={{ color: 'var(--teal-900)' }}>{t('emailTitle')}</p>
             <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('emailSubtitle')}</p>
-            <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>info@useuropegroup.cz</p>
+            <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>housio@housio.app</p>
           </a>
           
           {/* Facebook */}

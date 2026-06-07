@@ -156,7 +156,7 @@
     "a8": "Bien sûr. Dans le plan BUSINESS, tu génères des rapports PDF pour comptable, banque ou conseiller fiscal. Tout prêt en 10 secondes. Tu as aussi un accès API pour connecter tes propres systèmes. Tes données sont toujours les tiennes — aucun vendor lock-in.",
     "stillQuestions": "Tu as encore des questions ?",
     "emailUs": "Écris-nous un email et nous répondons généralement sous 24 heures.",
-    "emailButton": "Écrire à info@useuropegroup.cz"
+    "emailButton": "Écrire à housio@housio.app"
   },
   "footer": {
     "ctaBadge": "Commence en 60 secondes",
@@ -199,7 +199,7 @@
     "placeholderEmail": "jean@example.com",
     "placeholderMessage": "Bonjour, j'ai une question concernant...",
     "submitButton": "Envoyer le message",
-    "formAlert": "Merci ! Le formulaire sera bientôt fonctionnel. En attendant, écris-nous à info@useuropegroup.cz",
+    "formAlert": "Merci ! Le formulaire sera bientôt fonctionnel. En attendant, écris-nous à housio@housio.app",
     "footerResponse": "Nous répondons sous 24 heures",
     "footerLocation": "Frýdek-Místek, République tchèque",
     "facebookTitle": "Facebook",

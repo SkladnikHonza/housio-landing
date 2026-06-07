@@ -156,7 +156,7 @@
     "a8": "Звичайно. У BUSINESS плані генеруєш PDF звіти для бухгалтера, банку або податкового консультанта. Все готово за 10 секунд. Також маєш API доступ для підключення власних систем. Твої дані завжди твої — жодного vendor lock-in.",
     "stillQuestions": "Все ще маєш питання?",
     "emailUs": "Напиши нам email і ми зазвичай відповімо протягом 24 годин.",
-    "emailButton": "Написати на info@useuropegroup.cz"
+    "emailButton": "Написати на housio@housio.app"
   },
   "footer": {
     "ctaBadge": "Почни за 60 секунд",
@@ -199,7 +199,7 @@
     "placeholderEmail": "ivan@example.com",
     "placeholderMessage": "Привіт, маю запитання щодо...",
     "submitButton": "Надіслати повідомлення",
-    "formAlert": "Дякуємо! Форма буде функціональна найближчим часом. Поки напиши нам на info@useuropegroup.cz",
+    "formAlert": "Дякуємо! Форма буде функціональна найближчим часом. Поки напиши нам на housio@housio.app",
     "footerResponse": "Відповімо протягом 24 годин",
     "footerLocation": "Фрідек-Містек, Чеська Республіка",
     "facebookTitle": "Facebook",
