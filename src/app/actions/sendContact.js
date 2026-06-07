@@ -2,7 +2,7 @@
 
 import { Resend } from 'resend'
 
-const FROM = 'Housio kontakt <kontakt@housio.app>'
+const FROM = 'Housio kontakt <kontakt@housio.online>'
 const TO = 'housio@housio.app'
 
 const MAX_NAME = 100
