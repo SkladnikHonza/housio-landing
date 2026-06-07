@@ -1,29 +1,41 @@
 'use client'
 
+import { useActionState } from 'react'
 import { useTranslations } from 'next-intl'
-import { Mail, ArrowRight, Clock, MapPin } from 'lucide-react'
+import { Mail, ArrowRight, Clock, MapPin, CheckCircle2, AlertCircle } from 'lucide-react'
+import { sendContact } from '@/app/actions/sendContact'
 
 export default function Kontakt() {
   const t = useTranslations('kontakt')
+  const [state, formAction, isPending] = useActionState(sendContact, null)
+
+  const errorText = (code) => {
+    switch (code) {
+      case 'name': return t('formErrorName')
+      case 'email': return t('formErrorEmail')
+      case 'message': return t('formErrorMessage')
+      default: return t('formErrorGeneric')
+    }
+  }
 
   return (
     <section className="px-6 py-16 lg:py-24" style={{ background: 'var(--bg-warm)' }}>
       <div className="max-w-4xl mx-auto">
-        
+
         {/* === HEADER === */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full mb-6" style={{ background: 'rgba(216, 155, 95, 0.12)' }}>
             <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--orange)' }}></span>
             <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>{t('badge')}</span>
           </div>
-          
-          <h1 
+
+          <h1
             className="text-4xl md:text-6xl font-medium leading-tight tracking-tight mb-4"
             style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.03em' }}
           >
             {t('title')}
           </h1>
-          
+
           <p className="text-lg leading-relaxed max-w-xl mx-auto" style={{ color: 'var(--olive-dark)' }}>
             {t('subtitle')}
           </p>
@@ -31,14 +43,14 @@ export default function Kontakt() {
 
         {/* === 3 KONTAKTNÍ MOŽNOSTI === */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-          
+
           {/* Email */}
-          <a 
+          <a
             href="mailto:housio@housio.app"
             className="block bg-white rounded-2xl p-6 text-center hover:shadow-lg transition cursor-pointer group"
             style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}
           >
-            <div 
+            <div
               className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition"
               style={{ background: 'var(--orange)' }}
             >
@@ -48,16 +60,16 @@ export default function Kontakt() {
             <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('emailSubtitle')}</p>
             <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>housio@housio.app</p>
           </a>
-          
+
           {/* Facebook */}
-          <a 
+          <a
             href="https://facebook.com/housioapp"
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-2xl p-6 text-center hover:shadow-lg transition cursor-pointer group"
             style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}
           >
-            <div 
+            <div
               className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition"
               style={{ background: '#1877F2' }}
             >
@@ -69,16 +81,16 @@ export default function Kontakt() {
             <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('facebookSubtitle')}</p>
             <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>@housioapp</p>
           </a>
-          
+
           {/* Instagram */}
-          <a 
+          <a
             href="https://instagram.com/housio.app"
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-2xl p-6 text-center hover:shadow-lg transition cursor-pointer group"
             style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}
           >
-            <div 
+            <div
               className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition"
               style={{ background: 'var(--olive)' }}
             >
@@ -90,13 +102,13 @@ export default function Kontakt() {
             <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>{t('instagramSubtitle')}</p>
             <p className="text-xs mt-2" style={{ color: 'var(--orange-dark)' }}>@housio.app</p>
           </a>
-          
+
         </div>
 
         {/* === FORMULÁŘ === */}
         <div className="bg-white rounded-2xl p-8 md:p-10" style={{ boxShadow: '0 1px 3px rgba(31, 78, 95, 0.06)' }}>
-          
-          <h2 
+
+          <h2
             className="text-2xl md:text-3xl font-medium text-center mb-2 tracking-tight"
             style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.02em' }}
           >
@@ -105,63 +117,113 @@ export default function Kontakt() {
           <p className="text-center text-sm mb-8" style={{ color: 'var(--olive-dark)' }}>
             {t('formSubtitle')}
           </p>
-          
-          <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); alert(t('formAlert')); }}>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
-                  {t('labelName')}
-                </label>
-                <input 
-                  type="text"
-                  placeholder={t('placeholderName')}
-                  className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition"
-                  style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
-                  onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
-                  onBlur={(e) => e.target.style.borderColor = 'transparent'}
-                />
-              </div>
-              
-              <div>
-                <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
-                  {t('labelEmail')}
-                </label>
-                <input 
-                  type="email"
-                  placeholder={t('placeholderEmail')}
-                  className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition"
-                  style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
-                  onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
-                  onBlur={(e) => e.target.style.borderColor = 'transparent'}
-                />
-              </div>
-            </div>
-            
-            <div>
-              <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
-                {t('labelMessage')}
-              </label>
-              <textarea 
-                rows="5"
-                placeholder={t('placeholderMessage')}
-                className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition resize-none"
-                style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
-                onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
-                onBlur={(e) => e.target.style.borderColor = 'transparent'}
-              ></textarea>
-            </div>
-            
-            <button 
-              type="submit"
-              className="w-full inline-flex items-center justify-center gap-2 text-base font-medium text-white py-4 rounded-xl hover:opacity-90 transition cursor-pointer"
-              style={{ background: 'var(--teal-900)' }}
+
+          {state?.ok ? (
+            <div
+              className="flex flex-col items-center text-center py-10"
+              role="status"
+              aria-live="polite"
             >
-              {t('submitButton')}
-              <ArrowRight className="w-4 h-4" />
-            </button>
-            
-          </form>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4" style={{ background: 'rgba(45, 139, 95, 0.12)' }}>
+                <CheckCircle2 className="w-7 h-7" style={{ color: 'var(--teal-500, #2D8B5F)' }} />
+              </div>
+              <p className="text-lg font-medium mb-1" style={{ color: 'var(--teal-900)' }}>
+                {t('formSuccessTitle')}
+              </p>
+              <p className="text-sm" style={{ color: 'var(--olive-dark)' }}>
+                {t('formSuccessBody')}
+              </p>
+            </div>
+          ) : (
+            <form className="space-y-4" action={formAction}>
+              {/* honeypot — bots fill it, humans don't see it */}
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, opacity: 0 }}
+              />
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                    {t('labelName')}
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    maxLength={100}
+                    placeholder={t('placeholderName')}
+                    disabled={isPending}
+                    className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition disabled:opacity-60"
+                    style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
+                    onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
+                    onBlur={(e) => e.target.style.borderColor = 'transparent'}
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                    {t('labelEmail')}
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    maxLength={200}
+                    placeholder={t('placeholderEmail')}
+                    disabled={isPending}
+                    className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition disabled:opacity-60"
+                    style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
+                    onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
+                    onBlur={(e) => e.target.style.borderColor = 'transparent'}
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                  {t('labelMessage')}
+                </label>
+                <textarea
+                  name="message"
+                  rows="5"
+                  required
+                  maxLength={5000}
+                  placeholder={t('placeholderMessage')}
+                  disabled={isPending}
+                  className="w-full px-4 py-3 rounded-xl text-sm focus:outline-none transition resize-none disabled:opacity-60"
+                  style={{ background: 'var(--bg-warm)', color: 'var(--teal-900)', border: '1px solid transparent' }}
+                  onFocus={(e) => e.target.style.borderColor = 'var(--orange)'}
+                  onBlur={(e) => e.target.style.borderColor = 'transparent'}
+                ></textarea>
+              </div>
+
+              {state?.error && (
+                <div
+                  className="flex items-center gap-2 text-sm px-4 py-3 rounded-xl"
+                  style={{ background: 'rgba(216, 95, 95, 0.10)', color: 'var(--orange-dark, #B6612F)' }}
+                  role="alert"
+                >
+                  <AlertCircle className="w-4 h-4 flex-shrink-0" />
+                  <span>{errorText(state.error)}</span>
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={isPending}
+                className="w-full inline-flex items-center justify-center gap-2 text-base font-medium text-white py-4 rounded-xl hover:opacity-90 transition cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
+                style={{ background: 'var(--teal-900)' }}
+              >
+                {isPending ? t('formSending') : t('submitButton')}
+                {!isPending && <ArrowRight className="w-4 h-4" />}
+              </button>
+            </form>
+          )}
         </div>
 
         {/* === FOOTER INFO === */}
@@ -175,7 +237,7 @@ export default function Kontakt() {
             {t('footerLocation')}
           </span>
         </div>
-        
+
       </div>
     </section>
   )
