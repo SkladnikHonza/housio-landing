@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { ArrowRight, Play, Check, Star, Lock } from 'lucide-react'
 
@@ -75,7 +74,7 @@ export default function Hero() {
               </div>
               <div className="text-left">
                 <p className="text-xs" style={{ color: 'var(--olive-dark)' }}>{t('badgePayment')}</p>
-                <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>+15 900 Kč</p>
+                <p className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>+20 000 Kč</p>
               </div>
             </div>
           </div>
@@ -119,14 +118,109 @@ export default function Hero() {
                   </div>
                 </div>
 
-                <Image
-                  src="/dashboard.png"
-                  alt="Housio Dashboard"
-                  width={2400}
-                  height={1500}
-                  priority
-                  className="w-full h-auto block"
-                />
+                {/* Živý dashboard (nahrazuje statický screenshot) — fiktivní demo data */}
+                <div className="bg-white text-left" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
+                  <div className="flex" style={{ minHeight: '440px' }}>
+
+                    {/* Sidebar */}
+                    <aside className="hidden sm:flex flex-col px-3 py-4 border-r shrink-0" style={{ width: 152, background: '#FCFAF5', borderColor: '#EFEAE0' }}>
+                      <div className="flex items-center gap-2 px-1 mb-3">
+                        <div className="w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-bold" style={{ background: 'var(--teal-900)' }}>H</div>
+                        <span className="text-sm font-semibold" style={{ color: 'var(--teal-900)' }}>Housio</span>
+                      </div>
+                      <div className="flex gap-1 mb-3">
+                        {['Kč', '€', 'zł'].map((c, i) => (
+                          <span key={c} className="text-[9px] px-2 py-1 rounded-md" style={{ background: i === 0 ? 'var(--teal-100)' : '#F3EFE6', color: i === 0 ? 'var(--teal-900)' : '#9ca3af', fontWeight: i === 0 ? 700 : 500 }}>{c}</span>
+                        ))}
+                      </div>
+                      <div className="flex flex-col gap-0.5">
+                        {[['Nástěnka', true], ['Nemovitosti', false], ['Nájemníci', false], ['Smlouvy', false], ['Měsíční platby', false], ['Výdaje', false], ['Pojištění', false], ['Nastavení', false]].map(([label, active]) => (
+                          <div key={label} className="flex items-center gap-2 px-2 py-1.5 rounded-lg text-[11px]" style={{ background: active ? 'var(--teal-100)' : 'transparent', color: active ? 'var(--teal-900)' : '#7b8a86', fontWeight: active ? 600 : 500 }}>
+                            <span className="w-1.5 h-1.5 rounded-full" style={{ background: active ? 'var(--teal-900)' : '#cbd5cf' }} />
+                            {label}
+                          </div>
+                        ))}
+                      </div>
+                    </aside>
+
+                    {/* Main */}
+                    <div className="flex-1 p-4 lg:p-5" style={{ background: '#FBF9F3' }}>
+                      <div className="flex items-center justify-between mb-3">
+                        <div>
+                          <h3 className="text-base lg:text-lg font-bold" style={{ color: 'var(--teal-900)' }}>Nástěnka</h3>
+                          <p className="text-[10px]" style={{ color: '#9ca3af' }}>Přehled vašeho portfolia · 2026</p>
+                        </div>
+                        <div className="text-[10px] px-2.5 py-1 rounded-md font-semibold" style={{ background: 'var(--teal-900)', color: 'white' }}>2026</div>
+                      </div>
+
+                      {/* KPI karty */}
+                      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mb-2.5">
+                        {[
+                          ['🏠', 'Nemovitosti', '3', 'apartmán · dům · garáž'],
+                          ['💰', 'Hodnota portfolia', '12 400 000 Kč', 'průměr 4 133 000 Kč'],
+                          ['📈', 'Měsíční příjem', '38 500 Kč', 'ročně 462 000 Kč'],
+                          ['🎯', 'Obsazenost', '3 / 3', '100 % obsazeno'],
+                        ].map(([icon, label, val, sub]) => (
+                          <div key={label} className="bg-white rounded-xl p-2.5 border" style={{ borderColor: '#EFEAE0' }}>
+                            <div className="text-[9px] font-semibold uppercase tracking-wide flex items-center gap-1" style={{ color: '#9ca3af' }}><span>{icon}</span>{label}</div>
+                            <div className="text-sm lg:text-base font-extrabold mt-1 whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{val}</div>
+                            <div className="text-[9px] mt-0.5" style={{ color: '#9ca3af' }}>{sub}</div>
+                          </div>
+                        ))}
+                      </div>
+
+                      {/* Karta Zhodnocení portfolia (růst) */}
+                      <div className="bg-white rounded-xl p-3 border mb-2.5" style={{ borderColor: '#EFEAE0' }}>
+                        <div className="flex items-center gap-1.5 mb-2">
+                          <span className="text-sm">📈</span>
+                          <h4 className="text-xs font-bold" style={{ color: 'var(--teal-900)' }}>Zhodnocení portfolia 2026</h4>
+                        </div>
+                        <div className="grid grid-cols-3 gap-2 mb-2">
+                          <div>
+                            <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>Vloženo</div>
+                            <div className="text-xs font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>8 900 000 Kč</div>
+                          </div>
+                          <div>
+                            <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>Aktuální hodnota</div>
+                            <div className="text-xs font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>12 400 000 Kč</div>
+                          </div>
+                          <div>
+                            <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>Zhodnocení</div>
+                            <div className="text-xs font-extrabold whitespace-nowrap" style={{ color: '#16A34A' }}>+3 500 000 <span className="font-bold">(+39 %)</span></div>
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between px-3 py-1.5 rounded-lg" style={{ background: '#F0FDF4', border: '1px solid #BBF7D0' }}>
+                          <span className="text-[10px] font-semibold" style={{ color: '#15803D' }}>Odhad růstu 7 %/rok</span>
+                          <span className="text-xs font-extrabold" style={{ color: '#15803D' }}>+868 000 Kč</span>
+                        </div>
+                      </div>
+
+                      {/* Rozpis po nemovitostech */}
+                      <div className="bg-white rounded-xl p-3 border" style={{ borderColor: '#EFEAE0' }}>
+                        <h4 className="text-[11px] font-bold mb-2" style={{ color: 'var(--teal-900)' }}>🏠 Rozpis po nemovitostech</h4>
+                        <div className="flex flex-col">
+                          {[
+                            ['Apartmán', '2+kk · Praha', '5 200 000 Kč', '16 000 Kč'],
+                            ['Rodinný dům', '5+1 · Brno', '6 800 000 Kč', '20 000 Kč'],
+                            ['Garáž', 'Ostrava', '400 000 Kč', '2 500 Kč'],
+                          ].map(([nazev, typ, hodnota, najem], i) => (
+                            <div key={nazev} className="flex items-center justify-between text-[10px] py-1.5" style={{ borderTop: i === 0 ? 'none' : '1px solid #F1ECE0' }}>
+                              <div className="flex-1 min-w-0">
+                                <div className="font-semibold" style={{ color: 'var(--teal-900)' }}>{nazev}</div>
+                                <div className="text-[9px]" style={{ color: '#9ca3af' }}>{typ}</div>
+                              </div>
+                              <div className="w-24 text-right font-semibold whitespace-nowrap hidden sm:block" style={{ color: 'var(--teal-900)' }}>{hodnota}</div>
+                              <div className="w-20 text-right font-semibold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{najem}</div>
+                              <div className="w-[72px] text-right">
+                                <span className="text-[8.5px] px-1.5 py-0.5 rounded font-semibold whitespace-nowrap" style={{ background: '#F0FDF4', color: '#15803D' }}>✓ Zaplaceno</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
