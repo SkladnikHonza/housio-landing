@@ -74,7 +74,8 @@
       "feature3": "Verträge & Versicherungen",
       "feature4": "Ausgaben + Excel-Export",
       "feature5": "E-Mail-Benachrichtigungen",
-      "cta": "7 Tage kostenlos testen"
+      "cta": "7 Tage kostenlos testen",
+      "feature6": "Zahlungsbestätigung (PDF)"
     },
     "pro": {
       "name": "Pro",
@@ -85,7 +86,7 @@
       "feature2": "Alles aus Basic",
       "feature3": "PDF-Berichte",
       "feature4": "Priority Support",
-      "feature5": "Erweiterte Analytik",
+      "feature5": "Jährliche PDF-Abrechnung",
       "cta": "7 Tage kostenlos testen"
     },
     "business": {
@@ -96,8 +97,8 @@
       "feature1": "Unbegrenzte Immobilien",
       "feature2": "Bis zu 3 Teammitglieder",
       "feature3": "Alles aus Pro",
-      "feature4": "Eigenes Logo im PDF",
-      "feature5": "API-Zugang",
+      "feature4": "Frühzeitiger Zugang zu neuen Funktionen",
+      "feature5": "API-Zugang (bald)",
       "cta": "Vertrieb kontaktieren"
     }
   },

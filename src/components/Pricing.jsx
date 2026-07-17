@@ -14,7 +14,7 @@ export default function Pricing() {
     },
     {
       key: 'basic',
-      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
       ctaUrl,
       highlighted: false,
     },

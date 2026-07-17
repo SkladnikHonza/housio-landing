@@ -74,7 +74,8 @@
       "feature3": "Contracts & insurance",
       "feature4": "Expenses + Excel export",
       "feature5": "Email notifications",
-      "cta": "Try 7 days free"
+      "cta": "Try 7 days free",
+      "feature6": "Payment confirmation (PDF)"
     },
     "pro": {
       "name": "Pro",
@@ -85,7 +86,7 @@
       "feature2": "Everything in Basic",
       "feature3": "PDF reports",
       "feature4": "Priority support",
-      "feature5": "Advanced analytics",
+      "feature5": "Annual PDF statement",
       "cta": "Try 7 days free"
     },
     "business": {
@@ -96,8 +97,8 @@
       "feature1": "Unlimited properties",
       "feature2": "Up to 3 team members",
       "feature3": "Everything in Pro",
-      "feature4": "Custom PDF logo",
-      "feature5": "API access",
+      "feature4": "Early access to new features",
+      "feature5": "API access (soon)",
       "cta": "Contact sales"
     }
   },

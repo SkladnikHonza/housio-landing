@@ -74,7 +74,8 @@
       "feature3": "Contratos y seguros",
       "feature4": "Gastos + exportación a Excel",
       "feature5": "Notificaciones por email",
-      "cta": "Probar 7 días gratis"
+      "cta": "Probar 7 días gratis",
+      "feature6": "Comprobante de pago (PDF)"
     },
     "pro": {
       "name": "Pro",
@@ -85,7 +86,7 @@
       "feature2": "Todo de Basic",
       "feature3": "Informes PDF",
       "feature4": "Soporte prioritario",
-      "feature5": "Analítica avanzada",
+      "feature5": "Balance anual en PDF",
       "cta": "Probar 7 días gratis"
     },
     "business": {
@@ -96,8 +97,8 @@
       "feature1": "Inmuebles ilimitados",
       "feature2": "Hasta 3 miembros del equipo",
       "feature3": "Todo de Pro",
-      "feature4": "Logo propio en PDF",
-      "feature5": "Acceso a API",
+      "feature4": "Acceso anticipado a novedades",
+      "feature5": "Acceso API (pronto)",
       "cta": "Contactar ventas"
     }
   },

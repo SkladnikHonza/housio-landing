@@ -74,7 +74,8 @@
       "feature3": "Smlouvy a pojištění",
       "feature4": "Výdaje + Excel export",
       "feature5": "Email notifikace",
-      "cta": "Vyzkoušet 7 dní zdarma"
+      "cta": "Vyzkoušet 7 dní zdarma",
+      "feature6": "Potvrzení o zaplacení (PDF)"
     },
     "pro": {
       "name": "Pro",
@@ -85,7 +86,7 @@
       "feature2": "Vše z Basic",
       "feature3": "PDF reporty",
       "feature4": "Prioritní podpora",
-      "feature5": "Pokročilá analytika",
+      "feature5": "Roční PDF vyúčtování",
       "cta": "Vyzkoušet 7 dní zdarma"
     },
     "business": {
@@ -96,8 +97,8 @@
       "feature1": "Neomezené nemovitosti",
       "feature2": "Až 3 členové týmu",
       "feature3": "Vše z Pro",
-      "feature4": "Vlastní logo v PDF",
-      "feature5": "API přístup",
+      "feature4": "Přednostní nasazení novinek",
+      "feature5": "API přístup (brzy)",
       "cta": "Kontaktovat sales"
     }
   },
