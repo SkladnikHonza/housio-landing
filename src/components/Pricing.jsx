@@ -82,7 +82,7 @@ export default function Pricing() {
               </p>
               <p className="text-sm mb-6" style={{ color: 'var(--olive-dark)' }}>{t(`${tier.key}.period`)}</p>
               
-              <ul className="space-y-3 mb-8 flex-grow">
+              <ul className="space-y-3 mb-8 grow">
                 {tier.features.map((featureKey) => (
                   <li key={featureKey} className="flex items-center gap-2.5">
                     <Check className="w-4 h-4 flex-shrink-0" style={{ color: tier.highlighted ? 'var(--orange)' : 'var(--teal-500)' }} />
@@ -93,7 +93,7 @@ export default function Pricing() {
               
               <a 
                 href={tier.ctaUrl}
-                className="block w-full py-3 rounded-xl text-sm font-medium transition hover:opacity-90 text-center cursor-pointer"
+                className="block w-full mt-auto py-3 rounded-xl text-sm font-medium transition hover:opacity-90 text-center cursor-pointer"
                 style={{
                   background: tier.highlighted ? 'linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%)' : 'var(--bg-clean)',
                   color: tier.highlighted ? 'white' : 'var(--teal-900)',
