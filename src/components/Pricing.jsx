@@ -58,8 +58,8 @@ export default function Pricing() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {tiers.map((tier) => (
             <div 
-              key={tier.key} 
-              className={`rounded-2xl p-8 ${tier.highlighted ? 'relative' : ''}`}
+              key={tier.key}
+              className={`rounded-2xl p-8 flex flex-col h-full ${tier.highlighted ? 'relative' : ''}`}
               style={{
                 background: tier.highlighted ? 'var(--bg-clean)' : 'var(--bg-warm)',
                 border: tier.highlighted ? '2px solid var(--orange)' : 'none',
@@ -82,7 +82,7 @@ export default function Pricing() {
               </p>
               <p className="text-sm mb-6" style={{ color: 'var(--olive-dark)' }}>{t(`${tier.key}.period`)}</p>
               
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-grow">
                 {tier.features.map((featureKey) => (
                   <li key={featureKey} className="flex items-center gap-2.5">
                     <Check className="w-4 h-4 flex-shrink-0" style={{ color: tier.highlighted ? 'var(--orange)' : 'var(--teal-500)' }} />
