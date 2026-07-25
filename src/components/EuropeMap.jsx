@@ -214,15 +214,15 @@ export default function EuropeMap() {
             {data ? (
               <div className="space-y-4">
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelLandlords')}</p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelLandlords')}</p>
                   <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.landlords}</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelMarket')}</p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelMarket')}</p>
                   <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.market} mld €</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive)' }}>{t('labelLanguage')}</p>
+                  <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelLanguage')}</p>
                   <p className="text-base" style={{ color: 'var(--teal-900)' }}>
                     <span className="mr-2">{data.langFlag}</span>
                     {data.lang}

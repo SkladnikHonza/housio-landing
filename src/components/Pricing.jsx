@@ -46,13 +46,6 @@ export default function Pricing() {
           <p className="text-lg leading-relaxed mb-6" style={{ color: 'var(--olive-dark)' }}>
             {t('subtitle')}
           </p>
-          
-          <div className="inline-flex p-1 rounded-full gap-1" style={{ background: 'var(--bg-warm)' }}>
-            <span className="text-sm text-white px-4 py-1.5 rounded-full font-medium" style={{ background: 'var(--teal-900)' }}>{t('monthly')}</span>
-            <span className="text-sm px-4 py-1.5 font-medium" style={{ color: 'var(--olive-dark)' }}>
-              {t('yearly')} <span style={{ color: 'var(--orange)' }}>{t('yearlyDiscount')}</span>
-            </span>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">

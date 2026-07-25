@@ -28,7 +28,7 @@ export default function Personae() {
               <User className="w-4 h-4 mr-1.5" style={{ color: 'var(--teal-900)' }} />
               <span className="text-xs font-medium" style={{ color: 'var(--teal-900)' }}>{t('p1Title')}</span>
             </div>
-            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive)' }}>{t('p1Subtitle')}</p>
+            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive-dark)' }}>{t('p1Subtitle')}</p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
               {t('p1Desc')}
             </p>
@@ -47,7 +47,7 @@ export default function Personae() {
               <Briefcase className="w-4 h-4 mr-1.5" style={{ color: 'var(--orange-dark)' }} />
               <span className="text-xs font-medium" style={{ color: 'var(--orange-dark)' }}>{t('p2Title')}</span>
             </div>
-            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive)' }}>{t('p2Subtitle')}</p>
+            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive-dark)' }}>{t('p2Subtitle')}</p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
               {t('p2Desc')}
             </p>
@@ -59,7 +59,7 @@ export default function Personae() {
               <Building2 className="w-4 h-4 mr-1.5" style={{ color: 'var(--teal-900)' }} />
               <span className="text-xs font-medium" style={{ color: 'var(--teal-900)' }}>{t('p3Title')}</span>
             </div>
-            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive)' }}>{t('p3Subtitle')}</p>
+            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive-dark)' }}>{t('p3Subtitle')}</p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
               {t('p3Desc')}
             </p>
