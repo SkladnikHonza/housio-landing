@@ -148,10 +148,11 @@ export default function Kontakt() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                  <label htmlFor="kontakt-name" className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
                     {t('labelName')}
                   </label>
                   <input
+                    id="kontakt-name"
                     type="text"
                     name="name"
                     required
@@ -166,10 +167,11 @@ export default function Kontakt() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                  <label htmlFor="kontakt-email" className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
                     {t('labelEmail')}
                   </label>
                   <input
+                    id="kontakt-email"
                     type="email"
                     name="email"
                     required
@@ -185,10 +187,11 @@ export default function Kontakt() {
               </div>
 
               <div>
-                <label className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
+                <label htmlFor="kontakt-message" className="block text-xs font-medium mb-1.5" style={{ color: 'var(--olive-dark)' }}>
                   {t('labelMessage')}
                 </label>
                 <textarea
+                  id="kontakt-message"
                   name="message"
                   rows="5"
                   required
