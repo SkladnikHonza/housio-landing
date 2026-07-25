@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
     description: t('description'),
     openGraph: {
       type: 'website',
-      locale: locale === 'cs' ? 'cs_CZ' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : locale === 'it' ? 'it_IT' : 'es_ES',
+      locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR' })[locale] || 'en_US',
       url: `https://housio.app${locale === 'cs' ? '' : '/' + locale}`,
       title: t('title'),
       description: t('description'),
@@ -82,9 +82,37 @@ export default async function LocaleLayout({ children, params }) {
   
   setRequestLocale(locale)
 
+  // Strukturovaná data pro Google (JSON-LD): firma + aplikace + ceny.
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        name: 'Housio',
+        url: 'https://housio.app',
+        logo: 'https://housio.app/icon.png',
+        sameAs: ['https://instagram.com/housio.app', 'https://facebook.com/housioapp'],
+      },
+      {
+        '@type': 'SoftwareApplication',
+        name: 'Housio',
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Web',
+        url: 'https://housio.app',
+        offers: [
+          { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'CZK' },
+          { '@type': 'Offer', name: 'Basic', price: '299', priceCurrency: 'CZK' },
+          { '@type': 'Offer', name: 'Pro', price: '599', priceCurrency: 'CZK' },
+          { '@type': 'Offer', name: 'Business', price: '999', priceCurrency: 'CZK' },
+        ],
+      },
+    ],
+  }
+
   return (
     <html lang={locale} className={`${inter.variable} ${interTight.variable}`}>
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NextIntlClientProvider>
           <AnalyticsTracker />
           <Nav />
