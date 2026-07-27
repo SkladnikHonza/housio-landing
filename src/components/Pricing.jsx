@@ -8,7 +8,7 @@ export default function Pricing() {
   const tiers = [
     {
       key: 'free',
-      features: ['feature1', 'feature2', 'feature3', 'feature4'],
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
       ctaUrl,
       highlighted: false,
     },
