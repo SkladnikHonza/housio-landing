@@ -76,7 +76,8 @@
       "feature4": "Ausgaben + Excel-Export",
       "feature5": "E-Mail-Benachrichtigungen",
       "cta": "7 Tage kostenlos testen",
-      "feature6": "Zahlungsbestätigung (PDF)"
+      "feature6": "Zahlungsbestätigung (PDF)",
+      "feature7": "Notizen"
     },
     "pro": {
       "name": "Pro",
@@ -88,7 +89,8 @@
       "feature3": "PDF-Berichte",
       "feature4": "Priority Support",
       "feature5": "Jährliche PDF-Abrechnung",
-      "cta": "7 Tage kostenlos testen"
+      "cta": "7 Tage kostenlos testen",
+      "feature6": "Notizen"
     },
     "business": {
       "name": "Business",
@@ -100,7 +102,8 @@
       "feature3": "Alles aus Pro",
       "feature4": "Frühzeitiger Zugang zu neuen Funktionen",
       "feature5": "API-Zugang (bald)",
-      "cta": "7 Tage kostenlos testen"
+      "cta": "7 Tage kostenlos testen",
+      "feature6": "Notizen"
     }
   },
   "features": {

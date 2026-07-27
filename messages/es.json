@@ -76,7 +76,8 @@
       "feature4": "Gastos + exportación a Excel",
       "feature5": "Notificaciones por email",
       "cta": "Probar 7 días gratis",
-      "feature6": "Comprobante de pago (PDF)"
+      "feature6": "Comprobante de pago (PDF)",
+      "feature7": "Notas"
     },
     "pro": {
       "name": "Pro",
@@ -88,7 +89,8 @@
       "feature3": "Informes PDF",
       "feature4": "Soporte prioritario",
       "feature5": "Balance anual en PDF",
-      "cta": "Probar 7 días gratis"
+      "cta": "Probar 7 días gratis",
+      "feature6": "Notas"
     },
     "business": {
       "name": "Business",
@@ -100,7 +102,8 @@
       "feature3": "Todo de Pro",
       "feature4": "Acceso anticipado a novedades",
       "feature5": "Acceso API (pronto)",
-      "cta": "Probar 7 días gratis"
+      "cta": "Probar 7 días gratis",
+      "feature6": "Notas"
     }
   },
   "features": {

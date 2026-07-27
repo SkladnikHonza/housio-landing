@@ -76,7 +76,8 @@
       "feature4": "Výdaje + Excel export",
       "feature5": "Email notifikace",
       "cta": "Vyzkoušet 7 dní zdarma",
-      "feature6": "Potvrzení o zaplacení (PDF)"
+      "feature6": "Potvrzení o zaplacení (PDF)",
+      "feature7": "Poznámky"
     },
     "pro": {
       "name": "Pro",
@@ -88,7 +89,8 @@
       "feature3": "PDF reporty",
       "feature4": "Prioritní podpora",
       "feature5": "Roční PDF vyúčtování",
-      "cta": "Vyzkoušet 7 dní zdarma"
+      "cta": "Vyzkoušet 7 dní zdarma",
+      "feature6": "Poznámky"
     },
     "business": {
       "name": "Business",
@@ -100,7 +102,8 @@
       "feature3": "Vše z Pro",
       "feature4": "Přednostní nasazení novinek",
       "feature5": "API přístup (brzy)",
-      "cta": "Vyzkoušet 7 dní zdarma"
+      "cta": "Vyzkoušet 7 dní zdarma",
+      "feature6": "Poznámky"
     }
   },
   "features": {

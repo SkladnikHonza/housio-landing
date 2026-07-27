@@ -76,7 +76,8 @@
       "feature4": "Spese + export Excel",
       "feature5": "Notifiche email",
       "cta": "Prova 7 giorni gratis",
-      "feature6": "Conferma di pagamento (PDF)"
+      "feature6": "Conferma di pagamento (PDF)",
+      "feature7": "Note"
     },
     "pro": {
       "name": "Pro",
@@ -88,7 +89,8 @@
       "feature3": "Report PDF",
       "feature4": "Supporto prioritario",
       "feature5": "Rendiconto annuale PDF",
-      "cta": "Prova 7 giorni gratis"
+      "cta": "Prova 7 giorni gratis",
+      "feature6": "Note"
     },
     "business": {
       "name": "Business",
@@ -100,7 +102,8 @@
       "feature3": "Tutto di Pro",
       "feature4": "Accesso anticipato alle novità",
       "feature5": "Accesso API (presto)",
-      "cta": "Prova 7 giorni gratis"
+      "cta": "Prova 7 giorni gratis",
+      "feature6": "Note"
     }
   },
   "features": {

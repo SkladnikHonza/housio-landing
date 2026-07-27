@@ -76,7 +76,8 @@
       "feature4": "Dépenses + export Excel",
       "feature5": "Notifications email",
       "cta": "Essai 7 jours gratuit",
-      "feature6": "Confirmation de paiement (PDF)"
+      "feature6": "Confirmation de paiement (PDF)",
+      "feature7": "Notes"
     },
     "pro": {
       "name": "Pro",
@@ -88,7 +89,8 @@
       "feature3": "Rapports PDF",
       "feature4": "Support prioritaire",
       "feature5": "Décompte annuel en PDF",
-      "cta": "Essai 7 jours gratuit"
+      "cta": "Essai 7 jours gratuit",
+      "feature6": "Notes"
     },
     "business": {
       "name": "Business",
@@ -100,7 +102,8 @@
       "feature3": "Tout de Pro",
       "feature4": "Accès anticipé aux nouveautés",
       "feature5": "Accès API (bientôt)",
-      "cta": "Essai 7 jours gratuit"
+      "cta": "Essai 7 jours gratuit",
+      "feature6": "Notes"
     }
   },
   "features": {

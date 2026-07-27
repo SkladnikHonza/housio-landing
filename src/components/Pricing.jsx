@@ -14,19 +14,19 @@ export default function Pricing() {
     },
     {
       key: 'basic',
-      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6', 'feature7'],
       ctaUrl,
       highlighted: false,
     },
     {
       key: 'pro',
-      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
       ctaUrl,
       highlighted: true,
     },
     {
       key: 'business',
-      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
+      features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
       ctaUrl,
       highlighted: false,
     },
