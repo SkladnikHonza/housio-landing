@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { Home, Sparkles, ArrowRight } from 'lucide-react'
+import { Link } from '@/i18n/navigation'
 
 export default function Footer() {
   const t = useTranslations('footer')
@@ -72,7 +73,7 @@ export default function Footer() {
             <div>
               <p className="text-xs uppercase tracking-widest mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('companyHeading')}</p>
               <ul className="space-y-2.5 text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                <li><a href="/kontakt" className="hover:text-white transition cursor-pointer">{t('companyContact')}</a></li>
+                <li><Link href="/kontakt" className="hover:text-white transition cursor-pointer">{t('companyContact')}</Link></li>
                 <li><a href="https://instagram.com/housio.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('companyInstagram')}</a></li>
                 <li><a href="https://facebook.com/housioapp" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">Facebook</a></li>
               </ul>
@@ -84,6 +85,7 @@ export default function Footer() {
                 <li><a href="https://housio.online/terms" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalTerms')}</a></li>
                 <li><a href="https://housio.online/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalGdpr')}</a></li>
                 <li><a href="https://housio.online/cookies" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalCookies')}</a></li>
+                <li><Link href="/bezpecnost" className="hover:text-white transition cursor-pointer">{t('legalSecurity')}</Link></li>
               </ul>
             </div>
           </div>

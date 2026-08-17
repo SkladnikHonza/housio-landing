@@ -148,7 +148,7 @@
     "q2": "Can I cancel Housio anytime?",
     "a2": "Yes. No notice period, no penalties. Just click \"Cancel subscription\" in settings and you can keep using until the end of your paid period. Your data stays safely stored — if you return, you'll find everything in its place.",
     "q3": "Is my data safe?",
-    "a3": "Housio runs on enterprise infrastructure (Supabase + Vercel) with European servers. All data is encrypted, automatically backed up and protected under GDPR. Your contracts and tenants' personal data are safe — we never share them with third parties.",
+    "a3": "Housio runs on trusted European infrastructure (Supabase, Vercel) with servers in the EU. All data is encrypted, automatically backed up and protected under GDPR. We never sell or share your contracts and tenants' personal data for others' purposes — we only use vetted infrastructure processors bound by contract. See the Security & data page for details.",
     "q4": "Which countries does Housio work in?",
     "a4": "Housio is designed for the whole EU. We support Czech, English, German, Italian, Spanish, Ukrainian, Russian and French. You can work in CZK, EUR, PLN, CHF and other currencies. Whether you're a landlord in Prague, Vienna, Berlin, Rome or Madrid — Housio understands you.",
     "q5": "What if I have more than 15 properties?",
@@ -181,7 +181,8 @@
     "legalTerms": "Terms of service",
     "legalGdpr": "GDPR",
     "legalCookies": "Cookies",
-    "copyright": "© 2026 Housio. All rights reserved."
+    "copyright": "© 2026 Housio. All rights reserved.",
+    "legalSecurity": "Security & data"
   },
   "meta": {
     "title": "Housio — Property management. Simple.",
@@ -218,5 +219,32 @@
   },
   "kontaktNav": {
     "backToHome": "Back to home"
+  },
+  "security": {
+    "badge": "Security & data",
+    "title": "Your data, safe and under control",
+    "subtitle": "Where your data runs, who processes it and how we protect it. Transparent — for landlords and companies alike.",
+    "infraTitle": "Where your data runs",
+    "infraBody": "Housio runs on trusted European infrastructure. All data is encrypted in transit and at rest, automatically backed up and processed in line with GDPR.",
+    "infra1": "Servers in the EU (EEA)",
+    "infra2": "Encryption in transit and at rest",
+    "infra3": "Automatic backups",
+    "infra4": "GDPR-compliant processing",
+    "procTitle": "Sub-processors",
+    "procSubtitle": "Housio does not sell your data. To run the service it relies only on these vetted processors, each under a data processing agreement:",
+    "procSupabase": "Database, authentication and file storage",
+    "procVercel": "Hosting of the Housio website and app",
+    "procStripe": "Subscription payment processing",
+    "procResend": "Sending operational e-mails (notifications)",
+    "procSentry": "Error tracking and app stability",
+    "procNote": "Primary data storage is in the EU. Some processors may process data outside the EU under Standard Contractual Clauses (SCC) in line with GDPR.",
+    "sharingTitle": "We don't share or sell",
+    "sharingBody": "We never sell your data or your tenants' personal data, nor share it for third parties' own purposes. We use it solely to run the service, and only via the infrastructure processors listed above, bound by contract.",
+    "dpaTitle": "Data Processing Agreement (DPA)",
+    "dpaBody": "Are you a company that needs a signed Data Processing Agreement (DPA) for GDPR? We're happy to provide one on request.",
+    "dpaCta": "Request a DPA",
+    "reportTitle": "Report a security issue",
+    "reportBody": "Found a vulnerability or have a security question? Write to us — we take it seriously and will reply as soon as possible.",
+    "reportCta": "Contact security"
   }
 }

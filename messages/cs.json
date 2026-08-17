@@ -148,7 +148,7 @@
     "q2": "Můžu Housio kdykoli zrušit?",
     "a2": "Ano. Bez výpovědní lhůty, bez sankcí. Stačí v nastavení kliknout na \"Zrušit předplatné\" a do konce zaplaceného období můžeš dál používat. Tvoje data zůstanou bezpečně uložená — pokud se vrátíš, najdeš všechno na svém místě.",
     "q3": "Jsou moje data v bezpečí?",
-    "a3": "Housio běží na enterprise infrastruktuře (Supabase + Vercel) s evropskými servery. Všechna data jsou šifrovaná, automaticky zálohovaná a chráněná podle GDPR. Tvoje smlouvy a osobní údaje nájemníků jsou v bezpečí — nikdy je nesdílíme s třetími stranami.",
+    "a3": "Housio běží na prověřené evropské infrastruktuře (Supabase, Vercel) se servery v EU. Všechna data jsou šifrovaná, automaticky zálohovaná a chráněná podle GDPR. Tvoje smlouvy a osobní údaje nájemníků neprodáváme a nesdílíme pro cizí účely — používáme jen prověřené zpracovatele infrastruktury vázané smlouvou. Podrobnosti najdeš na stránce Bezpečnost a data.",
     "q4": "V jakých zemích Housio funguje?",
     "a4": "Housio je navržené pro celou EU. Podporujeme češtinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu a francouzštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.",
     "q5": "Co když mám víc než 15 nemovitostí?",
@@ -181,7 +181,8 @@
     "legalTerms": "Obchodní podmínky",
     "legalGdpr": "GDPR",
     "legalCookies": "Cookies",
-    "copyright": "© 2026 Housio. Všechna práva vyhrazena."
+    "copyright": "© 2026 Housio. Všechna práva vyhrazena.",
+    "legalSecurity": "Bezpečnost a data"
   },
   "meta": {
     "title": "Housio — Správa nemovitostí. Jednoduše.",
@@ -218,5 +219,32 @@
   },
   "kontaktNav": {
     "backToHome": "Zpět na hlavní"
+  },
+  "security": {
+    "badge": "Bezpečnost a data",
+    "title": "Vaše data v bezpečí a pod kontrolou",
+    "subtitle": "Kde vaše data běží, kdo je zpracovává a jak je chráníme. Transparentně — pro pronajímatele i firmy.",
+    "infraTitle": "Kde vaše data běží",
+    "infraBody": "Housio běží na prověřené evropské infrastruktuře. Všechna data jsou šifrovaná při přenosu i uložení, automaticky zálohovaná a zpracovávaná v souladu s GDPR.",
+    "infra1": "Servery v EU (EHP)",
+    "infra2": "Šifrování přenosu i úložiště",
+    "infra3": "Automatické zálohy",
+    "infra4": "Zpracování podle GDPR",
+    "procTitle": "Zpracovatelé (sub-processors)",
+    "procSubtitle": "Housio vaše data neprodává. Pro provoz využívá jen tyto prověřené zpracovatele, každý na základě smlouvy o zpracování:",
+    "procSupabase": "Databáze, přihlašování a úložiště souborů",
+    "procVercel": "Hosting webu a aplikace Housio",
+    "procStripe": "Zpracování plateb za předplatné",
+    "procResend": "Odesílání provozních e-mailů (notifikace)",
+    "procSentry": "Sledování chyb a stabilita aplikace",
+    "procNote": "Primární úložiště dat je v EU. Někteří zpracovatelé mohou data zpracovávat i mimo EU na základě standardních smluvních doložek (SCC) podle GDPR.",
+    "sharingTitle": "Nesdílíme, neprodáváme",
+    "sharingBody": "Vaše data ani osobní údaje vašich nájemníků neprodáváme a nesdílíme pro cizí účely. Používáme je výhradně k provozu služby a jen prostřednictvím výše uvedených zpracovatelů infrastruktury, vázaných smlouvou.",
+    "dpaTitle": "Zpracovatelská smlouva (DPA)",
+    "dpaBody": "Jste firma a potřebujete pro GDPR podepsanou zpracovatelskou smlouvu (DPA)? Rádi vám ji poskytneme na vyžádání.",
+    "dpaCta": "Vyžádat DPA",
+    "reportTitle": "Nahlásit bezpečnostní problém",
+    "reportBody": "Našli jste zranitelnost nebo máte dotaz k bezpečnosti? Napište nám — bereme to vážně a ozveme se co nejdříve.",
+    "reportCta": "Napsat na bezpečnost"
   }
 }

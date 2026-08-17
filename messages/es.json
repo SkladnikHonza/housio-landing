@@ -148,7 +148,7 @@
     "q2": "¿Puedo cancelar Housio en cualquier momento?",
     "a2": "Sí. Sin preaviso, sin penalizaciones. Solo haz clic en \"Cancelar suscripción\" en la configuración y puedes seguir usándolo hasta el final del periodo pagado. Tus datos permanecen guardados de forma segura — si vuelves, encontrarás todo en su sitio.",
     "q3": "¿Están seguros mis datos?",
-    "a3": "Housio funciona en infraestructura empresarial (Supabase + Vercel) con servidores europeos. Todos los datos están cifrados, respaldados automáticamente y protegidos según el RGPD. Tus contratos y datos personales de inquilinos están seguros — nunca los compartimos con terceros.",
+    "a3": "Housio funciona sobre una infraestructura europea de confianza (Supabase, Vercel) con servidores en la UE. Todos los datos están cifrados, respaldados automáticamente y protegidos por el RGPD. No vendemos ni compartimos tus contratos ni los datos de tus inquilinos para fines de terceros — solo usamos proveedores de infraestructura vinculados por contrato. Encuentras los detalles en la página Seguridad y datos.",
     "q4": "¿En qué países funciona Housio?",
     "a4": "Housio está diseñado para toda la UE. Soportamos español, inglés, alemán, italiano, checo, ucraniano, ruso y francés. Puedes trabajar en EUR, CZK, PLN, CHF y otras monedas. Ya seas propietario en Madrid, Viena, Berlín, Roma o Praga — Housio te entiende.",
     "q5": "¿Y si tengo más de 15 inmuebles?",
@@ -181,7 +181,8 @@
     "legalTerms": "Términos de servicio",
     "legalGdpr": "RGPD",
     "legalCookies": "Cookies",
-    "copyright": "© 2026 Housio. Todos los derechos reservados."
+    "copyright": "© 2026 Housio. Todos los derechos reservados.",
+    "legalSecurity": "Seguridad y datos"
   },
   "meta": {
     "title": "Housio — Gestión de inmuebles. Simple.",
@@ -218,5 +219,32 @@
   },
   "kontaktNav": {
     "backToHome": "Volver al inicio"
+  },
+  "security": {
+    "badge": "Seguridad y datos",
+    "title": "Tus datos, seguros y bajo control",
+    "subtitle": "Dónde se ejecutan tus datos, quién los trata y cómo los protegemos. De forma transparente — para propietarios y empresas.",
+    "infraTitle": "Dónde se ejecutan tus datos",
+    "infraBody": "Housio funciona sobre una infraestructura europea de confianza. Todos los datos están cifrados en tránsito y en reposo, se respaldan automáticamente y se tratan conforme al RGPD.",
+    "infra1": "Servidores en la UE (EEE)",
+    "infra2": "Cifrado en tránsito y en reposo",
+    "infra3": "Copias de seguridad automáticas",
+    "infra4": "Tratamiento conforme al RGPD",
+    "procTitle": "Encargados del tratamiento (sub-procesadores)",
+    "procSubtitle": "Housio no vende tus datos. Para operar solo utiliza estos proveedores verificados, cada uno con un contrato de tratamiento de datos:",
+    "procSupabase": "Base de datos, autenticación y almacenamiento de archivos",
+    "procVercel": "Alojamiento del sitio web y la app Housio",
+    "procStripe": "Procesamiento de pagos de la suscripción",
+    "procResend": "Envío de correos operativos (notificaciones)",
+    "procSentry": "Seguimiento de errores y estabilidad de la app",
+    "procNote": "El almacenamiento principal de datos está en la UE. Algunos proveedores pueden tratar datos fuera de la UE mediante Cláusulas Contractuales Tipo (SCC) conforme al RGPD.",
+    "sharingTitle": "No compartimos, no vendemos",
+    "sharingBody": "No vendemos tus datos ni los datos personales de tus inquilinos, ni los compartimos para fines de terceros. Los usamos únicamente para operar el servicio y solo a través de los proveedores de infraestructura indicados arriba, vinculados por contrato.",
+    "dpaTitle": "Contrato de tratamiento de datos (DPA)",
+    "dpaBody": "¿Eres una empresa y necesitas un DPA firmado para el RGPD? Te lo proporcionamos con gusto bajo petición.",
+    "dpaCta": "Solicitar DPA",
+    "reportTitle": "Informar de un problema de seguridad",
+    "reportBody": "¿Encontraste una vulnerabilidad o tienes una duda de seguridad? Escríbenos — nos lo tomamos en serio y responderemos lo antes posible.",
+    "reportCta": "Contactar con seguridad"
   }
 }

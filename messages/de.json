@@ -148,7 +148,7 @@
     "q2": "Kann ich Housio jederzeit kündigen?",
     "a2": "Ja. Keine Kündigungsfrist, keine Strafen. Klicke einfach in den Einstellungen auf \"Abonnement kündigen\" und du kannst es bis zum Ende des bezahlten Zeitraums weiter nutzen. Deine Daten bleiben sicher gespeichert — wenn du zurückkommst, findest du alles an seinem Platz.",
     "q3": "Sind meine Daten sicher?",
-    "a3": "Housio läuft auf Enterprise-Infrastruktur (Supabase + Vercel) mit europäischen Servern. Alle Daten sind verschlüsselt, automatisch gesichert und nach DSGVO geschützt. Deine Verträge und Mieterdaten sind sicher — wir teilen sie nie mit Dritten.",
+    "a3": "Housio läuft auf bewährter europäischer Infrastruktur (Supabase, Vercel) mit Servern in der EU. Alle Daten sind verschlüsselt, automatisch gesichert und nach DSGVO geschützt. Deine Verträge und die Daten deiner Mieter verkaufen oder teilen wir nicht für fremde Zwecke — wir nutzen nur vertraglich gebundene Infrastruktur-Auftragsverarbeiter. Details findest du auf der Seite Sicherheit & Daten.",
     "q4": "In welchen Ländern funktioniert Housio?",
     "a4": "Housio ist für die gesamte EU konzipiert. Wir unterstützen Tschechisch, Englisch, Deutsch, Italienisch, Spanisch, Ukrainisch, Russisch und Französisch. Du kannst in CZK, EUR, PLN, CHF und anderen Währungen arbeiten. Ob Vermieter in Prag, Wien, Berlin, Rom oder Madrid — Housio versteht dich.",
     "q5": "Was, wenn ich mehr als 15 Immobilien habe?",
@@ -181,7 +181,8 @@
     "legalTerms": "AGB",
     "legalGdpr": "DSGVO",
     "legalCookies": "Cookies",
-    "copyright": "© 2026 Housio. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Housio. Alle Rechte vorbehalten.",
+    "legalSecurity": "Sicherheit & Daten"
   },
   "meta": {
     "title": "Housio — Immobilienverwaltung. Einfach.",
@@ -218,5 +219,32 @@
   },
   "kontaktNav": {
     "backToHome": "Zurück zur Startseite"
+  },
+  "security": {
+    "badge": "Sicherheit & Daten",
+    "title": "Deine Daten — sicher und unter Kontrolle",
+    "subtitle": "Wo deine Daten laufen, wer sie verarbeitet und wie wir sie schützen. Transparent — für Vermieter und Unternehmen.",
+    "infraTitle": "Wo deine Daten laufen",
+    "infraBody": "Housio läuft auf bewährter europäischer Infrastruktur. Alle Daten sind bei Übertragung und Speicherung verschlüsselt, werden automatisch gesichert und gemäß DSGVO verarbeitet.",
+    "infra1": "Server in der EU (EWR)",
+    "infra2": "Verschlüsselung bei Übertragung und Speicherung",
+    "infra3": "Automatische Backups",
+    "infra4": "Verarbeitung gemäß DSGVO",
+    "procTitle": "Auftragsverarbeiter (Sub-Processors)",
+    "procSubtitle": "Housio verkauft deine Daten nicht. Für den Betrieb nutzt es nur diese geprüften Auftragsverarbeiter, jeweils auf Basis eines Auftragsverarbeitungsvertrags:",
+    "procSupabase": "Datenbank, Anmeldung und Datei-Speicher",
+    "procVercel": "Hosting von Website und Housio-App",
+    "procStripe": "Abwicklung der Abo-Zahlungen",
+    "procResend": "Versand von Betriebs-E-Mails (Benachrichtigungen)",
+    "procSentry": "Fehler-Monitoring und App-Stabilität",
+    "procNote": "Die primäre Datenspeicherung erfolgt in der EU. Einige Auftragsverarbeiter können Daten auch außerhalb der EU auf Basis von Standardvertragsklauseln (SCC) gemäß DSGVO verarbeiten.",
+    "sharingTitle": "Wir teilen und verkaufen nicht",
+    "sharingBody": "Wir verkaufen deine Daten und die personenbezogenen Daten deiner Mieter nicht und teilen sie nicht für fremde Zwecke. Wir nutzen sie ausschließlich zum Betrieb des Dienstes und nur über die oben genannten, vertraglich gebundenen Infrastruktur-Auftragsverarbeiter.",
+    "dpaTitle": "Auftragsverarbeitungsvertrag (AVV/DPA)",
+    "dpaBody": "Du bist ein Unternehmen und brauchst für die DSGVO einen unterzeichneten Auftragsverarbeitungsvertrag (AVV/DPA)? Wir stellen ihn dir gerne auf Anfrage bereit.",
+    "dpaCta": "DPA anfragen",
+    "reportTitle": "Sicherheitsproblem melden",
+    "reportBody": "Eine Schwachstelle gefunden oder eine Frage zur Sicherheit? Schreib uns — wir nehmen das ernst und melden uns so schnell wie möglich.",
+    "reportCta": "Sicherheit kontaktieren"
   }
 }

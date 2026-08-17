@@ -148,7 +148,7 @@
     "q2": "Posso disdire Housio in qualsiasi momento?",
     "a2": "Sì. Nessun preavviso, nessuna penale. Basta cliccare \"Annulla abbonamento\" nelle impostazioni e puoi continuare a usarlo fino alla fine del periodo pagato. I tuoi dati rimangono salvati in sicurezza — se torni, trovi tutto al suo posto.",
     "q3": "I miei dati sono al sicuro?",
-    "a3": "Housio gira su infrastruttura enterprise (Supabase + Vercel) con server europei. Tutti i dati sono crittografati, salvati automaticamente e protetti secondo il GDPR. I tuoi contratti e i dati personali degli inquilini sono al sicuro — non li condividiamo mai con terze parti.",
+    "a3": "Housio gira su un'infrastruttura europea affidabile (Supabase, Vercel) con server nell'UE. Tutti i dati sono crittografati, salvati automaticamente e protetti dal GDPR. Non vendiamo né condividiamo i tuoi contratti e i dati dei tuoi inquilini per scopi di terzi — usiamo solo fornitori di infrastruttura vincolati da contratto. Trovi i dettagli nella pagina Sicurezza e dati.",
     "q4": "In quali paesi funziona Housio?",
     "a4": "Housio è progettato per tutta l'UE. Supportiamo italiano, inglese, tedesco, ceco, spagnolo, ucraino, russo e francese. Puoi lavorare in EUR, CZK, PLN, CHF e altre valute. Che tu sia un proprietario a Roma, Vienna, Berlino, Praga o Madrid — Housio ti capisce.",
     "q5": "Cosa succede se ho più di 15 immobili?",
@@ -181,7 +181,8 @@
     "legalTerms": "Termini di servizio",
     "legalGdpr": "GDPR",
     "legalCookies": "Cookie",
-    "copyright": "© 2026 Housio. Tutti i diritti riservati."
+    "copyright": "© 2026 Housio. Tutti i diritti riservati.",
+    "legalSecurity": "Sicurezza e dati"
   },
   "meta": {
     "title": "Housio — Gestione immobili. Semplice.",
@@ -218,5 +219,32 @@
   },
   "kontaktNav": {
     "backToHome": "Torna alla home"
+  },
+  "security": {
+    "badge": "Sicurezza e dati",
+    "title": "I tuoi dati, al sicuro e sotto controllo",
+    "subtitle": "Dove girano i tuoi dati, chi li tratta e come li proteggiamo. In modo trasparente — per privati e aziende.",
+    "infraTitle": "Dove girano i tuoi dati",
+    "infraBody": "Housio gira su un'infrastruttura europea affidabile. Tutti i dati sono crittografati in transito e a riposo, salvati automaticamente e trattati nel rispetto del GDPR.",
+    "infra1": "Server nell'UE (SEE)",
+    "infra2": "Crittografia in transito e a riposo",
+    "infra3": "Backup automatici",
+    "infra4": "Trattamento conforme al GDPR",
+    "procTitle": "Responsabili del trattamento (sub-processor)",
+    "procSubtitle": "Housio non vende i tuoi dati. Per il servizio si affida solo a questi fornitori verificati, ciascuno con un accordo sul trattamento dei dati:",
+    "procSupabase": "Database, autenticazione e archiviazione file",
+    "procVercel": "Hosting del sito e dell'app Housio",
+    "procStripe": "Gestione dei pagamenti dell'abbonamento",
+    "procResend": "Invio di e-mail operative (notifiche)",
+    "procSentry": "Monitoraggio errori e stabilità dell'app",
+    "procNote": "L'archiviazione primaria dei dati è nell'UE. Alcuni fornitori possono trattare i dati anche fuori dall'UE in base alle Clausole Contrattuali Standard (SCC) secondo il GDPR.",
+    "sharingTitle": "Non condividiamo, non vendiamo",
+    "sharingBody": "Non vendiamo i tuoi dati né i dati personali dei tuoi inquilini e non li condividiamo per scopi di terzi. Li usiamo solo per far funzionare il servizio e unicamente tramite i fornitori di infrastruttura sopra elencati, vincolati da contratto.",
+    "dpaTitle": "Accordo sul trattamento dei dati (DPA)",
+    "dpaBody": "Sei un'azienda e ti serve un DPA firmato per il GDPR? Siamo felici di fornirtelo su richiesta.",
+    "dpaCta": "Richiedi il DPA",
+    "reportTitle": "Segnala un problema di sicurezza",
+    "reportBody": "Hai trovato una vulnerabilità o hai una domanda sulla sicurezza? Scrivici — la prendiamo sul serio e ti risponderemo il prima possibile.",
+    "reportCta": "Contatta la sicurezza"
   }
 }
