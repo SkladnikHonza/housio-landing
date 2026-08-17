@@ -82,6 +82,21 @@ export default async function LocaleLayout({ children, params }) {
   
   setRequestLocale(locale)
 
+  // Ceny v JSON-LD musí sedět s viditelným ceníkem: cs = Kč, ostatní jazyky = €.
+  const priceOffers = locale === 'cs'
+    ? [
+        { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'CZK' },
+        { '@type': 'Offer', name: 'Basic', price: '299', priceCurrency: 'CZK' },
+        { '@type': 'Offer', name: 'Pro', price: '599', priceCurrency: 'CZK' },
+        { '@type': 'Offer', name: 'Business', price: '999', priceCurrency: 'CZK' },
+      ]
+    : [
+        { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Basic', price: '12', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Pro', price: '24', priceCurrency: 'EUR' },
+        { '@type': 'Offer', name: 'Business', price: '40', priceCurrency: 'EUR' },
+      ]
+
   // Strukturovaná data pro Google (JSON-LD): firma + aplikace + ceny.
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -115,12 +130,7 @@ export default async function LocaleLayout({ children, params }) {
           name: 'US Europe Group s.r.o.',
           identifier: '06779808',
         },
-        offers: [
-          { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'CZK' },
-          { '@type': 'Offer', name: 'Basic', price: '299', priceCurrency: 'CZK' },
-          { '@type': 'Offer', name: 'Pro', price: '599', priceCurrency: 'CZK' },
-          { '@type': 'Offer', name: 'Business', price: '999', priceCurrency: 'CZK' },
-        ],
+        offers: priceOffers,
       },
     ],
   }
