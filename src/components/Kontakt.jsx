@@ -242,7 +242,7 @@ export default function Kontakt() {
         </div>
 
         <p className="text-center text-xs mt-5 leading-relaxed" style={{ color: 'var(--olive-dark)', opacity: 0.75 }}>
-          US Europe Group s.r.o. · IČO 06779808 · Třebovická 5050/78, 722 00 Ostrava, Česká republika
+          US Europe Group s.r.o. · Třebovická 5050/78, 722 00 Ostrava · IČO 06779808 · DIČ CZ06779808 · <a href="mailto:housio@housio.app" style={{ color: 'inherit', textDecoration: 'underline' }}>housio@housio.app</a>
         </p>
 
       </div>
