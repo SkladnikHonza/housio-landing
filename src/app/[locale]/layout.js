@@ -89,8 +89,19 @@ export default async function LocaleLayout({ children, params }) {
       {
         '@type': 'Organization',
         name: 'Housio',
+        legalName: 'US Europe Group s.r.o.',
+        identifier: '06779808',
+        vatID: 'CZ06779808',
         url: 'https://housio.app',
         logo: 'https://housio.app/icon.png',
+        email: 'housio@housio.app',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Třebovická 5050/78',
+          addressLocality: 'Ostrava',
+          postalCode: '72200',
+          addressCountry: 'CZ',
+        },
         sameAs: ['https://instagram.com/housio.app', 'https://facebook.com/housioapp'],
       },
       {
@@ -99,6 +110,11 @@ export default async function LocaleLayout({ children, params }) {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
         url: 'https://housio.app',
+        publisher: {
+          '@type': 'Organization',
+          name: 'US Europe Group s.r.o.',
+          identifier: '06779808',
+        },
         offers: [
           { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'CZK' },
           { '@type': 'Offer', name: 'Basic', price: '299', priceCurrency: 'CZK' },

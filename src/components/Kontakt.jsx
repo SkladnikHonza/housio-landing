@@ -241,6 +241,10 @@ export default function Kontakt() {
           </span>
         </div>
 
+        <p className="text-center text-xs mt-5 leading-relaxed" style={{ color: 'var(--olive-dark)', opacity: 0.75 }}>
+          US Europe Group s.r.o. · IČO 06779808 · Třebovická 5050/78, 722 00 Ostrava, Česká republika
+        </p>
+
       </div>
     </section>
   )

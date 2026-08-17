@@ -89,7 +89,10 @@ export default function Footer() {
           </div>
 
           <div className="pt-8" style={{ borderTop: '0.5px solid rgba(255,255,255,0.15)' }}>
-            <p className="text-sm text-center" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('copyright')}</p>
+            <p className="text-sm text-center leading-relaxed" style={{ color: 'rgba(255,255,255,0.7)' }}>
+              US Europe Group s.r.o. · IČO 06779808 · Třebovická 5050/78, 722 00 Ostrava, Česká republika
+            </p>
+            <p className="text-sm text-center mt-2" style={{ color: 'rgba(255,255,255,0.5)' }}>{t('copyright')}</p>
           </div>
         </div>
       </footer>
