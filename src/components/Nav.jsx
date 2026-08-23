@@ -70,6 +70,7 @@ function LanguageSwitcher({ mobile = false }) {
 
 export default function Nav() {
   const tNav = useTranslations('nav')
+  const tp = useTranslations('partneri')
   const pathname = usePathname()
   const isHome = pathname === '/'
   const [menuOpen, setMenuOpen] = useState(false)
@@ -137,6 +138,13 @@ export default function Nav() {
               </Link>
             )
           )}
+          <Link
+            href="/partneri"
+            className="nav-link text-sm font-medium cursor-pointer"
+            style={{ color: 'var(--teal-900)' }}
+          >
+            {tp('navLink')}
+          </Link>
           <Link
             href="/kontakt"
             className="nav-link text-sm font-medium cursor-pointer"
@@ -261,6 +269,14 @@ export default function Nav() {
                 </Link>
               )
             )}
+            <Link
+              href="/partneri"
+              onClick={() => setMenuOpen(false)}
+              className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
+              style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
+            >
+              {tp('navLink')}
+            </Link>
             <Link
               href="/kontakt"
               onClick={() => setMenuOpen(false)}
