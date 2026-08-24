@@ -113,7 +113,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10" style={{ color: 'var(--olive-dark)' }}>
-          {t('subtitle')}<br className="hidden md:block" />
+          {t('subtitle')}{' '}<br className="hidden md:block" />
           {t('subtitle2')}
         </p>
 
@@ -255,15 +255,16 @@ export default function Hero() {
                         <div className="grid grid-cols-3 gap-2 mb-2">
                           <div>
                             <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>{w.invested}</div>
-                            <div className="text-xs font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{a.inv}</div>
+                            <div className="text-[10.5px] font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{a.inv}</div>
                           </div>
                           <div>
                             <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>{w.current}</div>
-                            <div className="text-xs font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{a.now}</div>
+                            <div className="text-[10.5px] font-bold whitespace-nowrap" style={{ color: 'var(--teal-900)' }}>{a.now}</div>
                           </div>
                           <div>
                             <div className="text-[8.5px] font-semibold uppercase tracking-wide" style={{ color: '#9ca3af' }}>{w.apprec}</div>
-                            <div className="text-xs font-extrabold whitespace-nowrap" style={{ color: '#16A34A' }}>{a.app} <span className="font-bold">(+39 %)</span></div>
+                            <div className="text-[10.5px] font-extrabold whitespace-nowrap" style={{ color: '#16A34A' }}>{a.app}</div>
+                            <div className="text-[9.5px] font-bold" style={{ color: '#16A34A' }}>(+39 %)</div>
                           </div>
                         </div>
                         <div className="flex items-center justify-between px-3 py-1.5 rounded-lg" style={{ background: '#F0FDF4', border: '1px solid #BBF7D0' }}>
