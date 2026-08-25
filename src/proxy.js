@@ -17,6 +17,7 @@ const COUNTRY_TO_LOCALE = {
   RU: 'ru', BY: 'ru', KZ: 'ru',
   FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr',
   PL: 'pl',
+  HR: 'hr',
 }
 
 // Vyber jazyka pro NOVEHO navstevnika (bez ulozene volby):

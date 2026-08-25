@@ -10,15 +10,17 @@ const ISO_NUM_TO_ALPHA = {
   '372': 'IE', '804': 'UA', '643': 'RU', '112': 'BY',
   '616': 'PL', '528': 'NL', '208': 'DK', '752': 'SE', '578': 'NO',
   '246': 'FI', '348': 'HU', '642': 'RO', '620': 'PT', '300': 'GR',
+  '191': 'HR',
 }
 
 const HOME = 'CZ'
-const ACTIVE = new Set(['SK', 'DE', 'AT', 'CH', 'FR', 'BE', 'IT', 'ES', 'GB', 'IE', 'UA', 'RU', 'BY', 'PL'])
+const ACTIVE = new Set(['SK', 'DE', 'AT', 'CH', 'FR', 'BE', 'IT', 'ES', 'GB', 'IE', 'UA', 'RU', 'BY', 'PL', 'HR'])
 const FUTURE = new Set(['NL', 'DK', 'SE', 'NO', 'FI', 'HU', 'RO', 'PT', 'GR'])
 
 const COUNTRY_DATA = {
   CZ: { landlords: '1.2M', market: '24',  lang: 'Čeština',    langFlag: '🇨🇿' },
   PL: {                                  lang: 'Polski',     langFlag: '🇵🇱' },
+  HR: {                                  lang: 'Hrvatski',   langFlag: '🇭🇷' },
   SK: { landlords: '0.3M', market: '5',   lang: 'Čeština',    langFlag: '🇨🇿' },
   DE: { landlords: '5.8M', market: '198', lang: 'Deutsch',    langFlag: '🇩🇪' },
   AT: { landlords: '0.6M', market: '16',  lang: 'Deutsch',    langFlag: '🇩🇪' },
