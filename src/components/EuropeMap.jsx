@@ -13,11 +13,12 @@ const ISO_NUM_TO_ALPHA = {
 }
 
 const HOME = 'CZ'
-const ACTIVE = new Set(['SK', 'DE', 'AT', 'CH', 'FR', 'BE', 'IT', 'ES', 'GB', 'IE', 'UA', 'RU', 'BY'])
-const FUTURE = new Set(['PL', 'NL', 'DK', 'SE', 'NO', 'FI', 'HU', 'RO', 'PT', 'GR'])
+const ACTIVE = new Set(['SK', 'DE', 'AT', 'CH', 'FR', 'BE', 'IT', 'ES', 'GB', 'IE', 'UA', 'RU', 'BY', 'PL'])
+const FUTURE = new Set(['NL', 'DK', 'SE', 'NO', 'FI', 'HU', 'RO', 'PT', 'GR'])
 
 const COUNTRY_DATA = {
   CZ: { landlords: '1.2M', market: '24',  lang: 'Čeština',    langFlag: '🇨🇿' },
+  PL: {                                  lang: 'Polski',     langFlag: '🇵🇱' },
   SK: { landlords: '0.3M', market: '5',   lang: 'Čeština',    langFlag: '🇨🇿' },
   DE: { landlords: '5.8M', market: '198', lang: 'Deutsch',    langFlag: '🇩🇪' },
   AT: { landlords: '0.6M', market: '16',  lang: 'Deutsch',    langFlag: '🇩🇪' },
@@ -213,14 +214,18 @@ export default function EuropeMap() {
 
             {data ? (
               <div className="space-y-4">
+                {data.landlords && (
                 <div>
                   <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelLandlords')}</p>
                   <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.landlords}</p>
                 </div>
+                )}
+                {data.market && (
                 <div>
                   <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelMarket')}</p>
                   <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.market} mld €</p>
                 </div>
+                )}
                 <div>
                   <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelLanguage')}</p>
                   <p className="text-base" style={{ color: 'var(--teal-900)' }}>

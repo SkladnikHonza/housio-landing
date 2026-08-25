@@ -15,6 +15,7 @@ const localeNames = {
   uk: { flag: '🇺🇦', label: 'Українська' },
   ru: { flag: '🇷🇺', label: 'Русский' },
   fr: { flag: '🇫🇷', label: 'Français' },
+  pl: { flag: '🇵🇱', label: 'Polski' },
 }
 
 function LanguageSwitcher({ mobile = false }) {

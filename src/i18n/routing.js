@@ -2,7 +2,7 @@ import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
   // Všechny podporované locales
-  locales: ['cs', 'en', 'de', 'it', 'es', 'uk', 'ru', 'fr'],
+  locales: ['cs', 'en', 'de', 'it', 'es', 'uk', 'ru', 'fr', 'pl'],
   
   // Default locale (žádný prefix v URL)
   defaultLocale: 'cs',

@@ -67,7 +67,8 @@ export async function generateMetadata({ params }) {
         'es': 'https://housio.app/es',
         'uk': 'https://housio.app/uk',
         'ru': 'https://housio.app/ru',
-        'fr': 'https://housio.app/fr'
+        'fr': 'https://housio.app/fr',
+        'pl': 'https://housio.app/pl'
       },
     },
   }
