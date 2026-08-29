@@ -281,7 +281,7 @@
     "calcYearPer": "with a steady base of clients",
     "calcFirst": "Sign-up bonus (20% of the 1st payment)",
     "calcMonth": "Recurring every month (10%)",
-    "calcNote": "For guidance only. Commission is calculated from the amount actually paid for the web plan. Payouts start at 1,000 CZK per invoice.",
+    "calcNote": "For guidance only. Commission is calculated from the amount actually paid for the web plan, excluding VAT. Payouts start at 1,000 CZK per invoice.",
     "stepsBadge": "How it works",
     "stepsTitle": "Three steps and you're earning",
     "stepsSub": "No hassle. Sign up, share your link, and track your earnings online.",
@@ -339,7 +339,7 @@
     "faq2Q": "When and how do I get my commissions paid?",
     "faq2A": "Once your accumulated earnings pass 1,000 CZK, you issue an invoice and we pay you out. You track it all online in your dashboard.",
     "faq3Q": "What exactly do I earn commission on?",
-    "faq3A": "On payments from clients who came through your link or discount code and pay for Housio on the web. 20% on the first payment, 10% on every one after.",
+    "faq3A": "On payments from clients who came through your link or discount code and pay for Housio on the web. 20% on the first payment, 10% on every one after. The basis is the amount excluding VAT.",
     "faq4Q": "How long do the commissions keep coming?",
     "faq4A": "Your recurring 10% commission lands every month for as long as your client keeps paying for Housio."
   }

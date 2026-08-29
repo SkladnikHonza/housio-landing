@@ -281,7 +281,7 @@
     "calcYearPer": "przy stabilnej sieci klientów",
     "calcFirst": "Bonus za pozyskanie (20 % z 1. płatności)",
     "calcMonth": "Co miesiąc, cyklicznie (10 %)",
-    "calcNote": "Wyliczenie orientacyjne. Prowizja liczona jest od kwoty faktycznie zapłaconej na stronie. Wypłata od 1 000 CZK na fakturę.",
+    "calcNote": "Wyliczenie orientacyjne. Prowizja liczona jest od kwoty faktycznie zapłaconej na stronie, bez VAT. Wypłata od 1 000 CZK na fakturę.",
     "stepsBadge": "Jak to działa",
     "stepsTitle": "Trzy kroki i zarabiasz",
     "stepsSub": "Żadnych komplikacji. Zgłaszasz się, udostępniasz link, śledzisz zarobki online.",
@@ -339,7 +339,7 @@
     "faq2Q": "Kiedy i jak dostanę wypłatę prowizji?",
     "faq2A": "Gdy zebrany zarobek przekroczy 1 000 CZK, wystawiasz fakturę, a my ją opłacamy. Wszystko śledzisz online w swoim panelu.",
     "faq3Q": "Za co dokładnie dostaję prowizję?",
-    "faq3A": "Za płatności klientów, którzy przyszli przez Twój link lub kod rabatowy i płacą za Housio na stronie. 20 % z pierwszej płatności, 10 % z każdej kolejnej.",
+    "faq3A": "Za płatności klientów, którzy przyszli przez Twój link lub kod rabatowy i płacą za Housio na stronie. 20 % z pierwszej płatności, 10 % z każdej kolejnej. Podstawą jest kwota bez VAT.",
     "faq4Q": "Jak długo przychodzi mi prowizja?",
     "faq4A": "Powtarzalna prowizja 10 % przychodzi co miesiąc tak długo, jak długo klient płaci za Housio."
   }

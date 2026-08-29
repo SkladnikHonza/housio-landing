@@ -281,7 +281,7 @@
     "calcYearPer": "con una red de clientes estable",
     "calcFirst": "Bono por captación (20 % del 1.er pago)",
     "calcMonth": "De forma recurrente cada mes (10 %)",
-    "calcNote": "Cálculo orientativo. La comisión se calcula sobre el importe realmente pagado por la web. Pago a partir de 1000 CZK por factura.",
+    "calcNote": "Cálculo orientativo. La comisión se calcula sobre el importe realmente pagado por la web, sin IVA. Pago a partir de 1000 CZK por factura.",
     "stepsBadge": "Cómo funciona",
     "stepsTitle": "Tres pasos y empiezas a ganar",
     "stepsSub": "Sin complicaciones. Te registras, compartes tu enlace y sigues tus ingresos online.",
@@ -339,7 +339,7 @@
     "faq2Q": "¿Cuándo y cómo cobro las comisiones?",
     "faq2A": "En cuanto tus ingresos acumulados superan los 1000 CZK, emites una factura y te abonamos el importe. Lo sigues todo online en tu panel.",
     "faq3Q": "¿Por qué recibo exactamente la comisión?",
-    "faq3A": "Por los pagos de clientes que han llegado a través de tu enlace o código de descuento y pagan Housio en la web. 20 % del primer pago y 10 % de cada pago siguiente.",
+    "faq3A": "Por los pagos de clientes que han llegado a través de tu enlace o código de descuento y pagan Housio en la web. 20 % del primer pago y 10 % de cada pago siguiente. La base es el importe sin IVA.",
     "faq4Q": "¿Durante cuánto tiempo recibo la comisión?",
     "faq4A": "La comisión recurrente del 10 % te llega cada mes mientras tu cliente siga pagando Housio."
   }

@@ -281,7 +281,7 @@
     "calcYearPer": "avec un réseau de clients stable",
     "calcFirst": "Prime d'acquisition (20 % du 1er paiement)",
     "calcMonth": "De façon récurrente chaque mois (10 %)",
-    "calcNote": "Calcul indicatif. La commission est calculée sur le montant réellement payé pour le web. Versement à partir de 1 000 CZK par facture.",
+    "calcNote": "Calcul indicatif. La commission est calculée sur le montant réellement payé pour le web, hors TVA. Versement à partir de 1 000 CZK par facture.",
     "stepsBadge": "Comment ça marche",
     "stepsTitle": "Trois étapes et vous gagnez",
     "stepsSub": "Aucune complication. Vous vous inscrivez, vous partagez votre lien, vous suivez vos gains en ligne.",
@@ -339,7 +339,7 @@
     "faq2Q": "Quand et comment mes commissions sont-elles versées ?",
     "faq2A": "Dès que vos gains cumulés dépassent 1 000 CZK, vous émettez une facture et nous vous réglons le montant. Vous suivez tout en ligne dans votre tableau de bord.",
     "faq3Q": "Pour quoi exactement suis-je commissionné ?",
-    "faq3A": "Sur les paiements des clients venus via votre lien ou votre code de réduction et qui règlent Housio sur le web. 20 % sur le premier paiement, 10 % sur chaque paiement suivant.",
+    "faq3A": "Sur les paiements des clients venus via votre lien ou votre code de réduction et qui règlent Housio sur le web. 20 % sur le premier paiement, 10 % sur chaque paiement suivant. La base est le montant hors TVA.",
     "faq4Q": "Pendant combien de temps vais-je toucher des commissions ?",
     "faq4A": "La commission récurrente de 10 % vous est versée chaque mois, aussi longtemps que votre client reste abonné à Housio."
   }

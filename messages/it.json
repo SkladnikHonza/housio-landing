@@ -281,7 +281,7 @@
     "calcYearPer": "con una rete di clienti stabile",
     "calcFirst": "Bonus di acquisizione (20% sul 1° pagamento)",
     "calcMonth": "In modo ricorrente ogni mese (10%)",
-    "calcNote": "Calcolo indicativo. La commissione è calcolata sull'importo effettivamente pagato per il web. Pagamento a partire da 1.000 CZK per fattura.",
+    "calcNote": "Calcolo indicativo. La commissione è calcolata sull'importo effettivamente pagato per il web, IVA esclusa. Pagamento a partire da 1.000 CZK per fattura.",
     "stepsBadge": "Come funziona",
     "stepsTitle": "Tre passi e guadagna",
     "stepsSub": "Nessuna complicazione. Si iscrive, condivide il link, monitora i guadagni online.",
@@ -339,7 +339,7 @@
     "faq2Q": "Quando e come ricevo le commissioni?",
     "faq2A": "Non appena il Suo guadagno accumulato supera i 1.000 CZK, emette una fattura e Le liquidiamo l'importo. Monitora tutto online nel Suo pannello.",
     "faq3Q": "Per cosa esattamente ricevo la commissione?",
-    "faq3A": "Per i pagamenti dei clienti arrivati tramite il Suo link o codice sconto e che pagano Housio sul web. 20% sul primo pagamento, 10% su ogni successivo.",
+    "faq3A": "Per i pagamenti dei clienti arrivati tramite il Suo link o codice sconto e che pagano Housio sul web. 20% sul primo pagamento, 10% su ogni successivo. La base è l'importo IVA esclusa.",
     "faq4Q": "Per quanto tempo ricevo le commissioni?",
     "faq4A": "La commissione ricorrente del 10% Le arriva ogni mese finché il Suo cliente paga Housio."
   }

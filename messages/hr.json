@@ -281,7 +281,7 @@
     "calcYearPer": "uz stabilnu mrežu klijenata",
     "calcFirst": "Bonus za dovođenje (20 % od 1. plaćanja)",
     "calcMonth": "Ponavljajuće svaki mjesec (10 %)",
-    "calcNote": "Okvirni izračun. Provizija se računa od stvarno plaćenog iznosa putem weba. Isplata od 1 000 CZK po računu.",
+    "calcNote": "Okvirni izračun. Provizija se računa od stvarno plaćenog iznosa putem weba, bez PDV-a. Isplata od 1 000 CZK po računu.",
     "stepsBadge": "Kako funkcionira",
     "stepsTitle": "Tri koraka i zarađujete",
     "stepsSub": "Bez kompliciranja. Prijavite se, dijelite poveznicu, pratite zaradu online.",
@@ -339,7 +339,7 @@
     "faq2Q": "Kada i kako mi se provizije isplaćuju?",
     "faq2A": "Čim vaša skupljena zarada prijeđe 1 000 CZK, izdate račun i mi vam iznos isplatimo. Sve pratite online u svom pregledu.",
     "faq3Q": "Za što točno dobivam proviziju?",
-    "faq3A": "Za plaćanja klijenata koji su došli preko vaše poveznice ili koda za popust i plaćaju Housio na webu. 20 % od prvog plaćanja, 10 % od svakog sljedećeg.",
+    "faq3A": "Za plaćanja klijenata koji su došli preko vaše poveznice ili koda za popust i plaćaju Housio na webu. 20 % od prvog plaćanja, 10 % od svakog sljedećeg. Osnovica je iznos bez PDV-a.",
     "faq4Q": "Koliko dugo mi provizije stižu?",
     "faq4A": "Ponavljajuća provizija od 10 % stiže vam svaki mjesec sve dok vaš klijent plaća Housio."
   }

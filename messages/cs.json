@@ -281,7 +281,7 @@
     "calcYearPer": "při stabilní síti klientů",
     "calcFirst": "Bonus za získání (20 % z 1. platby)",
     "calcMonth": "Opakovaně každý měsíc (10 %)",
-    "calcNote": "Orientační výpočet. Provize se počítá z reálně zaplacené částky za web. Výplata od 1 000 Kč na fakturu.",
+    "calcNote": "Orientační výpočet. Provize se počítá z reálně zaplacené částky bez DPH. Výplata od 1 000 Kč na fakturu.",
     "stepsBadge": "Jak to funguje",
     "stepsTitle": "Tři kroky a vyděláváte",
     "stepsSub": "Žádné složitosti. Přihlásíte se, sdílíte odkaz, sledujete výdělky online.",
@@ -339,7 +339,7 @@
     "faq2Q": "Kdy a jak dostanu provize vyplacené?",
     "faq2A": "Jakmile váš nasbíraný výdělek přesáhne 1 000 Kč, vystavíte fakturu a částku vám proplatíme. Vše sledujete online ve svém přehledu.",
     "faq3Q": "Za co přesně dostávám provizi?",
-    "faq3A": "Za platby klientů, kteří přišli přes váš odkaz nebo slevový kód a platí Housio na webu. 20 % z první platby, 10 % z každé další.",
+    "faq3A": "Za platby klientů, kteří přišli přes váš odkaz nebo slevový kód a platí Housio na webu. 20 % z první platby, 10 % z každé další. Základem je částka bez DPH.",
     "faq4Q": "Jak dlouho mi provize chodí?",
     "faq4A": "Opakovaná provize 10 % vám chodí každý měsíc tak dlouho, dokud váš klient Housio platí."
   }

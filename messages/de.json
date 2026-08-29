@@ -281,7 +281,7 @@
     "calcYearPer": "bei einem stabilen Kundennetzwerk",
     "calcFirst": "Bonus für die Gewinnung (20 % aus der 1. Zahlung)",
     "calcMonth": "Wiederkehrend jeden Monat (10 %)",
-    "calcNote": "Richtwert. Die Provision berechnet sich aus dem tatsächlich bezahlten Betrag für das Web-Abo. Auszahlung ab 1.000 CZK pro Rechnung.",
+    "calcNote": "Richtwert. Die Provision berechnet sich aus dem tatsächlich bezahlten Betrag für das Web-Abo ohne MwSt. Auszahlung ab 1.000 CZK pro Rechnung.",
     "stepsBadge": "So funktioniert es",
     "stepsTitle": "Drei Schritte und Sie verdienen",
     "stepsSub": "Ganz ohne Aufwand. Sie melden sich an, teilen Ihren Link und verfolgen Ihren Verdienst online.",
@@ -339,7 +339,7 @@
     "faq2Q": "Wann und wie werden mir die Provisionen ausgezahlt?",
     "faq2A": "Sobald Ihr gesammelter Verdienst 1.000 CZK übersteigt, stellen Sie eine Rechnung und wir zahlen Ihnen den Betrag aus. Alles verfolgen Sie online in Ihrer Übersicht.",
     "faq3Q": "Wofür genau bekomme ich eine Provision?",
-    "faq3A": "Für Zahlungen von Kunden, die über Ihren Link oder Rabattcode gekommen sind und Housio im Web bezahlen. 20 % aus der ersten Zahlung, 10 % aus jeder weiteren.",
+    "faq3A": "Für Zahlungen von Kunden, die über Ihren Link oder Rabattcode gekommen sind und Housio im Web bezahlen. 20 % aus der ersten Zahlung, 10 % aus jeder weiteren. Grundlage ist der Betrag ohne MwSt.",
     "faq4Q": "Wie lange bekomme ich meine Provision?",
     "faq4A": "Die wiederkehrende Provision von 10 % erhalten Sie jeden Monat, solange Ihr Kunde Housio bezahlt."
   }
