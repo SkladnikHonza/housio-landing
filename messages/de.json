@@ -22,6 +22,16 @@
     "badgeContract": "Vertrag endet in",
     "badgeDays": "23 Tagen"
   },
+  "googlePlay": {
+    "stitek": "Neu",
+    "nadpis": "Housio ist jetzt auch auf Ihrem Handy",
+    "podnadpis": "Die App ist seit August bei Google Play. Immobilien, Mieter, Verträge und monatliche Zahlungen haben Sie zur Hand, auch wenn Sie nicht am Rechner sind.",
+    "naskenujte": "Mit dem Handy scannen",
+    "ios": "Die iPhone-Version wartet auf die Freigabe im App Store.",
+    "altTelefon": "Die Housio-Übersicht auf dem Handy",
+    "altQr": "QR-Code für Housio bei Google Play",
+    "altOdznak": "Jetzt bei Google Play"
+  },
   "europeMap": {
     "badge": "EUROPÄISCHER MARKT",
     "title": "Gebaut für 15 Millionen europäische Vermieter",

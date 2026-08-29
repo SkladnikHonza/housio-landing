@@ -22,6 +22,16 @@
     "badgeContract": "Ugovor istječe za",
     "badgeDays": "23 dana"
   },
+  "googlePlay": {
+    "stitek": "Novost",
+    "nadpis": "Housio je sada i na vašem telefonu",
+    "podnadpis": "Aplikacija je od kolovoza na Google Playu. Nekretnine, najmoprimci, ugovori i mjesečna plaćanja pri ruci su vam i kad niste za računalom.",
+    "naskenujte": "Skenirajte telefonom",
+    "ios": "Verzija za iPhone čeka odobrenje u App Storeu.",
+    "altTelefon": "Housio nadzorna ploča na telefonu",
+    "altQr": "QR kod za Housio na Google Playu",
+    "altOdznak": "Preuzmite na Google Playu"
+  },
   "europeMap": {
     "badge": "EUROPSKO TRŽIŠTE",
     "title": "Izgrađeno za 15 milijuna europskih najmodavaca",

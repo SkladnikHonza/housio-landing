@@ -22,6 +22,16 @@
     "badgeContract": "Umowa kończy się za",
     "badgeDays": "23 dni"
   },
+  "googlePlay": {
+    "stitek": "Nowość",
+    "nadpis": "Housio jest teraz także w Twoim telefonie",
+    "podnadpis": "Aplikacja jest w Google Play od sierpnia. Nieruchomości, najemcy, umowy i płatności miesięczne masz pod ręką, nawet gdy nie siedzisz przy komputerze.",
+    "naskenujte": "Zeskanuj telefonem",
+    "ios": "Wersja na iPhone czeka na zatwierdzenie w App Store.",
+    "altTelefon": "Pulpit Housio w telefonie",
+    "altQr": "Kod QR do Housio w Google Play",
+    "altOdznak": "Pobierz z Google Play"
+  },
   "europeMap": {
     "badge": "RYNEK EUROPEJSKI",
     "title": "Zbudowane dla 15 milionów europejskich wynajmujących",

@@ -22,6 +22,16 @@
     "badgeContract": "Smlouva končí za",
     "badgeDays": "23 dní"
   },
+  "googlePlay": {
+    "stitek": "Novinka",
+    "nadpis": "Housio je teď i ve vašem telefonu",
+    "podnadpis": "Aplikace je od srpna v Google Play. Nemovitosti, nájemníci, smlouvy i měsíční platby máte po ruce, i když nejste u počítače.",
+    "naskenujte": "Naskenujte telefonem",
+    "ios": "Verze pro iPhone čeká na schválení v App Store.",
+    "altTelefon": "Nástěnka Housia v telefonu",
+    "altQr": "QR kód na Housio v Google Play",
+    "altOdznak": "Získat na Google Play"
+  },
   "europeMap": {
     "badge": "EVROPSKÝ TRH",
     "title": "Postaveno pro 15 milionů evropských pronajímatelů",
