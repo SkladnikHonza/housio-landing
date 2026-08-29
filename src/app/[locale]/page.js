@@ -1,4 +1,5 @@
-import { setRequestLocale } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
+import { faqJsonLd } from '@/lib/seo'
 import Hero from '@/components/Hero'
 import EuropeMap from '@/components/EuropeMap'
 import Pricing from '@/components/Pricing'
@@ -11,8 +12,13 @@ export default async function Home({ params }) {
   const { locale } = await params
   setRequestLocale(locale)
 
+  // Nejčastější dotazy dostane Google i strukturovaně, nejen jako text na stránce.
+  const t = await getTranslations({ locale, namespace: 'faq' })
+  const faq = faqJsonLd(t)
+
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <Hero />
       <EuropeMap />
       <Pricing />

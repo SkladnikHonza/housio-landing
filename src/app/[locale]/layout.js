@@ -3,6 +3,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import { adresa, hreflangMapa } from '@/lib/seo'
 import Nav from '@/components/Nav'
 import AnalyticsTracker from '@/components/AnalyticsTracker'
 import '../globals.css'
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }) {
     description: t('description'),
     openGraph: {
       type: 'website',
-      locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR' })[locale] || 'en_US',
+      locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR', pl: 'pl_PL', hr: 'hr_HR' })[locale] || 'en_US',
       url: `https://housio.app${locale === 'cs' ? '' : '/' + locale}`,
       title: t('title'),
       description: t('description'),
@@ -58,19 +59,8 @@ export async function generateMetadata({ params }) {
       googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
     },
     alternates: {
-      canonical: `https://housio.app${locale === 'cs' ? '' : '/' + locale}`,
-      languages: {
-        'cs': 'https://housio.app',
-        'en': 'https://housio.app/en',
-        'de': 'https://housio.app/de',
-        'it': 'https://housio.app/it',
-        'es': 'https://housio.app/es',
-        'uk': 'https://housio.app/uk',
-        'ru': 'https://housio.app/ru',
-        'fr': 'https://housio.app/fr',
-        'pl': 'https://housio.app/pl',
-        'hr': 'https://housio.app/hr'
-      },
+      canonical: adresa(locale),
+      languages: hreflangMapa(),
     },
   }
 }
@@ -120,6 +110,15 @@ export default async function LocaleLayout({ children, params }) {
           addressCountry: 'CZ',
         },
         sameAs: ['https://instagram.com/housio.app', 'https://facebook.com/housioapp'],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://housio.app/#website',
+        name: 'Housio',
+        alternateName: 'Housio — správa nemovitostí',
+        url: 'https://housio.app',
+        inLanguage: routing.locales,
+        publisher: { '@type': 'Organization', name: 'US Europe Group s.r.o.' },
       },
       {
         '@type': 'SoftwareApplication',
