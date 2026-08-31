@@ -141,7 +141,7 @@
   "personae": {
     "label": "Za koga",
     "title": "Izgrađeno za tebe.",
-    "subtitle": "Bio ti najmodavac početnik, investitor ili profesionalac — Housio se prilagodi.",
+    "subtitle": "Bilo da počinjete, ulažete, upravljate ili vodite agenciju — Housio se prilagodi.",
     "p1Title": "Najmodavac iz hobija",
     "p1Subtitle": "1-2 stana naslijeđena od roditelja",
     "p1Desc": "Konačno pregled bez Excela. Vidiš tko je platio, kad istječe ugovor i koliko zarađuješ neto.",
@@ -151,7 +151,10 @@
     "p2Desc": "Profesionalna analiza novčanog toka. Vidiš koja nekretnina zarađuje, a koja propada.",
     "p3Title": "Profesionalni upravitelj",
     "p3Subtitle": "10+ nekretnina, tim",
-    "p3Desc": "Pristup za više korisnika, API integracija, automatizacija, PDF izvještaji za klijente."
+    "p3Desc": "Dijeljeni pristup za tim, automatizacija rokova i PDF izvještaji za klijente.",
+    "p4Title": "Agencija za nekretnine",
+    "p4Subtitle": "Upravljate portfeljima klijenata",
+    "p4Desc": "Tuđe nekretnine na jednom mjestu. A naši uvjeti nas obvezuju da ne kontaktiramo vaše klijente."
   },
   "faq": {
     "label": "Česta pitanja",

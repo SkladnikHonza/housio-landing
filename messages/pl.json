@@ -141,7 +141,7 @@
   "personae": {
     "label": "Dla kogo",
     "title": "Zbudowane dla Ciebie.",
-    "subtitle": "Czy jesteś początkującym wynajmującym, inwestorem czy profesjonalistą — Housio się dostosuje.",
+    "subtitle": "Czy zaczynasz, inwestujesz, zarządzasz czy prowadzisz biuro — Housio się dostosuje.",
     "p1Title": "Wynajmujący hobbystycznie",
     "p1Subtitle": "1-2 mieszkania po rodzicach",
     "p1Desc": "Wreszcie porządek bez Excela. Widzisz, kto zapłacił, kiedy kończy się umowa i ile zarabiasz na czysto.",
@@ -151,7 +151,10 @@
     "p2Desc": "Profesjonalna analiza cash flow. Widzisz, która nieruchomość zarabia, a która przynosi straty.",
     "p3Title": "Profesjonalny zarządca",
     "p3Subtitle": "10+ nieruchomości, zespół",
-    "p3Desc": "Dostęp dla wielu użytkowników, integracja API, automatyzacja, raporty PDF dla klientów."
+    "p3Desc": "Wspólny dostęp dla zespołu, automatyzacja terminów i raporty PDF dla klientów.",
+    "p4Title": "Biuro nieruchomości",
+    "p4Subtitle": "Zarządzasz portfelami klientów",
+    "p4Desc": "Cudze nieruchomości w jednym miejscu. A regulamin zobowiązuje nas, że nie będziemy kontaktować Twoich klientów."
   },
   "faq": {
     "label": "Częste pytania",

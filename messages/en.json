@@ -141,7 +141,7 @@
   "personae": {
     "label": "Who it's for",
     "title": "Built for you.",
-    "subtitle": "Whether you're a beginner landlord, investor or pro — Housio adapts.",
+    "subtitle": "Whether you are starting out, investing, managing or running an agency — Housio adapts.",
     "p1Title": "Hobby landlord",
     "p1Subtitle": "1-2 apartments inherited",
     "p1Desc": "Finally clarity without Excel. See who paid, when contracts end, how much you earn net.",
@@ -151,7 +151,10 @@
     "p2Desc": "Professional cash flow analysis. See which property earns, which underperforms.",
     "p3Title": "Pro manager",
     "p3Subtitle": "10+ properties, team",
-    "p3Desc": "Multi-user access, API integration, automation, PDF reports for clients."
+    "p3Desc": "Shared team access, deadline automation and PDF reports for clients.",
+    "p4Title": "Estate agency",
+    "p4Subtitle": "You manage clients’ portfolios",
+    "p4Desc": "Other people’s properties in one place. And our terms commit us never to approach your clients."
   },
   "faq": {
     "label": "Frequently asked",

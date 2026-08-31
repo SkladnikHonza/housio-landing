@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import { User, Briefcase, Building2 } from 'lucide-react'
+import { User, Briefcase, Building2, KeyRound } from 'lucide-react'
 
 export default function Personae() {
   const t = useTranslations('personae')
@@ -20,7 +20,7 @@ export default function Personae() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Hobby */}
           <div className="p-7 rounded-2xl" style={{ background: 'var(--bg-clean)' }}>
@@ -62,6 +62,19 @@ export default function Personae() {
             <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive-dark)' }}>{t('p3Subtitle')}</p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
               {t('p3Desc')}
+            </p>
+          </div>
+
+          {/* Realitka — spravuje portfolia klientu. Argument navic: cl. 10.6 VOP,
+              kde se zavazujeme neoslovovat klienty uzivatelu z realitni cinnosti. */}
+          <div className="p-7 rounded-2xl" style={{ background: 'var(--bg-clean)' }}>
+            <div className="inline-flex items-center px-3 py-1.5 rounded-full" style={{ background: 'var(--bg-warm)' }}>
+              <KeyRound className="w-4 h-4 mr-1.5" style={{ color: 'var(--teal-900)' }} />
+              <span className="text-xs font-medium" style={{ color: 'var(--teal-900)' }}>{t('p4Title')}</span>
+            </div>
+            <p className="text-sm font-medium mt-4 mb-2" style={{ color: 'var(--olive-dark)' }}>{t('p4Subtitle')}</p>
+            <p className="text-base leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
+              {t('p4Desc')}
             </p>
           </div>
 

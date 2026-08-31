@@ -141,7 +141,7 @@
   "personae": {
     "label": "Pro koho",
     "title": "Postaveno pro tebe.",
-    "subtitle": "Ať jsi začínající pronajímatel, investor nebo profík — Housio se přizpůsobí.",
+    "subtitle": "Ať jsi začínající pronajímatel, investor, správce nebo realitka — Housio se přizpůsobí.",
     "p1Title": "Hobby pronajímatel",
     "p1Subtitle": "1-2 byty po rodičích",
     "p1Desc": "Konečně přehled bez Excelu. Vidíš kdo zaplatil, kdy končí smlouva, kolik vyděláváš čistě.",
@@ -151,7 +151,10 @@
     "p2Desc": "Profesionální cash flow analýza. Vidíš která nemovitost vydělává, která propadá.",
     "p3Title": "Profi správce",
     "p3Subtitle": "10+ nemovitostí, tým",
-    "p3Desc": "Multi-user přístup, API integrace, automatizace, PDF reporty pro klienty."
+    "p3Desc": "Sdílený přístup pro tým, automatizace termínů a PDF reporty pro klienty.",
+    "p4Title": "Realitní kancelář",
+    "p4Subtitle": "Spravujete portfolia klientů",
+    "p4Desc": "Přehled cizích nemovitostí na jednom místě. A v podmínkách máme závazek, že vaše klienty nebudeme oslovovat."
   },
   "faq": {
     "label": "Časté otázky",

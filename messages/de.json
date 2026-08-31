@@ -141,7 +141,7 @@
   "personae": {
     "label": "Für wen",
     "title": "Für dich gebaut.",
-    "subtitle": "Ob Anfänger-Vermieter, Investor oder Profi — Housio passt sich an.",
+    "subtitle": "Ob Einsteiger, Investor, Verwalter oder Maklerbüro — Housio passt sich an.",
     "p1Title": "Hobby-Vermieter",
     "p1Subtitle": "1-2 geerbte Wohnungen",
     "p1Desc": "Endlich Überblick ohne Excel. Sieh, wer bezahlt hat, wann Verträge enden, wie viel du netto verdienst.",
@@ -151,7 +151,10 @@
     "p2Desc": "Professionelle Cashflow-Analyse. Sieh welche Immobilie verdient, welche unterdurchschnittlich läuft.",
     "p3Title": "Profi-Verwalter",
     "p3Subtitle": "10+ Immobilien, Team",
-    "p3Desc": "Mehrbenutzer-Zugang, API-Integration, Automatisierung, PDF-Berichte für Kunden."
+    "p3Desc": "Gemeinsamer Teamzugang, automatische Fristen und PDF-Berichte für Kunden.",
+    "p4Title": "Maklerbüro",
+    "p4Subtitle": "Sie verwalten Kundenportfolios",
+    "p4Desc": "Fremde Immobilien an einem Ort. Und unsere AGB verpflichten uns, Ihre Kunden nicht anzusprechen."
   },
   "faq": {
     "label": "Häufige Fragen",

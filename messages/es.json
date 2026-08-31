@@ -141,7 +141,7 @@
   "personae": {
     "label": "Para quién",
     "title": "Hecho para ti.",
-    "subtitle": "Ya seas un propietario principiante, inversor o profesional — Housio se adapta.",
+    "subtitle": "Tanto si empiezas como si inviertes, gestionas o llevas una agencia — Housio se adapta.",
     "p1Title": "Propietario hobby",
     "p1Subtitle": "1-2 pisos heredados",
     "p1Desc": "Por fin claridad sin Excel. Ve quién pagó, cuándo terminan los contratos, cuánto ganas neto.",
@@ -151,7 +151,10 @@
     "p2Desc": "Análisis profesional de cash flow. Ve qué inmueble rinde, cuál tiene bajo rendimiento.",
     "p3Title": "Gestor profesional",
     "p3Subtitle": "10+ inmuebles, equipo",
-    "p3Desc": "Acceso multi-usuario, integración API, automatización, informes PDF para clientes."
+    "p3Desc": "Acceso compartido para el equipo, automatización de plazos e informes PDF para clientes.",
+    "p4Title": "Agencia inmobiliaria",
+    "p4Subtitle": "Gestionas carteras de clientes",
+    "p4Desc": "Inmuebles ajenos en un solo sitio. Y nuestras condiciones nos obligan a no contactar a tus clientes."
   },
   "faq": {
     "label": "Preguntas frecuentes",
