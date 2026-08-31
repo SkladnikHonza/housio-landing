@@ -31,13 +31,13 @@ export async function generateMetadata({ params }) {
   const t = await getTranslations({ locale, namespace: 'meta' })
   
   return {
-    metadataBase: new URL('https://housio.app'),
+    metadataBase: new URL('https://www.housio.app'),
     title: t('title'),
     description: t('description'),
     openGraph: {
       type: 'website',
       locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR', pl: 'pl_PL', hr: 'hr_HR' })[locale] || 'en_US',
-      url: `https://housio.app${locale === 'cs' ? '' : '/' + locale}`,
+      url: `https://www.housio.app${locale === 'cs' ? '' : '/' + locale}`,
       title: t('title'),
       description: t('description'),
       siteName: 'Housio',
@@ -99,8 +99,8 @@ export default async function LocaleLayout({ children, params }) {
         legalName: 'US Europe Group s.r.o.',
         identifier: '06779808',
         vatID: 'CZ06779808',
-        url: 'https://housio.app',
-        logo: 'https://housio.app/icon.png',
+        url: 'https://www.housio.app',
+        logo: 'https://www.housio.app/icon.png',
         email: 'housio@housio.app',
         address: {
           '@type': 'PostalAddress',
@@ -113,10 +113,10 @@ export default async function LocaleLayout({ children, params }) {
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://housio.app/#website',
+        '@id': 'https://www.housio.app/#website',
         name: 'Housio',
         alternateName: 'Housio — správa nemovitostí',
-        url: 'https://housio.app',
+        url: 'https://www.housio.app',
         inLanguage: routing.locales,
         publisher: { '@type': 'Organization', name: 'US Europe Group s.r.o.' },
       },
@@ -125,7 +125,7 @@ export default async function LocaleLayout({ children, params }) {
         name: 'Housio',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        url: 'https://housio.app',
+        url: 'https://www.housio.app',
         publisher: {
           '@type': 'Organization',
           name: 'US Europe Group s.r.o.',

@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const prefix = locale === 'cs' ? '' : `/${locale}`
-  const url = `https://housio.app${prefix}/kontakt`
+  const url = `https://www.housio.app${prefix}/kontakt`
   return {
     title: `${t('title')} · Kontakt`,
     alternates: alternatesProStranku(locale, '/kontakt'),

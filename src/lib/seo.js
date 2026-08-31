@@ -4,7 +4,7 @@ import { routing } from '@/i18n/routing'
 // jazyky se berou z routing.locales, takže po přidání dalšího jazyka není
 // potřeba sahat do sitemapy ani do metadat jednotlivých stránek.
 
-export const BASE = 'https://housio.app'
+export const BASE = 'https://www.housio.app'
 
 // Čeština je výchozí a běží bez prefixu (localePrefix: 'as-needed' v routing.js).
 export function adresa(locale, cesta = '') {

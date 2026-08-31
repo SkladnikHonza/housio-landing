@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'security' })
   const prefix = locale === 'cs' ? '' : `/${locale}`
-  const url = `https://housio.app${prefix}/bezpecnost`
+  const url = `https://www.housio.app${prefix}/bezpecnost`
   return {
     title: `${t('badge')} · Housio`,
     description: t('subtitle'),

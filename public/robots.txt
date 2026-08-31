@@ -1,7 +1,7 @@
 # Housio robots.txt
-# https://housio.app
+# https://www.housio.app
 
 User-agent: *
 Allow: /
 
-Sitemap: https://housio.app/sitemap.xml
+Sitemap: https://www.housio.app/sitemap.xml

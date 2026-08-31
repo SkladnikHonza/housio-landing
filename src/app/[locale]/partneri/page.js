@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const prefix = locale === 'cs' ? '' : `/${locale}`
-  const url = `https://housio.app${prefix}/partneri`
+  const url = `https://www.housio.app${prefix}/partneri`
   return {
     title: `${t('title')} · Partnerský program`,
     description: 'Doporučujte Housio realitním klientům a vydělávejte 20 % z první platby a 10 % opakovaně. Basic zdarma na rok, vlastní přehled výdělků.',
