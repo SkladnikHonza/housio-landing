@@ -1,16 +1,22 @@
 import { useTranslations } from 'next-intl'
-import { TrendingUp, BellRing, CreditCard, Globe, FileText, Smartphone } from 'lucide-react'
+import { TrendingUp, BellRing, FileClock, Wrench, ShieldCheck, Zap, FileSpreadsheet, Globe } from 'lucide-react'
 
 export default function Features() {
   const t = useTranslations('features')
   
+  // Poradi: nejdriv penize, pak hlidani terminu, nakonec administrativa.
+  // Kazde tvrzeni v textech odpovida tomu, co appka realne dela — viz revize (8 typu,
+  // prah 60 dnu), pojisteni (odpocet v appce, NE e-mailem) a notifikace-cron
+  // (smlouvy 30/14/7/3/1 dni, nezaplaceny najem dny 5/12/20).
   const features = [
     { icon: TrendingUp, titleKey: 'f1Title', descKey: 'f1Desc', iconBg: 'var(--teal-900)' },
     { icon: BellRing, titleKey: 'f2Title', descKey: 'f2Desc', iconBg: 'var(--orange)' },
-    { icon: CreditCard, titleKey: 'f3Title', descKey: 'f3Desc', iconBg: 'var(--olive)' },
-    { icon: Globe, titleKey: 'f4Title', descKey: 'f4Desc', iconBg: 'var(--teal-900)' },
-    { icon: FileText, titleKey: 'f5Title', descKey: 'f5Desc', iconBg: 'var(--orange)' },
-    { icon: Smartphone, titleKey: 'f6Title', descKey: 'f6Desc', iconBg: 'var(--olive)' },
+    { icon: FileClock, titleKey: 'f3Title', descKey: 'f3Desc', iconBg: 'var(--olive)' },
+    { icon: Wrench, titleKey: 'f4Title', descKey: 'f4Desc', iconBg: 'var(--teal-900)' },
+    { icon: ShieldCheck, titleKey: 'f5Title', descKey: 'f5Desc', iconBg: 'var(--orange)' },
+    { icon: Zap, titleKey: 'f6Title', descKey: 'f6Desc', iconBg: 'var(--olive)' },
+    { icon: FileSpreadsheet, titleKey: 'f7Title', descKey: 'f7Desc', iconBg: 'var(--teal-900)' },
+    { icon: Globe, titleKey: 'f8Title', descKey: 'f8Desc', iconBg: 'var(--orange)' },
   ]
 
   return (
