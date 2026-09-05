@@ -22,16 +22,6 @@
     "badgeContract": "Contrat se termine dans",
     "badgeDays": "23 jours"
   },
-  "googlePlay": {
-    "stitek": "Nouveau",
-    "nadpis": "Housio est maintenant sur votre téléphone",
-    "podnadpis": "L'application est sur Google Play depuis août. Biens, locataires, baux et paiements mensuels restent à portée de main, même loin de l'ordinateur.",
-    "naskenujte": "Scannez avec votre téléphone",
-    "ios": "La version iPhone attend la validation de l'App Store.",
-    "altTelefon": "Le tableau de bord Housio sur un téléphone",
-    "altQr": "QR code vers Housio sur Google Play",
-    "altOdznak": "Disponible sur Google Play"
-  },
   "europeMap": {
     "badge": "MARCHÉ EUROPÉEN",
     "title": "Conçu pour 15 millions de propriétaires européens",
@@ -233,7 +223,8 @@
     "footerResponse": "Nous répondons sous 24 heures",
     "footerLocation": "Frýdek-Místek, République tchèque",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Suis-nous sur FB"
+    "facebookSubtitle": "Suis-nous sur FB",
+    "formErrorLimit": "Nous venons de recevoir votre message. Merci d’en envoyer un autre dans quelques minutes."
   },
   "kontaktNav": {
     "backToHome": "Retour à l'accueil"
@@ -348,6 +339,18 @@
     "faq3Q": "Pour quoi exactement suis-je commissionné ?",
     "faq3A": "Sur les paiements des clients venus via votre lien ou votre code de réduction et qui règlent Housio sur le web. 20 % sur le premier paiement, 10 % sur chaque paiement suivant. La base est le montant hors TVA.",
     "faq4Q": "Pendant combien de temps vais-je toucher des commissions ?",
-    "faq4A": "La commission récurrente de 10 % vous est versée chaque mois, aussi longtemps que votre client reste abonné à Housio."
+    "faq4A": "La commission récurrente de 10 % vous est versée chaque mois, aussi longtemps que votre client reste abonné à Housio.",
+    "errLimit": "Nous venons de recevoir votre message. Merci d’en envoyer un autre dans quelques minutes."
+  },
+  "obchody": {
+    "stitek": "Nouveau",
+    "nadpis": "Housio est maintenant dans votre poche",
+    "podnadpis": "L'application est sur l'App Store et Google Play. Biens, locataires, baux et paiements mensuels restent à portée de main, même loin de l'ordinateur.",
+    "naskenujte": "Scannez avec votre téléphone",
+    "altTelefon": "Tableau de bord Housio sur un téléphone",
+    "altQrApple": "Code QR vers Housio sur l'App Store",
+    "altQrGoogle": "Code QR vers Housio sur Google Play",
+    "altOdznakApple": "Télécharger dans l'App Store",
+    "altOdznakGoogle": "Disponible sur Google Play"
   }
 }

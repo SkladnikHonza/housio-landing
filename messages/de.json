@@ -22,16 +22,6 @@
     "badgeContract": "Vertrag endet in",
     "badgeDays": "23 Tagen"
   },
-  "googlePlay": {
-    "stitek": "Neu",
-    "nadpis": "Housio ist jetzt auch auf Ihrem Handy",
-    "podnadpis": "Die App ist seit August bei Google Play. Immobilien, Mieter, Verträge und monatliche Zahlungen haben Sie zur Hand, auch wenn Sie nicht am Rechner sind.",
-    "naskenujte": "Mit dem Handy scannen",
-    "ios": "Die iPhone-Version wartet auf die Freigabe im App Store.",
-    "altTelefon": "Die Housio-Übersicht auf dem Handy",
-    "altQr": "QR-Code für Housio bei Google Play",
-    "altOdznak": "Jetzt bei Google Play"
-  },
   "europeMap": {
     "badge": "EUROPÄISCHER MARKT",
     "title": "Gebaut für 15 Millionen europäische Vermieter",
@@ -233,7 +223,8 @@
     "footerResponse": "Wir antworten innerhalb von 24 Stunden",
     "footerLocation": "Frýdek-Místek, Tschechische Republik",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Folge uns auf FB"
+    "facebookSubtitle": "Folge uns auf FB",
+    "formErrorLimit": "Wir haben Ihre Nachricht gerade erhalten. Bitte senden Sie die nächste in ein paar Minuten."
   },
   "kontaktNav": {
     "backToHome": "Zurück zur Startseite"
@@ -348,6 +339,18 @@
     "faq3Q": "Wofür genau bekomme ich eine Provision?",
     "faq3A": "Für Zahlungen von Kunden, die über Ihren Link oder Rabattcode gekommen sind und Housio im Web bezahlen. 20 % aus der ersten Zahlung, 10 % aus jeder weiteren. Grundlage ist der Betrag ohne MwSt.",
     "faq4Q": "Wie lange bekomme ich meine Provision?",
-    "faq4A": "Die wiederkehrende Provision von 10 % erhalten Sie jeden Monat, solange Ihr Kunde Housio bezahlt."
+    "faq4A": "Die wiederkehrende Provision von 10 % erhalten Sie jeden Monat, solange Ihr Kunde Housio bezahlt.",
+    "errLimit": "Wir haben Ihre Nachricht gerade erhalten. Bitte senden Sie die nächste in ein paar Minuten."
+  },
+  "obchody": {
+    "stitek": "Neu",
+    "nadpis": "Housio ist jetzt auch auf Ihrem Handy",
+    "podnadpis": "Die App ist im App Store und bei Google Play. Immobilien, Mieter, Verträge und monatliche Zahlungen haben Sie auch abseits des Computers dabei.",
+    "naskenujte": "Mit dem Handy scannen",
+    "altTelefon": "Housio-Dashboard auf dem Handy",
+    "altQrApple": "QR-Code zu Housio im App Store",
+    "altQrGoogle": "QR-Code zu Housio bei Google Play",
+    "altOdznakApple": "Laden im App Store",
+    "altOdznakGoogle": "Jetzt bei Google Play"
   }
 }

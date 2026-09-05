@@ -22,16 +22,6 @@
     "badgeContract": "Ugovor istječe za",
     "badgeDays": "23 dana"
   },
-  "googlePlay": {
-    "stitek": "Novost",
-    "nadpis": "Housio je sada i na vašem telefonu",
-    "podnadpis": "Aplikacija je od kolovoza na Google Playu. Nekretnine, najmoprimci, ugovori i mjesečna plaćanja pri ruci su vam i kad niste za računalom.",
-    "naskenujte": "Skenirajte telefonom",
-    "ios": "Verzija za iPhone čeka odobrenje u App Storeu.",
-    "altTelefon": "Housio nadzorna ploča na telefonu",
-    "altQr": "QR kod za Housio na Google Playu",
-    "altOdznak": "Preuzmite na Google Playu"
-  },
   "europeMap": {
     "badge": "EUROPSKO TRŽIŠTE",
     "title": "Izgrađeno za 15 milijuna europskih najmodavaca",
@@ -233,7 +223,8 @@
     "footerResponse": "Odgovaramo unutar 24 sata",
     "footerLocation": "Frýdek-Místek, Češka Republika",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Prati nas na FB-u"
+    "facebookSubtitle": "Prati nas na FB-u",
+    "formErrorLimit": "Upravo smo primili vašu poruku. Sljedeću pošaljite za nekoliko minuta."
   },
   "kontaktNav": {
     "backToHome": "Natrag na početnu"
@@ -348,6 +339,18 @@
     "faq3Q": "Za što točno dobivam proviziju?",
     "faq3A": "Za plaćanja klijenata koji su došli preko vaše poveznice ili koda za popust i plaćaju Housio na webu. 20 % od prvog plaćanja, 10 % od svakog sljedećeg. Osnovica je iznos bez PDV-a.",
     "faq4Q": "Koliko dugo mi provizije stižu?",
-    "faq4A": "Ponavljajuća provizija od 10 % stiže vam svaki mjesec sve dok vaš klijent plaća Housio."
+    "faq4A": "Ponavljajuća provizija od 10 % stiže vam svaki mjesec sve dok vaš klijent plaća Housio.",
+    "errLimit": "Upravo smo primili vašu poruku. Sljedeću pošaljite za nekoliko minuta."
+  },
+  "obchody": {
+    "stitek": "Novo",
+    "nadpis": "Housio je sada i u vašem telefonu",
+    "podnadpis": "Aplikacija je u App Storeu i Google Playu. Nekretnine, najmoprimce, ugovore i mjesečna plaćanja imate pri ruci i kad niste za računalom.",
+    "naskenujte": "Skenirajte telefonom",
+    "altTelefon": "Housio nadzorna ploča na telefonu",
+    "altQrApple": "QR kod za Housio u App Storeu",
+    "altQrGoogle": "QR kod za Housio u Google Playu",
+    "altOdznakApple": "Preuzmite u App Storeu",
+    "altOdznakGoogle": "Preuzmite na Google Playu"
   }
 }

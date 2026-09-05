@@ -22,16 +22,6 @@
     "badgeContract": "Contrato vence en",
     "badgeDays": "23 días"
   },
-  "googlePlay": {
-    "stitek": "Novedad",
-    "nadpis": "Housio ya está en tu teléfono",
-    "podnadpis": "La aplicación está en Google Play desde agosto. Inmuebles, inquilinos, contratos y pagos mensuales a mano, aunque no estés delante del ordenador.",
-    "naskenujte": "Escanea con el móvil",
-    "ios": "La versión para iPhone está pendiente de aprobación en la App Store.",
-    "altTelefon": "El panel de Housio en el móvil",
-    "altQr": "Código QR de Housio en Google Play",
-    "altOdznak": "Disponible en Google Play"
-  },
   "europeMap": {
     "badge": "MERCADO EUROPEO",
     "title": "Construido para 15 millones de propietarios europeos",
@@ -233,7 +223,8 @@
     "footerResponse": "Respondemos en 24 horas",
     "footerLocation": "Frýdek-Místek, República Checa",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Síguenos en FB"
+    "facebookSubtitle": "Síguenos en FB",
+    "formErrorLimit": "Acabamos de recibir su mensaje. Envíe el siguiente dentro de unos minutos."
   },
   "kontaktNav": {
     "backToHome": "Volver al inicio"
@@ -348,6 +339,18 @@
     "faq3Q": "¿Por qué recibo exactamente la comisión?",
     "faq3A": "Por los pagos de clientes que han llegado a través de tu enlace o código de descuento y pagan Housio en la web. 20 % del primer pago y 10 % de cada pago siguiente. La base es el importe sin IVA.",
     "faq4Q": "¿Durante cuánto tiempo recibo la comisión?",
-    "faq4A": "La comisión recurrente del 10 % te llega cada mes mientras tu cliente siga pagando Housio."
+    "faq4A": "La comisión recurrente del 10 % te llega cada mes mientras tu cliente siga pagando Housio.",
+    "errLimit": "Acabamos de recibir su mensaje. Envíe el siguiente dentro de unos minutos."
+  },
+  "obchody": {
+    "stitek": "Novedad",
+    "nadpis": "Housio ya está en tu teléfono",
+    "podnadpis": "La aplicación está en App Store y Google Play. Propiedades, inquilinos, contratos y pagos mensuales los tienes a mano aunque no estés en el ordenador.",
+    "naskenujte": "Escanea con el teléfono",
+    "altTelefon": "Panel de Housio en el teléfono",
+    "altQrApple": "Código QR a Housio en App Store",
+    "altQrGoogle": "Código QR a Housio en Google Play",
+    "altOdznakApple": "Consíguelo en el App Store",
+    "altOdznakGoogle": "Disponible en Google Play"
   }
 }

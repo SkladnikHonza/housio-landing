@@ -22,16 +22,6 @@
     "badgeContract": "Contract ends in",
     "badgeDays": "23 days"
   },
-  "googlePlay": {
-    "stitek": "New",
-    "nadpis": "Housio is now on your phone",
-    "podnadpis": "The app has been on Google Play since August. Properties, tenants, contracts and monthly payments are with you even when you are away from your computer.",
-    "naskenujte": "Scan with your phone",
-    "ios": "The iPhone version is awaiting App Store approval.",
-    "altTelefon": "The Housio dashboard on a phone",
-    "altQr": "QR code for Housio on Google Play",
-    "altOdznak": "Get it on Google Play"
-  },
   "europeMap": {
     "badge": "EUROPEAN MARKET",
     "title": "Built for 15 million European landlords",
@@ -233,7 +223,8 @@
     "footerResponse": "We reply within 24 hours",
     "footerLocation": "Frýdek-Místek, Czech Republic",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Follow us on FB"
+    "facebookSubtitle": "Follow us on FB",
+    "formErrorLimit": "We just received your message. Please send another in a few minutes."
   },
   "kontaktNav": {
     "backToHome": "Back to home"
@@ -348,6 +339,18 @@
     "faq3Q": "What exactly do I earn commission on?",
     "faq3A": "On payments from clients who came through your link or discount code and pay for Housio on the web. 20% on the first payment, 10% on every one after. The basis is the amount excluding VAT.",
     "faq4Q": "How long do the commissions keep coming?",
-    "faq4A": "Your recurring 10% commission lands every month for as long as your client keeps paying for Housio."
+    "faq4A": "Your recurring 10% commission lands every month for as long as your client keeps paying for Housio.",
+    "errLimit": "We just received your message. Please send another in a few minutes."
+  },
+  "obchody": {
+    "stitek": "New",
+    "nadpis": "Housio is now in your pocket",
+    "podnadpis": "The app is on the App Store and Google Play. Properties, tenants, contracts and monthly payments are with you even away from your computer.",
+    "naskenujte": "Scan with your phone",
+    "altTelefon": "Housio dashboard on a phone",
+    "altQrApple": "QR code to Housio on the App Store",
+    "altQrGoogle": "QR code to Housio on Google Play",
+    "altOdznakApple": "Download on the App Store",
+    "altOdznakGoogle": "Get it on Google Play"
   }
 }

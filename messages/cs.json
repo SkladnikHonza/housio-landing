@@ -22,16 +22,6 @@
     "badgeContract": "Smlouva končí za",
     "badgeDays": "23 dní"
   },
-  "googlePlay": {
-    "stitek": "Novinka",
-    "nadpis": "Housio je teď i ve vašem telefonu",
-    "podnadpis": "Aplikace je od srpna v Google Play. Nemovitosti, nájemníci, smlouvy i měsíční platby máte po ruce, i když nejste u počítače.",
-    "naskenujte": "Naskenujte telefonem",
-    "ios": "Verze pro iPhone čeká na schválení v App Store.",
-    "altTelefon": "Nástěnka Housia v telefonu",
-    "altQr": "QR kód na Housio v Google Play",
-    "altOdznak": "Získat na Google Play"
-  },
   "europeMap": {
     "badge": "EVROPSKÝ TRH",
     "title": "Postaveno pro 15 milionů evropských pronajímatelů",
@@ -233,7 +223,8 @@
     "footerResponse": "Odpovíme do 24 hodin",
     "footerLocation": "Frýdek-Místek, Česká republika",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Sleduj nás na FB"
+    "facebookSubtitle": "Sleduj nás na FB",
+    "formErrorLimit": "Zprávu jsme právě přijali. Další pošlete prosím za pár minut."
   },
   "kontaktNav": {
     "backToHome": "Zpět na hlavní"
@@ -348,6 +339,18 @@
     "faq3Q": "Za co přesně dostávám provizi?",
     "faq3A": "Za platby klientů, kteří přišli přes váš odkaz nebo slevový kód a platí Housio na webu. 20 % z první platby, 10 % z každé další. Základem je částka bez DPH.",
     "faq4Q": "Jak dlouho mi provize chodí?",
-    "faq4A": "Opakovaná provize 10 % vám chodí každý měsíc tak dlouho, dokud váš klient Housio platí."
+    "faq4A": "Opakovaná provize 10 % vám chodí každý měsíc tak dlouho, dokud váš klient Housio platí.",
+    "errLimit": "Zprávu jsme právě přijali. Další pošlete prosím za pár minut."
+  },
+  "obchody": {
+    "stitek": "Novinka",
+    "nadpis": "Housio je teď i ve vašem telefonu",
+    "podnadpis": "Aplikace je v App Store i v Google Play. Nemovitosti, nájemníky, smlouvy i měsíční platby máte po ruce, i když nejste u počítače.",
+    "naskenujte": "Naskenujte telefonem",
+    "altTelefon": "Nástěnka Housia v telefonu",
+    "altQrApple": "QR kód na Housio v App Store",
+    "altQrGoogle": "QR kód na Housio v Google Play",
+    "altOdznakApple": "Stáhnout na App Store",
+    "altOdznakGoogle": "Získat na Google Play"
   }
 }

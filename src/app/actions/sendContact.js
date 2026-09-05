@@ -2,6 +2,8 @@
 
 import { Resend } from 'resend'
 
+import { smiOdeslat } from './limitOdeslani'
+
 const FROM = 'Housio kontakt <kontakt@housio.online>'
 const TO = 'housio@housio.app'
 
@@ -21,6 +23,10 @@ export async function sendContact(_prevState, formData) {
   if (!name || name.length > MAX_NAME) return { ok: false, error: 'name' }
   if (!email || email.length > MAX_EMAIL || !EMAIL_RE.test(email)) return { ok: false, error: 'email' }
   if (!message || message.length > MAX_MESSAGE) return { ok: false, error: 'message' }
+
+  // Strop na pocet odeslani. Az ZA validaci — kdo se preklepne v e-mailu,
+  // nema si tim vycerpat pokusy.
+  if (!await smiOdeslat()) return { ok: false, error: 'limit' }
 
   const apiKey = process.env.RESEND_API_KEY
   if (!apiKey) {

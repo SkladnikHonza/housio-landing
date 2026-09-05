@@ -22,16 +22,6 @@
     "badgeContract": "Umowa kończy się za",
     "badgeDays": "23 dni"
   },
-  "googlePlay": {
-    "stitek": "Nowość",
-    "nadpis": "Housio jest teraz także w Twoim telefonie",
-    "podnadpis": "Aplikacja jest w Google Play od sierpnia. Nieruchomości, najemcy, umowy i płatności miesięczne masz pod ręką, nawet gdy nie siedzisz przy komputerze.",
-    "naskenujte": "Zeskanuj telefonem",
-    "ios": "Wersja na iPhone czeka na zatwierdzenie w App Store.",
-    "altTelefon": "Pulpit Housio w telefonie",
-    "altQr": "Kod QR do Housio w Google Play",
-    "altOdznak": "Pobierz z Google Play"
-  },
   "europeMap": {
     "badge": "RYNEK EUROPEJSKI",
     "title": "Zbudowane dla 15 milionów europejskich wynajmujących",
@@ -233,7 +223,8 @@
     "footerResponse": "Odpowiemy w ciągu 24 godzin",
     "footerLocation": "Frýdek-Místek, Czechy",
     "facebookTitle": "Facebook",
-    "facebookSubtitle": "Śledź nas na FB"
+    "facebookSubtitle": "Śledź nas na FB",
+    "formErrorLimit": "Właśnie otrzymaliśmy wiadomość. Kolejną prosimy wysłać za kilka minut."
   },
   "kontaktNav": {
     "backToHome": "Wróć do strony głównej"
@@ -348,6 +339,18 @@
     "faq3Q": "Za co dokładnie dostaję prowizję?",
     "faq3A": "Za płatności klientów, którzy przyszli przez Twój link lub kod rabatowy i płacą za Housio na stronie. 20 % z pierwszej płatności, 10 % z każdej kolejnej. Podstawą jest kwota bez VAT.",
     "faq4Q": "Jak długo przychodzi mi prowizja?",
-    "faq4A": "Powtarzalna prowizja 10 % przychodzi co miesiąc tak długo, jak długo klient płaci za Housio."
+    "faq4A": "Powtarzalna prowizja 10 % przychodzi co miesiąc tak długo, jak długo klient płaci za Housio.",
+    "errLimit": "Właśnie otrzymaliśmy wiadomość. Kolejną prosimy wysłać za kilka minut."
+  },
+  "obchody": {
+    "stitek": "Nowość",
+    "nadpis": "Housio jest już w Twoim telefonie",
+    "podnadpis": "Aplikacja jest w App Store i Google Play. Nieruchomości, najemców, umowy i płatności miesięczne masz pod ręką także z dala od komputera.",
+    "naskenujte": "Zeskanuj telefonem",
+    "altTelefon": "Pulpit Housio w telefonie",
+    "altQrApple": "Kod QR do Housio w App Store",
+    "altQrGoogle": "Kod QR do Housio w Google Play",
+    "altOdznakApple": "Pobierz w App Store",
+    "altOdznakGoogle": "Pobierz z Google Play"
   }
 }

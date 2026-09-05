@@ -31,6 +31,7 @@ export default function Partneri() {
     switch (code) {
       case 'name': return t('errName')
       case 'email': return t('errEmail')
+      case 'limit': return t('errLimit')
       default: return t('errGeneric')
     }
   }

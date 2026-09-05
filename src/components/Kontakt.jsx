@@ -14,6 +14,7 @@ export default function Kontakt() {
       case 'name': return t('formErrorName')
       case 'email': return t('formErrorEmail')
       case 'message': return t('formErrorMessage')
+      case 'limit': return t('formErrorLimit')
       default: return t('formErrorGeneric')
     }
   }
