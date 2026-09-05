@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { faqJsonLd } from '@/lib/seo'
 import Hero from '@/components/Hero'
-import NovinkaGooglePlay from '@/components/NovinkaGooglePlay'
+import NovinkaObchody from '@/components/NovinkaObchody'
 import EuropeMap from '@/components/EuropeMap'
 import Pricing from '@/components/Pricing'
 import Features from '@/components/Features'
@@ -21,7 +21,7 @@ export default async function Home({ params }) {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <Hero />
-      <NovinkaGooglePlay />
+      <NovinkaObchody />
       <EuropeMap />
       <Pricing />
       <Features />
