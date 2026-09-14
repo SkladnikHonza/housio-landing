@@ -3,31 +3,37 @@ import { Check } from 'lucide-react'
 
 export default function Pricing() {
   const t = useTranslations('pricing')
-  
-  const ctaUrl = 'https://housio.online/signup'
+
+  // Dřív všechna tlačítka vedla na housio.online/signup, která v appce neexistuje (404).
+  // Do appky posíláme vybraný plán a měnu, kterou člověk viděl v ceníku (čeština Kč,
+  // ostatní jazyky €) — ať mu Stripe po registraci strhne přesně tu cenu.
+  const mena = t('basic.price').includes('Kč') ? 'CZK' : 'EUR'
+  const ctaUrl = (plan) => plan === 'free'
+    ? 'https://www.housio.online/?registrace=1'
+    : `https://www.housio.online/?plan=${plan}&billing=mesicne&mena=${mena}`
   const tiers = [
     {
       key: 'free',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5'],
-      ctaUrl,
+      ctaUrl: ctaUrl('free'),
       highlighted: false,
     },
     {
       key: 'basic',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6', 'feature7'],
-      ctaUrl,
+      ctaUrl: ctaUrl('basic'),
       highlighted: false,
     },
     {
       key: 'pro',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
-      ctaUrl,
+      ctaUrl: ctaUrl('pro'),
       highlighted: true,
     },
     {
       key: 'business',
       features: ['feature1', 'feature2', 'feature3', 'feature4', 'feature5', 'feature6'],
-      ctaUrl,
+      ctaUrl: ctaUrl('business'),
       highlighted: false,
     },
   ]
