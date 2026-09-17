@@ -1,27 +1,35 @@
 'use client'
 
 import { useActionState, useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import {
   ArrowRight, Check, Gift, BarChart3, Repeat, Rocket,
   CheckCircle2, AlertCircle,
 } from 'lucide-react'
 import { sendPartnerZadost } from '@/app/actions/sendPartnerZadost'
 
-const PLANY = [
-  { key: 'Basic', price: 299 },
-  { key: 'Pro', price: 599 },
-  { key: 'Business', price: 999 },
-]
-const nf = new Intl.NumberFormat('cs-CZ')
-const kc = (n) => nf.format(Math.round(n)) + ' Kč'
 const DISPLAY = { fontFamily: 'var(--font-inter-tight)', letterSpacing: '-0.02em' }
+const cislo = (s) => Number(String(s).replace(/[^\d]/g, '')) || 0
 
 export default function Partneri() {
   const t = useTranslations('partneri')
+  const tc = useTranslations('pricing')
+  const locale = useLocale()
   const [state, formAction, isPending] = useActionState(sendPartnerZadost, null)
   const [clients, setClients] = useState(10)
-  const [price, setPrice] = useState(599)
+  const [planIdx, setPlanIdx] = useState(1)
+
+  // Kalkulačka musí počítat v měně, kterou člověk vidí v ceníku (čeština Kč, ostatní
+  // jazyky €). Dřív tu byly nastálo koruny, takže cizinci viděli české ceny. Ceny
+  // i příponu bereme z překladů ceníku, ať se obě čísla nikdy nerozejdou.
+  const PLANY = ['basic', 'pro', 'business'].map((k) => ({
+    key: tc(`${k}.name`),
+    price: cislo(tc(`${k}.price`)),
+  }))
+  const mena = tc('basic.price').includes('Kč') ? 'CZK' : 'EUR'
+  const penize = new Intl.NumberFormat(locale, { style: 'currency', currency: mena, maximumFractionDigits: 0 })
+  const kc = (n) => penize.format(Math.round(n))
+  const price = PLANY[planIdx].price
 
   const first = clients * price * 0.20
   const month = clients * price * 0.10
@@ -96,11 +104,11 @@ export default function Partneri() {
 
               <div className="text-xs font-semibold uppercase tracking-wider mt-6 mb-3" style={{ color: 'rgba(255,255,255,0.72)' }}>{t('calcPlan')}</div>
               <div className="flex gap-2">
-                {PLANY.map((p) => {
-                  const on = p.price === price
+                {PLANY.map((p, i) => {
+                  const on = i === planIdx
                   return (
-                    <button key={p.key} onClick={() => setPrice(p.price)} className="flex-1 rounded-xl py-2.5 px-2 font-semibold text-sm transition" style={{ background: on ? '#fff' : 'rgba(255,255,255,0.10)', color: on ? 'var(--teal-900)' : 'rgba(255,255,255,0.8)' }}>
-                      {p.key}<span className="block text-[11px] font-medium mt-0.5" style={{ color: on ? 'var(--olive-dark)' : 'rgba(255,255,255,0.55)' }}>{p.price} Kč/měs</span>
+                    <button key={p.key} onClick={() => setPlanIdx(i)} className="flex-1 rounded-xl py-2.5 px-2 font-semibold text-sm transition" style={{ background: on ? '#fff' : 'rgba(255,255,255,0.10)', color: on ? 'var(--teal-900)' : 'rgba(255,255,255,0.8)' }}>
+                      {p.key}<span className="block text-[11px] font-medium mt-0.5" style={{ color: on ? 'var(--olive-dark)' : 'rgba(255,255,255,0.55)' }}>{penize.format(p.price)}{tc('basic.suffix')}</span>
                     </button>
                   )
                 })}

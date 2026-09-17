@@ -46,6 +46,7 @@
     "futureLabel": "W przygotowaniu"
   },
   "pricing": {
+    "vatNote": "Ceny zawierają VAT.",
     "label": "Cennik",
     "title": "Uczciwe ceny.",
     "title2": "Bez ukrytych opłat.",
@@ -221,7 +222,7 @@
     "formErrorEmail": "Sprawdź format e-maila.",
     "formErrorMessage": "Napisz proszę wiadomość.",
     "footerResponse": "Odpowiemy w ciągu 24 godzin",
-    "footerLocation": "Frýdek-Místek, Czechy",
+    "footerLocation": "Ostrava, Czechy",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Śledź nas na FB",
     "formErrorLimit": "Właśnie otrzymaliśmy wiadomość. Kolejną prosimy wysłać za kilka minut."
@@ -257,6 +258,7 @@
     "reportCta": "Napisz w sprawie bezpieczeństwa"
   },
   "partneri": {
+    "metaDescription": "Polecaj Housio klientom z branży nieruchomości i zarabiaj 20 % z pierwszej płatności oraz 10 % co miesiąc. Basic darmowy na rok i własny panel zarobków.",
     "navLink": "Dla pośredników",
     "heroBadge": "Program partnerski dla pośredników nieruchomości",
     "heroTitle1": "Polecaj Housio.",

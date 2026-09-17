@@ -46,6 +46,7 @@
     "futureLabel": "V přípravě"
   },
   "pricing": {
+    "vatNote": "Ceny jsou včetně DPH.",
     "label": "Ceny",
     "title": "Férové ceny.",
     "title2": "Bez skrytých poplatků.",
@@ -221,7 +222,7 @@
     "formErrorEmail": "Zkontroluj formát emailu.",
     "formErrorMessage": "Napiš prosím zprávu.",
     "footerResponse": "Odpovíme do 24 hodin",
-    "footerLocation": "Frýdek-Místek, Česká republika",
+    "footerLocation": "Ostrava, Česká republika",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Sleduj nás na FB",
     "formErrorLimit": "Zprávu jsme právě přijali. Další pošlete prosím za pár minut."
@@ -257,6 +258,7 @@
     "reportCta": "Napsat na bezpečnost"
   },
   "partneri": {
+    "metaDescription": "Doporučujte Housio realitním klientům a vydělávejte 20 % z první platby a 10 % opakovaně. Basic zdarma na rok, vlastní přehled výdělků.",
     "navLink": "Pro makléře",
     "heroBadge": "Partnerský program pro realitní makléře",
     "heroTitle1": "Doporučujte Housio.",

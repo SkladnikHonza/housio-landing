@@ -46,6 +46,7 @@
     "futureLabel": "Coming soon"
   },
   "pricing": {
+    "vatNote": "Prices include VAT.",
     "label": "Pricing",
     "title": "Fair prices.",
     "title2": "No hidden fees.",
@@ -221,7 +222,7 @@
     "formErrorEmail": "Please check your email format.",
     "formErrorMessage": "Please write a message.",
     "footerResponse": "We reply within 24 hours",
-    "footerLocation": "Frýdek-Místek, Czech Republic",
+    "footerLocation": "Ostrava, Czech Republic",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Follow us on FB",
     "formErrorLimit": "We just received your message. Please send another in a few minutes."
@@ -257,6 +258,7 @@
     "reportCta": "Contact security"
   },
   "partneri": {
+    "metaDescription": "Recommend Housio to your real-estate clients and earn 20% of the first payment and 10% recurring. Basic free for a year, your own earnings dashboard.",
     "navLink": "For agents",
     "heroBadge": "Partner program for real-estate agents",
     "heroTitle1": "Recommend Housio.",

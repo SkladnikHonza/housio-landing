@@ -7,13 +7,16 @@ import Footer from '@/components/Footer'
 export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
+  const tn = await getTranslations({ locale, namespace: 'nav' })
   const prefix = locale === 'cs' ? '' : `/${locale}`
   const url = `https://www.housio.app${prefix}/kontakt`
+  // Slovo "Kontakt" bylo v titulku česky i pro cizí jazyky — bereme ho z překladu nabídky.
+  const titulek = `${t('title')} · ${tn('contact')}`
   return {
-    title: `${t('title')} · Kontakt`,
+    title: titulek,
     alternates: alternatesProStranku(locale, '/kontakt'),
     // og:url musí ukazovat na /kontakt, ne na homepage (jinak náhled sdílení odkazuje jinam).
-    openGraph: { url, title: `${t('title')} · Kontakt` },
+    openGraph: { url, title: titulek },
   }
 }
 

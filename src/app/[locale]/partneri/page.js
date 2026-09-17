@@ -6,13 +6,16 @@ import Footer from '@/components/Footer'
 export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
+  const tp = await getTranslations({ locale, namespace: 'partneri' })
   const prefix = locale === 'cs' ? '' : `/${locale}`
   const url = `https://www.housio.app${prefix}/partneri`
+  // Titulek i popisek v jazyce stránky — dřív se i cizincům ukazovala čeština.
+  const titulek = `${t('title')} · ${tp('navLink')}`
   return {
-    title: `${t('title')} · Partnerský program`,
-    description: 'Doporučujte Housio realitním klientům a vydělávejte 20 % z první platby a 10 % opakovaně. Basic zdarma na rok, vlastní přehled výdělků.',
+    title: titulek,
+    description: tp('metaDescription'),
     alternates: alternatesProStranku(locale, '/partneri'),
-    openGraph: { url, title: `${t('title')} · Partnerský program` },
+    openGraph: { url, title: titulek, description: tp('metaDescription') },
   }
 }
 

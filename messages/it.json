@@ -46,6 +46,7 @@
     "futureLabel": "In arrivo"
   },
   "pricing": {
+    "vatNote": "Prezzi IVA inclusa.",
     "label": "Prezzi",
     "title": "Prezzi onesti.",
     "title2": "Niente costi nascosti.",
@@ -221,7 +222,7 @@
     "formErrorEmail": "Controlla il formato email.",
     "formErrorMessage": "Scrivi un messaggio.",
     "footerResponse": "Rispondiamo entro 24 ore",
-    "footerLocation": "Frýdek-Místek, Repubblica Ceca",
+    "footerLocation": "Ostrava, Repubblica Ceca",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Seguici su FB",
     "formErrorLimit": "Abbiamo appena ricevuto il suo messaggio. Ne invii un altro tra qualche minuto."
@@ -257,6 +258,7 @@
     "reportCta": "Contatta la sicurezza"
   },
   "partneri": {
+    "metaDescription": "Consiglia Housio ai tuoi clienti immobiliari e guadagna il 20 % del primo pagamento e il 10 % ricorrente. Basic gratis per un anno e il tuo pannello dei guadagni.",
     "navLink": "Per gli agenti",
     "heroBadge": "Programma partner per agenti immobiliari",
     "heroTitle1": "Consigli Housio.",

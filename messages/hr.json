@@ -46,6 +46,7 @@
     "futureLabel": "U pripremi"
   },
   "pricing": {
+    "vatNote": "Cijene uključuju PDV.",
     "label": "Cijene",
     "title": "Poštene cijene.",
     "title2": "Bez skrivenih naknada.",
@@ -221,7 +222,7 @@
     "formErrorEmail": "Provjeri format e-maila.",
     "formErrorMessage": "Molimo napiši poruku.",
     "footerResponse": "Odgovaramo unutar 24 sata",
-    "footerLocation": "Frýdek-Místek, Češka Republika",
+    "footerLocation": "Ostrava, Češka Republika",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Prati nas na FB-u",
     "formErrorLimit": "Upravo smo primili vašu poruku. Sljedeću pošaljite za nekoliko minuta."
@@ -257,6 +258,7 @@
     "reportCta": "Piši o sigurnosti"
   },
   "partneri": {
+    "metaDescription": "Preporučite Housio svojim klijentima u nekretninama i zaradite 20 % prve uplate i 10 % ponavljajuće. Basic godinu dana besplatno i vlastiti pregled zarade.",
     "navLink": "Za agente",
     "heroBadge": "Partnerski program za agente za nekretnine",
     "heroTitle1": "Preporučujte Housio.",

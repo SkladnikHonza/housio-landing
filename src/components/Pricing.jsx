@@ -104,6 +104,10 @@ export default function Pricing() {
             </div>
           ))}
         </div>
+
+        <p className="text-center text-xs mt-6" style={{ color: 'var(--olive-dark)', opacity: 0.85 }}>
+          {t('vatNote')}
+        </p>
       </div>
     </section>
   )
