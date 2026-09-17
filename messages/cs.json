@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Měření návštěvnosti",
+    "text": "Rádi bychom anonymně měřili návštěvnost webu — bez cookies a bez sledování napříč weby. Podrobnosti najdeš v",
+    "policy": "Zásadách používání cookies",
+    "accept": "Souhlasím",
+    "reject": "Nesouhlasím"
+  },
   "nav": {
     "features": "Funkce",
     "pricing": "Ceny",

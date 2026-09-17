@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Mesure d’audience",
+    "text": "Nous souhaitons mesurer la fréquentation du site de façon anonyme, sans cookies ni suivi entre sites. Détails dans notre",
+    "policy": "Politique en matière de cookies",
+    "accept": "J’accepte",
+    "reject": "Non merci"
+  },
   "nav": {
     "features": "Fonctionnalités",
     "pricing": "Tarifs",

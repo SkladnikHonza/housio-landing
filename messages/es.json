@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Medición de visitas",
+    "text": "Nos gustaría medir las visitas del sitio de forma anónima, sin cookies y sin seguimiento entre sitios. Más detalles en nuestra",
+    "policy": "Política de cookies",
+    "accept": "Acepto",
+    "reject": "No, gracias"
+  },
   "nav": {
     "features": "Funciones",
     "pricing": "Precios",

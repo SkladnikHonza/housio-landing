@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Traffic measurement",
+    "text": "We would like to measure site traffic anonymously — no cookies and no tracking across sites. Details are in our",
+    "policy": "Cookie Policy",
+    "accept": "I agree",
+    "reject": "No thanks"
+  },
   "nav": {
     "features": "Features",
     "pricing": "Pricing",

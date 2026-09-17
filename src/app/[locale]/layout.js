@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing'
 import { adresa, hreflangMapa } from '@/lib/seo'
 import Nav from '@/components/Nav'
 import AnalyticsTracker from '@/components/AnalyticsTracker'
+import CookieConsentBanner from '@/components/CookieConsentBanner'
 import '../globals.css'
 
 const inter = Inter({
@@ -144,6 +145,7 @@ export default async function LocaleLayout({ children, params }) {
           <AnalyticsTracker />
           <Nav />
           {children}
+          <CookieConsentBanner />
         </NextIntlClientProvider>
       </body>
     </html>

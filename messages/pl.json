@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Pomiar odwiedzin",
+    "text": "Chcielibyśmy anonimowo mierzyć odwiedziny strony — bez plików cookies i bez śledzenia między stronami. Szczegóły w naszej",
+    "policy": "Polityce plików cookies",
+    "accept": "Zgadzam się",
+    "reject": "Nie, dziękuję"
+  },
   "nav": {
     "features": "Funkcje",
     "pricing": "Cennik",

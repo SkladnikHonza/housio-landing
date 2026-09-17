@@ -1,6 +1,7 @@
 'use client'
 import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
+import { souhlasDan, UDALOST_SOUHLASU } from '@/lib/cookieConsent'
 
 // Krok 18a: anonymni visit tracking pro housio.app -> Supabase Edge Function.
 //
@@ -17,19 +18,17 @@ const DOMENA = 'housio.app'
 let initialTime = null
 let routeChangeTracked = false
 
-// Consent gate.
-//   Housio-landing dnes vlastni cookie banner NEMA — klic existuje jen v
-//   localStorage housio.online (sandbox per-origin, cross-domain se nepropaguje).
-//   Defensivni check: pokud klic existuje a status === 'rejected', netrackujeme.
-//   Jinak (null nebo accepted) trackujeme. Vlastni banner pridame separatne.
+// Souhlas.
+//   Zasady ochrany osobnich udaju slibuji, ze vlastni mereni navstevnosti bezi
+//   "bez cookies a az po vasem souhlasu". Driv se tu merilo i bez rozhodnuti
+//   (chybejici klic = merime), protoze housio.app zadnou listu nemel. Ted uz
+//   listu ma (CookieConsentBanner) a merime vylucne po vyslovnem souhlasu.
 function consentAllows() {
   try {
     if (typeof window === 'undefined') return false
-    const raw = window.localStorage.getItem('housio_cookie_consent')
-    if (!raw) return true
-    return JSON.parse(raw).status !== 'rejected'
+    return souhlasDan()
   } catch {
-    return true
+    return false
   }
 }
 
@@ -75,7 +74,9 @@ async function trackVisit() {
 //                        od initial, a jen jednou (treti+ ignorujeme).
 export default function AnalyticsTracker() {
   const pathname = usePathname()
+
   useEffect(() => {
+    if (!consentAllows()) return
     if (initialTime === null) {
       initialTime = Date.now()
       trackVisit()
@@ -84,5 +85,18 @@ export default function AnalyticsTracker() {
       trackVisit()
     }
   }, [pathname])
+
+  // Kdyz clovek souhlas teprve klikne, dopocitame prvni navstevu bez obnoveni stranky.
+  useEffect(() => {
+    function poSouhlasu() {
+      if (initialTime === null && consentAllows()) {
+        initialTime = Date.now()
+        trackVisit()
+      }
+    }
+    window.addEventListener(UDALOST_SOUHLASU, poSouhlasu)
+    return () => window.removeEventListener(UDALOST_SOUHLASU, poSouhlasu)
+  }, [])
+
   return null
 }

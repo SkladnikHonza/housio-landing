@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Mjerenje posjećenosti",
+    "text": "Željeli bismo anonimno mjeriti posjećenost stranice — bez kolačića i bez praćenja između web-mjesta. Detalji su u našim",
+    "policy": "Pravilima o kolačićima",
+    "accept": "Prihvaćam",
+    "reject": "Ne, hvala"
+  },
   "nav": {
     "features": "Funkcije",
     "pricing": "Cijene",

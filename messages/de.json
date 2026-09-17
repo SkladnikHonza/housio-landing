@@ -1,4 +1,11 @@
 {
+  "cookies": {
+    "title": "Reichweitenmessung",
+    "text": "Wir möchten die Besuche auf der Website anonym messen — ohne Cookies und ohne websiteübergreifendes Tracking. Einzelheiten in unserer",
+    "policy": "Cookie-Richtlinie",
+    "accept": "Einverstanden",
+    "reject": "Nein, danke"
+  },
   "nav": {
     "features": "Funktionen",
     "pricing": "Preise",
