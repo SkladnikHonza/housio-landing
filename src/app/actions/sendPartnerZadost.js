@@ -7,6 +7,17 @@ import { smiOdeslat } from './limitOdeslani'
 const FROM = 'Housio partnerství <kontakt@housio.online>'
 const TO = 'housio@housio.app'
 
+// Kopie poptávek na druhou adresu. Poptávky chodily jen na housio@housio.app
+// a ta se 15. 9. odrazila — zpráva od zákaznice se ztratila a nikde to nebylo
+// vidět, protože odraz přijde až po odeslání a kód se o něm nedozví.
+// Adresa se zadává v prostředí (Vercel → Settings → Environment Variables →
+// KOPIE_POPTAVEK), aby osobní adresa nebyla natvrdo v repozitáři. Když
+// proměnná chybí, posílá se jako dřív jen na jednu adresu.
+function adresati() {
+  const kopie = (process.env.KOPIE_POPTAVEK || '').trim()
+  return kopie ? [TO, kopie] : TO
+}
+
 const MAX_NAME = 100
 const MAX_EMAIL = 200
 const MAX_SHORT = 160
@@ -54,7 +65,7 @@ export async function sendPartnerZadost(_prevState, formData) {
   try {
     const { error } = await resend.emails.send({
       from: FROM,
-      to: TO,
+      to: adresati(),
       replyTo: email,
       subject,
       html,
