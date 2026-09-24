@@ -28,8 +28,15 @@ export async function sendContact(_prevState, formData) {
   const email = String(formData.get('email') ?? '').trim()
   const message = String(formData.get('message') ?? '').trim()
   const honeypot = String(formData.get('website') ?? '')
+  const zobrazeno = Number(formData.get('ts') ?? 0)
 
   if (honeypot) return { ok: true }
+
+  // Casova past: kdyz prohlizec formular zobrazil a odeslani prislo do 3 sekund,
+  // je to robot — clovek jmeno, e-mail a zpravu za tri sekundy nenapise. Zahazujeme
+  // ticho (stejne jako honeypot), aby robot nepoznal, ze ho prokoukli. Nulu
+  // neodmitame: to by mohl byt i clovek bez JavaScriptu, ten se jen oznací nize.
+  if (zobrazeno > 0 && Date.now() - zobrazeno < 3000) return { ok: true }
 
   if (!name || name.length > MAX_NAME) return { ok: false, error: 'name' }
   if (!email || email.length > MAX_EMAIL || !EMAIL_RE.test(email)) return { ok: false, error: 'email' }
@@ -47,7 +54,12 @@ export async function sendContact(_prevState, formData) {
 
   const resend = new Resend(apiKey)
 
-  const subject = `Housio.app kontakt — ${name}`
+  // Znackovani, ne mazani: zprava se posle vzdycky, jen dostane do predmetu
+  // varovani, aby se dala v posté odfiltrovat. Duvody: tri a vic odkazu v textu
+  // (bezna poptavka odkazy nema), nebo cas 0 = formular odeslal skript.
+  const odkazu = (message.match(/https?:\/\//gi) || []).length
+  const podezrele = odkazu >= 3 || zobrazeno === 0
+  const subject = `${podezrele ? '[pravděpodobně spam] ' : ''}Housio.app kontakt — ${name}`
   const html = `
     <div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; max-width: 560px; margin: 0 auto; padding: 24px;">
       <h2 style="color: #1F4E5F; margin: 0 0 16px;">Nová zpráva z housio.app</h2>

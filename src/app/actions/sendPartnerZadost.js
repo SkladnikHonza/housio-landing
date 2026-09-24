@@ -29,8 +29,15 @@ export async function sendPartnerZadost(_prevState, formData) {
   const phone = String(formData.get('phone') ?? '').trim()
   const agency = String(formData.get('agency') ?? '').trim()
   const honeypot = String(formData.get('website') ?? '')
+  const zobrazeno = Number(formData.get('ts') ?? 0)
 
   if (honeypot) return { ok: true }
+
+  // Casova past: kdyz prohlizec formular zobrazil a odeslani prislo do 3 sekund,
+  // je to robot — clovek jmeno, e-mail a zpravu za tri sekundy nenapise. Zahazujeme
+  // ticho (stejne jako honeypot), aby robot nepoznal, ze ho prokoukli. Nulu
+  // neodmitame: to by mohl byt i clovek bez JavaScriptu, ten se jen oznací nize.
+  if (zobrazeno > 0 && Date.now() - zobrazeno < 3000) return { ok: true }
 
   if (!name || name.length > MAX_NAME) return { ok: false, error: 'name' }
   if (!email || email.length > MAX_EMAIL || !EMAIL_RE.test(email)) return { ok: false, error: 'email' }

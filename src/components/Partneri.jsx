@@ -1,6 +1,6 @@
 'use client'
 
-import { useActionState, useState } from 'react'
+import { useActionState, useEffect, useState } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import {
   ArrowRight, Check, Gift, BarChart3, Repeat, Rocket,
@@ -16,6 +16,11 @@ export default function Partneri() {
   const tc = useTranslations('pricing')
   const locale = useLocale()
   const [state, formAction, isPending] = useActionState(sendPartnerZadost, null)
+  // Casova past proti robotum: cas, kdy prohlizec formular zobrazil. Nastavuje
+  // se az v prohlizeci, takze v HTML ze serveru zustane 0 — a nula pak znamena
+  // "zadny prohlizec tu nebyl", coz je u rozesilacich skriptu bezne.
+  const [zobrazeno, setZobrazeno] = useState(0)
+  useEffect(() => { setZobrazeno(Date.now()) }, [])
   const [clients, setClients] = useState(10)
   const [planIdx, setPlanIdx] = useState(1)
 
@@ -213,6 +218,7 @@ export default function Partneri() {
                 </div>
               ) : (
                 <form className="space-y-3.5" action={formAction}>
+                  <input type="hidden" name="ts" value={zobrazeno} />
                   <h3 className="text-xl font-medium" style={{ color: 'var(--teal-900)', ...DISPLAY }}>{t('formTitle')}</h3>
                   <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, opacity: 0 }} />
                   <div>

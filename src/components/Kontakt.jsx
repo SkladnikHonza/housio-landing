@@ -1,6 +1,6 @@
 'use client'
 
-import { useActionState } from 'react'
+import { useActionState, useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Mail, ArrowRight, Clock, MapPin, CheckCircle2, AlertCircle } from 'lucide-react'
 import { sendContact } from '@/app/actions/sendContact'
@@ -8,6 +8,11 @@ import { sendContact } from '@/app/actions/sendContact'
 export default function Kontakt() {
   const t = useTranslations('kontakt')
   const [state, formAction, isPending] = useActionState(sendContact, null)
+  // Casova past proti robotum: cas, kdy prohlizec formular zobrazil. Nastavuje
+  // se az v prohlizeci, takze v HTML ze serveru zustane 0 — a nula pak znamena
+  // "zadny prohlizec tu nebyl", coz je u rozesilacich skriptu bezne.
+  const [zobrazeno, setZobrazeno] = useState(0)
+  useEffect(() => { setZobrazeno(Date.now()) }, [])
 
   const errorText = (code) => {
     switch (code) {
@@ -137,6 +142,7 @@ export default function Kontakt() {
             </div>
           ) : (
             <form className="space-y-4" action={formAction}>
+              <input type="hidden" name="ts" value={zobrazeno} />
               {/* honeypot — bots fill it, humans don't see it */}
               <input
                 type="text"
