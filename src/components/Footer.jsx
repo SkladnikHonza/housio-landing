@@ -86,6 +86,7 @@ export default function Footer() {
                 <li><a href="https://housio.online/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalGdpr')}</a></li>
                 <li><a href="https://housio.online/dpa" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalDpa')}</a></li>
                 <li><a href="https://housio.online/cookies" target="_blank" rel="noopener noreferrer" className="hover:text-white transition cursor-pointer">{t('legalCookies')}</a></li>
+                <li><Link href="/smazani-uctu" className="hover:text-white transition cursor-pointer">{t('legalDeleteAccount')}</Link></li>
                 <li><Link href="/bezpecnost" className="hover:text-white transition cursor-pointer">{t('legalSecurity')}</Link></li>
               </ul>
             </div>

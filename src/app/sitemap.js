@@ -10,6 +10,7 @@ const STRANKY = [
   { cesta: '/partneri', changeFrequency: 'monthly', priority: 0.8 },
   { cesta: '/kontakt', changeFrequency: 'monthly', priority: 0.6 },
   { cesta: '/bezpecnost', changeFrequency: 'monthly', priority: 0.5 },
+  { cesta: '/smazani-uctu', changeFrequency: 'yearly', priority: 0.4 },
 ]
 
 export default function sitemap() {
