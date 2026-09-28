@@ -83,7 +83,8 @@
     "stat3Label": "languages",
     "stat4Value": "€689B",
     "stat4Label": "market",
-    "futureLabel": "Coming soon"
+    "futureLabel": "Coming soon",
+    "marketValue": "€{value}B"
   },
   "pricing": {
     "vatNote": "Prices include VAT.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "QR code to Housio on Google Play",
     "altOdznakApple": "Download on the App Store",
     "altOdznakGoogle": "Get it on Google Play"
+  },
+  "nenalezeno": {
+    "title": "Page not found",
+    "lead": "We don't know this address — it may have moved, or there's a typo in it.",
+    "zpetDomu": "Back to home page",
+    "kontakt": "Write to us"
   }
 }

@@ -83,7 +83,8 @@
     "stat3Label": "lingue",
     "stat4Value": "689 mld €",
     "stat4Label": "mercato",
-    "futureLabel": "In arrivo"
+    "futureLabel": "In arrivo",
+    "marketValue": "{value} mld €"
   },
   "pricing": {
     "vatNote": "Prezzi IVA inclusa.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "Codice QR per Housio su Google Play",
     "altOdznakApple": "Scarica su App Store",
     "altOdznakGoogle": "Disponibile su Google Play"
+  },
+  "nenalezeno": {
+    "title": "Pagina non trovata",
+    "lead": "Questo indirizzo non ci risulta: forse è cambiato o contiene un errore di battitura.",
+    "zpetDomu": "Torna alla pagina principale",
+    "kontakt": "Scrivici"
   }
 }

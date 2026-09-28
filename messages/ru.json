@@ -83,7 +83,8 @@
     "stat3Label": "языков",
     "stat4Value": "689 млрд €",
     "stat4Label": "рынок",
-    "futureLabel": "Скоро"
+    "futureLabel": "Скоро",
+    "marketValue": "{value} млрд €"
   },
   "pricing": {
     "vatNote": "Цены включают НДС.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "QR-код на Housio в Google Play",
     "altOdznakApple": "Загрузите в App Store",
     "altOdznakGoogle": "Доступно в Google Play"
+  },
+  "nenalezeno": {
+    "title": "Страница не найдена",
+    "lead": "Такой адрес нам неизвестен — возможно, он изменился или в нём опечатка.",
+    "zpetDomu": "Вернуться на главную",
+    "kontakt": "Написать нам"
   }
 }

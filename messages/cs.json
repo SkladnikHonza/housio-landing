@@ -83,7 +83,8 @@
     "stat3Label": "jazyků",
     "stat4Value": "689 mld €",
     "stat4Label": "trh",
-    "futureLabel": "V přípravě"
+    "futureLabel": "V přípravě",
+    "marketValue": "{value} mld €"
   },
   "pricing": {
     "vatNote": "Ceny jsou včetně DPH.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "QR kód na Housio v Google Play",
     "altOdznakApple": "Stáhnout na App Store",
     "altOdznakGoogle": "Získat na Google Play"
+  },
+  "nenalezeno": {
+    "title": "Stránka nenalezena",
+    "lead": "Tuhle adresu neznáme — možná se změnila, nebo se do ní vloudil překlep.",
+    "zpetDomu": "Zpět na hlavní stránku",
+    "kontakt": "Napsat nám"
   }
 }

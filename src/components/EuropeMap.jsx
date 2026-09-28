@@ -225,7 +225,7 @@ export default function EuropeMap() {
                 {data.market && (
                 <div>
                   <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--olive-dark)' }}>{t('labelMarket')}</p>
-                  <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{data.market} mld €</p>
+                  <p className="text-2xl font-medium" style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}>{t('marketValue', { value: data.market })}</p>
                 </div>
                 )}
                 <div>

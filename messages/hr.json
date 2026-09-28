@@ -83,7 +83,8 @@
     "stat3Label": "jezika",
     "stat4Value": "689 mlrd €",
     "stat4Label": "tržište",
-    "futureLabel": "U pripremi"
+    "futureLabel": "U pripremi",
+    "marketValue": "{value} mlrd €"
   },
   "pricing": {
     "vatNote": "Cijene uključuju PDV.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "QR kod za Housio u Google Playu",
     "altOdznakApple": "Preuzmite u App Storeu",
     "altOdznakGoogle": "Preuzmite na Google Playu"
+  },
+  "nenalezeno": {
+    "title": "Stranica nije nađena",
+    "lead": "Ovu adresu ne poznajemo — možda se promijenila ili sadrži pogrešku u pisanju.",
+    "zpetDomu": "Natrag na početnu stranicu",
+    "kontakt": "Pišite nam"
   }
 }

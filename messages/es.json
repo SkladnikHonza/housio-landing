@@ -83,7 +83,8 @@
     "stat3Label": "idiomas",
     "stat4Value": "689 mil mill. €",
     "stat4Label": "mercado",
-    "futureLabel": "Próximamente"
+    "futureLabel": "Próximamente",
+    "marketValue": "{value} mil mill. €"
   },
   "pricing": {
     "vatNote": "Precios con IVA incluido.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "Código QR a Housio en Google Play",
     "altOdznakApple": "Consíguelo en el App Store",
     "altOdznakGoogle": "Disponible en Google Play"
+  },
+  "nenalezeno": {
+    "title": "Página no encontrada",
+    "lead": "No conocemos esta dirección: puede que haya cambiado o que contenga un error de escritura.",
+    "zpetDomu": "Volver a la página principal",
+    "kontakt": "Escríbenos"
   }
 }

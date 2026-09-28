@@ -75,6 +75,20 @@ const W = {
     growth: 'Рост портфеля 2026', invested: 'Вложено', current: 'Текущая стоимость', apprec: 'Прирост',
     est: 'Прогноз +7 %/год', breakdown: 'Разбивка по объектам',
     r1n: 'Квартира', r1d: '2-комн. · Прага', r2n: 'Дом', r2d: '5-комн. · Вена', r3n: 'Гараж', r3d: 'Берлин', paid: 'Оплачено' },
+  pl: { nav: ['Pulpit','Nieruchomości','Najemcy','Umowy','Płatności','Wydatki','Ubezpieczenie','Ustawienia'],
+    title: 'Pulpit', subtitle: 'Przegląd Twojego portfela · 2026',
+    kNemo: 'Nieruchomości', kNemoSub: 'mieszkanie · dom · garaż', kVal: 'Wartość portfela', kValSub: 'średnio',
+    kInc: 'Miesięczny dochód', kIncSub: 'rocznie', kOcc: 'Obłożenie', kOccSub: '100 % zajęte',
+    growth: 'Wzrost portfela 2026', invested: 'Zainwestowano', current: 'Aktualna wartość', apprec: 'Wzrost',
+    est: 'Prognoza +7 %/rok', breakdown: 'Podział na nieruchomości',
+    r1n: 'Mieszkanie', r1d: '2 pokoje · Warszawa', r2n: 'Dom', r2d: '5 pokoi · Kraków', r3n: 'Garaż', r3d: 'Gdańsk', paid: 'Zapłacone' },
+  hr: { nav: ['Nadzorna ploča','Nekretnine','Najmoprimci','Ugovori','Plaćanja','Rashodi','Osiguranje','Postavke'],
+    title: 'Nadzorna ploča', subtitle: 'Pregled vašeg portfelja · 2026',
+    kNemo: 'Nekretnine', kNemoSub: 'stan · kuća · garaža', kVal: 'Vrijednost portfelja', kValSub: 'prosj.',
+    kInc: 'Mjesečni prihod', kIncSub: 'godišnje', kOcc: 'Zauzetost', kOccSub: '100 % zauzeto',
+    growth: 'Rast portfelja 2026', invested: 'Ulaganje', current: 'Trenutna vrijednost', apprec: 'Rast',
+    est: 'Procjena +7 %/god.', breakdown: 'Raspodjela po nekretninama',
+    r1n: 'Stan', r1d: '2 sobe · Zagreb', r2n: 'Kuća', r2d: '5 soba · Split', r3n: 'Garaža', r3d: 'Rijeka', paid: 'Plaćeno' },
 }
 
 export default function Hero() {

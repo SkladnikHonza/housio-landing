@@ -83,7 +83,8 @@
     "stat3Label": "Sprachen",
     "stat4Value": "689 Mrd. €",
     "stat4Label": "Markt",
-    "futureLabel": "In Vorbereitung"
+    "futureLabel": "In Vorbereitung",
+    "marketValue": "{value} Mrd. €"
   },
   "pricing": {
     "vatNote": "Preise inkl. MwSt.",
@@ -395,5 +396,11 @@
     "altQrGoogle": "QR-Code zu Housio bei Google Play",
     "altOdznakApple": "Laden im App Store",
     "altOdznakGoogle": "Jetzt bei Google Play"
+  },
+  "nenalezeno": {
+    "title": "Seite nicht gefunden",
+    "lead": "Diese Adresse kennen wir nicht — vielleicht hat sie sich geändert oder es hat sich ein Tippfehler eingeschlichen.",
+    "zpetDomu": "Zurück zur Startseite",
+    "kontakt": "Schreiben Sie uns"
   }
 }
