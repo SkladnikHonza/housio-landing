@@ -25,10 +25,14 @@ export async function sendSmazaniUctu(_prevState, formData) {
   const duvod = String(formData.get('duvod') ?? '').trim()
   const honeypot = String(formData.get('website') ?? '')
   const zobrazeno = Number(formData.get('ts') ?? 0)
+  const odeslano = Number(formData.get('tsOdeslano') ?? 0)
 
   if (honeypot) return { ok: true }
-  // Casova past — viz sendContact.js
-  if (zobrazeno > 0 && Date.now() - zobrazeno < 3000) return { ok: true }
+  // Zadost o smazani uctu se NIKDY nezahazuje — vyrizeni je zakonna povinnost
+  // (GDPR, 30 dnu). Cas merime jen hodinami PROHLIZECE (dva casy z tehoz zdroje),
+  // takze posunute hodiny uzivatele nic neovlivni; rychle odeslani jen poznamename.
+  const trvani = (zobrazeno > 0 && odeslano > 0) ? odeslano - zobrazeno : null
+  const prilisRychle = trvani !== null && trvani < 3000
 
   if (!name || name.length > MAX_NAME) return { ok: false, error: 'name' }
   if (!email || email.length > MAX_EMAIL || !EMAIL_RE.test(email)) return { ok: false, error: 'email' }
@@ -55,7 +59,7 @@ export async function sendSmazaniUctu(_prevState, formData) {
     <p style="margin: 0 0 16px;"><strong>E-mail účtu:</strong> <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p>
     ${poznamka}
     <p style="margin: 0; color: #6B7280; font-size: 13px;">
-      Odesláno z housio.app/smazani-uctu. Podle GDPR je třeba vyřídit do 30 dnů.
+      Odesláno z housio.app/smazani-uctu. Podle GDPR je třeba vyřídit do 30 dnů.${prilisRychle ? " Pozn.: formulář byl odeslán velmi rychle — může jít o robota." : ""}
     </p>
   `
 

@@ -20,8 +20,8 @@ import { headers } from 'next/headers'
 // chce to sdilene uloziste (Upstash / Supabase), ne vetsi cisla tady.
 
 const OKNO_MS = 10 * 60 * 1000   // 10 minut
-const NA_ADRESU = 3              // clovek posle jednu zpravu, tri je uz velkoryse
-const CELKEM = 40                // zachytka pro utok z mnoha adres
+const NA_ADRESU = 10             // v realitni kancelari sedi za jednou verejnou IP vic lidi
+const CELKEM = 200               // zachytka pro utok z mnoha adres; pri kampani chodi vic lidi naraz
 
 const podleAdresy = new Map()
 let celkem = []

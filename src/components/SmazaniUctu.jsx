@@ -1,6 +1,6 @@
 'use client'
 
-import { useActionState, useEffect, useState } from 'react'
+import { useActionState, useEffect, useState, useRef } from 'react'
 import { useTranslations } from 'next-intl'
 import { CheckCircle2, AlertCircle, Smartphone, Trash2, Clock, FileText, CreditCard } from 'lucide-react'
 import { sendSmazaniUctu } from '@/app/actions/sendSmazaniUctu'
@@ -12,7 +12,14 @@ export default function SmazaniUctu() {
   const [state, formAction, isPending] = useActionState(sendSmazaniUctu, null)
   // Casova past proti robotum — viz Kontakt.jsx a sendSmazaniUctu.js
   const [zobrazeno, setZobrazeno] = useState(0)
-  useEffect(() => { setZobrazeno(Date.now()) }, [])
+  // Cas odeslani drzime v skrytem poli a prubezne ho obnovujeme — server pak
+  // odecte dva casy z TEHOZ zdroje a posunute hodiny uzivatele nevadi.
+  const casRef = useRef(null)
+  useEffect(() => {
+    setZobrazeno(Date.now())
+    const id = setInterval(() => { if (casRef.current) casRef.current.value = String(Date.now()) }, 500)
+    return () => clearInterval(id)
+  }, [])
 
   const errorText = (code) => {
     switch (code) {
@@ -101,6 +108,7 @@ export default function SmazaniUctu() {
           ) : (
             <form className="space-y-4" action={formAction}>
               <input type="hidden" name="ts" value={zobrazeno} />
+              <input type="hidden" name="tsOdeslano" ref={casRef} defaultValue="0" />
               {/* honeypot — bots fill it, humans don't see it */}
               <input
                 type="text"

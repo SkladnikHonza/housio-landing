@@ -1,6 +1,6 @@
 'use client'
 
-import { useActionState, useEffect, useState } from 'react'
+import { useActionState, useEffect, useState, useRef } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import {
   ArrowRight, Check, Gift, BarChart3, Repeat, Rocket,
@@ -20,7 +20,14 @@ export default function Partneri() {
   // se az v prohlizeci, takze v HTML ze serveru zustane 0 — a nula pak znamena
   // "zadny prohlizec tu nebyl", coz je u rozesilacich skriptu bezne.
   const [zobrazeno, setZobrazeno] = useState(0)
-  useEffect(() => { setZobrazeno(Date.now()) }, [])
+  // Cas odeslani drzime v skrytem poli a prubezne ho obnovujeme — server pak
+  // odecte dva casy z TEHOZ zdroje a posunute hodiny uzivatele nevadi.
+  const casRef = useRef(null)
+  useEffect(() => {
+    setZobrazeno(Date.now())
+    const id = setInterval(() => { if (casRef.current) casRef.current.value = String(Date.now()) }, 500)
+    return () => clearInterval(id)
+  }, [])
   const [clients, setClients] = useState(10)
   const [planIdx, setPlanIdx] = useState(1)
 
@@ -219,6 +226,7 @@ export default function Partneri() {
               ) : (
                 <form className="space-y-3.5" action={formAction}>
                   <input type="hidden" name="ts" value={zobrazeno} />
+              <input type="hidden" name="tsOdeslano" ref={casRef} defaultValue="0" />
                   <h3 className="text-xl font-medium" style={{ color: 'var(--teal-900)', ...DISPLAY }}>{t('formTitle')}</h3>
                   <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, opacity: 0 }} />
                   <div>

@@ -30,14 +30,16 @@ export async function sendPartnerZadost(_prevState, formData) {
   const agency = String(formData.get('agency') ?? '').trim()
   const honeypot = String(formData.get('website') ?? '')
   const zobrazeno = Number(formData.get('ts') ?? 0)
+  const odeslano = Number(formData.get('tsOdeslano') ?? 0)
 
   if (honeypot) return { ok: true }
 
-  // Casova past: kdyz prohlizec formular zobrazil a odeslani prislo do 3 sekund,
-  // je to robot — clovek jmeno, e-mail a zpravu za tri sekundy nenapise. Zahazujeme
-  // ticho (stejne jako honeypot), aby robot nepoznal, ze ho prokoukli. Nulu
-  // neodmitame: to by mohl byt i clovek bez JavaScriptu, ten se jen oznací nize.
-  if (zobrazeno > 0 && Date.now() - zobrazeno < 3000) return { ok: true }
+  // Jak dlouho mel clovek formular otevreny. OBE hodnoty jsou z hodin PROHLIZECE,
+  // takze se neporovnavaji dvoje ruzne hodiny. Driv se cas prohlizece porovnaval
+  // s casem serveru — komu sly hodiny napred, tomu formular TISE spolkl i skutecnou
+  // poptavku a jeste mu ukazal "Dekujeme". To uz se stat nemuze.
+  const trvani = (zobrazeno > 0 && odeslano > 0) ? odeslano - zobrazeno : null
+  const prilisRychle = trvani !== null && trvani < 3000
 
   if (!name || name.length > MAX_NAME) return { ok: false, error: 'name' }
   if (!email || email.length > MAX_EMAIL || !EMAIL_RE.test(email)) return { ok: false, error: 'email' }
@@ -55,7 +57,8 @@ export async function sendPartnerZadost(_prevState, formData) {
 
   const resend = new Resend(apiKey)
 
-  const subject = `Nová přihláška partnera — ${name}`
+  // Znackujeme, nezahazujeme: prihlaska od skutecneho partnera se nesmi ztratit.
+  const subject = `${(prilisRychle || zobrazeno === 0) ? '[pravděpodobně spam] ' : ''}Nová přihláška partnera — ${name}`
   const html = `
     <div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; max-width: 560px; margin: 0 auto; padding: 24px;">
       <h2 style="color: #1F4E5F; margin: 0 0 16px;">🤝 Nová přihláška do partnerského programu</h2>
