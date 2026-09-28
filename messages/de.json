@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "Die App Housio wird betrieben von US Europe Group s.r.o., Ident.-Nr. 06779808, Třebovická 5050/78, 722 00 Ostrava, Tschechien.",
     "navLink": "Konto löschen",
     "metaDescription": "Wie Sie Ihr Housio-Konto löschen und was mit Ihren Daten passiert. Die Löschung können Sie auch ohne Anmeldung in der App beantragen.",
     "title": "Konto und Daten löschen",
@@ -11,7 +12,7 @@
     "lhutaTitle": "30 Tage Schonfrist",
     "lhutaBody": "Das Konto wird zuerst deaktiviert und bleibt 30 Tage wiederherstellbar — bis dahin können Sie die Löschung durch Anmeldung zurücknehmen. Nach 30 Tagen werden die Daten endgültig entfernt.",
     "zustavaTitle": "Was bleibt",
-    "zustavaBody": "Buchhaltungs- und Steuerbelege zu bezahlten Abonnements, die wir gesetzlich aufbewahren müssen. Sonst nichts.",
+    "zustavaBody": "Buchhaltungs- und Steuerbelege zu bezahlten Abonnements. Diese müssen wir gesetzlich 10 Jahre ab dem Ende des Besteuerungszeitraums aufbewahren, in dem die Zahlung erfolgte. Sonst nichts.",
     "predplatneTitle": "Abos aus App Store und Google Play",
     "predplatneBody": "Ein im Mobile Store gekauftes Abo wird durch das Löschen des Kontos nicht gekündigt. Kündigen Sie es unter Einstellungen → Apple-ID → Abonnements oder in den Google-Play-Abos, sonst rechnet der Store weiter ab.",
     "formTitle": "Antrag auf Kontolöschung",

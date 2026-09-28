@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "Aplikaciju Housio vodi US Europe Group s.r.o., IČO 06779808, Třebovická 5050/78, 722 00 Ostrava, Češka.",
     "navLink": "Brisanje računa",
     "metaDescription": "Kako izbrisati Housio račun i što se događa s podacima. Brisanje možete zatražiti i bez prijave u aplikaciju.",
     "title": "Brisanje računa i podataka",
@@ -11,7 +12,7 @@
     "lhutaTitle": "Rok od 30 dana",
     "lhutaBody": "Račun se najprije deaktivira i 30 dana ostaje moguće ga vratiti — do tada brisanje možete otkazati prijavom. Nakon 30 dana podaci se nepovratno brišu.",
     "zustavaTitle": "Što ostaje",
-    "zustavaBody": "Računovodstveni i porezni dokumenti za plaćene pretplate, koje smo po zakonu obvezni čuvati. Ništa drugo.",
+    "zustavaBody": "Računovodstveni i porezni dokumenti za plaćene pretplate. Prema zakonu moramo ih čuvati 10 godina od kraja poreznog razdoblja u kojem je plaćanje izvršeno. Ništa drugo.",
     "predplatneTitle": "Pretplate iz App Storea i Google Playa",
     "predplatneBody": "Pretplata kupljena u mobilnoj trgovini ne otkazuje se brisanjem računa. Otkažite je u Postavke → Apple ID → Pretplate ili u Google Play pretplatama, inače će vam trgovina nastaviti naplaćivati.",
     "formTitle": "Zahtjev za brisanje računa",

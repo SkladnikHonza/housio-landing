@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "Aplikację Housio prowadzi US Europe Group s.r.o., numer identyfikacyjny 06779808, Třebovická 5050/78, 722 00 Ostrawa, Czechy.",
     "navLink": "Usunięcie konta",
     "metaDescription": "Jak usunąć konto Housio i co dzieje się z danymi. O usunięcie możesz poprosić bez logowania się do aplikacji.",
     "title": "Usunięcie konta i danych",
@@ -11,7 +12,7 @@
     "lhutaTitle": "30 dni na wycofanie",
     "lhutaBody": "Konto najpierw zostaje wyłączone i przez 30 dni da się je odzyskać — do tego czasu możesz wycofać usunięcie, logując się. Po 30 dniach dane są usuwane nieodwracalnie.",
     "zustavaTitle": "Co zostaje",
-    "zustavaBody": "Dokumenty księgowe i podatkowe dotyczące opłaconych subskrypcji, które musimy przechowywać zgodnie z prawem. Nic więcej.",
+    "zustavaBody": "Dokumenty księgowe i podatkowe dotyczące opłaconych subskrypcji. Zgodnie z prawem musimy je przechowywać 10 lat od końca okresu rozliczeniowego, w którym dokonano płatności. Nic więcej.",
     "predplatneTitle": "Subskrypcje z App Store i Google Play",
     "predplatneBody": "Subskrypcja kupiona w sklepie mobilnym nie zostaje anulowana przez usunięcie konta. Anuluj ją w Ustawienia → Apple ID → Subskrypcje albo w subskrypcjach Google Play, inaczej sklep będzie nadal pobierać opłaty.",
     "formTitle": "Wniosek o usunięcie konta",

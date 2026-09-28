@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "L’application Housio est exploitée par US Europe Group s.r.o., numéro d’identification 06779808, Třebovická 5050/78, 722 00 Ostrava, République tchèque.",
     "navLink": "Supprimer le compte",
     "metaDescription": "Comment supprimer votre compte Housio et ce qu’il advient de vos données. Vous pouvez demander la suppression sans vous connecter à l’application.",
     "title": "Supprimer le compte et les données",
@@ -11,7 +12,7 @@
     "lhutaTitle": "Délai de grâce de 30 jours",
     "lhutaBody": "Le compte est d’abord désactivé et reste récupérable pendant 30 jours : jusque-là, vous pouvez annuler la suppression en vous connectant. Au bout de 30 jours, les données sont supprimées définitivement.",
     "zustavaTitle": "Ce que nous conservons",
-    "zustavaBody": "Les pièces comptables et fiscales des abonnements payés, que la loi nous oblige à conserver. Rien d’autre.",
+    "zustavaBody": "Les pièces comptables et fiscales des abonnements payés. La loi nous oblige à les conserver 10 ans à compter de la fin de la période d’imposition au cours de laquelle le paiement a eu lieu. Rien d’autre.",
     "predplatneTitle": "Abonnements App Store et Google Play",
     "predplatneBody": "Un abonnement acheté dans une boutique mobile n’est pas résilié par la suppression du compte. Résiliez-le dans Réglages → Identifiant Apple → Abonnements ou dans vos abonnements Google Play, sinon la boutique continuera de vous facturer.",
     "formTitle": "Demande de suppression de compte",

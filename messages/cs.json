@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "Aplikaci Housio provozuje US Europe Group s.r.o., IČO 06779808, Třebovická 5050/78, 722 00 Ostrava, Česká republika.",
     "navLink": "Smazání účtu",
     "metaDescription": "Jak smazat účet Housio a co se stane s vašimi daty. O smazání můžete požádat i bez přihlášení do aplikace.",
     "title": "Smazání účtu a dat",
@@ -11,7 +12,7 @@
     "lhutaTitle": "Ochranná lhůta 30 dnů",
     "lhutaBody": "Účet se nejprve deaktivuje a 30 dnů zůstane obnovitelný — do té doby lze smazání vzít zpět přihlášením. Po 30 dnech se data nevratně odstraní.",
     "zustavaTitle": "Co zůstává",
-    "zustavaBody": "Účetní a daňové doklady k zaplacenému předplatnému, které musíme uchovávat podle zákona. Nic jiného.",
+    "zustavaBody": "Účetní a daňové doklady k zaplacenému předplatnému. Ty musíme podle zákona uchovávat 10 let od konce zdaňovacího období, ve kterém se platba uskutečnila. Nic jiného.",
     "predplatneTitle": "Předplatné z App Store a Google Play",
     "predplatneBody": "Předplatné koupené v mobilním obchodě se smazáním účtu neruší. Zrušte ho v Nastavení → Apple ID → Předplatná, případně v předplatných Google Play, jinak vám obchod bude účtovat dál.",
     "formTitle": "Žádost o smazání účtu",

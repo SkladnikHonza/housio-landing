@@ -1,5 +1,6 @@
 {
   "smazaniUctu": {
+    "provozovatel": "L’app Housio è gestita da US Europe Group s.r.o., codice identificativo 06779808, Třebovická 5050/78, 722 00 Ostrava, Repubblica Ceca.",
     "navLink": "Eliminare l’account",
     "metaDescription": "Come eliminare l’account Housio e cosa succede ai tuoi dati. Puoi richiedere l’eliminazione anche senza accedere all’app.",
     "title": "Eliminazione dell’account e dei dati",
@@ -11,7 +12,7 @@
     "lhutaTitle": "30 giorni di tolleranza",
     "lhutaBody": "L’account viene prima disattivato e resta recuperabile per 30 giorni: fino a quel momento puoi annullare l’eliminazione accedendo. Dopo 30 giorni i dati vengono rimossi definitivamente.",
     "zustavaTitle": "Cosa conserviamo",
-    "zustavaBody": "I documenti contabili e fiscali degli abbonamenti pagati, che siamo obbligati a conservare per legge. Nient’altro.",
+    "zustavaBody": "I documenti contabili e fiscali degli abbonamenti pagati. Per legge dobbiamo conservarli 10 anni dalla fine del periodo d’imposta in cui è stato effettuato il pagamento. Nient’altro.",
     "predplatneTitle": "Abbonamenti App Store e Google Play",
     "predplatneBody": "L’abbonamento acquistato in uno store mobile non viene annullato eliminando l’account. Annullalo in Impostazioni → ID Apple → Abbonamenti o negli abbonamenti Google Play, altrimenti lo store continuerà ad addebitarlo.",
     "formTitle": "Richiesta di eliminazione dell’account",

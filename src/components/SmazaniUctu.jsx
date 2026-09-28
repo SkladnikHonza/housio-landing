@@ -48,8 +48,13 @@ export default function SmazaniUctu() {
         >
           {t('title')}
         </h1>
-        <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--olive-dark)' }}>
+        <p className="text-lg leading-relaxed mb-3" style={{ color: 'var(--olive-dark)' }}>
           {t('lead')}
+        </p>
+        {/* Google Play chce, aby stranka odkazovala na nazev aplikace nebo jmeno
+            vyvojare ze zaznamu v obchode. */}
+        <p className="text-sm mb-10" style={{ color: 'var(--olive-dark)', opacity: 0.75 }}>
+          {t('provozovatel')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
