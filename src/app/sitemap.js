@@ -1,5 +1,6 @@
 import { routing } from '@/i18n/routing'
-import { adresa, hreflangMapa } from '@/lib/seo'
+import { adresa, hreflangMapa, BASE } from '@/lib/seo'
+import { CLANKY } from '@/clanky'
 
 // Sitemapa se generuje z routing.locales a seznamu níž, ne ručně.
 // Dřív byla staticky v public/sitemap.xml a zastarala — chyběla v ní
@@ -16,7 +17,18 @@ const STRANKY = [
 export default function sitemap() {
   const dnes = new Date()
 
-  return STRANKY.flatMap(({ cesta, changeFrequency, priority }) =>
+  // Blog bezi jen v cestine (ceske zakony), takze bez jazykovych variant.
+  const clanky = [
+    { url: `${BASE}/blog`, lastModified: dnes, changeFrequency: 'weekly', priority: 0.7 },
+    ...CLANKY.map((c) => ({
+      url: `${BASE}/blog/${c.slug}`,
+      lastModified: new Date(c.datum),
+      changeFrequency: 'yearly',
+      priority: 0.6,
+    })),
+  ]
+
+  const stranky = STRANKY.flatMap(({ cesta, changeFrequency, priority }) =>
     routing.locales.map((locale) => ({
       url: adresa(locale, cesta),
       lastModified: dnes,
@@ -26,4 +38,6 @@ export default function sitemap() {
       alternates: { languages: hreflangMapa(cesta) },
     })),
   )
+
+  return [...stranky, ...clanky]
 }

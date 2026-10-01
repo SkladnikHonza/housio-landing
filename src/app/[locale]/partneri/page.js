@@ -1,4 +1,4 @@
-import { alternatesProStranku, drobeckyJsonLd } from '@/lib/seo'
+import { alternatesProStranku, drobeckyJsonLd, openGraphStranky, twitterStranky } from '@/lib/seo'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import Partneri from '@/components/Partneri'
 import Footer from '@/components/Footer'
@@ -7,15 +7,15 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const tp = await getTranslations({ locale, namespace: 'partneri' })
-  const prefix = locale === 'cs' ? '' : `/${locale}`
-  const url = `https://www.housio.app${prefix}/partneri`
   // Titulek i popisek v jazyce stránky — dřív se i cizincům ukazovala čeština.
   const titulek = `${t('title')} · ${tp('navLink')}`
+  const popis = tp('metaDescription')
   return {
     title: titulek,
-    description: tp('metaDescription'),
+    description: popis,
     alternates: alternatesProStranku(locale, '/partneri'),
-    openGraph: { url, title: titulek, description: tp('metaDescription') },
+    openGraph: openGraphStranky({ locale, cesta: '/partneri', title: titulek, description: popis }),
+    twitter: twitterStranky({ title: titulek, description: popis }),
   }
 }
 

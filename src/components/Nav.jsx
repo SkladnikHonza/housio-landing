@@ -73,6 +73,8 @@ function LanguageSwitcher({ mobile = false }) {
 export default function Nav() {
   const tNav = useTranslations('nav')
   const tp = useTranslations('partneri')
+  // Blog je jen cesky (ceske zakony), v jinych jazycich by odkaz vedl na 404.
+  const cesky = useLocale() === 'cs'
   const pathname = usePathname()
   const isHome = pathname === '/'
   const [menuOpen, setMenuOpen] = useState(false)
@@ -147,6 +149,15 @@ export default function Nav() {
           >
             {tp('navLink')}
           </Link>
+          {cesky && (
+            <Link
+              href="/blog"
+              className="nav-link text-sm font-medium cursor-pointer"
+              style={{ color: 'var(--teal-900)' }}
+            >
+              Průvodce
+            </Link>
+          )}
           <Link
             href="/kontakt"
             className="nav-link text-sm font-medium cursor-pointer"
@@ -279,6 +290,16 @@ export default function Nav() {
             >
               {tp('navLink')}
             </Link>
+            {cesky && (
+              <Link
+                href="/blog"
+                onClick={() => setMenuOpen(false)}
+                className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
+                style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
+              >
+                Průvodce
+              </Link>
+            )}
             <Link
               href="/kontakt"
               onClick={() => setMenuOpen(false)}

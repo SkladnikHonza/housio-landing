@@ -1,9 +1,12 @@
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import { Home, Sparkles, ArrowRight } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 
 export default function Footer() {
   const t = useTranslations('footer')
+  // Blog stoji na ceskych zakonech, takze bezi jen v cestine — v jinych jazycich
+  // by odkaz vedl na 404 (viz src/clanky/index.js).
+  const cesky = useLocale() === 'cs'
 
   return (
     <>
@@ -67,6 +70,7 @@ export default function Footer() {
                 <li><a href="#funkce" className="hover:text-white transition cursor-pointer">{t('productFeatures')}</a></li>
                 <li><a href="#ceny" className="hover:text-white transition cursor-pointer">{t('productPricing')}</a></li>
                 <li><a href="https://www.housio.online" className="hover:text-white transition cursor-pointer">{t('productLogin')}</a></li>
+                {cesky && <li><Link href="/blog" className="hover:text-white transition cursor-pointer">Průvodce pronájmem</Link></li>}
               </ul>
             </div>
 

@@ -1,4 +1,4 @@
-import { alternatesProStranku, drobeckyJsonLd } from '@/lib/seo'
+import { alternatesProStranku, drobeckyJsonLd, openGraphStranky, twitterStranky } from '@/lib/seo'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import SmazaniUctu from '@/components/SmazaniUctu'
 import Footer from '@/components/Footer'
@@ -9,14 +9,14 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const ts = await getTranslations({ locale, namespace: 'smazaniUctu' })
-  const prefix = locale === 'cs' ? '' : `/${locale}`
-  const url = `https://www.housio.app${prefix}/smazani-uctu`
   const titulek = `${t('title')} · ${ts('navLink')}`
+  const popis = ts('metaDescription')
   return {
     title: titulek,
-    description: ts('metaDescription'),
+    description: popis,
     alternates: alternatesProStranku(locale, '/smazani-uctu'),
-    openGraph: { url, title: titulek, description: ts('metaDescription') },
+    openGraph: openGraphStranky({ locale, cesta: '/smazani-uctu', title: titulek, description: popis }),
+    twitter: twitterStranky({ title: titulek, description: popis }),
   }
 }
 
