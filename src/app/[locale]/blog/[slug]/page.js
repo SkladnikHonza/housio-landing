@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import { setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { adresa, BASE, NAHLED } from '@/lib/seo'
-import { CLANKY, SLUGY, clanekPodleSlug } from '@/clanky'
+import { CLANKY, SLUGY, clanekPodleSlug, nazevTematu } from '@/clanky'
 import Footer from '@/components/Footer'
 
 export function generateStaticParams() {
@@ -28,6 +28,7 @@ export async function generateMetadata({ params }) {
       title: titulek,
       description: clanek.perex,
       publishedTime: clanek.datum,
+      section: nazevTematu(clanek.tema),
       images: [{ ...NAHLED, alt: clanek.nadpis }],
     },
     twitter: { card: 'summary_large_image', title: titulek, description: clanek.perex, images: [NAHLED.url] },
@@ -43,6 +44,14 @@ export default async function ClanekPage({ params }) {
 
   const { Obsah } = clanek
   const url = `${BASE}/blog/${clanek.slug}`
+  const tema = nazevTematu(clanek.tema)
+
+  // Dalsi cteni: nejdriv ze stejneho tematu, pak cokoli dalsiho — at ctenar
+  // neskonci ve slepe ulicce a vyhledavac vidi, ktere stranky spolu souvisi.
+  const dalsi = [
+    ...CLANKY.filter((c) => c.slug !== clanek.slug && c.tema === clanek.tema),
+    ...CLANKY.filter((c) => c.slug !== clanek.slug && c.tema !== clanek.tema),
+  ].slice(0, 3)
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -54,6 +63,8 @@ export default async function ClanekPage({ params }) {
         datePublished: clanek.datum,
         dateModified: clanek.datum,
         inLanguage: 'cs',
+        articleSection: tema,
+        timeRequired: `PT${clanek.minut}M`,
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         author: { '@type': 'Organization', name: 'Housio', url: adresa('cs') },
         publisher: {
@@ -72,21 +83,32 @@ export default async function ClanekPage({ params }) {
           { '@type': 'ListItem', position: 3, name: clanek.nadpis, item: url },
         ],
       },
+      // Caste dotazy ze zavera clanku. Google je umi zobrazit primo ve vysledku
+      // hledani jako rozbalovaci otazky — proto je ma kazdy clanek.
+      ...(clanek.faq?.length
+        ? [{
+          '@type': 'FAQPage',
+          mainEntity: clanek.faq.map((d) => ({
+            '@type': 'Question',
+            name: d.otazka,
+            acceptedAnswer: { '@type': 'Answer', text: d.odpoved },
+          })),
+        }]
+        : []),
     ],
   }
-
-  // Dalsi cteni — dva nasledujici clanky v porradi, at ctenar neskonci ve slepe ulicce.
-  const dalsi = CLANKY.filter((c) => c.slug !== clanek.slug).slice(0, 2)
 
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <article className="px-6 pt-16 pb-16" style={{ background: 'var(--bg-warm)' }}>
+      <article className="px-6 pt-14 pb-16" style={{ background: 'var(--bg-warm)' }}>
         <div className="max-w-2xl mx-auto">
-          <Link href="/blog" className="inline-block text-sm mb-6 hover:underline" style={{ color: 'var(--teal-900)' }}>
-            ← Průvodce pronájmem
-          </Link>
+          <nav className="flex flex-wrap items-center gap-2 text-sm mb-6" style={{ color: 'var(--text-light)' }}>
+            <Link href="/blog" className="hover:underline" style={{ color: 'var(--teal-900)' }}>Průvodce pronájmem</Link>
+            <span>·</span>
+            <Link href={`/blog#${clanek.tema}`} className="hover:underline" style={{ color: 'var(--teal-900)' }}>{tema}</Link>
+          </nav>
 
           <h1
             className="text-3xl md:text-4xl font-medium leading-tight tracking-tight mb-3"
@@ -115,6 +137,7 @@ export default async function ClanekPage({ params }) {
                 className="block rounded-2xl px-5 py-5 transition hover:shadow-md"
                 style={{ border: '1px solid var(--border-cool)', background: 'var(--bg-warm)' }}
               >
+                <div className="text-xs mb-1" style={{ color: 'var(--text-light)' }}>{nazevTematu(c.tema)}</div>
                 <div className="font-medium mb-1" style={{ color: 'var(--teal-900)' }}>{c.nadpis}</div>
                 <div className="text-sm leading-relaxed" style={{ color: 'var(--olive-dark)' }}>{c.perex}</div>
               </Link>

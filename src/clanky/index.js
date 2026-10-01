@@ -1,60 +1,74 @@
-import ZvyseniNajmu from './zvyseni-najmu'
-import NajemniSmlouva from './najemni-smlouva'
-import DaneZPronajmu from './dane-z-pronajmu'
-import VyuctovaniSluzeb from './vyuctovani-sluzeb'
-import EvidencniList from './evidencni-list'
+import * as zvyseniNajmu from './zvyseni-najmu'
+import * as evidencniList from './evidencni-list'
+import * as najemniSmlouva from './najemni-smlouva'
+import * as jistotaKauce from './jistota-kauce'
+import * as predavaciProtokol from './predavaci-protokol'
+import * as vypovedZNajmu from './vypoved-z-najmu'
+import * as neplaticiNajemnik from './neplatici-najemnik'
+import * as daneZPronajmu from './dane-z-pronajmu'
+import * as vyuctovaniSluzeb from './vyuctovani-sluzeb'
+import * as kratkodobyPronajem from './kratkodoby-pronajem'
 
-// Seznam clanku — jediny zdroj pravdy pro rozcestnik, sitemapu i detail.
+// Prurvodce pronajmem — jediny zdroj pravdy pro rozcestnik, detail i sitemapu.
 //
-// PROC JEN CESKY: tyhle texty stoji na ceskem obcanskem zakoniku, zakone
-// o sluzbach a ceske dani z prijmu. Prelozit je do chorvatstiny by znamenalo
-// tvrdit Chorvatovi neco, co pro nej neplati. Blog proto bezi jen v cestine
+// PROC JEN CESKY: texty stoji na ceskem obcanskem zakoniku, zakone c. 67/2013
+// a ceske dani z prijmu. Prelozit je do chorvatstiny by znamenalo tvrdit
+// Chorvatovi neco, co pro nej neplati. Blog proto bezi jen v cestine
 // a v ostatnich jazycich vraci 404 (viz app/[locale]/blog).
-export const CLANKY = [
+//
+// Kazdy clanek je modul, ktery vedle komponenty exportuje i META (nadpis,
+// perex, tema, sekce pro obsah a caste dotazy). Diky tomu se z jednoho mista
+// skladaji strukturovana data, obsah clanku i prolinkovani.
+
+// Poradi tematu urcuje poradi na rozcestniku.
+export const TEMATA = [
   {
-    slug: 'zvyseni-najmu',
-    nadpis: 'Jak zvýšit nájemné: inflační doložka i postup podle zákona',
-    perex: 'Kdy stačí oznámení, kdy potřebuješ návrh a souhlas nájemníka a proč existuje strop dvaceti procent za tři roky.',
-    datum: '2026-10-01',
-    minut: 6,
-    Obsah: ZvyseniNajmu,
+    id: 'najemne',
+    nazev: 'Nájemné a jeho změny',
+    popis: 'Kolik si říct, jak a kdy nájemné zvýšit a čím to podložit.',
   },
   {
-    slug: 'najemni-smlouva',
-    nadpis: 'Co musí být v nájemní smlouvě na byt (a co do ní nepatří)',
-    perex: 'Povinné náležitosti, strop na jistotu a smluvní pokutu, ujednání, na která zákon nehledí, a konec nájmu bez překvapení.',
-    datum: '2026-10-01',
-    minut: 7,
-    Obsah: NajemniSmlouva,
+    id: 'smlouva',
+    nazev: 'Smlouva a předání bytu',
+    popis: 'Co musí být na papíře, než nájemník převezme klíče.',
   },
   {
-    slug: 'dane-z-pronajmu',
-    nadpis: 'Daň z pronájmu: paušál 30 %, nebo skutečné výdaje?',
-    perex: 'Spočítané na konkrétním bytě — kde se paušál vyplatí, kdy vyhrají odpisy a úroky a co si schovávat celý rok.',
-    datum: '2026-10-01',
-    minut: 7,
-    Obsah: DaneZPronajmu,
+    id: 'problemy',
+    nazev: 'Když se to zvrtne',
+    popis: 'Neplacení, výpověď a vystěhování — krok za krokem a bez chyb, které stojí měsíce.',
   },
   {
-    slug: 'vyuctovani-sluzeb',
-    nadpis: 'Vyúčtování služeb: lhůty, podklady a pokuta za každý den',
-    perex: 'Do kdy musí být vyúčtování doručeno, co v něm musí stát a kolik stojí, když se zpozdíš.',
-    datum: '2026-10-01',
-    minut: 6,
-    Obsah: VyuctovaniSluzeb,
-  },
-  {
-    slug: 'evidencni-list',
-    nadpis: 'Evidenční list nájemného: k čemu je dobrý a co v něm má být',
-    perex: 'Jediná příloha smlouvy, kterou změníš bez dodatku — pokud na ni smlouva správně odkazuje.',
-    datum: '2026-10-01',
-    minut: 4,
-    Obsah: EvidencniList,
+    id: 'dane',
+    nazev: 'Daně a vyúčtování',
+    popis: 'Co stát chce, do kdy a co si k tomu schovávat.',
   },
 ]
+
+const MODULY = [
+  zvyseniNajmu,
+  evidencniList,
+  najemniSmlouva,
+  jistotaKauce,
+  predavaciProtokol,
+  vypovedZNajmu,
+  neplaticiNajemnik,
+  daneZPronajmu,
+  vyuctovaniSluzeb,
+  kratkodobyPronajem,
+]
+
+export const CLANKY = MODULY.map((m) => ({ ...m.META, Obsah: m.default }))
 
 export const SLUGY = CLANKY.map((c) => c.slug)
 
 export function clanekPodleSlug(slug) {
   return CLANKY.find((c) => c.slug === slug) || null
+}
+
+export function clankyTematu(tema) {
+  return CLANKY.filter((c) => c.tema === tema)
+}
+
+export function nazevTematu(tema) {
+  return TEMATA.find((t) => t.id === tema)?.nazev || ''
 }
