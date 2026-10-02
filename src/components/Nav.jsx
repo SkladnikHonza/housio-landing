@@ -155,7 +155,7 @@ export default function Nav() {
               className="nav-link text-sm font-medium cursor-pointer"
               style={{ color: 'var(--teal-900)' }}
             >
-              Průvodce
+              Blog
             </Link>
           )}
           <Link
@@ -297,7 +297,7 @@ export default function Nav() {
                 className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
                 style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
               >
-                Průvodce
+                Blog
               </Link>
             )}
             <Link

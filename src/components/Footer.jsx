@@ -70,7 +70,7 @@ export default function Footer() {
                 <li><a href="#funkce" className="hover:text-white transition cursor-pointer">{t('productFeatures')}</a></li>
                 <li><a href="#ceny" className="hover:text-white transition cursor-pointer">{t('productPricing')}</a></li>
                 <li><a href="https://www.housio.online" className="hover:text-white transition cursor-pointer">{t('productLogin')}</a></li>
-                {cesky && <li><Link href="/blog" className="hover:text-white transition cursor-pointer">Průvodce pronájmem</Link></li>}
+                {cesky && <li><Link href="/blog" className="hover:text-white transition cursor-pointer">Blog</Link></li>}
               </ul>
             </div>
 
