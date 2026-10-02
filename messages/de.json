@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, Tschechische Republik",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Folge uns auf FB",
-    "formErrorLimit": "Wir haben Ihre Nachricht gerade erhalten. Bitte senden Sie die nächste in ein paar Minuten."
+    "formErrorLimit": "Wir haben Ihre Nachricht gerade erhalten. Bitte senden Sie die nächste in ein paar Minuten.",
+    "metaDescription": "Schreiben Sie uns — allgemeine Fragen beantworten wir an Werktagen innerhalb von 24 Stunden. E-Mail, Formular und Anschrift des Betreibers von Housio an einem Ort."
   },
   "kontaktNav": {
     "backToHome": "Zurück zur Startseite"
@@ -402,5 +403,22 @@
     "lead": "Diese Adresse kennen wir nicht — vielleicht hat sie sich geändert oder es hat sich ein Tippfehler eingeschlichen.",
     "zpetDomu": "Zurück zur Startseite",
     "kontakt": "Schreiben Sie uns"
+  },
+  "duvera": {
+    "title": "Worauf Housio steht",
+    "subtitle": "Keine Versprechen, die Sie nicht überprüfen können. All das finden Sie im Handelsregister, in unseren Rechtsdokumenten oder direkt in den App-Stores.",
+    "provozovatelTitul": "Ein Betreiber mit Namen und Anschrift",
+    "provozovatelText": "US Europe Group s.r.o., IČO 06779808, Tschechien. Kein anonymes Projekt ohne Ansprechpartner.",
+    "dataTitul": "Daten auf europäischer Infrastruktur",
+    "dataText": "Verschlüsselte Übertragung und Speicherung, automatische Backups, Verarbeitung nach DSGVO.",
+    "dpaTitul": "Auftragsverarbeitungsvertrag auf Anfrage",
+    "dpaText": "Sie brauchen für die DSGVO einen unterschriebenen AVV? Wir schicken ihn Ihnen.",
+    "kartaTitul": "Sieben Tage kostenlos, ohne Karte",
+    "kartaText": "Bei der Registrierung geben Sie keine Zahlungskarte an und es wird nichts automatisch abgebucht.",
+    "smazaniTitul": "Konto jederzeit löschbar",
+    "smazaniText": "Die Löschung von Konto und Daten können Sie auch ohne Anmeldung beantragen.",
+    "obchodyTitul": "App in beiden Stores",
+    "obchodyText": "Housio finden Sie im App Store und bei Google Play, nicht nur im Web.",
+    "cta": "Wie wir Ihre Daten schützen"
   }
 }

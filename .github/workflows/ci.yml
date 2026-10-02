@@ -1,0 +1,40 @@
+name: CI
+
+# Gate na kazdy push do main a na kazdy PR. Vercel pousti jen `next build`,
+# takze bez tohohle by se nasadil kod, ktery lint oznacuje za vadny nebo
+# kteremu nesedi preklady. Stejne nastaveni jako v repozitari aplikace.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-test-build:
+    name: Lint + Test + Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      # Turbopack lokalne padá kvuli package-lock.json o patro vys (dela mu
+      # z Desktopu koren projektu). Na CI je repozitar sam, takze tady
+      # buildujeme stejne jako Vercel.
+      # Klice se ctou az za behu uvnitr serverovych akci, takze build
+      # na CI zadne tajemstvi nepotrebuje.
+      - name: Build
+        run: npm run build

@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, République tchèque",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Suis-nous sur FB",
-    "formErrorLimit": "Nous venons de recevoir votre message. Merci d’en envoyer un autre dans quelques minutes."
+    "formErrorLimit": "Nous venons de recevoir votre message. Merci d’en envoyer un autre dans quelques minutes.",
+    "metaDescription": "Écrivez-nous : nous répondons aux questions générales sous 24 heures les jours ouvrés. E-mail, formulaire et adresse de l'exploitant de Housio au même endroit."
   },
   "kontaktNav": {
     "backToHome": "Retour à l'accueil"
@@ -402,5 +403,22 @@
     "lead": "Nous ne connaissons pas cette adresse — elle a peut-être changé ou elle contient une faute de frappe.",
     "zpetDomu": "Retour à la page d'accueil",
     "kontakt": "Écrivez-nous"
+  },
+  "duvera": {
+    "title": "Sur quoi repose Housio",
+    "subtitle": "Aucune promesse invérifiable. Tout cela figure au registre du commerce, dans nos documents juridiques ou directement sur les stores.",
+    "provozovatelTitul": "Un exploitant avec un nom et une adresse",
+    "provozovatelText": "US Europe Group s.r.o., IČO 06779808, Tchéquie. Pas un projet anonyme sans interlocuteur.",
+    "dataTitul": "Données sur une infrastructure européenne",
+    "dataText": "Chiffrement en transit et au repos, sauvegardes automatiques, traitement conforme au RGPD.",
+    "dpaTitul": "Contrat de sous-traitance sur demande",
+    "dpaText": "Vous avez besoin d'un DPA signé pour le RGPD ? Nous vous l'envoyons.",
+    "kartaTitul": "Sept jours gratuits, sans carte",
+    "kartaText": "Aucune carte bancaire à l'inscription et aucun prélèvement automatique.",
+    "smazaniTitul": "Compte supprimable à tout moment",
+    "smazaniText": "Vous pouvez demander la suppression de votre compte et de vos données sans même vous connecter.",
+    "obchodyTitul": "Application sur les deux stores",
+    "obchodyText": "Housio est sur l'App Store et Google Play, pas seulement sur le web.",
+    "cta": "Comment nous protégeons vos données"
   }
 }

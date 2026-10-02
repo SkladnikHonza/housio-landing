@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, Češka Republika",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Prati nas na FB-u",
-    "formErrorLimit": "Upravo smo primili vašu poruku. Sljedeću pošaljite za nekoliko minuta."
+    "formErrorLimit": "Upravo smo primili vašu poruku. Sljedeću pošaljite za nekoliko minuta.",
+    "metaDescription": "Pišite nam — na opća pitanja odgovaramo u roku od 24 sata radnim danima. E-pošta, obrazac i adresa operatora Housija na jednom mjestu."
   },
   "kontaktNav": {
     "backToHome": "Natrag na početnu"
@@ -402,5 +403,22 @@
     "lead": "Ovu adresu ne poznajemo — možda se promijenila ili sadrži pogrešku u pisanju.",
     "zpetDomu": "Natrag na početnu stranicu",
     "kontakt": "Pišite nam"
+  },
+  "duvera": {
+    "title": "Na čemu Housio stoji",
+    "subtitle": "Nikakva obećanja koja ne možete provjeriti. Sve ovo nalazi se u sudskom registru, u našim pravnim dokumentima ili izravno u trgovinama aplikacija.",
+    "provozovatelTitul": "Tvrtka s imenom i adresom",
+    "provozovatelText": "US Europe Group s.r.o., IČO 06779808, Češka. Ne anonimni projekt bez kontakta.",
+    "dataTitul": "Podaci na europskoj infrastrukturi",
+    "dataText": "Šifrirani prijenos i pohrana, automatske sigurnosne kopije, obrada prema GDPR-u.",
+    "dpaTitul": "Ugovor o obradi na zahtjev",
+    "dpaText": "Trebate potpisani DPA za GDPR? Poslat ćemo vam ga.",
+    "kartaTitul": "Sedam dana besplatno, bez kartice",
+    "kartaText": "Pri registraciji ne unosite platnu karticu i ništa se ne naplaćuje automatski.",
+    "smazaniTitul": "Račun brišete kad god želite",
+    "smazaniText": "Brisanje računa i podataka možete zatražiti i bez prijave u aplikaciju.",
+    "obchodyTitul": "Aplikacija u obje trgovine",
+    "obchodyText": "Housio je na App Storeu i Google Playu, ne samo na webu.",
+    "cta": "Kako štitimo vaše podatke"
   }
 }

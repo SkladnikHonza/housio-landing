@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing'
 import { adresa, hreflangMapa } from '@/lib/seo'
 import Nav from '@/components/Nav'
 import AnalyticsTracker from '@/components/AnalyticsTracker'
+import PredaniZdroje from '@/components/PredaniZdroje'
 import CookieConsentBanner from '@/components/CookieConsentBanner'
 import '../globals.css'
 
@@ -143,6 +144,7 @@ export default async function LocaleLayout({ children, params }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NextIntlClientProvider>
           <AnalyticsTracker />
+          <PredaniZdroje />
           <Nav />
           {children}
           <CookieConsentBanner />

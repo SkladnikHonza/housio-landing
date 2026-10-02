@@ -1,29 +1,48 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState, useSyncExternalStore } from 'react'
 import { useTranslations } from 'next-intl'
-import { precistSouhlas, ulozitSouhlas } from '@/lib/cookieConsent'
+import { precistSouhlas, ulozitSouhlas, UDALOST_SOUHLASU } from '@/lib/cookieConsent'
 
 // Lišta se souhlasem s měřením návštěvnosti. Ukáže se jen tomu, kdo ještě
 // nerozhodl; rozhodnutí si drží prohlížeč, takže se podruhé neptáme.
 // Vzhled je opsaný z lišty v aplikaci, jen v barvách webu.
+
+// Rozhodnutí žije v úložišti prohlížeče, tedy mimo React. Čteme ho proto
+// přes useSyncExternalStore místo efektu, který po načtení přepíná stav —
+// ten React 19 označuje za zbytečné překreslení a je to i rychlejší.
+function prihlasitOdber(zmena) {
+  window.addEventListener(UDALOST_SOUHLASU, zmena)
+  window.addEventListener('storage', zmena)
+  return () => {
+    window.removeEventListener(UDALOST_SOUHLASU, zmena)
+    window.removeEventListener('storage', zmena)
+  }
+}
+
+// Vrací řetězec, ne objekt — porovnává se identitou a nová instance objektu
+// by vedla k nekonečnému překreslování.
+function stavVProhlizeci() {
+  return precistSouhlas() ? 'rozhodnuto' : 'nerozhodnuto'
+}
+
+// Na serveru nic nevíme, takže lištu nevykreslíme a nic po načtení nebliká.
+function stavNaServeru() {
+  return 'rozhodnuto'
+}
+
 export default function CookieConsentBanner() {
   const t = useTranslations('cookies')
-  const [skryto, setSkryto] = useState(true) // do rozhodnutí po načtení nic neblikáme
+  const rozhodnuto = useSyncExternalStore(prihlasitOdber, stavVProhlizeci, stavNaServeru) === 'rozhodnuto'
   const [zaviram, setZaviram] = useState(false)
 
-  useEffect(() => {
-    if (precistSouhlas()) return
-    setSkryto(false)
-  }, [])
-
   function rozhodnout(status) {
-    ulozitSouhlas(status)
-    setZaviram(true)
-    setTimeout(() => setSkryto(true), 200)
+    setZaviram(true)      // spustí odjezd lišty dolů
+    ulozitSouhlas(status) // uloží rozhodnutí hned, ať se neztratí při odchodu ze stránky
+    setTimeout(() => setZaviram(false), 220) // po animaci se lišta odmountuje
   }
 
-  if (skryto) return null
+  if (rozhodnuto && !zaviram) return null
 
   return (
     <div

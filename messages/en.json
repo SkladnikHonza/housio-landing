@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, Czech Republic",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Follow us on FB",
-    "formErrorLimit": "We just received your message. Please send another in a few minutes."
+    "formErrorLimit": "We just received your message. Please send another in a few minutes.",
+    "metaDescription": "Get in touch — we answer general questions within 24 hours on business days. E-mail, contact form and the operator address of Housio in one place."
   },
   "kontaktNav": {
     "backToHome": "Back to home"
@@ -402,5 +403,22 @@
     "lead": "We don't know this address — it may have moved, or there's a typo in it.",
     "zpetDomu": "Back to home page",
     "kontakt": "Write to us"
+  },
+  "duvera": {
+    "title": "What Housio is built on",
+    "subtitle": "No promises you can't verify. You'll find all of this in the business register, in our legal documents or directly in the app stores.",
+    "provozovatelTitul": "A company with a name and address",
+    "provozovatelText": "US Europe Group s.r.o., company ID 06779808, Czech Republic. Not an anonymous project with no one behind it.",
+    "dataTitul": "Data on European infrastructure",
+    "dataText": "Encrypted in transit and at rest, automatic backups and processing under GDPR.",
+    "dpaTitul": "Data processing agreement on request",
+    "dpaText": "Need a signed DPA for GDPR? We will send you one.",
+    "kartaTitul": "Seven days free, no card",
+    "kartaText": "You enter no payment card at sign-up and nothing is charged automatically.",
+    "smazaniTitul": "Delete your account whenever you want",
+    "smazaniText": "You can request deletion of your account and data without even signing in.",
+    "obchodyTitul": "Available in both app stores",
+    "obchodyText": "Housio is on the App Store and Google Play, not just on the web.",
+    "cta": "How we protect your data"
   }
 }

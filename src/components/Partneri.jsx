@@ -19,12 +19,13 @@ export default function Partneri() {
   // Casova past proti robotum: cas, kdy prohlizec formular zobrazil. Nastavuje
   // se az v prohlizeci, takze v HTML ze serveru zustane 0 — a nula pak znamena
   // "zadny prohlizec tu nebyl", coz je u rozesilacich skriptu bezne.
-  const [zobrazeno, setZobrazeno] = useState(0)
-  // Cas odeslani drzime v skrytem poli a prubezne ho obnovujeme — server pak
-  // odecte dva casy z TEHOZ zdroje a posunute hodiny uzivatele nevadi.
+  // Oba casy drzime primo ve skrytych polich, ne ve stavu komponenty: server
+  // pak odecte dva casy z TEHOZ zdroje a posunute hodiny uzivatele nevadi.
+  // Zapis do pole navic nic neprekresluje — formular se pri psani nehybe.
+  const zobrazenoRef = useRef(null)
   const casRef = useRef(null)
   useEffect(() => {
-    setZobrazeno(Date.now())
+    if (zobrazenoRef.current) zobrazenoRef.current.value = String(Date.now())
     const id = setInterval(() => { if (casRef.current) casRef.current.value = String(Date.now()) }, 500)
     return () => clearInterval(id)
   }, [])
@@ -225,7 +226,7 @@ export default function Partneri() {
                 </div>
               ) : (
                 <form className="space-y-3.5" action={formAction}>
-                  <input type="hidden" name="ts" value={zobrazeno} />
+                  <input type="hidden" name="ts" ref={zobrazenoRef} defaultValue="0" />
               <input type="hidden" name="tsOdeslano" ref={casRef} defaultValue="0" />
                   <h3 className="text-xl font-medium" style={{ color: 'var(--teal-900)', ...DISPLAY }}>{t('formTitle')}</h3>
                   <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, opacity: 0 }} />

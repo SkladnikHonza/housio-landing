@@ -8,14 +8,17 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const tn = await getTranslations({ locale, namespace: 'nav' })
+  const tk = await getTranslations({ locale, namespace: 'kontakt' })
   // Slovo "Kontakt" bylo v titulku česky i pro cizí jazyky — bereme ho z překladu nabídky.
-  const titulek = `${t('title')} · ${tn('contact')}`
+  const titulek = `${tn('contact')} · Housio`
+  const popis = tk('metaDescription')
   return {
     title: titulek,
+    description: popis,
     alternates: alternatesProStranku(locale, '/kontakt'),
     // og:url musí ukazovat na /kontakt, ne na homepage, a s obrázkem — viz lib/seo.js.
-    openGraph: openGraphStranky({ locale, cesta: '/kontakt', title: titulek }),
-    twitter: twitterStranky({ title: titulek }),
+    openGraph: openGraphStranky({ locale, cesta: '/kontakt', title: titulek, description: popis }),
+    twitter: twitterStranky({ title: titulek, description: popis }),
   }
 }
 

@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'meta' })
   const ts = await getTranslations({ locale, namespace: 'smazaniUctu' })
-  const titulek = `${t('title')} · ${ts('navLink')}`
+  const titulek = `${ts('navLink')} · Housio`
   const popis = ts('metaDescription')
   return {
     title: titulek,

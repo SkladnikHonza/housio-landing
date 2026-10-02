@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname, Link } from '@/i18n/navigation'
+import { zapamatujJazyk } from '@/lib/cookieConsent'
 import { routing } from '@/i18n/routing'
 import { ArrowRight, Check, Home, Menu, X, Globe } from 'lucide-react'
 
@@ -26,8 +27,8 @@ function LanguageSwitcher({ mobile = false }) {
   const [open, setOpen] = useState(false)
 
   const switchLocale = (newLocale) => {
-    // Cookie zaznamen ručního výběru → middleware IP detekci přeskočí
-    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; samesite=lax`
+    // Ruční volba jazyka → proxy přeskočí odhad podle prohlížeče a IP
+    zapamatujJazyk(newLocale)
     router.replace(pathname, { locale: newLocale })
     setOpen(false)
   }

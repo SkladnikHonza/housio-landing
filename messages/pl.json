@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, Czechy",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Śledź nas na FB",
-    "formErrorLimit": "Właśnie otrzymaliśmy wiadomość. Kolejną prosimy wysłać za kilka minut."
+    "formErrorLimit": "Właśnie otrzymaliśmy wiadomość. Kolejną prosimy wysłać za kilka minut.",
+    "metaDescription": "Napisz do nas — na ogólne pytania odpowiadamy w ciągu 24 godzin w dni robocze. E-mail, formularz i adres operatora Housio w jednym miejscu."
   },
   "kontaktNav": {
     "backToHome": "Wróć do strony głównej"
@@ -402,5 +403,22 @@
     "lead": "Nie znamy tego adresu — mógł się zmienić albo zawiera literówkę.",
     "zpetDomu": "Powrót na stronę główną",
     "kontakt": "Napisz do nas"
+  },
+  "duvera": {
+    "title": "Na czym stoi Housio",
+    "subtitle": "Żadnych obietnic, których nie da się sprawdzić. Wszystko to znajdziesz w rejestrze handlowym, w naszych dokumentach prawnych albo wprost w sklepach z aplikacjami.",
+    "provozovatelTitul": "Operator z nazwą i adresem",
+    "provozovatelText": "US Europe Group s.r.o., IČO 06779808, Czechy. Nie anonimowy projekt bez kontaktu.",
+    "dataTitul": "Dane na europejskiej infrastrukturze",
+    "dataText": "Szyfrowanie w transporcie i w spoczynku, automatyczne kopie zapasowe, przetwarzanie zgodne z RODO.",
+    "dpaTitul": "Umowa powierzenia na życzenie",
+    "dpaText": "Potrzebujesz podpisanej umowy powierzenia do RODO? Wyślemy ją.",
+    "kartaTitul": "Siedem dni za darmo, bez karty",
+    "kartaText": "Przy rejestracji nie podajesz karty płatniczej i nic nie jest pobierane automatycznie.",
+    "smazaniTitul": "Konto skasujesz, kiedy zechcesz",
+    "smazaniText": "O usunięcie konta i danych możesz poprosić nawet bez logowania.",
+    "obchodyTitul": "Aplikacja w obu sklepach",
+    "obchodyText": "Housio znajdziesz w App Store i Google Play, nie tylko w przeglądarce.",
+    "cta": "Jak chronimy twoje dane"
   }
 }

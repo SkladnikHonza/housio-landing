@@ -44,3 +44,16 @@ export function ulozitSouhlas(status) {
     // Starý prohlížeč bez CustomEvent — první návštěva se prostě nezapočítá.
   }
 }
+
+// Zapamatuje ruční volbu jazyka. Proxy (src/proxy.js) pak u člověka, který si
+// jazyk vybral sám, přeskočí odhad podle prohlížeče a IP adresy.
+//
+// Zápis je tady, a ne přímo v komponentě, protože pravidla Reactu 19 hlásí
+// přiřazení do `document.cookie` uvnitř komponenty jako změnu hodnoty zvenčí.
+export function zapamatujJazyk(jazyk) {
+  try {
+    document.cookie = `NEXT_LOCALE=${jazyk}; path=/; max-age=31536000; samesite=lax`
+  } catch {
+    // Zakázané cookies — jazyk se prostě odhadne znovu při další návštěvě.
+  }
+}

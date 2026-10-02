@@ -267,7 +267,8 @@
     "footerLocation": "Ostrava, Česká republika",
     "facebookTitle": "Facebook",
     "facebookSubtitle": "Sleduj nás na FB",
-    "formErrorLimit": "Zprávu jsme právě přijali. Další pošlete prosím za pár minut."
+    "formErrorLimit": "Zprávu jsme právě přijali. Další pošlete prosím za pár minut.",
+    "metaDescription": "Napište nám — na obecné dotazy odpovídáme do 24 hodin v pracovní dny. E-mail, formulář i adresa provozovatele Housia na jednom místě."
   },
   "kontaktNav": {
     "backToHome": "Zpět na hlavní"
@@ -402,5 +403,22 @@
     "lead": "Tuhle adresu neznáme — možná se změnila, nebo se do ní vloudil překlep.",
     "zpetDomu": "Zpět na hlavní stránku",
     "kontakt": "Napsat nám"
+  },
+  "duvera": {
+    "title": "Na čem Housio stojí",
+    "subtitle": "Žádné sliby, které si nemůžete ověřit. Tohle najdete v obchodním rejstříku, v právních dokumentech nebo rovnou v obchodech s aplikacemi.",
+    "provozovatelTitul": "Provozovatel se jménem a adresou",
+    "provozovatelText": "US Europe Group s.r.o., IČO 06779808, Ostrava. Žádný anonymní projekt bez kontaktu.",
+    "dataTitul": "Data na evropské infrastruktuře",
+    "dataText": "Šifrovaný přenos i úložiště, automatické zálohy a zpracování podle GDPR.",
+    "dpaTitul": "Zpracovatelská smlouva na vyžádání",
+    "dpaText": "Jste firma a potřebujete pro GDPR podepsané DPA? Pošleme vám ho.",
+    "kartaTitul": "Sedm dní zdarma bez karty",
+    "kartaText": "Při registraci nezadáváte platební kartu a nic se vám samo nestrhne.",
+    "smazaniTitul": "Účet smažete, kdykoli budete chtít",
+    "smazaniText": "O smazání účtu a dat můžete požádat i bez přihlášení do aplikace.",
+    "obchodyTitul": "Aplikace v obou obchodech",
+    "obchodyText": "Housio najdete v App Store i na Google Play, nejen jako web.",
+    "cta": "Jak chráníme vaše data"
   }
 }

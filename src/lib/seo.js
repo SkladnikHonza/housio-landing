@@ -12,9 +12,17 @@ export function adresa(locale, cesta = '') {
   return `${BASE}${prefix}${cesta}`
 }
 
-// Mapa pro hreflang: { cs: '…', en: '…/en', … } pro danou podstránku.
+// Mapa pro hreflang: { cs: '…', en: '…/en', …, 'x-default': … } pro podstránku.
+//
+// x-default říká vyhledávači, kterou verzi ukázat člověku, jehož jazyk neumíme.
+// Bez něj si vybere sám — Slovák nebo Ir pak může dostat náhodnou z deseti.
+// Ukazujeme na angličtinu, protože je ze všech našich jazyků nejsrozumitelnější
+// tomu, kdo na žádný z nich nemá nárok.
 export function hreflangMapa(cesta = '') {
-  return Object.fromEntries(routing.locales.map((l) => [l, adresa(l, cesta)]))
+  return {
+    ...Object.fromEntries(routing.locales.map((l) => [l, adresa(l, cesta)])),
+    'x-default': adresa('en', cesta),
+  }
 }
 
 // Metadata.alternates pro podstránku — canonical + všechny jazykové varianty.

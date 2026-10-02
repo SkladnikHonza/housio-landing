@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
   const t = await getTranslations({ locale, namespace: 'meta' })
   const tp = await getTranslations({ locale, namespace: 'partneri' })
   // Titulek i popisek v jazyce stránky — dřív se i cizincům ukazovala čeština.
-  const titulek = `${t('title')} · ${tp('navLink')}`
+  const titulek = `${tp('navLink')} · Housio`
   const popis = tp('metaDescription')
   return {
     title: titulek,

@@ -3,6 +3,7 @@ import { faqJsonLd } from '@/lib/seo'
 import Hero from '@/components/Hero'
 import NovinkaObchody from '@/components/NovinkaObchody'
 import EuropeMap from '@/components/EuropeMap'
+import Duvera from '@/components/Duvera'
 import Pricing from '@/components/Pricing'
 import Features from '@/components/Features'
 import Personae from '@/components/Personae'
@@ -23,6 +24,7 @@ export default async function Home({ params }) {
       <Hero />
       <NovinkaObchody />
       <EuropeMap />
+      <Duvera />
       <Pricing />
       <Features />
       <Personae />
