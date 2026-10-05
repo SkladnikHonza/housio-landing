@@ -1,6 +1,7 @@
 import { routing } from '@/i18n/routing'
 import { adresa, hreflangMapa, BASE } from '@/lib/seo'
 import { CLANKY } from '@/clanky'
+import { KALKULACKY } from '@/kalkulacky'
 
 // Sitemapa se generuje z routing.locales a seznamu níž, ne ručně.
 // Dřív byla staticky v public/sitemap.xml a zastarala — chyběla v ní
@@ -18,6 +19,16 @@ export default function sitemap() {
   const dnes = new Date()
 
   // Blog bezi jen v cestine (ceske zakony), takze bez jazykovych variant.
+  const kalkulacky = [
+    { url: `${BASE}/kalkulacky`, lastModified: dnes, changeFrequency: 'monthly', priority: 0.7 },
+    ...KALKULACKY.map((k) => ({
+      url: `${BASE}/kalkulacky/${k.slug}`,
+      lastModified: dnes,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })),
+  ]
+
   const clanky = [
     { url: `${BASE}/blog`, lastModified: dnes, changeFrequency: 'weekly', priority: 0.7 },
     ...CLANKY.map((c) => ({
@@ -39,5 +50,5 @@ export default function sitemap() {
     })),
   )
 
-  return [...stranky, ...clanky]
+  return [...stranky, ...kalkulacky, ...clanky]
 }

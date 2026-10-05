@@ -38,6 +38,16 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 - [Kontakt](https://www.housio.app/kontakt): e-mail, formulář a adresa provozovatele
 - [Smazání účtu](https://www.housio.app/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
 - [Průvodce pronájmem](https://www.housio.app/blog): praktické návody pro pronajímatele
+- [Kalkulačky pro pronajímatele](https://www.housio.app/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
+
+## Kalkulačky zdarma
+
+Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
+
+- [Kalkulačka úroku z kauce](https://www.housio.app/kalkulacky/urok-z-kauce): Spočítá úrok z jistoty podle § 2254 občanského zákoníku — za přesný počet dní, od složení po vrácení.
+- [Kalkulačka vyúčtování služeb](https://www.housio.app/kalkulacky/vyuctovani-sluzeb): Spočítá přeplatek nebo nedoplatek, doporučí novou zálohu a ukáže zákonné lhůty podle zákona č. 67/2013 Sb.
+- [Kalkulačka odpisů nemovitosti](https://www.housio.app/kalkulacky/odpisy-nemovitosti): Rozepíše odpisy bytu nebo domu na všech 30 let — rovnoměrně i zrychleně, s odepsanou i zůstatkovou cenou.
+- [Kalkulačka daně z pronájmu](https://www.housio.app/kalkulacky/dan-z-pronajmu): Porovná paušál 30 % se skutečnými výdaji a ukáže, která varianta tě vyjde levněji a o kolik.
 
 ## Nejčastější dotazy
 
@@ -547,6 +557,10 @@ V Housiu
 
 V Housiu máš u smlouvy zapsanou výši jistoty i datum, kdy jsi ji přijal, takže se při skončení nájmu nedohledává ve starých e-mailech. Spolu s přehledem skutečně přijatých plateb z toho vyúčtování jistoty složíš za pár minut.
 
+Co napsat
+
+Nechceš to počítat ručně? Použij kalkulačka úroku z kauce — počítá přímo v prohlížeči, nic se nikam neodesílá.
+
 ## Časté dotazy
 
 **Kolik smí být kauce u nájmu bytu?**
@@ -1016,6 +1030,10 @@ V Housiu
 
 Housio umí stáhnout jeden sešit se vším, co k nemovitosti za celou dobu máš — přijaté platby po měsících, výdaje s dodavateli a kategoriemi, smlouvy, pojištění i revize. Účetní tak dostane podklad pro přiznání jedním klikem místo skládání z e-mailů a bankovních výpisů. A protože se eviduje, co doopravdy přišlo, sedí čísla s tím, co se má danit.
 
+Co napsat
+
+Nechceš to počítat ručně? Použij kalkulačka daně z pronájmu — počítá přímo v prohlížeči, nic se nikam neodesílá.
+
 ## Časté dotazy
 
 **Platí se z nájmu sociální a zdravotní pojištění?**
@@ -1141,6 +1159,10 @@ Nájemné je jiná věc a mění se vlastním postupem — viz článek o zvýš
 V Housiu
 
 Housio vede u každého bytu zálohy i skutečně přijaté platby po měsících, takže podklad pro vyúčtování vzniká průběžně místo jednoho dubnového odpoledne. Rozdíl mezi předpisem a zaplaceným vidíš u každého měsíce, a když záloha dlouhodobě nestačí, všimneš si toho dřív než na konci roku.
+
+Co napsat
+
+Nechceš to počítat ručně? Použij kalkulačka vyúčtování služeb — počítá přímo v prohlížeči, nic se nikam neodesílá.
 
 ## Časté dotazy
 

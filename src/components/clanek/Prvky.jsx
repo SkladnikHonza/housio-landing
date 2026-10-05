@@ -164,6 +164,15 @@ export function OdkazClanek({ slug, children }) {
   )
 }
 
+// Odkaz na kalkulacku, ktera clanek doplnuje.
+export function OdkazKalkulacka({ slug, children }) {
+  return (
+    <Link href={`/kalkulacky/${slug}`} className="underline underline-offset-2 font-medium" style={{ color: 'var(--teal-900)' }}>
+      {children}
+    </Link>
+  )
+}
+
 // Caste dotazy na konci clanku. Stejna data jdou do strukturovanych dat
 // jako FAQPage, takze se muzou ukazat primo ve vysledku hledani.
 export function CasteDotazy({ dotazy }) {

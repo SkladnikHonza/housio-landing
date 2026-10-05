@@ -1,6 +1,7 @@
 import { BASE, adresa } from './seo'
 import { routing } from '@/i18n/routing'
 import { CLANKY, TEMATA, clankyTematu, nazevTematu } from '@/clanky'
+import { KALKULACKY } from '@/kalkulacky'
 import cs from '../../messages/cs.json'
 
 // Strojove citelny prehled Housia pro AI vyhledavace a asistenty.
@@ -84,7 +85,19 @@ function stranky() {
 - [Bezpečnost a data](${BASE}/bezpecnost): kde data běží, kdo je zpracovává a jak jsou chráněná
 - [Kontakt](${BASE}/kontakt): e-mail, formulář a adresa provozovatele
 - [Smazání účtu](${BASE}/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
-- [Průvodce pronájmem](${BASE}/blog): praktické návody pro pronajímatele`
+- [Průvodce pronájmem](${BASE}/blog): praktické návody pro pronajímatele
+- [Kalkulačky pro pronajímatele](${BASE}/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace`
+}
+
+function kalkulacky() {
+  const polozky = KALKULACKY
+    .map((k) => `- [${k.nadpis}](${BASE}/kalkulacky/${k.slug}): ${k.perex}`)
+    .join('\n')
+  return `## Kalkulačky zdarma
+
+Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
+
+${polozky}`
 }
 
 function pruvodce() {
@@ -122,6 +135,7 @@ export function llmsIndex() {
     coUmi(),
     cenik(),
     stranky(),
+    kalkulacky(),
     pruvodce(),
     dotazy(false),
     ostatni(),
@@ -152,6 +166,7 @@ ${telo}`
     coUmi(),
     cenik(),
     stranky(),
+    kalkulacky(),
     dotazy(true),
     ostatni(),
     `## Průvodce pronájmem — plné znění\n\nNásleduje ${CLANKY.length} návodů v plném znění.`,

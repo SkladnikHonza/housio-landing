@@ -1,4 +1,4 @@
-import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni } from '@/components/clanek/Prvky'
+import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni, OdkazKalkulacka } from '@/components/clanek/Prvky'
 
 export const META = {
   slug: 'jistota-kauce',
@@ -161,6 +161,13 @@ export default function JistotaKauce() {
           V Housiu máš u smlouvy zapsanou výši jistoty i datum, kdy jsi ji přijal, takže se při
           skončení nájmu nedohledává ve starých e-mailech. Spolu s přehledem skutečně přijatých
           plateb z toho vyúčtování jistoty složíš za pár minut.
+        </p>
+      </Ramecek>
+
+      <Ramecek druh="vzor">
+        <p>
+          Nechceš to počítat ručně? Použij <OdkazKalkulacka slug="urok-z-kauce">kalkulačka úroku z kauce</OdkazKalkulacka> —
+          počítá přímo v prohlížeči, nic se nikam neodesílá.
         </p>
       </Ramecek>
 

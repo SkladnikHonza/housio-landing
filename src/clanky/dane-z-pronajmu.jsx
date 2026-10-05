@@ -1,4 +1,4 @@
-import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni } from '@/components/clanek/Prvky'
+import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni, OdkazKalkulacka } from '@/components/clanek/Prvky'
 
 export const META = {
   slug: 'dane-z-pronajmu',
@@ -209,6 +209,13 @@ export default function DaneZPronajmu() {
           Účetní tak dostane podklad pro přiznání jedním klikem místo skládání z e-mailů
           a bankovních výpisů. A protože se eviduje, co doopravdy přišlo, sedí čísla s tím,
           co se má danit.
+        </p>
+      </Ramecek>
+
+      <Ramecek druh="vzor">
+        <p>
+          Nechceš to počítat ručně? Použij <OdkazKalkulacka slug="dan-z-pronajmu">kalkulačka daně z pronájmu</OdkazKalkulacka> —
+          počítá přímo v prohlížeči, nic se nikam neodesílá.
         </p>
       </Ramecek>
 

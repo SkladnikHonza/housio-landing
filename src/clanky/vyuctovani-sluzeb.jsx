@@ -1,4 +1,4 @@
-import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni } from '@/components/clanek/Prvky'
+import { Perex, Shrnuti, Obsah, H2, H3, P, Seznam, Polozka, Ramecek, Tabulka, Zakon, OdkazClanek, CasteDotazy, Upozorneni, OdkazKalkulacka } from '@/components/clanek/Prvky'
 
 export const META = {
   slug: 'vyuctovani-sluzeb',
@@ -207,6 +207,13 @@ export default function VyuctovaniSluzeb() {
           pro vyúčtování vzniká průběžně místo jednoho dubnového odpoledne. Rozdíl mezi předpisem
           a zaplaceným vidíš u každého měsíce, a když záloha dlouhodobě nestačí, všimneš si toho
           dřív než na konci roku.
+        </p>
+      </Ramecek>
+
+      <Ramecek druh="vzor">
+        <p>
+          Nechceš to počítat ručně? Použij <OdkazKalkulacka slug="vyuctovani-sluzeb">kalkulačka vyúčtování služeb</OdkazKalkulacka> —
+          počítá přímo v prohlížeči, nic se nikam neodesílá.
         </p>
       </Ramecek>
 
