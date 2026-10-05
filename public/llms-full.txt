@@ -130,7 +130,7 @@ Basic plán pokrývá až 15 nemovitostí za 299 Kč/měs. Pro 16–25 nemovitos
 
 **Můžu Housio používat na mobilu?**
 
-Ano. Housio je plně responzivní — funguje stejně dobře na mobilu, tabletu i desktopu. Bez nutnosti instalace aplikace. Stačí otevřít housio.online v prohlížeči, přihlásit se a máš všechno na jednom místě. Vše se synchronizuje v reálném čase.
+Ano, a máš na výběr. Housio funguje v prohlížeči na mobilu, tabletu i počítači, a kromě toho ho stáhneš jako aplikaci pro iPhone i Android. Všechno se synchronizuje v reálném čase, takže je jedno, kde zrovna něco zapíšeš.
 
 **Posíláte upozornění o končících smlouvách?**
 
@@ -139,6 +139,42 @@ Ano, automaticky. Housio tě upozorní emailem 30, 14 a 7 dní před koncem smlo
 **Můžu data exportovat?**
 
 Jasně. PDF výkazy pro účetní, banku nebo daňového poradce generuješ od plánu Pro výš — hotové za pár sekund. Data navíc kdykoli stáhneš do Excelu (už od plánu Basic). Napojení přes API na vlastní systémy připravujeme pro plán Business. Tvoje data jsou vždy tvoje — žádný vendor lock-in.
+
+**Čím se Housio liší od tabulky v Excelu?**
+
+Tabulka nehlídá termíny. Housio ti pošle upozornění 30, 14 a 7 dní před koncem smlouvy, drží platby u konkrétní smlouvy a odečty energií u konkrétního bytu. Excel je zdarma, Housio stojí od 299 Kč měsíčně — zaplatí se první smlouvou, na kterou bys jinak zapomněl.
+
+**Kolik Housio stojí?**
+
+Basic 299 Kč měsíčně pokrývá až 15 nemovitostí, Pro 599 Kč až 25 a Business 999 Kč. Při platbě na rok ušetříš 17 %. Vyzkoušet si to můžeš 7 dní zdarma a bez zadání karty.
+
+**Vyplatí se Housio, když pronajímám jediný byt?**
+
+Upřímně: u jednoho bytu ti možná pořád stačí poznámky v telefonu. Housio dává smysl ve chvíli, kdy přestáváš mít jistotu, komu kdy končí smlouva nebo kdo zaplatil. Zkušebka je na 7 dní zdarma a bez karty, takže to poznáš sám a nic neriskuješ.
+
+**Pozná Housio, kdo nezaplatil nájem?**
+
+Ano. U každé smlouvy vedeš měsíční předpis a k němu zapisuješ platby, takže v přehledu vidíš, kdo zaplatil a u koho platba chybí. Nemusíš to dohledávat ve výpisu z účtu.
+
+**Umí Housio hlídat odečty energií?**
+
+Ano — elektřinu, plyn, vodu i teplo. Odečty vedeš přímo u konkrétní nemovitosti, takže máš stavy pohromadě s nájemníkem a smlouvou a nemusíš je hledat v papírech.
+
+**Můžu do Housia pustit účetní nebo majitele bytu?**
+
+Ano. Pozveš je e-mailem do svého účtu a vidí to, co jim dovolíš. Hodí se to, když byty spravuješ pro někoho jiného nebo když účetní potřebuje jednou za čas podklady.
+
+**Jak dlouho trvá, než Housio rozjedu?**
+
+První nemovitost a nájemníka zadáš za pár minut. Nemusíš převádět celou historii — stačí začít od aktuálního měsíce a doplňovat postupně. Smysl to začne dávat hned u prvního termínu, na který by se jinak zapomnělo.
+
+**Kdo za Housiem stojí?**
+
+Housio provozuje US Europe Group s.r.o., IČO 06779808, se sídlem v Ostravě. Nevzniklo od stolu — postavili jsme ho proto, že sami pronajímáme byty a chyběl nám nástroj, který by termíny hlídal za nás místo tabulky a připomínek v mobilu.
+
+**Co se stane s mými daty, když Housio zruším?**
+
+Zůstanou tvoje. Před zrušením si je vyexportuješ, a když si přeješ účet smazat, data odstraníme — postup je na stránce o smazání účtu. Všechno běží na serverech v Evropské unii podle GDPR.
 
 ## Aplikace ke stažení
 

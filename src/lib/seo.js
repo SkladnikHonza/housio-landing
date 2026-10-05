@@ -87,7 +87,11 @@ export function drobeckyJsonLd(locale, cesta, nazevStranky) {
 
 // Nejčastější dotazy jako strukturovaná data. Google je umí zobrazit přímo
 // ve výsledku jako rozbalovací otázky — texty bere z běžných překladů.
-export function faqJsonLd(t, pocet = 8) {
+// Kolik otázek FAQ má. Sdílí to komponenta i strukturovaná data, aby Google
+// nikdy neviděl jiný počet než návštěvník.
+export const POCET_OTAZEK = 17
+
+export function faqJsonLd(t, pocet = POCET_OTAZEK) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',

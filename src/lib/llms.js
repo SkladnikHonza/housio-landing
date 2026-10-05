@@ -1,4 +1,4 @@
-import { BASE, adresa } from './seo'
+import { BASE, adresa, POCET_OTAZEK } from './seo'
 import { routing } from '@/i18n/routing'
 import { CLANKY, TEMATA, clankyTematu, nazevTematu } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
@@ -69,7 +69,10 @@ function cenik() {
 
 function dotazy(plneOdpovedi) {
   const radky = []
-  for (let i = 1; i <= 8; i += 1) {
+  // Počet otázek je na jednom místě (lib/seo.js). Dřív byl natvrdo na třech —
+  // v komponentě, ve strukturovaných datech a tady — takže přidání otázky
+  // znamenalo, že ji část míst neviděla.
+  for (let i = 1; i <= POCET_OTAZEK; i += 1) {
     const q = cs.faq[`q${i}`]
     const a = cs.faq[`a${i}`]
     if (!q || !a) continue
