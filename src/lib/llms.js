@@ -3,6 +3,7 @@ import { routing } from '@/i18n/routing'
 import { CLANKY, TEMATA, clankyTematu, nazevTematu } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
 import { HESLA, OBLASTI, heslaOblasti } from '@/encyklopedie'
+import { FUNKCE, SKUPINY, funkcePodleSlug, PLANY } from '@/funkce'
 import cs from '../../messages/cs.json'
 
 // Strojove citelny prehled Housia pro AI vyhledavace a asistenty.
@@ -91,7 +92,23 @@ function stranky() {
 - [Smazání účtu](${BASE}/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
 - [Průvodce pronájmem](${BASE}/blog): praktické návody pro pronajímatele
 - [Kalkulačky pro pronajímatele](${BASE}/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
-- [Encyklopedie pronájmu](${BASE}/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení`
+- [Encyklopedie pronájmu](${BASE}/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení
+- [Co Housio umí](${BASE}/funkce): všech ${FUNKCE.length} funkcí popsaných jednotlivě`
+}
+
+function funkce() {
+  const sekce = SKUPINY.map((sk) => {
+    const polozky = sk.slugy
+      .map(funkcePodleSlug)
+      .map((f) => `- [${f.nadpis}](${BASE}/funkce/${f.slug}) (${PLANY[f.plan]}): ${f.perex}`)
+      .join('\n')
+    return `### ${sk.nazev}\n\n${polozky}`
+  }).join('\n\n')
+  return `## Funkce Housia
+
+${FUNKCE.length} funkcí, každá s vlastní stránkou. Popisujeme jen to, co aplikace opravdu umí — co se teprve chystá, tu není.
+
+${sekce}`
 }
 
 function kalkulacky() {
@@ -154,6 +171,7 @@ export function llmsIndex() {
     coUmi(),
     cenik(),
     stranky(),
+    funkce(),
     kalkulacky(),
     pruvodce(),
     encyklopedie(),
@@ -186,6 +204,7 @@ ${telo}`
     coUmi(),
     cenik(),
     stranky(),
+    funkce(),
     kalkulacky(),
     encyklopedie(),
     dotazy(true),

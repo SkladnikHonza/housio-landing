@@ -95,8 +95,10 @@ export default function Nav() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
+  // „Funkce" v češtině míří na rozcestník /funkce, v ostatních jazycích
+  // na sekci na úvodní stránce — ta stránka existuje jen česky.
   const sectionLinks = [
-    { id: 'funkce', label: tNav('features') },
+    { id: 'funkce', label: tNav('features'), ...(cesky ? { cesta: '/funkce' } : {}) },
     { id: 'ceny', label: tNav('pricing') },
     { id: 'faq', label: tNav('faq') },
   ]
@@ -122,7 +124,16 @@ export default function Nav() {
 
         <div className="hidden md:flex items-center gap-8">
           {sectionLinks.map((l) =>
-            isHome ? (
+            l.cesta ? (
+              <Link
+                key={l.id}
+                href={l.cesta}
+                className="nav-link text-sm font-medium cursor-pointer"
+                style={{ color: 'var(--teal-900)' }}
+              >
+                {l.label}
+              </Link>
+            ) : isHome ? (
               <a
                 key={l.id}
                 href={`#${l.id}`}
@@ -261,7 +272,17 @@ export default function Nav() {
 
           <nav className="flex flex-col gap-2 mb-8">
             {sectionLinks.map((l) =>
-              isHome ? (
+              l.cesta ? (
+                <Link
+                  key={l.id}
+                  href={l.cesta}
+                  onClick={() => setMenuOpen(false)}
+                  className="text-2xl font-medium py-3 hover:opacity-70 transition cursor-pointer"
+                  style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
+                >
+                  {l.label}
+                </Link>
+              ) : isHome ? (
                 <a
                   key={l.id}
                   href={`#${l.id}`}

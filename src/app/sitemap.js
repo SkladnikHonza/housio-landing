@@ -3,6 +3,7 @@ import { adresa, hreflangMapa, BASE } from '@/lib/seo'
 import { CLANKY } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
 import { HESLA } from '@/encyklopedie'
+import { FUNKCE } from '@/funkce'
 
 // Sitemapa se generuje z routing.locales a seznamu níž, ne ručně.
 // Dřív byla staticky v public/sitemap.xml a zastarala — chyběla v ní
@@ -40,6 +41,16 @@ export default function sitemap() {
     })),
   ]
 
+  const funkce = [
+    { url: `${BASE}/funkce`, lastModified: dnes, changeFrequency: 'monthly', priority: 0.8 },
+    ...FUNKCE.map((f) => ({
+      url: `${BASE}/funkce/${f.slug}`,
+      lastModified: dnes,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })),
+  ]
+
   const clanky = [
     { url: `${BASE}/blog`, lastModified: dnes, changeFrequency: 'weekly', priority: 0.7 },
     ...CLANKY.map((c) => ({
@@ -61,5 +72,5 @@ export default function sitemap() {
     })),
   )
 
-  return [...stranky, ...kalkulacky, ...clanky, ...encyklopedie]
+  return [...stranky, ...funkce, ...kalkulacky, ...clanky, ...encyklopedie]
 }

@@ -40,6 +40,55 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 - [Průvodce pronájmem](https://www.housio.app/blog): praktické návody pro pronajímatele
 - [Kalkulačky pro pronajímatele](https://www.housio.app/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
 - [Encyklopedie pronájmu](https://www.housio.app/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení
+- [Co Housio umí](https://www.housio.app/funkce): všech 26 funkcí popsaných jednotlivě
+
+## Funkce Housia
+
+26 funkcí, každá s vlastní stránkou. Popisujeme jen to, co aplikace opravdu umí — co se teprve chystá, tu není.
+
+### Evidence
+
+- [Evidence nemovitostí](https://www.housio.app/funkce/evidence-nemovitosti) (Zdarma): Každý byt jako vlastní karta — adresa, dispozice, nájemník, platby, výdaje, smlouvy a dokumenty pohromadě.
+- [Evidence nájemníků](https://www.housio.app/funkce/evidence-najemniku) (Zdarma): Kontakty, trvalá adresa, smlouvy a historie plateb u každého nájemníka — i u těch bývalých.
+- [Nájemní smlouvy](https://www.housio.app/funkce/najemni-smlouvy) (Od plánu Basic): Evidence smluv s hlídáním konce doby nájmu, výše nájemného, záloh i kauce — a s doklady, které z nich vznikají.
+- [Měsíční platby a předpis nájemného](https://www.housio.app/funkce/mesicni-platby) (Zdarma): Přehled, kdo kolik platí a za který měsíc — nájemné zvlášť, zálohy na služby zvlášť.
+- [Evidence výdajů](https://www.housio.app/funkce/evidence-vydaju) (Od plánu Basic): Opravy, poplatky, pojistné i daně u konkrétního bytu — s fakturou, dodavatelem a kategorií.
+- [Dokumenty u nemovitosti](https://www.housio.app/funkce/dokumenty-k-nemovitosti) (Zdarma): Smlouvy, protokoly, revizní zprávy, faktury a fotky uložené u bytu, kterého se týkají.
+- [Vyhledávání napříč daty](https://www.housio.app/funkce/vyhledavani) (Zdarma): Jedno pole, které prohledá nemovitosti, nájemníky, smlouvy, platby, výdaje i pojištění.
+
+### Doklady a exporty
+
+- [Roční vyúčtování služeb](https://www.housio.app/funkce/vyuctovani-sluzeb-doklad) (Od plánu Pro): Spočítá přeplatek nebo nedoplatek proti zaplaceným zálohám a vytiskne vyúčtování, které obstojí.
+- [Potvrzení o zaplacení nájmu](https://www.housio.app/funkce/potvrzeni-o-zaplaceni-najmu) (Od plánu Basic): Doklad za konkrétní měsíc — nájemné, zálohy, celkem a datum úhrady.
+- [Potvrzení o přijetí kauce](https://www.housio.app/funkce/potvrzeni-o-kauci) (Od plánu Basic): Doklad o složení jistoty — s částkou, datem a poučením podle § 2254.
+- [Vyúčtování a vrácení kauce](https://www.housio.app/funkce/vraceni-kauce) (Od plánu Basic): Rozpis, co se z jistoty strhlo a proč, s vyčísleným úrokem — a doklad, který to unese.
+- [Faktury za nájem](https://www.housio.app/funkce/faktury-a-doklady) (Od plánu Basic): Faktura s oběma stranami, IČO, variabilním symbolem a splatností — pro nájemníka, který je firma.
+- [Export do Excelu](https://www.housio.app/funkce/export-do-excelu) (Od plánu Basic): Celé portfolio nebo jedna nemovitost — platby, výdaje, smlouvy, nájemníci a pojištění v samostatných listech.
+- [Vlastní logo na dokladech](https://www.housio.app/funkce/vlastni-logo-na-dokladech) (Plán Business): Faktury, potvrzení a vyúčtování s vaší hlavičkou místo s naší.
+
+### Hlídání a povinnosti
+
+- [Hlídání povinných revizí](https://www.housio.app/funkce/povinne-revize-evidence) (Od plánu Basic): Plyn, elektrika, komín, hasicí přístroje — kdy byla poslední a kdy musí být další.
+- [Evidence pojištění](https://www.housio.app/funkce/pojisteni-nemovitosti) (Od plánu Basic): Která pojistka ke kterému bytu patří, kolik stojí ročně a kdy končí.
+- [Podklady pro daň z pronájmu](https://www.housio.app/funkce/odpisy-a-dane) (Od plánu Basic): Příjmy, výdaje a odpisy po nemovitostech — v podobě, ze které se vyplňuje přiznání.
+- [Podklady k prověření nájemníka](https://www.housio.app/funkce/provereni-najemnika-evidence) (Zdarma): Co si o zájemci smíte zjistit, co si smíte uložit — a kde je hranice.
+
+### Přehled a sdílení
+
+- [Nástěnka a přehled portfolia](https://www.housio.app/funkce/nastenka-portfolia) (Zdarma): Hodnota portfolia, měsíční čistý příjem, obsazenost a vývoj v grafu — na jedné obrazovce.
+- [Přístup pro vlastníky](https://www.housio.app/funkce/pristup-pro-vlastniky) (Od plánu Basic): Majitel bytu vidí svůj byt — obsazenost, příjmy a náklady. Nic nemůže měnit a nic cizího nevidí.
+- [Správa týmu](https://www.housio.app/funkce/sprava-tymu) (Plán Business): Přizvěte až tři lidi, kteří s vámi budou nemovitosti spravovat.
+
+### Krátkodobý pronájem
+
+- [Krátkodobý pronájem a pobyty](https://www.housio.app/funkce/kratkodoby-pronajem) (Od plánu Basic): Evidence pobytů — kdo kdy byl, kolik za noc a kolik to vyneslo.
+- [Kalendář obsazenosti](https://www.housio.app/funkce/kalendar-obsazenosti) (Od plánu Basic): Načte z Airbnb nebo Booking.com, které noci jsou obsazené — aby to viděl i vlastník.
+
+### Každodenní práce
+
+- [Poznámky a úkoly](https://www.housio.app/funkce/poznamky-a-ukoly) (Zdarma): Co je potřeba zařídit, u koho a do kdy — bez dalšího nástroje.
+- [Mobilní aplikace](https://www.housio.app/funkce/mobilni-aplikace) (Zdarma): Housio na iPhonu i Androidu — stejná data jako na počítači.
+- [Deset jazyků](https://www.housio.app/funkce/deset-jazyku) (Zdarma): Česky, slovensky srozumitelně, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky.
 
 ## Kalkulačky zdarma
 
