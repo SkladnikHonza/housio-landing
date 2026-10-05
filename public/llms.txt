@@ -56,14 +56,18 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 
 ### Nájemné a jeho změny
 
+- [Jak stanovit výši nájemného, aby byt nestál prázdný ani nevydělával málo](https://www.housio.app/blog/vyse-najemneho): Kde zjistit, co se v okolí platí, jak od nabídkových cen dojít k reálným, co dělá s výnosem jeden měsíc prázdna a proč se nejvyšší nájem nemusí vyplatit.
 - [Jak zvýšit nájemné v roce 2026: inflační doložka i postup podle zákona](https://www.housio.app/blog/zvyseni-najmu): Kdy stačí oznámení, kdy potřebuješ souhlas nájemníka, proč existuje strop dvaceti procent za tři roky a jak dlouho celé zvýšení trvá. Včetně vzoru návrhu a pěti chyb, které zvýšení shodí.
 - [Evidenční list nájemného: k čemu je dobrý a co v něm má být](https://www.housio.app/blog/evidencni-list): Jediná příloha smlouvy, kterou změníš bez dodatku — pokud na ni smlouva správně odkazuje. Co do ní patří, kdy ji vystavit znovu a jaká věta ve smlouvě o tom rozhoduje.
 
 ### Smlouva a předání bytu
 
+- [Jak prověřit nájemníka před podpisem — a co si přitom nesmíš dovolit](https://www.housio.app/blog/provereni-najemnika): Co si můžeš ověřit zdarma, co smíš chtít doložit, proč nesmíš kopírovat občanku bez souhlasu a jak vypadá slušné prověření, které neodradí ty dobré.
 - [Co musí být v nájemní smlouvě na byt (a co do ní zákon nepustí)](https://www.housio.app/blog/najemni-smlouva): Povinné náležitosti, strop na jistotu a smluvní pokutu, ujednání, ke kterým se nepřihlíží, i to, co si do smlouvy přidat navíc. Se strukturou, podle které si smlouvu zkontroluješ za deset minut.
+- [Dodatek k nájemní smlouvě: kdy ho potřebuješ a co do něj patří](https://www.housio.app/blog/dodatek-ke-smlouve): Co se dá změnit oznámením, co jen dodatkem a co nejde ani s podpisem obou stran. Se vzorem a se seznamem změn, u kterých se na dodatek nejčastěji zapomíná.
 - [Kauce u nájmu bytu: kolik si smíš vzít, z čeho strhnout a kdy vrátit](https://www.housio.app/blog/jistota-kauce): Jistota je nejčastější zdroj hádky na konci nájmu. Kolik smí být, jak se počítají úroky, co je běžné opotřebení a jak doložit, že škoda vznikla nájemníkovi.
 - [Předávací protokol k bytu: co do něj napsat, ať ho nepotřebuješ](https://www.housio.app/blog/predavaci-protokol): Nepovinný papír, který rozhoduje spory o kauci. Co zapsat, jak fotit, proč jsou stavy měřidel důležitější než popis stavu stěn a jak vypadá protokol při vracení bytu.
+- [Podnájem: v čem se liší od nájmu a kdy k němu potřebuješ souhlas](https://www.housio.app/blog/podnajem): Kdy smí nájemník podnajmout byt bez tvého svolení, kdy ne, co riskuješ při podnájmu bez souhlasu a jak to ošetřit ve smlouvě.
 
 ### Když se to zvrtne
 
@@ -75,6 +79,11 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 - [Daň z pronájmu bytu: paušál 30 %, nebo skutečné výdaje?](https://www.housio.app/blog/dane-z-pronajmu): Spočítané na konkrétním bytě — kde se paušál vyplatí, kdy vyhrají odpisy a úroky z hypotéky, jaké jsou lhůty pro přiznání a co si schovávat celý rok.
 - [Vyúčtování služeb: lhůty, podklady a pokuta 50 Kč za den](https://www.housio.app/blog/vyuctovani-sluzeb): Do kdy musí být vyúčtování doručeno, co v něm musí stát, jak dlouho má nájemník na námitky a kolik stojí, když se zpozdíš. Podle zákona č. 67/2013 Sb., se spočítaným příkladem.
 - [Krátkodobý pronájem a Airbnb: co všechno musíš splnit](https://www.housio.app/blog/kratkodoby-pronajem): Proč se krátkodobý pronájem daní jinak než klasický nájem, co znamená poplatek z pobytu, kdy se z tebe stane identifikovaná osoba k DPH a jakou evidenci musíš vést.
+
+### Provoz a povinnosti
+
+- [Povinné revize v pronajímaném bytě: elektřina, plyn a komín](https://www.housio.app/blog/povinne-revize): Které kontroly musí proběhnout, jak často, kdo je platí a co se stane, když papír chybí a dojde ke škodě. S intervaly i s tím, co dát do smlouvy.
+- [GDPR pro pronajímatele: co smíš o nájemníkovi vědět a jak dlouho](https://www.housio.app/blog/gdpr-pronajimatel): Pronajímatel je správce osobních údajů, i když má jeden byt. Co smíš sbírat, na jakém základě, jak dlouho to držet a co udělat, když nájemník požádá o výmaz.
 
 ## Encyklopedie pronájmu
 

@@ -164,6 +164,17 @@ export function OdkazClanek({ slug, children }) {
   )
 }
 
+// Odkaz na heslo v encyklopedii. Pouziva se pro pojem, ktery clanek zminuje,
+// ale nerozebira — ctenar si ho doctе jednim klikem a nemusime ho vysvetlovat
+// v kazdem clanku znovu.
+export function OdkazHeslo({ slug, children }) {
+  return (
+    <Link href={`/encyklopedie/${slug}`} className="underline underline-offset-2 decoration-dotted" style={{ color: 'var(--teal-900)' }}>
+      {children}
+    </Link>
+  )
+}
+
 // Odkaz na kalkulacku, ktera clanek doplnuje.
 export function OdkazKalkulacka({ slug, children }) {
   return (

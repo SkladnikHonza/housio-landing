@@ -8,6 +8,12 @@ import * as neplaticiNajemnik from './neplatici-najemnik'
 import * as daneZPronajmu from './dane-z-pronajmu'
 import * as vyuctovaniSluzeb from './vyuctovani-sluzeb'
 import * as kratkodobyPronajem from './kratkodoby-pronajem'
+import * as vyseNajemneho from './vyse-najemneho'
+import * as podnajem from './podnajem'
+import * as provereniNajemnika from './provereni-najemnika'
+import * as dodatekKeSmlouve from './dodatek-ke-smlouve'
+import * as povinneRevize from './povinne-revize'
+import * as gdprPronajimatel from './gdpr-pronajimatel'
 
 // Prurvodce pronajmem — jediny zdroj pravdy pro rozcestnik, detail i sitemapu.
 //
@@ -42,19 +48,35 @@ export const TEMATA = [
     nazev: 'Daně a vyúčtování',
     popis: 'Co stát chce, do kdy a co si k tomu schovávat.',
   },
+  {
+    id: 'provoz',
+    nazev: 'Provoz a povinnosti',
+    popis: 'Revize, osobní údaje a další věci, které musíš hlídat, i když se nic neděje.',
+  },
 ]
 
 const MODULY = [
+  // Nájemné a jeho změny
+  vyseNajemneho,
   zvyseniNajmu,
   evidencniList,
+  // Smlouva a předání bytu
+  provereniNajemnika,
   najemniSmlouva,
+  dodatekKeSmlouve,
   jistotaKauce,
   predavaciProtokol,
+  podnajem,
+  // Když se to zvrtne
   vypovedZNajmu,
   neplaticiNajemnik,
+  // Daně a vyúčtování
   daneZPronajmu,
   vyuctovaniSluzeb,
   kratkodobyPronajem,
+  // Provoz a povinnosti
+  povinneRevize,
+  gdprPronajimatel,
 ]
 
 export const CLANKY = MODULY.map((m) => ({ ...m.META, Obsah: m.default }))

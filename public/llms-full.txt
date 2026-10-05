@@ -167,7 +167,115 @@ Jasně. PDF výkazy pro účetní, banku nebo daňového poradce generuješ od p
 
 ## Průvodce pronájmem — plné znění
 
-Následuje 10 návodů v plném znění.
+Následuje 16 návodů v plném znění.
+
+---
+
+# Jak stanovit výši nájemného, aby byt nestál prázdný ani nevydělával málo
+
+Adresa: https://www.housio.app/blog/vyse-najemneho
+Téma: Nájemné a jeho změny
+Shrnutí: Kde zjistit, co se v okolí platí, jak od nabídkových cen dojít k reálným, co dělá s výnosem jeden měsíc prázdna a proč se nejvyšší nájem nemusí vyplatit.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Příliš nízký nájem je vidět hned, příliš vysoký až po dvou měsících prázdného bytu. Tenhle návod je o tom, jak se dostat k číslu, které obstojí — a jak poznat, že se vyšší částka nevyplatí, i když ji někdo nabídne.
+
+Co si z toho odnést
+
+- Srovnávej se skutečně uzavřenými nájmy, ne jen s nabídkovými cenami.
+- Nájemné a zálohy na služby drž oddělené už v inzerátu.
+- Počítej čistý výnos po nákladech, ne jen nájem.
+- Jeden měsíc prázdna spolkne zhruba osm procent ročního výnosu.
+
+## Kde zjistit, co se v okolí platí
+
+- Aktuální inzeráty srovnatelných bytů ve stejné čtvrti. Nejpřesnější zdroj, ale pozor: to jsou ceny nabídkové, ne uzavřené.
+- Inzeráty, které zmizely. Když si byt sleduješ a za týden je pryč, byla cena dobře nastavená. Když visí měsíc a postupně klesá, vidíš strop trhu.
+- Veřejné cenové mapy nájemného. Dají hrubý rámec pro lokalitu, ale nezohlední patro, stav bytu ani výhled.
+- Správce domu nebo sousedé, kteří taky pronajímají. Nejrychlejší způsob, jak zjistit reálně placené částky v konkrétním domě.
+
+Pokud nájemné zvyšuješ zákonnou cestou, potřebuješ navíc doložit srovnatelné nájemné. Tři vytištěné nabídky srovnatelných bytů jsou v praxi dostatečný podklad.
+
+## Jak srovnávat, aby to dávalo smysl
+
+Dva byty 2+kk ve stejné ulici se můžou lišit o pětinu nájmu. Při srovnávání drž pohromadě tyhle věci:
+
+| Co porovnat | Proč na tom záleží |
+| --- | --- |
+| Dispozice a plocha | Cena za metr klesá s velikostí bytu — garsonka vydělá na metr nejvíc |
+| Patro a výtah | Čtvrté patro bez výtahu srazí nájem i o deset procent |
+| Stav a vybavení | Zařízený byt po rekonstrukci je jiná kategorie než holobyt |
+| Energetická náročnost | Vysoké zálohy srazí nájem, protože zájemce počítá celkovou částku |
+| Parkování a sklep | V centru bývá parkovací stání samostatná položka |
+| Dostupnost | Pět minut k metru nebo zastávce je u nájmu důležitější než u prodeje |
+
+Na tohle pozor
+
+Zájemce nerozhoduje podle nájemného, ale podle celkové částky za měsíc. Byt s nájmem 18 000 Kč a zálohami 5 500 Kč je pro něj dražší než byt za 20 000 Kč se zálohami 3 000 Kč. Proto má smysl mít zálohy nastavené realisticky, ne „pro jistotu“ vysoko.
+
+## Spočítej si výnos, ne jen nájem
+
+Hrubý výnos je jednoduchý: roční nájemné dělené cenou nemovitosti. Čistý výnos je ten, podle kterého se dá rozhodovat.
+
+Spočítáno na příkladu
+
+Byt za 4 100 000 Kč, nájemné 20 000 Kč měsíčně, tedy 240 000 Kč ročně. Hrubý výnos 5,9 %.
+
+Roční náklady: fond oprav a správa 24 000, pojištění 4 000, daň z nemovitých věcí 1 500, opravy a údržba v průměru 15 000, jeden měsíc bez nájemníka 20 000. Celkem 64 500 Kč.
+
+Čistý příjem 175 500 Kč, čistý výnos 4,3 % — a to ještě před daní.
+
+Odpis, úroky a další položky, které snižují základ daně, si spočítáš v kalkulaci daně z pronájmu.
+
+## Jeden měsíc prázdna stojí víc, než si myslíš
+
+Prázdný byt není jen chybějící nájem. Je to i uklizení, focení, inzerce, prohlídky a čas strávený vybíráním — a náklady na dům běží dál.
+
+| Nájem | Co stojí jeden měsíc prázdna | Kolik je to z ročního nájmu |
+| --- | --- | --- |
+| 15 000 Kč | 15 000 Kč + náklady domu | přes 8 % |
+| 20 000 Kč | 20 000 Kč + náklady domu | přes 8 % |
+| 28 000 Kč | 28 000 Kč + náklady domu | přes 8 % |
+
+Osm procent je zhruba to, co bys získal zvýšením nájmu o 1 600 Kč měsíčně u dvacetitisícového bytu. Jinak řečeno: když kvůli vyšší ceně stojí byt o měsíc déle prázdný, celé zvýšení se ten rok smaže.
+
+## Kolik si tedy říct
+
+- Najdi pět srovnatelných bytů a seřaď je podle celkové měsíční částky.
+- Zařaď svůj byt mezi ně podle stavu, patra a dostupnosti — upřímně, ne podle toho, kolik jsi do něj dal.
+- Nastav cenu k mediánu, pokud chceš pronajmout rychle, nebo k horní třetině, pokud máš čas čekat.
+- Dej tomu dva týdny. Když nepřijde ani jedna prohlídka, je cena mimo trh — a snížit po dvou týdnech je levnější než čekat dva měsíce.
+- Do smlouvy dej inflační doložku, ať se cena drží trhu bez vyjednávání.
+
+V Housiu
+
+Housio ukazuje u každé nemovitosti roční přehled výnosů a nákladů, takže čistý výnos nemusíš skládat z výpisů. Když do něj zapisuješ i výdaje a prázdné měsíce, máš po roce podklad, podle kterého se rozhoduje líp než podle pocitu.
+
+## Časté dotazy
+
+**Kde zjistím obvyklé nájemné v mé lokalitě?**
+
+Nejblíž realitě jsou aktuální inzeráty srovnatelných bytů ve stejné čtvrti, ideálně doplněné o to, za kolik se byty opravdu pronajaly. Veřejné cenové mapy dávají hrubý rámec, ale nezohlední stav bytu ani patro.
+
+**Mám do nájmu započítat zálohy na služby?**
+
+Ne. Nájemné a zálohy patří ve smlouvě odděleně a i v inzerátu je lepší uvést obojí zvlášť. Zájemce stejně počítá s celkovou částkou, ale ty potřebuješ mít položky oddělené kvůli vyúčtování i daním.
+
+**Co je hrubý a čistý výnos?**
+
+Hrubý výnos je roční nájemné dělené cenou nemovitosti. Čistý počítá i s náklady — fondem oprav, pojištěním, daní, opravami a měsíci bez nájemníka. Právě ten rozdíl rozhoduje, jestli se investice vyplatí.
+
+**Vyplatí se dát nižší nájem spolehlivému nájemníkovi?**
+
+Často ano. Jeden měsíc prázdna sebere zhruba osm procent ročního výnosu, výměna nájemníka k tomu přidá úklid, inzerci a čas. Stabilní nájemce o pár procent levněji bývá výhodnější než nejvyšší možná částka.
+
+**Můžu nájem zvýšit hned po roce?**
+
+Zákonnou cestou nejdřív rok od posledního zvýšení a nejvýše o 20 % za poslední tři roky. S inflační doložkou ve smlouvě platí to, co je v ní.
+
+Opřeno o: § 2249 občanského zákoníku · nařízení vlády č. 453/2013 Sb.
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
 
 ---
 
@@ -397,6 +505,125 @@ Stav k 1. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 
 ---
 
+# Jak prověřit nájemníka před podpisem — a co si přitom nesmíš dovolit
+
+Adresa: https://www.housio.app/blog/provereni-najemnika
+Téma: Smlouva a předání bytu
+Shrnutí: Co si můžeš ověřit zdarma, co smíš chtít doložit, proč nesmíš kopírovat občanku bez souhlasu a jak vypadá slušné prověření, které neodradí ty dobré.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Nejlevnější způsob, jak se vyhnout neplatícímu nájemníkovi, je nepodepsat s ním smlouvu. Prověření přitom není detektivní práce — většinu si ověříš zdarma za deset minut. Jen je potřeba vědět, kde je hranice, za kterou už se z opatrného pronajímatele stává ten, kdo porušuje právo.
+
+Co si z toho odnést
+
+- Insolvenční rejstřík je veřejný a zdarma, evidence exekucí stojí pár korun.
+- Doložení příjmu chtít smíš, kopírovat občanku bez souhlasu ne.
+- Údaje neúspěšných zájemců smaž, jakmile je byt pronajatý.
+- Vybrat si můžeš, diskriminovat ne.
+
+## Proč to dělat, i když se ti člověk zdá v pořádku
+
+Od první nezaplacené platby po vyklizení uplyne klidně rok. Po celou dobu platíš fond oprav, energie a hypotéku, zatímco v bytě bydlí někdo, kdo ti neposílá nic. Deset minut nad rejstříky je proti tomu levná pojistka.
+
+Druhá věc je, že prověření chrání i toho druhého. Když zájemce dopředu ví, že nájem s energiemi utáhne jen tak tak, ušetří si stěhování a ty výpadek.
+
+## Co si ověříš zdarma za deset minut
+
+| Kde | Co se dozvíš | Kolik to stojí |
+| --- | --- | --- |
+| Insolvenční rejstřík (justice.cz) | Probíhající nebo skončené insolvenční řízení | zdarma |
+| Centrální evidence exekucí | Vedené exekuce na danou osobu | jednotky korun za dotaz |
+| Katastr nemovitostí | Jestli zájemce vlastní nemovitost, kterou uvádí | zdarma (nahlížení) |
+| Obchodní rejstřík | U podnikatele firmu, funkce a účetní závěrky | zdarma |
+| Vyhledávač | Veřejně dostupné informace, které sám o sobě zveřejnil | zdarma |
+
+Na tohle pozor
+
+Čistý rejstřík neznamená, že je všechno v pořádku — ukáže jen to, co už se stihlo dostat do systému. Dluh u pronajímatele z loňska v žádné evidenci není.
+
+## Co smíš chtít doložit
+
+- Potvrzení o příjmu od zaměstnavatele nebo daňové přiznání u podnikatele. Legitimní požadavek — potřebuješ vědět, jestli na nájem dosáhne.
+- Výpis z účtu s příchozí mzdou. Zájemce z něj může začernit vše ostatní; tebe zajímá jen pravidelný příjem.
+- Referenci od předchozího pronajímatele — kontakt a souhlas s tím, že se zeptáš.
+- Ručitele u zájemců bez historie příjmů, typicky studentů.
+
+Praktické pravidlo pro poměr příjmu a nájmu: celkové měsíční náklady na bydlení včetně záloh na služby by neměly přesáhnout zhruba třetinu až čtyřicet procent čistého příjmu domácnosti. Není to zákonné pravidlo, jen zkušenost — nad tou hranicí stačí jedna nečekaná výdajová vlna a nájem jde stranou.
+
+## Občanka: dívat se ano, kopírovat bez souhlasu ne
+
+Do smlouvy potřebuješ jméno, datum narození a adresu. Tyhle údaje si můžeš z dokladu opsat a totožnost si ověřit pohledem. Pořídit kopii nebo fotografii občanského průkazu ale smíš jen s prokazatelným souhlasem držitele — zákon o občanských průkazech to jinak zakazuje.
+
+Výjimku mají subjekty, na které dopadají předpisy proti praní peněz, tedy například realitní zprostředkovatelé. Pronajímatel, který pronajímá vlastní byt, mezi ně nepatří.
+
+Na tohle pozor
+
+Souhlas „zaškrtnutím v e-mailu“ není prokazatelný souhlas. A i kdybys ho měl, pořád platí, že kopii smíš uchovávat jen tak dlouho, dokud ji k něčemu potřebuješ — což po podpisu smlouvy zpravidla neplatí.
+
+## Co s údaji těch, koho nevybereš
+
+Jakmile sbíráš jména, telefony, příjmy a reference, zpracováváš osobní údaje a jsi jejich správcem. U vybraného nájemce máš právní základ ve smlouvě. U neúspěšných zájemců ale žádný důvod držet jejich papíry dál nemáš.
+
+- Po pronajmutí bytu smaž životopisy, potvrzení o příjmu a fotky dokladů neúspěšných zájemců.
+- Nech si nanejvýš jméno a kontakt, a to jen pokud ti zájemce řekl, že ho můžeš oslovit příště.
+- Nesdílej údaje zájemců s nikým dalším — ani v realitní skupině na sociální síti.
+
+Podrobněji to rozebírám v článku GDPR pro pronajímatele.
+
+## Varovné signály z prohlídky
+
+- Spěch. „Potřebuju se nastěhovat zítra a platím hotově na půl roku dopředu“ je klasika, která končí špatně.
+- Odmítnutí jakéhokoli dokladu bez vysvětlení. Doložit příjem není urážka.
+- Nesrovnalosti v příběhu — jiné zaměstnání v e-mailu a jiné na prohlídce.
+- Vyhýbavá odpověď na to, kolik lidí bude v bytě bydlet. Počet osob ovlivňuje zálohy i opotřebení.
+- Tlak na smlouvu bez předávacího protokolu nebo na „papír až potom“.
+
+Žádný z nich sám o sobě neznamená problém. Dva a víc dohromady už stojí za zpozornění.
+
+## Postup, který neodradí slušné zájemce
+
+- V inzerátu napiš, co budeš chtít. Kdo s tím má problém, nepřijde — a ušetří čas oběma.
+- Na prohlídce se ptej na praktické věci: kdo bude v bytě bydlet, odkdy, na jak dlouho, kde pracuje.
+- Po prohlídce prověř rejstříky u zájemce, se kterým chceš pokračovat. Ne u všech — nemáš k tomu důvod.
+- Vyžádej doklady až ve chvíli, kdy jsi rozhodnutý. Nesbírej dokumenty od deseti lidí.
+- Udělej předávací protokol a smlouvu podle kontrolního seznamu.
+
+Na tohle pozor
+
+Vybrat si nájemce můžeš svobodně. Nesmíš ale odmítnout někoho kvůli rase, etnickému původu, pohlaví, věku, zdravotnímu postižení, náboženství nebo sexuální orientaci — to zakazuje antidiskriminační zákon.
+
+V Housiu
+
+Jakmile nájemník podepíše, máš v Housiu na jednom místě jeho kontakt, smlouvu, jistotu i předpis plateb — a od prvního měsíce vidíš, jestli platí včas. Právě ta pravidelná kontrola, ne prověření před podpisem, odhalí problém nejdřív.
+
+## Časté dotazy
+
+**Můžu po zájemci chtít potvrzení o příjmu?**
+
+Ano, doložení příjmu je legitimní požadavek — potřebuješ vědět, jestli na nájem dosáhne. Nemůžeš ho ale vynucovat u člověka, se kterým už smlouvu máš, a nesmíš si potvrzení nechávat déle, než je potřeba.
+
+**Smím si okopírovat občanský průkaz?**
+
+Jen s prokazatelným souhlasem držitele. Zákon o občanských průkazech kopírování bez souhlasu zakazuje. Výjimku mají například realitní zprostředkovatelé podle předpisů proti praní peněz — běžný pronajímatel ji nemá.
+
+**Kde zjistím, jestli zájemce není v exekuci?**
+
+Insolvenční rejstřík je veřejný a zdarma. Centrální evidence exekucí je placená a dotaz na konkrétní osobu stojí jednotky korun. Obojí ti ale ukáže jen to, co už je v systému.
+
+**Můžu odmítnout zájemce bez udání důvodu?**
+
+Vybrat si nájemce můžeš. Nesmíš ale odmítnout někoho kvůli důvodu, který zakazuje antidiskriminační zákon — tedy kvůli rase, etnickému původu, pohlaví, věku, zdravotnímu postižení, náboženství nebo sexuální orientaci.
+
+**Vyplatí se vyžadovat ručitele?**
+
+U mladých zájemců bez historie příjmů to bývá rozumnější než vyšší jistota, kterou zákon stejně stropuje na trojnásobek nájemného. Ručitelské prohlášení musí být písemné a ručitel musí vědět, k čemu se zavazuje.
+
+Opřeno o: zákon č. 328/1999 Sb., o občanských průkazech · nařízení GDPR · zákon č. 198/2009 Sb., antidiskriminační zákon
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
 # Co musí být v nájemní smlouvě na byt (a co do ní zákon nepustí)
 
 Adresa: https://www.housio.app/blog/najemni-smlouva
@@ -526,6 +753,110 @@ Běžná údržba a drobné opravy jdou ze zákona za nájemníkem i bez ujedná
 Opřeno o: § 2235 a násl. občanského zákoníku · nařízení vlády č. 308/2015 Sb.
 
 Stav k 1. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Dodatek k nájemní smlouvě: kdy ho potřebuješ a co do něj patří
+
+Adresa: https://www.housio.app/blog/dodatek-ke-smlouve
+Téma: Smlouva a předání bytu
+Shrnutí: Co se dá změnit oznámením, co jen dodatkem a co nejde ani s podpisem obou stran. Se vzorem a se seznamem změn, u kterých se na dodatek nejčastěji zapomíná.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Dodatek je nejjednodušší způsob, jak změnit podepsanou smlouvu — a zároveň věc, na kterou se nejčastěji zapomíná. Půlka sporů mezi pronajímatelem a nájemníkem stojí na tom, že se strany na něčem domluvily ústně a po roce si to každá pamatuje jinak.
+
+Co si z toho odnést
+
+- Dodatek musí být písemný a podepsaný oběma stranami.
+- Zálohy na služby lze měnit bez dodatku, pokud na to smlouva pamatuje evidenčním listem.
+- Nájemné dodatkem zvýšíš jen dohodou; bez souhlasu platí zákonný postup.
+- Po třetím dodatku je čistší sepsat novou smlouvu.
+
+## Kdy dodatek potřebuješ a kdy ne
+
+| Změna | Stačí oznámení? | Potřeba dodatek? |
+| --- | --- | --- |
+| Výše záloh na služby | ano, pokud na to smlouva pamatuje | jinak ano |
+| Výše nájemného dohodou | ne | ano |
+| Prodloužení doby určité | ne | ano |
+| Změna počtu osob v bytě | oznamuje nájemce | ne |
+| Změna čísla účtu pronajímatele | ano, písemné oznámení | ne |
+| Přistoupení dalšího nájemce | ne | ano |
+| Změna výše jistoty | ne | ano |
+
+Nejvíc práce ušetří první řádek. Když smlouva obsahuje větu, že se výše záloh stanovuje evidenčním listem a pronajímatel ji může změnit písemným oznámením s odůvodněním, nemusíš po každém vyúčtování shánět podpis.
+
+## Co do dodatku patří
+
+- Označení původní smlouvy — datum uzavření a smluvní strany, ať je jasné, co se mění.
+- Pořadové číslo dodatku.
+- Přesně určený článek, který se mění, a jeho nové znění celé — ne jen „mění se částka“.
+- Datum účinnosti změny.
+- Věta, že ostatní ujednání zůstávají beze změny.
+- Podpisy obou stran a datum podpisu.
+
+## Jak dodatek vypadá
+
+Co napsat
+
+Dodatek č. 1 k nájemní smlouvě ze dne 14. 3. 2025
+
+Smluvní strany: [pronajímatel] a [nájemce], uzavřely dne 14. 3. 2025 nájemní smlouvu k bytu č. 4, Opavská 3, Krnov. Dohodly se na této změně:
+
+Článek III odst. 1 smlouvy se nahrazuje tímto zněním: „Nájemné činí 21 500 Kč měsíčně a je splatné vždy do 15. dne příslušného kalendářního měsíce na účet pronajímatele č. 123456789/0800.“
+
+Tato změna nabývá účinnosti dnem 1. 1. 2027. Ostatní ujednání smlouvy zůstávají beze změny. Dodatek je vyhotoven ve dvou stejnopisech, každá strana obdrží jeden.
+
+## Co dodatkem nezměníš ani s podpisem
+
+Dodatek je pořád jen smlouva, takže nemůže obejít to, co zákon u nájmu bytu zakazuje:
+
+- Zkrátit zákonnou výpovědní dobu nebo přidat výpovědní důvody nad rámec zákona.
+- Zvýšit jistotu spolu se smluvní pokutou nad trojnásobek měsíčního nájemného.
+- Vyloučit nájemcovo právo na úroky z jistoty.
+- Zakázat přihlášení trvalého pobytu nebo přijetí osoby blízké do domácnosti.
+
+K takovým ujednáním se nepřihlíží, i když je nájemce podepíše. Zbytek dodatku tím ale nepadá — platí dál.
+
+## Nejčastější chyby
+
+- Ústní dohoda. „Domluvili jsme se po telefonu“ se po roce dokazuje mizerně.
+- Dodatek bez data účinnosti. Pak se strany přou, od kdy platí nová částka.
+- Změna popsaná jen rozdílem. Místo „nájemné se zvyšuje o 1 500 Kč“ napiš celé nové znění článku.
+- Prodloužení podepsané po uplynutí doby. To už nájem často běží na dobu neurčitou z obnovení a dodatek řeší něco jiného, než si myslíš.
+- Dodatek, který mění článek, jenž už jiný dodatek změnil. Odkazuj vždy na aktuální znění.
+
+U zvýšení nájemného bez souhlasu nájemce dodatek nevznikne a je potřeba jít zákonnou cestou — tu rozebírám v článku Jak zvýšit nájemné.
+
+V Housiu
+
+V Housiu vedeš smlouvu u konkrétní nemovitosti i s platností a rozpisem plateb. Když dodatek změní nájemné od určitého data, zapíšeš novou výši a měsíční platby se podle ní přepočítají — starší měsíce zůstanou na původní částce, takže evidence odpovídá tomu, co doopravdy platilo.
+
+## Časté dotazy
+
+**Musí být dodatek písemný?**
+
+Ano. Nájemní smlouva na byt musí mít písemnou formu a stejnou formu má mít i její změna. Ústní dohoda o vyšším nájemném se u soudu dokazuje velmi špatně.
+
+**Potřebuju dodatek na změnu záloh na služby?**
+
+Pokud smlouva odkazuje na evidenční list a umožňuje změnu záloh písemným oznámením, dodatek nepotřebuješ. Bez té věty ano.
+
+**Jak prodloužit nájem na dobu určitou?**
+
+Dodatkem s novým datem konce, podepsaným před uplynutím původní doby. Když doba uplyne a nájemce bydlí dál tři měsíce bez tvé výzvy k vyklizení, nájem se obnoví sám — na stejnou dobu, nejvýše na dva roky.
+
+**Můžu dodatkem zvýšit nájemné?**
+
+Dohodou obou stran ano a je to nejrychlejší cesta. Když nájemce nesouhlasí, dodatek nevznikne a zbývá zákonný postup s návrhem, dvouměsíční lhůtou a stropem dvaceti procent za tři roky.
+
+**Kolik dodatků může smlouva mít?**
+
+Kolik je potřeba, ale po třetím se vyplatí uvažovat o nové smlouvě. Číslované dodatky, které se navzájem přepisují, jsou častý zdroj sporu o to, co vlastně platí.
+
+Opřeno o: § 2235 a násl. občanského zákoníku · § 564 občanského zákoníku
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
 
 ---
 
@@ -748,6 +1079,100 @@ Minimálně do vypořádání jistoty a vyúčtování po skončení nájmu, rad
 Opřeno o: praxe podle § 2235 a násl. občanského zákoníku
 
 Stav k 1. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Podnájem: v čem se liší od nájmu a kdy k němu potřebuješ souhlas
+
+Adresa: https://www.housio.app/blog/podnajem
+Téma: Smlouva a předání bytu
+Shrnutí: Kdy smí nájemník podnajmout byt bez tvého svolení, kdy ne, co riskuješ při podnájmu bez souhlasu a jak to ošetřit ve smlouvě.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Podnájem je pro pronajímatele nepříjemný hlavně tím, že o něm často neví. Zákon přitom rozlišuje dvě úplně jiné situace: nájemník, který v bytě bydlí a pronajme pokoj, a nájemník, který se odstěhoval a byt dál pronajímá někomu jinému.
+
+Co si z toho odnést
+
+- Část bytu, ve kterém nájemce sám bydlí, smí podnajmout i bez tvého souhlasu.
+- Celý byt nebo byt, kde nebydlí, jen s tvým písemným souhlasem.
+- Podnájemník s tebou nemá přímý vztah — vše řešíš s nájemcem.
+- Podnájem bez potřebného souhlasu je hrubé porušení povinností nájemce.
+
+## Nájem a podnájem nejsou totéž
+
+| | Nájem | Podnájem |
+| --- | --- | --- |
+| Kdo přenechává byt | vlastník | nájemce |
+| Komu platí nájemné | nájemce vlastníkovi | podnájemník nájemci |
+| Vztah k vlastníkovi | přímý | žádný |
+| Ochrana podle zákona | silná (nájem bytu) | slabší, odvozená od nájmu |
+| Konec | výpovědí nebo uplynutím doby | automaticky se skončením nájmu |
+
+Nejdůležitější řádek je ten poslední. Podnájem nemůže přežít nájem, ze kterého vychází. Když vypovíš nájem, končí i podnájem — a podnájemník, který o ničem nevěděl, se ocitne v bytě bez právního důvodu.
+
+## Kdy je potřeba tvůj souhlas
+
+Podle § 2274 může nájemce podnajmout část bytu třetí osobě i bez souhlasu pronajímatele, pokud v bytě sám trvale bydlí. Typicky jde o spolubydlícího v druhém pokoji.
+
+Chce-li podnajmout celý byt, nebo v něm sám nebydlí, potřebuje tvůj souhlas — a ten musí být písemný. Bez něj jde o porušení povinností.
+
+Na tohle pozor
+
+I u podnájmu části bytu platí, že nájemce ti musí oznámit zvýšení počtu osob v bytě, a to bez zbytečného odkladu. Má to praktický dopad na zálohy na služby, protože voda a odpad se rozúčtovávají podle osob.
+
+## Co dělat, když nájemník podnajal bez svolení
+
+- Ověř si situaci. Bydlí nájemce v bytě dál? Pokud ano a jde o jeden pokoj, souhlas nepotřebuje a řešíš jen oznámení počtu osob.
+- Pošli písemnou výzvu k nápravě s přiměřenou lhůtou. Bez ní nemůžeš postupovat dál a u soudu bys neuspěl.
+- Nepřistoupí-li nájemce k nápravě, je podnájem bez souhlasu hrubým porušením povinností — tedy výpovědní důvod s tříměsíční výpovědní dobou.
+- S podnájemníkem nejednej jako s nájemcem. Nepřijímej od něj platby a nedomlouvej se s ním na užívání bytu; mohl by z toho vzniknout dojem, že jsi podnájem schválil.
+
+## Čím se podnájem liší v praxi
+
+- Víc lidí, vyšší spotřeba. Zálohy nastavené na jednoho člověka při třech nesedí a na konci roku z toho je nedoplatek.
+- Vyšší opotřebení. Co je u dvou lidí běžné opotřebení, u pěti už bývá škoda.
+- Horší přehled, kdo v bytě je. Při havárii nebo revizi nevíš, s kým jednat.
+- Jistota pokrývá dluh nájemce, ne podnájemníka. Ten ti po právu nedluží nic — dluží nájemci.
+
+## Co napsat do nájemní smlouvy
+
+Zakázat podnájem části bytu, ve kterém nájemce bydlí, nejde. Dá se ale rozumně vymezit, co od sebe strany čekají:
+
+Co napsat
+
+„Byt je určen k bydlení nejvýše tří osob. Nájemce je povinen bez zbytečného odkladu písemně oznámit pronajímateli změnu počtu osob žijících v bytě. Přenechání celého bytu do podnájmu vyžaduje předchozí písemný souhlas pronajímatele. Poskytování ubytovacích služeb v bytě, včetně krátkodobého ubytování zprostředkovaného internetovými platformami, se nepřipouští.“
+
+Poslední věta je dnes důležitější než ta o podnájmu. Krátkodobé ubytování je ubytovací služba, ne podnájem, a dopady na dům i na sousedy jsou úplně jiné — rozebírám je v článku o krátkodobém pronájmu.
+
+V Housiu
+
+V Housiu vedeš u bytu počet osob a jednotlivé nájemníky včetně partnerů a dětí. Když se počet změní, promítne se to do záloh a do rozúčtování vody — a ty máš doloženo, odkdy v bytě bydlí kolik lidí.
+
+## Časté dotazy
+
+**Může nájemník podnajmout část bytu bez mého souhlasu?**
+
+Ano, pokud v bytě sám trvale bydlí. Zákon mu to dovoluje — stačí, aby ti oznámil zvýšení počtu osob v bytě. Celý byt nebo byt, ve kterém sám nebydlí, podnajmout bez písemného souhlasu nesmí.
+
+**Můžu podnájem ve smlouvě úplně zakázat?**
+
+Právo podnajmout část bytu, ve kterém nájemce sám bydlí, mu dává zákon a nelze ho smluvně vyloučit. Můžeš ale ujednat přiměřený maximální počet osob v bytě a povinnost změnu oznámit.
+
+**Mám s podnájemníkem přímý vztah?**
+
+Ne. Smlouvu máš s nájemcem, podnájemník je jeho smluvní partner. Nájemné ti platí nájemce a za škodu v bytě odpovídá taky on — i když ji způsobil podnájemník.
+
+**Co se stane s podnájmem, když skončí nájem?**
+
+Skončí automaticky s ním. Podnájem je odvozený od nájmu a nemůže ho přežít. Podnájemník pak byt užívá bez právního důvodu.
+
+**Je krátkodobé ubytování přes platformu podnájem?**
+
+Zpravidla ne — jde o ubytovací službu, ne o podnájem. Pro nájemce to znamená živnost, poplatek z pobytu a evidenci hostů, a v nájemní smlouvě to bývá vyloučené.
+
+Opřeno o: § 2274 až § 2278 občanského zákoníku
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
 
 ---
 
@@ -1369,3 +1794,228 @@ Samo o sobě ho zakázat nemůže, ale může přijmout pravidla pro užívání
 Opřeno o: § 7 zákona o daních z příjmů · zákon č. 565/1990 Sb., o místních poplatcích · zákon č. 326/1999 Sb., o pobytu cizinců
 
 Stav k 1. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Povinné revize v pronajímaném bytě: elektřina, plyn a komín
+
+Adresa: https://www.housio.app/blog/povinne-revize
+Téma: Provoz a povinnosti
+Shrnutí: Které kontroly musí proběhnout, jak často, kdo je platí a co se stane, když papír chybí a dojde ke škodě. S intervaly i s tím, co dát do smlouvy.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Revize jsou tichá povinnost. Nikdo o ně nestojí, dokud se nic nestane — a ve chvíli, kdy vyhoří zásuvka nebo unikne plyn, je revizní zpráva první papír, který pojišťovna i hasiči chtějí vidět. Tenhle návod říká, co se reviduje, jak často a kdo to platí.
+
+Co si z toho odnést
+
+- Elektroinstalace zpravidla jednou za pět let, plyn každoročně kontrola a revize jednou za tři roky.
+- Odpovědnost nese vlastník, i když zařízení užívá nájemník.
+- Nájemce musí umožnit přístup, pokud ho dopředu upozorníš v přiměřené době.
+- Bez revizní zprávy se po škodě těžko prokazuje, že zařízení bylo v pořádku.
+
+## Co se v bytě vlastně reviduje
+
+Pod pojem revize spadá několik různých kontrol, které mají vlastní předpisy i lhůty. U běžného bytu jde hlavně o tohle:
+
+- Elektroinstalace — rozvody v bytě, zásuvky, jističe, případně elektrický sporák nebo bojler.
+- Plynové zařízení — spotřební rozvod plynu a spotřebiče: kotel, karma, plynový sporák.
+- Spalinová cesta — komín nebo kouřovod u každého spotřebiče, který někam odvádí spaliny.
+- Hromosvod a výtah — ty už jsou věcí domu, tedy společenství vlastníků.
+
+Hranice mezi „bytem“ a „domem“ je přitom to, co v praxi dělá nejvíc zmatku. Společné rozvody a zařízení domu hlídá společenství vlastníků, co je uvnitř bytu, je na vlastníkovi jednotky — tedy na tobě.
+
+## Intervaly, které potřebuješ znát
+
+| Zařízení | Jak často | Kdo to zpravidla řeší |
+| --- | --- | --- |
+| Elektroinstalace v bytě | revize jednou za 5 let | vlastník jednotky |
+| Plynové spotřebiče a rozvod | kontrola 1× ročně, revize 1× za 3 roky | vlastník jednotky |
+| Spalinová cesta | kontrola zpravidla 1× ročně | vlastník jednotky |
+| Hromosvod | podle typu objektu, obvykle 2 až 4 roky | společenství vlastníků |
+| Výtah | pravidelně podle normy | společenství vlastníků |
+
+Na tohle pozor
+
+Lhůty se liší podle typu zařízení, paliva i stáří objektu a předpisy se v posledních letech měnily. Čísla v tabulce jsou obvyklá pro běžný byt — u konkrétního zařízení je autoritou revizní technik a předpis, který na něj dopadá, ne tahle tabulka.
+
+## Kdo revizi zajišťuje a kdo ji platí
+
+Odpovědnost za stav zařízení nese vlastník, i když ho denně používá někdo jiný. Nájemník má povinnost oznámit závadu a umožnit její odstranění; nemá povinnost shánět revizního technika.
+
+Náklad na revizi není drobná oprava ani běžná údržba — ty hradí nájemce podle nařízení vlády č. 308/2015 Sb. Revize je nad jejich rámec, takže ji platí vlastník. Výjimkou bývá zařízení, které si do bytu pořídil sám nájemce.
+
+Spočítáno na příkladu
+
+Plynový kotel v bytě je tvůj: roční kontrolu i tříletou revizi platíš ty. Nájemník si do bytu přinesl vlastní plynový gril na balkon — ten je jeho věc a tvoje odpovědnost na něj nedosahuje.
+
+## Co o revizích napsat do smlouvy
+
+Nemusí to být odstavec na půl strany. Stačí tři věty, které předejdou dohadování:
+
+Co napsat
+
+„Pronajímatel zajišťuje na své náklady pravidelné revize a kontroly technických zařízení, která jsou součástí bytu. Nájemce se zavazuje umožnit přístup do bytu za účelem provedení revize, kontroly nebo odečtu, bude-li mu to oznámeno alespoň pět dnů předem. Nájemce je povinen bez zbytečného odkladu oznámit pronajímateli závadu na technickém zařízení bytu.“
+
+Přístup do bytu je přitom to, kvůli čemu revize nejčastěji nevyjde. Zákon nájemci ukládá umožnit prohlídku i přístup k zařízením, pokud ho na to předem upozorníš v přiměřené době — ale konkrétní lhůta ve smlouvě ti ušetří hádku o tom, co je přiměřené.
+
+## Co se stane, když papír chybí a vznikne škoda
+
+- Pojišťovna může plnění krátit nebo odmítnout, pokud se prokáže, že škoda souvisí se zanedbanou povinností. Revizní zprávu bude chtít vidět.
+- Odpovědnost za škodu na zdraví nebo majetku třetích osob jde za vlastníkem zařízení. U požáru nebo otravy oxidem uhelnatým to může být velmi drahé.
+- Dokazování bez revizní zprávy je skoro beznadějné. Platná revize naopak ukazuje, že jsi povinnost splnil.
+
+Pojistka na pronajímaný byt má navíc vlastní úskalí — o těch píšu v hesle pojištění pronajímané nemovitosti.
+
+## Jak si to hlídat, aby nic nepropadlo
+
+Revize mají jednu nepříjemnou vlastnost: připomenou se samy až tím, že propadly. U jednoho bytu se to ještě uhlídá v hlavě, u pěti už ne.
+
+- U každého zařízení si zapiš datum poslední revize a interval.
+- Spočítej datum příští a nastav si připomínku aspoň dva měsíce dopředu — technici bývají objednaní.
+- Revizní zprávu si ulož digitálně k té konkrétní nemovitosti, ne do e-mailu.
+- Při výměně nájemníka zkontroluj, jestli některá revize nepropadne během nového nájmu.
+
+V Housiu
+
+Housio má u každé nemovitosti záložku Revize: typ, datum provedení, platnost do a interval. Co se blíží konci, upozorní s předstihem a co už propadlo, svítí červeně. Revizní zprávu si nahraješ k témuž místu, takže se při škodě nehledá ve starých e-mailech.
+
+## Časté dotazy
+
+**Musí mít pronajímaný byt revizi elektroinstalace?**
+
+Pravidelná revize elektroinstalace se u bytů provádí zpravidla jednou za pět let. Odpovědnost nese vlastník; u společných rozvodů v domě ji zajišťuje společenství vlastníků, u rozvodů v bytě vlastník jednotky.
+
+**Jak často se kontroluje plyn?**
+
+U spotřebního rozvodu plynu a plynových spotřebičů se dělá kontrola jednou ročně a provozní revize jednou za tři roky. Platí to i pro byt, který pronajímáš.
+
+**Může revizi platit nájemník?**
+
+Náklad na revizi zařízení, které je součástí bytu, nese zpravidla vlastník — není to drobná oprava ani běžná údržba. Ujednat ve smlouvě přenesení nákladu na nájemce lze jen v mezích zákona a u revizí to bývá sporné.
+
+**Co když mě nájemník do bytu kvůli revizi nepustí?**
+
+Nájemce musí umožnit prohlídku bytu i přístup k zařízením, pokud ho na to pronajímatel předem upozorní v přiměřené době. Opakované odmítnutí je porušením povinností nájemce.
+
+**Jak dlouho revizní zprávy schovávat?**
+
+Minimálně do další revize, prakticky ale déle — při škodě se dokládá i několik let zpětně. Digitální archiv nic nestojí a papír se ztratí.
+
+Opřeno o: nařízení vlády č. 190/2022 Sb. a č. 191/2022 Sb. · nařízení vlády č. 34/2016 Sb.
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# GDPR pro pronajímatele: co smíš o nájemníkovi vědět a jak dlouho
+
+Adresa: https://www.housio.app/blog/gdpr-pronajimatel
+Téma: Provoz a povinnosti
+Shrnutí: Pronajímatel je správce osobních údajů, i když má jeden byt. Co smíš sbírat, na jakém základě, jak dlouho to držet a co udělat, když nájemník požádá o výmaz.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Jakmile si zapíšeš jméno, rodné číslo a telefon nájemníka, zpracováváš osobní údaje a jsi jejich správcem. Neznamená to papírování na týden — u jednoho bytu jde o pár rozhodnutí, která uděláš jednou a pak se jimi držíš.
+
+Co si z toho odnést
+
+- Pronájem je ekonomická činnost, takže výjimka pro osobní použití neplatí.
+- Na údaje do smlouvy souhlas nepotřebuješ — stačí plnění smlouvy a právní povinnost.
+- Kopie občanského průkazu bez souhlasu ne, a většinou ji ani nepotřebuješ.
+- Údaje neúspěšných zájemců smaž, jakmile je byt pronajatý.
+
+## Ano, i ty jsi správce osobních údajů
+
+GDPR nedopadá na činnost čistě osobní povahy — ale pronájem bytu je ekonomická činnost, takže se té výjimky nedovoláš. Správcem je ten, kdo určuje účel a prostředky zpracování. U nájmu to jsi ty: rozhoduješ, co o nájemníkovi víš a proč.
+
+Rozsah povinností je ale úměrný tomu, co zpracováváš. Pronajímatel jednoho bytu nepotřebuje pověřence ani záznamy o činnostech zpracování v podobě, jakou vede banka. Potřebuje vědět, co má, proč to má a jak dlouho to bude mít.
+
+## Na jakém základě údaje zpracováváš
+
+| Co | Právní základ | Souhlas potřeba? |
+| --- | --- | --- |
+| Jméno, datum narození, adresa ve smlouvě | plnění smlouvy | ne |
+| Číslo účtu a historie plateb | plnění smlouvy | ne |
+| Daňové doklady a potvrzení o platbě | právní povinnost | ne |
+| Doložení příjmu před podpisem | opatření před uzavřením smlouvy | ne |
+| Kopie občanského průkazu | souhlas (zákon ji jinak zakazuje) | ano |
+| Zasílání nabídek a novinek | souhlas | ano |
+
+Protože většinu údajů zpracováváš na základě smlouvy a zákona, souhlas po nájemníkovi vůbec nechtěj. Vypadalo by to vstřícně, ale ve skutečnosti by sis tím zkomplikoval život — souhlas jde kdykoli odvolat, a ty bys pak nemohl vést ani smlouvu, kterou máš podepsanou.
+
+## Co smíš sbírat a co už je moc
+
+### Potřebuješ
+
+- Jméno a příjmení, datum narození, adresu trvalého pobytu — do smlouvy.
+- Telefon a e-mail — pro komunikaci a doručování.
+- Číslo účtu — pro párování plateb a vracení jistoty.
+- Počet osob v bytě — kvůli zálohám a rozúčtování.
+
+### Nepotřebuješ
+
+- Rodné číslo, pokud ho nevyžaduje konkrétní předpis. Do nájemní smlouvy se nehodí.
+- Kopii občanky, zdravotní dokumentace nebo výpis z rejstříku trestů.
+- Údaje o zdravotním stavu, náboženství nebo politických názorech — to jsou zvláštní kategorie údajů s přísnějším režimem.
+- Fotky z bytu s osobními věcmi nájemníka.
+
+Na tohle pozor
+
+Kamera mířící do společných prostor nebo ke dveřím bytu je samostatná kapitola. Pokud snímá prostor, kde se pohybují lidé, jde o zpracování osobních údajů se vším všudy — včetně informační cedule a posouzení, jestli je to vůbec přiměřené.
+
+## Jak dlouho co uchovávat
+
+| Dokument | Jak dlouho | Proč |
+| --- | --- | --- |
+| Nájemní smlouva a dodatky | po dobu nájmu a pak po dobu promlčecích lhůt | možné nároky z nájmu |
+| Vyúčtování a doklady k němu | několik let po vypořádání | reklamace a spory |
+| Daňové doklady | podle daňových předpisů, u DPH 10 let | právní povinnost |
+| Předávací protokol a fotky | do vypořádání jistoty, raději déle | dokazování škody |
+| Podklady neúspěšných zájemců | smazat po pronajmutí bytu | žádný další důvod je držet |
+
+Poslední řádek je ten, na který se nejčastěji zapomíná. Složka s deseti životopisy a potvrzeními o příjmu z loňského inzerátu je zbytečné riziko.
+
+## Práva nájemníka a co s nimi
+
+- Přístup k údajům — na žádost mu řekneš, co o něm vedeš a proč.
+- Oprava nesprávného údaje.
+- Výmaz — ale jen tam, kde pro uchování nemáš jiný důvod. Dokud trvá smlouva nebo běží lhůty pro daňové doklady, mazat nemusíš.
+- Námitka proti zpracování založenému na oprávněném zájmu.
+
+Na žádost je potřeba odpovědět, a to bez zbytečného odkladu, nejpozději do měsíce. Odpovědí může být i vysvětlení, proč výmaz teď nejde — mlčení ale ne.
+
+## Co udělat prakticky
+
+- Napiš si jednostránkové poučení a dej ho jako přílohu smlouvy: kdo je správce, jaké údaje, proč, jak dlouho, komu je předáváš a jaká má nájemník práva.
+- Projdi, co vlastně máš. E-mail, telefon, šuplík, cloud. Co nemá důvod, smaž.
+- Zjisti, komu údaje předáváš. Správce domu, účetní, software — s každým, kdo pro tebe údaje zpracovává, bys měl mít zpracovatelskou smlouvu.
+- Nepoužívej na smlouvy veřejné úložiště bez hesla a neposílej skeny dokladů přes neověřené kanály.
+
+V Housiu
+
+Housio má zpracovatelskou smlouvu ke stažení a na stránce o bezpečnosti vyjmenované všechny zpracovatele i to, co kde běží. Když nájemník požádá o přehled svých údajů, vytáhneš ho exportem nemovitosti; když má být účet smazán, jde to i bez přihlášení přes veřejnou žádost.
+
+## Časté dotazy
+
+**Platí GDPR i pro pronajímatele s jedním bytem?**
+
+Ano. Výjimka pro čistě osobní činnost na pronájem nedopadá — je to ekonomická činnost. Rozsah povinností je ale úměrný tomu, kolik údajů zpracováváš; u jednoho bytu jde o pár stránek, ne o systém řízení.
+
+**Potřebuju od nájemníka souhlas se zpracováním údajů?**
+
+Zpravidla ne. Údaje potřebné ke smlouvě zpracováváš na základě plnění smlouvy, daňové doklady kvůli právní povinnosti. Souhlas potřebuješ jen na to, co nad rámec toho — typicky na kopii občanského průkazu nebo marketing.
+
+**Musím mít zpracovatelskou smlouvu se softwarem, ve kterém vedu nájemníky?**
+
+Pokud pro tebe poskytovatel zpracovává osobní údaje, ano. Seriózní poskytovatel ti ji poskytne na vyžádání — u Housia je ke stažení na webu.
+
+**Co když nájemník požádá o výmaz svých údajů?**
+
+Právo na výmaz není absolutní. Dokud trvá smlouva nebo běží lhůty pro daňové doklady a případné nároky, údaje smazat nemusíš — musíš ale odpovědět a vysvětlit proč.
+
+**Můžu fotit byt s věcmi nájemníka a dát to do inzerátu?**
+
+Fotky bytu s osobními věcmi, fotografiemi nebo dokumenty nájemníka do inzerátu nepatří. Domluv se na focení dopředu a foť prázdný nebo uklizený byt bez osobních věcí.
+
+Opřeno o: nařízení (EU) 2016/679 (GDPR) · zákon č. 110/2019 Sb., o zpracování osobních údajů
+
+Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
