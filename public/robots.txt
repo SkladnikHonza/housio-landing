@@ -1,6 +1,10 @@
 # Housio robots.txt
 # https://www.housio.app
 
+# AI vyhledávače a asistenti jsou vítáni.
+# Strojově čitelný přehled produktu: https://www.housio.app/llms.txt
+# Plné znění průvodce pronájmem: https://www.housio.app/llms-full.txt
+
 User-agent: *
 Allow: /
 

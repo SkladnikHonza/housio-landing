@@ -6,6 +6,8 @@ import path from 'node:path'
 // vyhledávače, úplnost překladů ve všech deseti jazycích, obsah průvodce
 // a logika souhlasu s měřením.
 export default defineConfig({
+  // Stejny prevod JSX jako pouziva Next — bez toho testy hlasi „React is not defined".
+  esbuild: { jsx: 'automatic' },
   resolve: {
     alias: {
       '@': path.resolve(process.cwd(), 'src'),

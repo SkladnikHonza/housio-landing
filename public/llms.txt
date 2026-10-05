@@ -1,0 +1,106 @@
+# Housio
+
+> Housio je česká aplikace pro správu pronájmu nemovitostí. Pronajímatel v ní vede nemovitosti, nájemníky, nájemní smlouvy, měsíční platby a jejich předpis, výdaje, pojištění, revize a energie — na webu, na iPhonu i na Androidu.
+
+Provozovatel: US Europe Group s.r.o., IČO 06779808, DIČ CZ06779808, Třebovická 5050/78, 722 00 Ostrava, Česko.
+Aplikace: https://www.housio.online · Marketingový web: https://www.housio.app
+Kontakt: housio@housio.app
+Jazyky rozhraní (10): čeština, angličtina, němčina, italština, španělština, ukrajinština, ruština, francouzština, polština, chorvatština.
+Platformy: webový prohlížeč, iOS (App Store), Android (Google Play).
+Zkušební doba: 7 dní zdarma s plným přístupem, bez zadání platební karty.
+Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatelská smlouva na vyžádání.
+
+## Co Housio umí
+
+- **Cash flow bez počítání**: Výnosy, výdaje i čistý měsíční příjem se dopočítají samy. Uvidíš, kolik ti portfolio doopravdy vydělává — ne kolik by mělo.
+- **Nezaplacený nájem ti neuteče**: Housio porovná předpis se skutečně přijatou částkou a pátý, dvanáctý a dvacátý den v měsíci ti pošle e-mail se seznamem, kdo dluží.
+- **Smlouvy hlídané do posledního dne**: Upozornění 30, 14, 7, 3 a 1 den před koncem nájmu. E-mailem, ne jen v aplikaci — takže ti neujde ani když se týden nepodíváš.
+- **Revize, na které se zapomíná**: Elektroinstalace, komín, plyn, hromosvod, výtah i požární bezpečnost. Housio zná obvyklé lhůty, 60 dní předem upozorní a co je po platnosti, svítí červeně.
+- **Pojištění pod kontrolou**: Pojišťovna, číslo smlouvy, pojistná částka i roční pojistné na jednom místě. Aplikace ukáže, kolik dní zbývá do konce, ať tě výročí nepřekvapí.
+- **Energie bez hledání v šuplíku**: Dodavatelé elektřiny, plynu, vody a tepla, čísla smluv, EAN i EIC. Když se stěhuje nájemník, máš všechno po ruce za pět vteřin.
+- **Výkazy pro účetní za deset vteřin**: Potvrzení o platbě v PDF, roční přehledy a export do Excelu. Účetní dostane, co potřebuje, bez skládání tabulek na kolenou.
+- **Deset jazyků, sedm měn**: CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi.
+
+## Ceník
+
+- **Free** — 0 Kč (navždy zdarma): 1 nemovitost, 1 nájemník, 1 člen týmu, Základní přehled, Poznámky
+- **Basic** — 299 Kč/měs (7 dní zdarma na zkoušku): Až 15 nemovitostí, Neomezené nájemníky, Smlouvy a pojištění, Výdaje + Excel export, Email notifikace, Potvrzení o zaplacení (PDF), Poznámky
+- **Pro** — 599 Kč/měs (7 dní zdarma na zkoušku): Až 25 nemovitostí, Vše z Basic, PDF reporty, Prioritní podpora, Roční PDF vyúčtování, Poznámky
+- **Business** — 999 Kč/měs (Pro velké portfolia): Neomezené nemovitosti, Až 3 členové týmu, Vše z Pro, Přednostní nasazení novinek, API přístup (brzy), Poznámky
+
+Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech (Basic 12 €, Pro 24 €, Business 40 € měsíčně).
+
+## Hlavní stránky
+
+- [Housio — správa nemovitostí](https://www.housio.app): co aplikace umí, ceník a nejčastější dotazy
+- [Pro makléře](https://www.housio.app/partneri): partnerský program pro realitní makléře — 20 % z první platby, 10 % opakovaně
+- [Bezpečnost a data](https://www.housio.app/bezpecnost): kde data běží, kdo je zpracovává a jak jsou chráněná
+- [Kontakt](https://www.housio.app/kontakt): e-mail, formulář a adresa provozovatele
+- [Smazání účtu](https://www.housio.app/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
+- [Průvodce pronájmem](https://www.housio.app/blog): praktické návody pro pronajímatele
+
+## Průvodce pronájmem
+
+Praktické návody pro pronajímatele podle české úpravy. Jen v češtině — texty stojí na českém občanském zákoníku, zákoně č. 67/2013 Sb. a české dani z příjmů.
+
+### Nájemné a jeho změny
+
+- [Jak zvýšit nájemné v roce 2026: inflační doložka i postup podle zákona](https://www.housio.app/blog/zvyseni-najmu): Kdy stačí oznámení, kdy potřebuješ souhlas nájemníka, proč existuje strop dvaceti procent za tři roky a jak dlouho celé zvýšení trvá. Včetně vzoru návrhu a pěti chyb, které zvýšení shodí.
+- [Evidenční list nájemného: k čemu je dobrý a co v něm má být](https://www.housio.app/blog/evidencni-list): Jediná příloha smlouvy, kterou změníš bez dodatku — pokud na ni smlouva správně odkazuje. Co do ní patří, kdy ji vystavit znovu a jaká věta ve smlouvě o tom rozhoduje.
+
+### Smlouva a předání bytu
+
+- [Co musí být v nájemní smlouvě na byt (a co do ní zákon nepustí)](https://www.housio.app/blog/najemni-smlouva): Povinné náležitosti, strop na jistotu a smluvní pokutu, ujednání, ke kterým se nepřihlíží, i to, co si do smlouvy přidat navíc. Se strukturou, podle které si smlouvu zkontroluješ za deset minut.
+- [Kauce u nájmu bytu: kolik si smíš vzít, z čeho strhnout a kdy vrátit](https://www.housio.app/blog/jistota-kauce): Jistota je nejčastější zdroj hádky na konci nájmu. Kolik smí být, jak se počítají úroky, co je běžné opotřebení a jak doložit, že škoda vznikla nájemníkovi.
+- [Předávací protokol k bytu: co do něj napsat, ať ho nepotřebuješ](https://www.housio.app/blog/predavaci-protokol): Nepovinný papír, který rozhoduje spory o kauci. Co zapsat, jak fotit, proč jsou stavy měřidel důležitější než popis stavu stěn a jak vypadá protokol při vracení bytu.
+
+### Když se to zvrtne
+
+- [Výpověď z nájmu bytu: důvody, lhůty a co v ní nesmí chybět](https://www.housio.app/blog/vypoved-z-najmu): Kdy stačí tříměsíční výpovědní doba, kdy jde nájem ukončit okamžitě a proč je většina výpovědí neplatná kvůli jedné chybějící větě. S postupem i vzorem.
+- [Nájemník neplatí: postup krok za krokem od první upomínky po exekuci](https://www.housio.app/blog/neplatici-najemnik): Co dělat hned první týden, kdy začít řešit výpověď, jak se počítá dluh za tři měsíce a čeho se vyvarovat, aby ses z poškozeného nestal tím, kdo porušuje právo.
+
+### Daně a vyúčtování
+
+- [Daň z pronájmu bytu: paušál 30 %, nebo skutečné výdaje?](https://www.housio.app/blog/dane-z-pronajmu): Spočítané na konkrétním bytě — kde se paušál vyplatí, kdy vyhrají odpisy a úroky z hypotéky, jaké jsou lhůty pro přiznání a co si schovávat celý rok.
+- [Vyúčtování služeb: lhůty, podklady a pokuta 50 Kč za den](https://www.housio.app/blog/vyuctovani-sluzeb): Do kdy musí být vyúčtování doručeno, co v něm musí stát, jak dlouho má nájemník na námitky a kolik stojí, když se zpozdíš. Podle zákona č. 67/2013 Sb., se spočítaným příkladem.
+- [Krátkodobý pronájem a Airbnb: co všechno musíš splnit](https://www.housio.app/blog/kratkodoby-pronajem): Proč se krátkodobý pronájem daní jinak než klasický nájem, co znamená poplatek z pobytu, kdy se z tebe stane identifikovaná osoba k DPH a jakou evidenci musíš vést.
+
+## Nejčastější dotazy
+
+- **Jak funguje 7denní zkušební doba zdarma?** Při registraci nezadáváš žádnou platební kartu. Máš plný přístup ke všem funkcím na 7 dní zdarma. Po skončení trial si můžeš vybrat — pokračovat za 299 Kč/měs (Basic), 599 Kč/měs (Pro) nebo zůstat na bezplatném FREE plánu. Nikdy ti nic nestrhneme automaticky.
+- **Můžu Housio kdykoli zrušit?** Ano. Bez výpovědní lhůty, bez sankcí. Stačí v nastavení kliknout na "Zrušit předplatné" a do konce zaplaceného období můžeš dál používat. Tvoje data zůstanou bezpečně uložená — pokud se vrátíš, najdeš všechno na svém místě.
+- **Jsou moje data v bezpečí?** Housio běží na prověřené evropské infrastruktuře (Supabase, Vercel) se servery v EU. Všechna data jsou šifrovaná, automaticky zálohovaná a chráněná podle GDPR. Tvoje smlouvy a osobní údaje nájemníků neprodáváme a nesdílíme pro cizí účely — používáme jen prověřené zpracovatele infrastruktury vázané smlouvou. Podrobnosti najdeš na stránce Bezpečnost a data.
+- **V jakých zemích Housio funguje?** Housio je navržené pro celou EU. Podporujeme češtinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.
+- **Co když mám víc než 15 nemovitostí?** Basic plán pokrývá až 15 nemovitostí za 299 Kč/měs. Pro 16–25 nemovitostí použij Pro plán (599 Kč/měs) s PDF reporty a prioritní podporou. Pro neomezený počet zvol Business plán (999 Kč/měs) se 3 členy týmu a API přístupem (brzy).
+- **Můžu Housio používat na mobilu?** Ano. Housio je plně responzivní — funguje stejně dobře na mobilu, tabletu i desktopu. Bez nutnosti instalace aplikace. Stačí otevřít housio.online v prohlížeči, přihlásit se a máš všechno na jednom místě. Vše se synchronizuje v reálném čase.
+- **Posíláte upozornění o končících smlouvách?** Ano, automaticky. Housio tě upozorní emailem 30, 14 a 7 dní před koncem smlouvy. Nikdy nezapomeneš prodloužit a nepřijdeš o nájemníka. Stejně tak ti přijde notifikace o nezaplaceném nájmu nebo blížícím se konci pojištění.
+- **Můžu data exportovat?** Jasně. PDF výkazy pro účetní, banku nebo daňového poradce generuješ od plánu Pro výš — hotové za pár sekund. Data navíc kdykoli stáhneš do Excelu (už od plánu Basic). Napojení přes API na vlastní systémy připravujeme pro plán Business. Tvoje data jsou vždy tvoje — žádný vendor lock-in.
+
+## Aplikace ke stažení
+
+- [App Store](https://apps.apple.com/app/housio/id6794914113)
+- [Google Play](https://play.google.com/store/apps/details?id=online.housio.app)
+
+## Právní dokumenty
+
+- [Obchodní podmínky](https://housio.online/terms)
+- [Zásady ochrany osobních údajů (GDPR)](https://housio.online/privacy)
+- [Zpracovatelská smlouva (DPA)](https://housio.online/dpa)
+- [Zásady používání cookies](https://housio.online/cookies)
+
+## Jazykové verze webu
+
+- [čeština](https://www.housio.app)
+- [angličtina](https://www.housio.app/en)
+- [němčina](https://www.housio.app/de)
+- [italština](https://www.housio.app/it)
+- [španělština](https://www.housio.app/es)
+- [ukrajinština](https://www.housio.app/uk)
+- [ruština](https://www.housio.app/ru)
+- [francouzština](https://www.housio.app/fr)
+- [polština](https://www.housio.app/pl)
+- [chorvatština](https://www.housio.app/hr)
+
+## Plná verze
+
+Plné znění všech návodů najdete na https://www.housio.app/llms-full.txt
