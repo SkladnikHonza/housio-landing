@@ -39,6 +39,7 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 - [Smazání účtu](https://www.housio.app/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
 - [Průvodce pronájmem](https://www.housio.app/blog): praktické návody pro pronajímatele
 - [Kalkulačky pro pronajímatele](https://www.housio.app/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
+- [Encyklopedie pronájmu](https://www.housio.app/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení
 
 ## Kalkulačky zdarma
 
@@ -48,6 +49,62 @@ Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
 - [Kalkulačka vyúčtování služeb](https://www.housio.app/kalkulacky/vyuctovani-sluzeb): Spočítá přeplatek nebo nedoplatek, doporučí novou zálohu a ukáže zákonné lhůty podle zákona č. 67/2013 Sb.
 - [Kalkulačka odpisů nemovitosti](https://www.housio.app/kalkulacky/odpisy-nemovitosti): Rozepíše odpisy bytu nebo domu na všech 30 let — rovnoměrně i zrychleně, s odepsanou i zůstatkovou cenou.
 - [Kalkulačka daně z pronájmu](https://www.housio.app/kalkulacky/dan-z-pronajmu): Porovná paušál 30 % se skutečnými výdaji a ukáže, která varianta tě vyjde levněji a o kolik.
+
+## Encyklopedie pronájmu
+
+40 pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
+
+### Smlouva a nájem
+
+- [Nájemní smlouva](https://www.housio.app/encyklopedie/najemni-smlouva): Písemná dohoda, kterou pronajímatel přenechává nájemci byt k zajištění bytových potřeb a nájemce se zavazuje platit nájemné.
+- [Jistota (kauce)](https://www.housio.app/encyklopedie/jistota): Peníze složené nájemcem při podpisu smlouvy, ze kterých pronajímatel na konci nájmu uhradí dluhy a škodu nad rámec běžného opotřebení.
+- [Smluvní pokuta](https://www.housio.app/encyklopedie/smluvni-pokuta): Částka sjednaná ve smlouvě pro případ porušení povinnosti nájemce; spolu s jistotou nesmí přesáhnout trojnásobek měsíčního nájemného.
+- [Nájem na dobu určitou](https://www.housio.app/encyklopedie/doba-urcita): Nájem sjednaný do konkrétního data; skončí uplynutím doby, ale mlčením pronajímatele se může automaticky prodloužit.
+- [Nájem na dobu neurčitou](https://www.housio.app/encyklopedie/doba-neurcita): Nájem bez sjednaného konce; nájemce ho může vypovědět bez důvodu, pronajímatel jen ze zákonného důvodu.
+- [Výpovědní doba](https://www.housio.app/encyklopedie/vypovedni-doba): Tři měsíce, po které nájem po doručení výpovědi ještě trvá; běží od prvního dne měsíce následujícího po doručení.
+- [Výpověď bez výpovědní doby](https://www.housio.app/encyklopedie/vypoved-bez-vypovedni-doby): Okamžité ukončení nájmu, když nájemce porušuje své povinnosti zvlášť závažným způsobem — typicky dluží nájemné a služby za tři měsíce.
+- [Podnájem](https://www.housio.app/encyklopedie/podnajem): Přenechání bytu nebo jeho části další osobě samotným nájemcem, ne vlastníkem.
+- [Předávací protokol](https://www.housio.app/encyklopedie/predavaci-protokol): Zápis o stavu bytu, měřidel a klíčů při předání; není povinný, ale rozhoduje většinu sporů o kauci.
+- [Běžné opotřebení](https://www.housio.app/encyklopedie/bezne-opotrebeni): Přirozené opotřebení bytu užíváním, které nese pronajímatel a nelze ho strhnout z jistoty.
+
+### Peníze a platby
+
+- [Nájemné](https://www.housio.app/encyklopedie/najemne): Platba za užívání bytu samotného, bez záloh na služby; její výši si strany sjednají ve smlouvě.
+- [Zvýšení nájemného](https://www.housio.app/encyklopedie/zvyseni-najemneho): Jednostranně lze nájemné zvýšit jen písemným návrhem, nejvýše o 20 % za poslední tři roky a do výše srovnatelného nájemného v místě.
+- [Inflační doložka](https://www.housio.app/encyklopedie/inflacni-dolozka): Ujednání ve smlouvě, podle kterého se nájemné každoročně upraví o míru inflace; nahrazuje zákonný postup zvyšování.
+- [Srovnatelné nájemné](https://www.housio.app/encyklopedie/srovnatelne-najemne): Nájemné obvyklé v daném místě a čase u bytů srovnatelné velikosti, stavu a polohy; strop pro zákonné zvýšení.
+- [Zálohy na služby](https://www.housio.app/encyklopedie/zalohy-na-sluzby): Měsíční platby na teplo, vodu a další služby, které se po skončení zúčtovacího období vyúčtují proti skutečným nákladům.
+- [Evidenční list](https://www.housio.app/encyklopedie/evidencni-list): Příloha nájemní smlouvy s rozpisem nájemného a jednotlivých záloh; dá se měnit bez dodatku, pokud na ni smlouva odkazuje.
+- [Předpis plateb](https://www.housio.app/encyklopedie/predpis-plateb): Částka, kterou má nájemce za daný měsíc zaplatit — nájemné plus zálohy na služby.
+- [Dluh na nájemném](https://www.housio.app/encyklopedie/neplatic): Nezaplacené nájemné a zálohy; při dluhu ve výši tří měsíčních plateb jde o zvlášť závažné porušení povinností nájemce.
+- [Úrok z prodlení](https://www.housio.app/encyklopedie/urok-z-prodleni): Zákonný úrok z dlužné částky; jeho sazba je repo sazba ČNB platná pro první den kalendářního pololetí zvýšená o 8 procentních bodů.
+- [Přeplatek a nedoplatek](https://www.housio.app/encyklopedie/preplatek-nedoplatek): Rozdíl mezi zaplacenými zálohami a skutečnými náklady na služby za zúčtovací období.
+
+### Služby, energie a dům
+
+- [Zúčtovací období](https://www.housio.app/encyklopedie/zuctovaci-obdobi): Období, za které se vyúčtovávají služby — nejčastěji kalendářní rok, nejvýše dvanáct měsíců.
+- [Vyúčtování služeb](https://www.housio.app/encyklopedie/vyuctovani-sluzeb): Rozpis skutečných nákladů na služby proti zaplaceným zálohám, který musí pronajímatel doručit do čtyř měsíců od konce zúčtovacího období.
+- [Rozúčtování nákladů](https://www.housio.app/encyklopedie/rozuctovani): Rozdělení celkového nákladu na službu mezi jednotlivé byty — podle měřidel, počtu osob nebo podlahové plochy.
+- [Odečet měřidel](https://www.housio.app/encyklopedie/odecet-meridel): Zápis stavu vodoměrů, elektroměru, plynoměru a indikátorů topných nákladů k určitému dni.
+- [Odběrné místo (EAN, EIC)](https://www.housio.app/encyklopedie/odberne-misto): Místo dodávky elektřiny nebo plynu označené jednoznačným kódem — EAN u elektřiny, EIC u plynu.
+- [PENB](https://www.housio.app/encyklopedie/penb): Průkaz energetické náročnosti budovy; pronajímatel ho musí předložit zájemci o nájem a předat nájemci.
+- [SVJ](https://www.housio.app/encyklopedie/svj): Společenství vlastníků jednotek — právnická osoba, která spravuje dům a pozemek za vlastníky bytů.
+- [Fond oprav](https://www.housio.app/encyklopedie/fond-oprav): Běžné označení pro dlouhodobou zálohu na opravy a správu domu, kterou vlastník jednotky platí společenství.
+- [Revize](https://www.housio.app/encyklopedie/revize): Pravidelná kontrola vyhrazených technických zařízení — elektroinstalace, plynu, komínů, hromosvodu nebo výtahu.
+- [Pojištění pronajímané nemovitosti](https://www.housio.app/encyklopedie/pojisteni-nemovitosti): Pojištění stavby, případně domácnosti a odpovědnosti; u pronajímaného bytu je potřeba pojistku na pronájem výslovně sjednat.
+
+### Daně a účetnictví
+
+- [Příjem podle § 9](https://www.housio.app/encyklopedie/prijem-podle-paragrafu-9): Příjem z nájmu nemovitostí u fyzické osoby; nepodléhá sociálnímu ani zdravotnímu pojištění a nevyžaduje živnostenské oprávnění.
+- [Výdajový paušál 30 %](https://www.housio.app/encyklopedie/vydajovy-pausal): Možnost odečíst od příjmů z nájmu 30 % bez dokládání, nejvýše však 600 000 Kč za rok.
+- [Skutečné výdaje](https://www.housio.app/encyklopedie/skutecne-vydaje): Doložitelné náklady na pronajímanou nemovitost, které se odečtou od příjmů místo paušálu.
+- [Odpis nemovitosti](https://www.housio.app/encyklopedie/odpis): Postupné promítnutí pořizovací ceny nemovitosti do výdajů; byty a budovy se odepisují 30 let.
+- [Technické zhodnocení](https://www.housio.app/encyklopedie/technicke-zhodnoceni): Nástavba, přístavba, rekonstrukce nebo modernizace nad 80 000 Kč za rok; nedává se do výdajů najednou, ale zvyšuje vstupní cenu.
+- [Daňové přiznání z nájmu](https://www.housio.app/encyklopedie/danove-priznani): Přiznání podává zaměstnanec s příjmy z nájmu nad 20 000 Kč ročně, ostatní při celkovém příjmu nad 50 000 Kč.
+- [Daň z nemovitých věcí](https://www.housio.app/encyklopedie/dan-z-nemovitych-veci): Místní majetková daň, kterou platí vlastník nemovitosti podle stavu k 1. lednu; u pronájmu je daňově uznatelným výdajem.
+- [Ubytovací služba](https://www.housio.app/encyklopedie/ubytovaci-sluzba): Přechodné ubytování se službami — typicky krátkodobý pronájem přes platformy; daní se podle § 7 a vyžaduje živnost.
+- [Poplatek z pobytu](https://www.housio.app/encyklopedie/poplatek-z-pobytu): Místní poplatek, který platí host za každý započatý den pobytu kromě dne příjezdu; horní hranice sazby je 50 Kč.
+- [Identifikovaná osoba](https://www.housio.app/encyklopedie/identifikovana-osoba): Kdo není plátcem DPH, ale přijal službu od osoby povinné k dani ze zahraničí a musí z ní odvést daň.
 
 ## Nejčastější dotazy
 

@@ -2,6 +2,7 @@ import { BASE, adresa } from './seo'
 import { routing } from '@/i18n/routing'
 import { CLANKY, TEMATA, clankyTematu, nazevTematu } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
+import { HESLA, OBLASTI, heslaOblasti } from '@/encyklopedie'
 import cs from '../../messages/cs.json'
 
 // Strojove citelny prehled Housia pro AI vyhledavace a asistenty.
@@ -86,7 +87,8 @@ function stranky() {
 - [Kontakt](${BASE}/kontakt): e-mail, formulář a adresa provozovatele
 - [Smazání účtu](${BASE}/smazani-uctu): žádost o smazání účtu a dat i bez přihlášení
 - [Průvodce pronájmem](${BASE}/blog): praktické návody pro pronajímatele
-- [Kalkulačky pro pronajímatele](${BASE}/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace`
+- [Kalkulačky pro pronajímatele](${BASE}/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
+- [Encyklopedie pronájmu](${BASE}/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení`
 }
 
 function kalkulacky() {
@@ -98,6 +100,20 @@ function kalkulacky() {
 Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
 
 ${polozky}`
+}
+
+function encyklopedie() {
+  const sekce = OBLASTI.map((o) => {
+    const polozky = heslaOblasti(o.id)
+      .map((h) => `- [${h.pojem}](${BASE}/encyklopedie/${h.slug}): ${h.definice}`)
+      .join('\n')
+    return `### ${o.nazev}\n\n${polozky}`
+  }).join('\n\n')
+  return `## Encyklopedie pronájmu
+
+${HESLA.length} pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
+
+${sekce}`
 }
 
 function pruvodce() {
@@ -137,6 +153,7 @@ export function llmsIndex() {
     stranky(),
     kalkulacky(),
     pruvodce(),
+    encyklopedie(),
     dotazy(false),
     ostatni(),
     `## Plná verze\n\nPlné znění všech návodů najdete na ${BASE}/llms-full.txt`,
@@ -167,6 +184,7 @@ ${telo}`
     cenik(),
     stranky(),
     kalkulacky(),
+    encyklopedie(),
     dotazy(true),
     ostatni(),
     `## Průvodce pronájmem — plné znění\n\nNásleduje ${CLANKY.length} návodů v plném znění.`,
