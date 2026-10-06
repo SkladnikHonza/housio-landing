@@ -17,6 +17,11 @@ const bezpecnostniHlavicky = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Kořen projektu natvrdo. Na ploše leží starý package-lock.json z jiného
+  // pokusu a Turbopack kvůli němu nevěděl, odkud má rozlišovat balíčky —
+  // build padal na „Cannot find module '@tailwindcss/postcss'", přestože
+  // balíček nainstalovaný byl. Next na to sám upozorňoval ve varování.
+  turbopack: { root: import.meta.dirname },
   async headers() {
     return [{ source: '/(.*)', headers: bezpecnostniHlavicky }]
   },
