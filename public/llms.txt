@@ -5,7 +5,8 @@
 Provozovatel: US Europe Group s.r.o., IČO 06779808, DIČ CZ06779808, Třebovická 5050/78, 722 00 Ostrava, Česko.
 Aplikace: https://www.housio.online · Marketingový web: https://www.housio.app
 Kontakt: housio@housio.app
-Jazyky rozhraní (10): čeština, angličtina, němčina, italština, španělština, ukrajinština, ruština, francouzština, polština, chorvatština.
+Jazyky webu (11): čeština, angličtina, němčina, italština, španělština, ukrajinština, ruština, francouzština, polština, chorvatština, slovenština.
+Jazyky aplikace (10): čeština, angličtina, němčina, italština, španělština, ukrajinština, ruština, francouzština, polština, chorvatština. Slovenský web je, slovenské rozhraní aplikace zatím ne.
 Platformy: webový prohlížeč, iOS (App Store), Android (Google Play).
 Zkušební doba: 7 dní zdarma s plným přístupem, bez zadání platební karty.
 Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatelská smlouva na vyžádání.
@@ -234,6 +235,7 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 - [francouzština](https://www.housio.app/fr)
 - [polština](https://www.housio.app/pl)
 - [chorvatština](https://www.housio.app/hr)
+- [slovenština](https://www.housio.app/sk)
 
 ## Plná verze
 

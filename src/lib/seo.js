@@ -38,6 +38,7 @@ export function alternatesProStranku(locale, cesta = '') {
 const OG_LOCALE = {
   cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES',
   uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR', pl: 'pl_PL', hr: 'hr_HR',
+  sk: 'sk_SK',
 }
 
 // Náhled při sdílení odkazu. Rozměry musí sedět se skutečným souborem,

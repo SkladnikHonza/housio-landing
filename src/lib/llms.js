@@ -19,7 +19,12 @@ import cs from '../../messages/cs.json'
 const JAZYKY = {
   cs: 'čeština', en: 'angličtina', de: 'němčina', it: 'italština', es: 'španělština',
   uk: 'ukrajinština', ru: 'ruština', fr: 'francouzština', pl: 'polština', hr: 'chorvatština',
+  sk: 'slovenština',
 }
+
+// Marketingovy web umi o jazyk vic nez samotna aplikace: slovensky web uz je,
+// slovenske rozhrani aplikace jeste ne. Kdyz se do aplikace doplni, pridej 'sk' sem.
+const JAZYKY_APLIKACE = ['cs', 'en', 'de', 'it', 'es', 'uk', 'ru', 'fr', 'pl', 'hr']
 
 const PRAVNI = [
   ['Obchodní podmínky', 'https://housio.online/terms'],
@@ -50,7 +55,8 @@ function hlavicka() {
 Provozovatel: US Europe Group s.r.o., IČO 06779808, DIČ CZ06779808, Třebovická 5050/78, 722 00 Ostrava, Česko.
 Aplikace: ${'https://www.housio.online'} · Marketingový web: ${BASE}
 Kontakt: housio@housio.app
-Jazyky rozhraní (${routing.locales.length}): ${routing.locales.map((l) => JAZYKY[l] || l).join(', ')}.
+Jazyky webu (${routing.locales.length}): ${routing.locales.map((l) => JAZYKY[l] || l).join(', ')}.
+Jazyky aplikace (${JAZYKY_APLIKACE.length}): ${JAZYKY_APLIKACE.map((l) => JAZYKY[l] || l).join(', ')}. Slovenský web je, slovenské rozhraní aplikace zatím ne.
 Platformy: webový prohlížeč, iOS (App Store), Android (Google Play).
 Zkušební doba: 7 dní zdarma s plným přístupem, bez zadání platební karty.
 Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatelská smlouva na vyžádání.`

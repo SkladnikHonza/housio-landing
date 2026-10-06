@@ -89,6 +89,13 @@ const W = {
     growth: 'Rast portfelja 2026', invested: 'Ulaganje', current: 'Trenutna vrijednost', apprec: 'Rast',
     est: 'Procjena +7 %/god.', breakdown: 'Raspodjela po nekretninama',
     r1n: 'Stan', r1d: '2 sobe · Zagreb', r2n: 'Kuća', r2d: '5 soba · Split', r3n: 'Garaža', r3d: 'Rijeka', paid: 'Plaćeno' },
+  sk: { nav: ['Nástenka','Nehnuteľnosti','Nájomníci','Zmluvy','Mesačné platby','Výdavky','Poistenie','Nastavenia'],
+    title: 'Nástenka', subtitle: 'Prehľad vášho portfólia · 2026',
+    kNemo: 'Nehnuteľnosti', kNemoSub: 'apartmán · dom · garáž', kVal: 'Hodnota portfólia', kValSub: 'priemer',
+    kInc: 'Mesačný príjem', kIncSub: 'ročne', kOcc: 'Obsadenosť', kOccSub: '100 % obsadené',
+    growth: 'Zhodnotenie portfólia 2026', invested: 'Vložené', current: 'Aktuálna hodnota', apprec: 'Zhodnotenie',
+    est: 'Odhad rastu 7 %/rok', breakdown: 'Rozpis po nehnuteľnostiach',
+    r1n: 'Apartmán', r1d: '2-izbový · Bratislava', r2n: 'Rodinný dom', r2d: '5-izbový · Košice', r3n: 'Garáž', r3d: 'Žilina', paid: 'Zaplatené' },
 }
 
 export default function Hero() {

@@ -8,7 +8,8 @@ const intlProxy = createIntlMiddleware(routing)
 // Mapa zeme (ISO kod z Vercel geo hlavicky x-vercel-ip-country) -> nas jazyk.
 // Slouzi jen jako zaloha, kdyz prohlizec neposle jazyk, ktery umime.
 const COUNTRY_TO_LOCALE = {
-  CZ: 'cs', SK: 'cs',
+  CZ: 'cs',
+  SK: 'sk',
   GB: 'en', IE: 'en', US: 'en', CA: 'en', AU: 'en', NZ: 'en',
   DE: 'de', AT: 'de', CH: 'de', LI: 'de',
   IT: 'it', SM: 'it', VA: 'it',

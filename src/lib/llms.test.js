@@ -44,7 +44,7 @@ describe('llms.txt', () => {
   })
 
   it('vyjmenuje všechny jazykové verze webu', () => {
-    expect(INDEX).toContain(`Jazyky rozhraní (${routing.locales.length})`)
+    expect(INDEX).toContain(`Jazyky webu (${routing.locales.length})`)
     for (const l of routing.locales) expect(INDEX).toContain(`](${l === 'cs' ? BASE : `${BASE}/${l}`})`)
   })
 

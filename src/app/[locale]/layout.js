@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
     description: t('description'),
     openGraph: {
       type: 'website',
-      locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR', pl: 'pl_PL', hr: 'hr_HR' })[locale] || 'en_US',
+      locale: ({ cs: 'cs_CZ', en: 'en_US', de: 'de_DE', it: 'it_IT', es: 'es_ES', uk: 'uk_UA', ru: 'ru_RU', fr: 'fr_FR', pl: 'pl_PL', hr: 'hr_HR', sk: 'sk_SK' })[locale] || 'en_US',
       url: `https://www.housio.app${locale === 'cs' ? '' : '/' + locale}`,
       title: t('title'),
       description: t('description'),
