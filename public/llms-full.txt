@@ -42,6 +42,7 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 - [Kalkulačky pro pronajímatele](https://www.housio.app/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
 - [Encyklopedie pronájmu](https://www.housio.app/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení
 - [Co Housio umí](https://www.housio.app/funkce): všech 26 funkcí popsaných jednotlivě
+- [Srovnání a výběr](https://www.housio.app/srovnani): Excel, účetní program, realitní kancelář — a kdy se aplikace nevyplatí
 
 ## Funkce Housia
 
@@ -90,6 +91,38 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 - [Poznámky a úkoly](https://www.housio.app/funkce/poznamky-a-ukoly) (Zdarma): Co je potřeba zařídit, u koho a do kdy — bez dalšího nástroje.
 - [Mobilní aplikace](https://www.housio.app/funkce/mobilni-aplikace) (Zdarma): Housio na iPhonu i Androidu — stejná data jako na počítači.
 - [Deset jazyků](https://www.housio.app/funkce/deset-jazyku) (Zdarma): Česky, slovensky srozumitelně, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky.
+
+## Srovnání: kdy se aplikace na správu nájmu vyplatí a kdy ne
+
+Konkurenční produkty nejmenujeme — jejich ceny a funkce se mění rychleji, než bychom stačili opravovat, a nemůžeme si je ověřit. Srovnáváme způsoby práce. Rozcestník a kritéria výběru: https://www.housio.app/srovnani
+
+### Správa nájmů v Excelu, nebo v aplikaci?
+Adresa: https://www.housio.app/srovnani/excel-nebo-aplikace · Srovnáváme s: Excel nebo Google Sheets
+
+U jednoho bytu tabulka stačí. Od tří nahoru se láme — ne kvůli počítání, ale kvůli termínům. Excel nepošle upozornění, že za dva týdny končí smlouva, ani že třetí měsíc chybí platba. Aplikace na správu nájmů si tyhle lhůty hlídá sama a tím se zaplatí; jedna zapomenutá výpověď nebo propadlá revize stojí víc než roční předplatné.
+
+**Kdy zůstat u Excelu:** Máte jeden byt, dlouhodobého nájemníka a smlouvu na dobu neurčitou. Termínů, které by vám měl někdo hlídat, je minimum a za evidenci nemá smysl platit. Druhý případ: potřebujete hlavně modelovat — výnosnost, scénáře, splátkové kalendáře. Na to je tabulka pořád nejlepší nástroj, jaký existuje.
+
+### Aplikace na správu nájmů zdarma, nebo placená?
+Adresa: https://www.housio.app/srovnani/zdarma-nebo-placena-aplikace · Srovnáváme s: Bezplatný plán
+
+Na jednu nemovitost si vystačíte zdarma a nemusíte to nijak řešit. Placený plán má smysl od druhého bytu výš — ne kvůli počtu nemovitostí, ale kvůli tomu, co se s nimi odemyká: hlídání lhůt e-mailem, doklady v PDF a export do Excelu. Rozhodovací otázka tedy nezní „kolik to stojí", ale „kolik mě stojí jedna zapomenutá smlouva".
+
+**Kdy bezplatný plán úplně stačí:** Máte jeden byt a chcete hlavně pořádek — kdo v něm bydlí, co platí, jaké tam byly výdaje. Na to je bezplatný plán udělaný a nemá smysl za něj platit. Druhý případ: zkoušíte, jestli vám tenhle způsob evidence vůbec sedí. Projděte si ho v klidu, bez karty a bez termínu.
+
+### Účetní program, nebo aplikace na pronájem?
+Adresa: https://www.housio.app/srovnani/ucetni-program-nebo-aplikace · Srovnáváme s: Účetní software
+
+Nejsou to konkurenti. Účetní program řeší doklady, DPH a daňové přiznání, tedy povinnost vůči státu. Aplikace na správu nájmu řeší provoz: kdo bydlí, kdo zaplatil, do kdy platí smlouva a kdy propadne revize. Fyzická osoba s několika byty si obvykle vystačí s evidencí nájmu plus exportem pro účetní; účetní program potřebuje, až když pronajímá přes firmu nebo je plátce DPH.
+
+**Kdy je účetní program nutnost:** Pronajímáte přes s. r. o., jste plátce DPH, máte zaměstnance nebo vedle nájmu podnikáte v něčem dalším. Pak účetnictví vedete ze zákona a software na to potřebujete — evidence nájmu ho nenahradí, jen mu dodá podklady z provozu.
+
+### Spravovat byt sám, nebo přes realitní kancelář?
+Adresa: https://www.housio.app/srovnani/realitni-kancelar-nebo-sprava-sam · Srovnáváme s: Správa přes realitní kancelář
+
+Správa přes realitní kancelář stojí obvykle kolem pětiny měsíčního nájmu a hlavní, co kupujete, je čas a odstup — kanceláři volá nájemník, ne vám. Spravovat sám se vyplatí, dokud bydlíte v dosahu, máte řemeslníky a zvládáte termíny. Jakmile přibude vzdálenost, počet bytů nebo nájemníci, se kterými nechcete jednat osobně, poměr se obrací.
+
+**Kdy správu rozhodně předat:** Byt je daleko, pronajímáte krátkodobě s rychlým střídáním hostů, nebo nechcete s nájemníky jednat osobně — třeba proto, že je to vaše rodinná nemovitost a osobní vztahy by to komplikovaly. V takových případech je provize férová cena za klid a žádná aplikace to nenahradí.
 
 ## Kalkulačky zdarma
 

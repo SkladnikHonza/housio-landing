@@ -99,6 +99,29 @@ export default async function FunkcePage({ params }) {
         </div>
       </section>
 
+      <section className="px-6 py-14" style={{ background: 'var(--bg-clean)' }}>
+        <div className="max-w-3xl mx-auto">
+          <h2
+            className="text-xl font-medium mb-2"
+            style={{ color: 'var(--teal-900)', fontFamily: 'var(--font-inter-tight)' }}
+          >
+            Ještě se rozhodujete?
+          </h2>
+          <p className="leading-relaxed mb-5" style={{ color: 'var(--olive-dark)' }}>
+            Seznam funkcí odpovídá na otázku „co to umí". Na tu druhou — jestli to vůbec potřebujete —
+            je lepší srovnání s Excelem, účetním programem a správou přes realitní kancelář. Včetně toho,
+            kdy se aplikace nevyplatí.
+          </p>
+          <Link
+            href="/srovnani"
+            className="inline-block rounded-xl px-5 py-3 font-medium"
+            style={{ background: 'var(--teal-900)', color: '#fff' }}
+          >
+            Srovnání a výběr
+          </Link>
+        </div>
+      </section>
+
       <Footer />
     </main>
   )

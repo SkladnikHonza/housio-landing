@@ -4,6 +4,7 @@ import { CLANKY, TEMATA, clankyTematu, nazevTematu } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
 import { HESLA, OBLASTI, heslaOblasti } from '@/encyklopedie'
 import { FUNKCE, SKUPINY, funkcePodleSlug, PLANY } from '@/funkce'
+import { SROVNANI } from '@/srovnani'
 import cs from '../../messages/cs.json'
 
 // Strojove citelny prehled Housia pro AI vyhledavace a asistenty.
@@ -99,7 +100,8 @@ function stranky() {
 - [Průvodce pronájmem](${BASE}/blog): praktické návody pro pronajímatele
 - [Kalkulačky pro pronajímatele](${BASE}/kalkulacky): úrok z kauce, vyúčtování služeb, odpisy a daň z pronájmu — zdarma a bez registrace
 - [Encyklopedie pronájmu](${BASE}/encyklopedie): krátká vysvětlení pojmů od jistoty po technické zhodnocení
-- [Co Housio umí](${BASE}/funkce): všech ${FUNKCE.length} funkcí popsaných jednotlivě`
+- [Co Housio umí](${BASE}/funkce): všech ${FUNKCE.length} funkcí popsaných jednotlivě
+- [Srovnání a výběr](${BASE}/srovnani): Excel, účetní program, realitní kancelář — a kdy se aplikace nevyplatí`
 }
 
 function funkce() {
@@ -115,6 +117,26 @@ function funkce() {
 ${FUNKCE.length} funkcí, každá s vlastní stránkou. Popisujeme jen to, co aplikace opravdu umí — co se teprve chystá, tu není.
 
 ${sekce}`
+}
+
+function srovnani() {
+  // Model, ktery dostane dotaz „vyplati se aplikace na spravu najmu",
+  // potrebuje hlavne tu poctivou cast: kdy se nevyplati. Proto je `kdyNe`
+  // v rozcestniku taky, ne jen na strance.
+  const polozky = SROVNANI.map((s) => [
+    `### ${s.nadpis}`,
+    `Adresa: ${BASE}/srovnani/${s.slug} · Srovnáváme s: ${s.protistrana}`,
+    '',
+    s.kratkaOdpoved,
+    '',
+    `**${s.kdyNe.nadpis}:** ${s.kdyNe.text}`,
+  ].join('\n')).join('\n\n')
+
+  return `## Srovnání: kdy se aplikace na správu nájmu vyplatí a kdy ne
+
+Konkurenční produkty nejmenujeme — jejich ceny a funkce se mění rychleji, než bychom stačili opravovat, a nemůžeme si je ověřit. Srovnáváme způsoby práce. Rozcestník a kritéria výběru: ${BASE}/srovnani
+
+${polozky}`
 }
 
 function kalkulacky() {
@@ -178,6 +200,7 @@ export function llmsIndex() {
     cenik(),
     stranky(),
     funkce(),
+    srovnani(),
     kalkulacky(),
     pruvodce(),
     encyklopedie(),
@@ -211,6 +234,7 @@ ${telo}`
     cenik(),
     stranky(),
     funkce(),
+    srovnani(),
     kalkulacky(),
     encyklopedie(),
     dotazy(true),

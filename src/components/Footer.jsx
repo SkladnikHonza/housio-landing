@@ -74,6 +74,7 @@ export default function Footer() {
                 {cesky && <li><Link href="/blog" className="hover:text-white transition cursor-pointer">Blog</Link></li>}
                 {cesky && <li><Link href="/kalkulacky" className="hover:text-white transition cursor-pointer">Kalkulačky</Link></li>}
                 {cesky && <li><Link href="/encyklopedie" className="hover:text-white transition cursor-pointer">Encyklopedie</Link></li>}
+                {cesky && <li><Link href="/srovnani" className="hover:text-white transition cursor-pointer">Srovnání</Link></li>}
               </ul>
             </div>
 

@@ -4,6 +4,7 @@ import { CLANKY } from '@/clanky'
 import { KALKULACKY } from '@/kalkulacky'
 import { HESLA } from '@/encyklopedie'
 import { FUNKCE } from '@/funkce'
+import { SROVNANI } from '@/srovnani'
 
 // Sitemapa se generuje z routing.locales a seznamu níž, ne ručně.
 // Dřív byla staticky v public/sitemap.xml a zastarala — chyběla v ní
@@ -51,6 +52,16 @@ export default function sitemap() {
     })),
   ]
 
+  const srovnani = [
+    { url: `${BASE}/srovnani`, lastModified: dnes, changeFrequency: 'monthly', priority: 0.7 },
+    ...SROVNANI.map((s) => ({
+      url: `${BASE}/srovnani/${s.slug}`,
+      lastModified: dnes,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })),
+  ]
+
   const clanky = [
     { url: `${BASE}/blog`, lastModified: dnes, changeFrequency: 'weekly', priority: 0.7 },
     ...CLANKY.map((c) => ({
@@ -72,5 +83,5 @@ export default function sitemap() {
     })),
   )
 
-  return [...stranky, ...funkce, ...kalkulacky, ...clanky, ...encyklopedie]
+  return [...stranky, ...funkce, ...srovnani, ...kalkulacky, ...clanky, ...encyklopedie]
 }
