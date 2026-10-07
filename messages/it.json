@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "MERCATO EUROPEO",
     "title": "Costruito per 15 milioni di locatori europei",
-    "subtitle": "Parliamo 10 lingue. Puntiamo a 12 paesi UE.",
+    "subtitle": "Parliamo 11 lingue. Puntiamo a 12 paesi UE.",
     "homeBadge": "MERCATO DOMESTICO",
     "activeBadge": "✓ LINGUA",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "locatori in Europa",
     "stat2Value": "12",
     "stat2Label": "paesi",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "lingue",
     "stat4Value": "689 mld €",
     "stat4Label": "mercato",

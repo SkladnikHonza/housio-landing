@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "EUROPÄISCHER MARKT",
     "title": "Gebaut für 15 Millionen europäische Vermieter",
-    "subtitle": "Wir sprechen 10 Sprachen. Wir zielen auf 12 EU-Länder.",
+    "subtitle": "Wir sprechen 11 Sprachen. Wir zielen auf 12 EU-Länder.",
     "homeBadge": "HEIMATMARKT",
     "activeBadge": "✓ SPRACHE",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "Vermieter in Europa",
     "stat2Value": "12",
     "stat2Label": "Länder",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "Sprachen",
     "stat4Value": "689 Mrd. €",
     "stat4Label": "Markt",

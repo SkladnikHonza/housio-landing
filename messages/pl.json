@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "RYNEK EUROPEJSKI",
     "title": "Zbudowane dla 15 milionów europejskich wynajmujących",
-    "subtitle": "Mówimy w 10 językach. Celujemy w 12 krajów UE.",
+    "subtitle": "Mówimy w 11 językach. Celujemy w 12 krajów UE.",
     "homeBadge": "RYNEK MACIERZYSTY",
     "activeBadge": "✓ JĘZYK",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "wynajmujących w Europie",
     "stat2Value": "12",
     "stat2Label": "krajów",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "języków",
     "stat4Value": "689 mld €",
     "stat4Label": "rynek",

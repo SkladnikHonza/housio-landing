@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "MERCADO EUROPEO",
     "title": "Construido para 15 millones de propietarios europeos",
-    "subtitle": "Hablamos 10 idiomas. Apuntamos a 12 países de la UE.",
+    "subtitle": "Hablamos 11 idiomas. Apuntamos a 12 países de la UE.",
     "homeBadge": "MERCADO LOCAL",
     "activeBadge": "✓ IDIOMA",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "propietarios en Europa",
     "stat2Value": "12",
     "stat2Label": "países",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "idiomas",
     "stat4Value": "689 mil mill. €",
     "stat4Label": "mercado",

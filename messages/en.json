@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "EUROPEAN MARKET",
     "title": "Built for 15 million European landlords",
-    "subtitle": "We speak 10 languages. Targeting 12 EU countries.",
+    "subtitle": "We speak 11 languages. Targeting 12 EU countries.",
     "homeBadge": "HOME MARKET",
     "activeBadge": "✓ LANGUAGE",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "landlords in Europe",
     "stat2Value": "12",
     "stat2Label": "countries",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "languages",
     "stat4Value": "€689B",
     "stat4Label": "market",

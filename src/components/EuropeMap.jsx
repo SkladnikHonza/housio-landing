@@ -21,7 +21,7 @@ const COUNTRY_DATA = {
   CZ: { landlords: '1.2M', market: '24',  lang: 'Čeština',    langFlag: '🇨🇿' },
   PL: {                                  lang: 'Polski',     langFlag: '🇵🇱' },
   HR: {                                  lang: 'Hrvatski',   langFlag: '🇭🇷' },
-  SK: { landlords: '0.3M', market: '5',   lang: 'Čeština',    langFlag: '🇨🇿' },
+  SK: { landlords: '0.3M', market: '5',   lang: 'Slovenčina', langFlag: '🇸🇰' },
   DE: { landlords: '5.8M', market: '198', lang: 'Deutsch',    langFlag: '🇩🇪' },
   AT: { landlords: '0.6M', market: '16',  lang: 'Deutsch',    langFlag: '🇩🇪' },
   CH: { landlords: '0.5M', market: '21',  lang: 'Deutsch',    langFlag: '🇩🇪' },

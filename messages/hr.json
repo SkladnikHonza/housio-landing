@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "EUROPSKO TRŽIŠTE",
     "title": "Izgrađeno za 15 milijuna europskih najmodavaca",
-    "subtitle": "Govorimo 10 jezika. Ciljamo 12 zemalja EU.",
+    "subtitle": "Govorimo 11 jezika. Ciljamo 12 zemalja EU.",
     "homeBadge": "DOMAĆE TRŽIŠTE",
     "activeBadge": "✓ JEZIK",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "najmodavaca u Europi",
     "stat2Value": "12",
     "stat2Label": "zemalja",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "jezika",
     "stat4Value": "689 mlrd €",
     "stat4Label": "tržište",

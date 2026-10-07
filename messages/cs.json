@@ -65,7 +65,7 @@
   "europeMap": {
     "badge": "EVROPSKÝ TRH",
     "title": "Postaveno pro 15 milionů evropských pronajímatelů",
-    "subtitle": "Mluvíme 10 jazyky. Cílíme na 12 zemí EU.",
+    "subtitle": "Mluvíme 11 jazyky. Cílíme na 12 zemí EU.",
     "homeBadge": "DOMÁCÍ TRH",
     "activeBadge": "✓ JAZYK",
     "futureBadge": "○ 2026 Q3",
@@ -79,7 +79,7 @@
     "stat1Label": "pronajímatelů v Evropě",
     "stat2Value": "12",
     "stat2Label": "zemí",
-    "stat3Value": "10",
+    "stat3Value": "11",
     "stat3Label": "jazyků",
     "stat4Value": "689 mld €",
     "stat4Label": "trh",
