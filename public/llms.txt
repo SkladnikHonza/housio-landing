@@ -118,6 +118,9 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 - [Kauce u nájmu bytu: kolik si smíš vzít, z čeho strhnout a kdy vrátit](https://www.housio.app/blog/jistota-kauce): Jistota je nejčastější zdroj hádky na konci nájmu. Kolik smí být, jak se počítají úroky, co je běžné opotřebení a jak doložit, že škoda vznikla nájemníkovi.
 - [Předávací protokol k bytu: co do něj napsat, ať ho nepotřebuješ](https://www.housio.app/blog/predavaci-protokol): Nepovinný papír, který rozhoduje spory o kauci. Co zapsat, jak fotit, proč jsou stavy měřidel důležitější než popis stavu stěn a jak vypadá protokol při vracení bytu.
 - [Podnájem: v čem se liší od nájmu a kdy k němu potřebuješ souhlas](https://www.housio.app/blog/podnajem): Kdy smí nájemník podnajmout byt bez tvého svolení, kdy ne, co riskuješ při podnájmu bez souhlasu a jak to ošetřit ve smlouvě.
+- [Souhlas s podnájmem: když mlčíš měsíc, souhlasil jsi](https://www.housio.app/blog/souhlas-s-podnajmem): Nájemník požádal písemně o souhlas s podnájmem a ty jsi to odložil na později. Po měsíci platí souhlas, i když jsi nic nepodepsal. Jak lhůta funguje, kdy neběží a co napsat, když souhlas dát chceš — ale s podmínkami.
+- [Kdo všechno smí v bytě bydlet: členové domácnosti, spolubydlící a návštěvy](https://www.housio.app/blog/clenove-domacnosti): Nájemník se nastěhoval sám a dnes je jich v bytě pět. Co s tím zákon dělá, kdy si můžeš vyhradit souhlas, kde je hranice mezi návštěvou a členem domácnosti a co s tím má společného vyúčtování.
+- [Společný nájem: když je na smlouvě víc lidí a jeden z nich odejde](https://www.housio.app/blog/spolecny-najem): Tři studenti na jedné smlouvě vypadají jako jistota — platí za sebe navzájem. Dokud jeden neodejde a zbylí dva neřeknou, že za něj platit nebudou. Co zákon opravdu říká a jak to ošetřit předem.
 
 ### Když se to zvrtne
 
@@ -134,6 +137,13 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 
 - [Povinné revize v pronajímaném bytě: elektřina, plyn a komín](https://www.housio.app/blog/povinne-revize): Které kontroly musí proběhnout, jak často, kdo je platí a co se stane, když papír chybí a dojde ke škodě. S intervaly i s tím, co dát do smlouvy.
 - [GDPR pro pronajímatele: co smíš o nájemníkovi vědět a jak dlouho](https://www.housio.app/blog/gdpr-pronajimatel): Pronajímatel je správce osobních údajů, i když má jeden byt. Co smíš sbírat, na jakém základě, jak dlouho to držet a co udělat, když nájemník požádá o výmaz.
+
+### Byt jako investice
+
+- [Výnos z pronájmu: jak ho spočítat tak, aby nelhal](https://www.housio.app/blog/vynos-z-pronajmu): Hrubý výnos ti řekne, že byt vydělává pět procent. Po odečtení toho, co se opravdu platí, z toho bývá polovina. Jak počítat čistý výnos, co do nákladů patří a proč je výnos z kapitálu jiné číslo než výnos z ceny bytu.
+- [Koupě bytu na pronájem: na co se dívat dřív než na cenu](https://www.housio.app/blog/koupe-bytu-na-pronajem): Byt, který se dobře kupuje, se nemusí dobře pronajímat. Čím se liší investiční koupě od koupě pro sebe, co zjistit v SVJ, jaké vedlejší náklady počítat a kde se nejčastěji prodělá.
+- [Hypotéka na investiční byt: co se od dubna 2026 změnilo](https://www.housio.app/blog/hypoteka-na-investicni-byt): ČNB doporučila bankám u investičních hypoték přísnější limity — LTV 70 % a DTI 7. Co to znamená pro třetí byt v pořadí, co se počítá jako investiční hypotéka a proč je úrok daňově něco jiného než splátka.
+- [Daň při prodeji bytu: pět let, deset let, nebo vůbec](https://www.housio.app/blog/dan-pri-prodeji-bytu): Časový test se v roce 2021 prodloužil z pěti let na deset — ale jen pro byty nabyté od té doby. U starších platí dál pětiletý. Kdy je příjem z prodeje osvobozený, co dělat, když test nesplníš, a jak se počítá základ daně.
 
 ## Encyklopedie pronájmu
 

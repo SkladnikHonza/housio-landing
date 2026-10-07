@@ -254,7 +254,7 @@ Zůstanou tvoje. Před zrušením si je vyexportuješ, a když si přeješ úče
 
 ## Průvodce pronájmem — plné znění
 
-Následuje 16 návodů v plném znění.
+Následuje 23 návodů v plném znění.
 
 ---
 
@@ -1263,6 +1263,342 @@ Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 
 ---
 
+# Souhlas s podnájmem: když mlčíš měsíc, souhlasil jsi
+
+Adresa: https://www.housio.app/blog/souhlas-s-podnajmem
+Téma: Smlouva a předání bytu
+Shrnutí: Nájemník požádal písemně o souhlas s podnájmem a ty jsi to odložil na později. Po měsíci platí souhlas, i když jsi nic nepodepsal. Jak lhůta funguje, kdy neběží a co napsat, když souhlas dát chceš — ale s podmínkami.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Většina pronajímatelů neví, že na žádost o podnájem musí odpovědět. Zákon za ně odpovídá sám — a odpovídá kladně.
+
+Co si z toho odnést
+
+- Žádost i souhlas musí být písemné.
+- Neodpovíš-li do měsíce, souhlas se považuje za daný.
+- Sjednaný zákaz podnájmu tohle pravidlo vyřadí.
+- Na podnájem části bytu, kde nájemce bydlí, se souhlas nevztahuje vůbec.
+
+## Měsíc mlčení znamená souhlas
+
+§ 2275 odst. 2 je krátký a má pro pronajímatele nepříjemné vyústění: žádost o udělení souhlasu i souhlas samotný vyžadují písemnou formu, a nevyjádří-li se pronajímatel k žádosti ve lhůtě jednoho měsíce, považuje se souhlas za daný.
+
+Není to tedy tak, že bys měl právo mlčet. Mlčení je v tomhle případě souhlas.
+
+Spočítáno na příkladu
+
+3. března ti přijde e-mail: „Odstěhoval jsem se za prací do Brna, byt bych rád do konce nájmu podnajal kolegovi. Žádám o souhlas.“ Neodpovíš, protože to chceš promyslet, a pak na to zapomeneš.
+4. dubna je souhlas daný. Nájemce může byt podnajmout a ty s tím nic neuděláš — vytýkat mu podnájem bez souhlasu už nemůžeš.
+
+Na tohle pozor
+
+Lhůta běží od doručení žádosti, ne od tvého přečtení. E-mail doručený do schránky, do které se díváš jednou za čtrnáct dní, lhůtu spustí stejně.
+
+## Kdy lhůta neběží
+
+| Situace | Běží měsíční lhůta? |
+| --- | --- |
+| Žádost o podnájem celého bytu, bez zákazu ve smlouvě | ano — mlčení = souhlas |
+| Ve smlouvě je ujednán zákaz podnájmu | ne — mlčení souhlas nezakládá |
+| Podnájem části bytu, nájemce tam bydlí | souhlas se nevyžaduje vůbec |
+| Ústní žádost | zákon vyžaduje písemnou formu |
+
+Druhý řádek je ten, kvůli kterému se vyplatí mít zákaz podnájmu ve smlouvě — i když víš, že souhlas nejspíš dáš. Nejde o to podnájem znemožnit, jde o to, aby o něm rozhodovalo tvoje vyjádření, ne kalendář.
+
+Třetí řádek připomíná, co zákaz nikdy nepokryje: podnájem části bytu, ve kterém nájemce sám trvale bydlí, mu umožňuje přímo § 2274. Rozdíly mezi oběma situacemi rozebírá článek o podnájmu.
+
+## Jak souhlas odmítnout
+
+Zákon ti neukládá odmítnutí zdůvodnit. Stačí se ve lhůtě vyjádřit, a to písemně. Z praktického hlediska se ale zdůvodnění vyplatí — snižuje pravděpodobnost, že to nájemce udělá stejně.
+
+Co napsat
+
+„K Vaší žádosti ze dne 3. 3. 2026 o souhlas s přenecháním bytu do podnájmu sděluji, že souhlas neuděluji. Nájemní smlouva byla uzavřena s ohledem na Vaši osobu a s přenecháním bytu třetí osobě nepočítá. Upozorňuji, že přenechání bytu do podnájmu bez souhlasu pronajímatele je podle § 2276 občanského zákoníku hrubým porušením povinnosti nájemce.“
+
+Odešli to tak, abys uměl doložit doručení. U e-mailu si ulož odeslanou zprávu, u dopisu posílej doporučeně.
+
+## Souhlas s podmínkami
+
+Mezi „ano“ a „ne“ je třetí možnost, kterou lidé nevyužívají: souhlas s konkrétní osobou a za konkrétních podmínek. Je to zpravidla rozumnější než odmítnout — nájemce, který se odstěhoval, byt nějak užívat bude tak jako tak.
+
+Co napsat
+
+„Uděluji souhlas s přenecháním bytu do podnájmu panu Janu Novákovi, nar. …, a to na dobu do skončení nájmu. Souhlas se vztahuje výlučně na uvedenou osobu; podnájem jiné osobě vyžaduje nový souhlas. Nájemce zůstává pronajímateli odpovědný za plnění všech povinností z nájemní smlouvy, včetně placení nájemného a náhrady škody. Nájemce doloží pronajímateli kopii podnájemní smlouvy do 14 dnů od jejího uzavření.“
+
+- Konkrétní osoba. Obecný souhlas „s podnájmem“ ti vezme kontrolu nad tím, kdo se v bytě bude střídat.
+- Omezení na dobu nájmu. Podnájem stejně podle § 2277 končí s nájmem, ale napsané je to jasnější — zvlášť pro podnájemníka, který smlouvu uvidí.
+- Doložení podnájemní smlouvy. Budeš vědět, za kolik se v tvém bytě bydlí a kdo tam je.
+
+## Co si u podnájmu pohlídat
+
+- Zálohy na služby. Změní-li se počet osob, přestanou sedět. Vodu a odpad rozúčtováváš podle osob a nedoplatek se vymáhá hůř než vyšší záloha.
+- Jistota pokrývá dluh nájemce. Podnájemník ti po právu nedluží nic — dluží nájemci. Z jistoty si tedy strháváš to, co dluží nájemce, včetně škody způsobené podnájemníkem.
+- Nejednej s podnájemníkem jako s nájemcem. Nepřijímej od něj platby přímo a nedomlouvej s ním podmínky užívání. Mohl by z toho vzniknout dojem, že mezi vámi vznikl nájemní vztah.
+- Krátkodobé ubytování není podnájem. Je to ubytovací služba s jinými povinnostmi a v nájemní smlouvě se vylučuje zvlášť — viz článek o krátkodobém pronájmu.
+
+V Housiu
+
+Souhlas s podnájmem i podnájemní smlouvu si ulož k nájemní smlouvě v Housiu. Za dva roky, až se bude řešit, kdo v bytě vlastně bydlel a od kdy, to bude jediné místo, kde to najdeš.
+
+## Časté dotazy
+
+**Opravdu platí souhlas, když na žádost neodpovím?**
+
+Ano. Podle § 2275 odst. 2 občanského zákoníku se souhlas považuje za daný, pokud se pronajímatel k písemné žádosti nevyjádří ve lhůtě jednoho měsíce. Výjimkou je případ, kdy byl v nájemní smlouvě ujednán zákaz podnájmu.
+
+**Musí být žádost o souhlas písemná?**
+
+Ano, zákon vyžaduje písemnou formu pro žádost i pro souhlas. Ústní žádost tedy měsíční lhůtu nespouští — ale spoléhat na to je riskantní, protože e-mail bývá za písemnou formu považován.
+
+**Můžu podnájem ve smlouvě zakázat úplně?**
+
+Zákaz podnájmu lze ujednat a má ten účinek, že vyřadí pravidlo o mlčky daném souhlasu. Nevztahuje se ale na podnájem části bytu, ve kterém nájemce sám trvale bydlí — to právo mu dává zákon přímo.
+
+**Od kdy se měsíc počítá?**
+
+Od doručení žádosti, ne od jejího odeslání. Když ti nájemce pošle žádost e-mailem, běží lhůta od chvíle, kdy se dostala do tvé sféry — tedy prakticky od doručení do schránky, ne od přečtení.
+
+**Co když souhlas dám a podnájemník byt zničí?**
+
+Odpovídá ti nájemce, ne podnájemník. S podnájemníkem nemáš smluvní vztah, takže škodu řešíš s nájemcem a můžeš ji uplatnit z jistoty. To platí bez ohledu na to, jestli jsi souhlas dal, nebo ne.
+
+Opřeno o: § 2274 až § 2278 občanského zákoníku
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Kdo všechno smí v bytě bydlet: členové domácnosti, spolubydlící a návštěvy
+
+Adresa: https://www.housio.app/blog/clenove-domacnosti
+Téma: Smlouva a předání bytu
+Shrnutí: Nájemník se nastěhoval sám a dnes je jich v bytě pět. Co s tím zákon dělá, kdy si můžeš vyhradit souhlas, kde je hranice mezi návštěvou a členem domácnosti a co s tím má společného vyúčtování.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Pronajal jsi byt jednomu člověku a za rok tam bydlí pět lidí. Je to porušení smlouvy, nebo tvoje smůla? Odpověď je obojí podle toho, kdo ti ti lidé jsou a jestli ti o nich nájemník řekl.
+
+Co si z toho odnést
+
+- Nájemce má právo přijmout do domácnosti kohokoli — a oznámit ti to.
+- Souhlas si můžeš vyhradit, ale nikdy u osob blízkých.
+- Počet osob smíš omezit na přiměřený velikosti bytu, ne libovolně.
+- Neoznámení do dvou měsíců je závažné porušení povinnosti.
+
+## Nájemce má právo přijmout kohokoli
+
+§ 2272 začíná větou, která překvapí skoro každého pronajímatele: „Nájemce má právo přijímat ve své domácnosti kohokoli.“ Byt si nepronajal jen pro sebe, pronajal si ho k bydlení — a s kým bydlí, je jeho věc.
+
+Zákon k tomu ale přidává povinnost: zvýšení počtu osob žijících v bytě ti nájemce musí oznámit bez zbytečného odkladu. Neudělá-li to ani do dvou měsíců od změny, má se za to, že závažně porušil svou povinnost — a to už je výpovědní důvod.
+
+Na tohle pozor
+
+Všimni si, co je porušením a co ne. Porušením není to, že se někdo nastěhoval. Porušením je to, že ti to nikdo neřekl. Když tedy píšeš výzvu, nevytýkej nájemci přítomnost partnerky — vytkni mu nesplněnou oznamovací povinnost.
+
+## Kdy si můžeš vyhradit souhlas
+
+Druhý odstavec § 2272 ti dává nástroj: ve smlouvě si můžeš vyhradit souhlas s přijetím nového člena do nájemcovy domácnosti. Má to ale dvě pevné hranice.
+
+- Neplatí to u osoby blízké. Partner, rodič, sourozenec, dítě, vnuk — u nich souhlas vyžadovat nemůžeš, ani kdyby to ve smlouvě stálo. Okruh osob blízkých vymezuje § 22: příbuzný v řadě přímé, sourozenec, manžel nebo partner a dále osoby, které spolu trvale žijí.
+- Neplatí to v případech zvláštního zřetele hodných. Zákon je nevyjmenovává. V praxi jde o situace jako přijetí osoby odkázané na péči nebo dočasné přijetí člověka v nouzi.
+
+U kohokoli jiného — spolužák, kamarád, kolega z práce — souhlas vyžadovat můžeš. A musí mít písemnou formu. Souhlas po telefonu nebo mlčky je u jiné než blízké osoby bez právního významu.
+
+## Kolik lidí je ještě přiměřeně
+
+Třetí odstavec je ten, o který se vedou spory. Máš právo požadovat, aby v bytě žil jen takový počet osob, který je přiměřený velikosti bytu a nebrání tomu, aby všechny mohly žít v obvyklých pohodlných a hygienicky vyhovujících podmínkách.
+
+Žádné číslo v zákoně není a nebude — posuzuje se to případ od případu. Co z formulace plyne prakticky:
+
+| Situace | Jak to nejspíš dopadne |
+| --- | --- |
+| 2 dospělí + 2 děti v 3+1 | v pořádku |
+| 4 nepříbuzní dospělí ve 2+1 | sporné, záleží na ploše a dispozici |
+| 3 dospělí v garsonce | pravděpodobně nepřiměřené |
+| Ve smlouvě „nejvýše 1 osoba“ u 3+1 | neplatné — omezení není přiměřené velikosti bytu |
+
+Poslední řádek je důležitý. Ujednání, které omezuje počet osob hluboko pod kapacitu bytu, soud neuzná — obchází totiž právo nájemce přijmout do domácnosti kohokoli.
+
+## Návštěva, spolubydlící, nebo podnájemník
+
+Tři různé situace, tři různá pravidla. Pleteš-li si je, napíšeš špatnou výzvu.
+
+| | Návštěva | Člen domácnosti | Podnájemník |
+| --- | --- | --- | --- |
+| Jak dlouho | dny až týdny | trvale | trvale |
+| Platí za bydlení | ne | ne | ano, nájemci |
+| Tvůj souhlas | nikdy | lze si vyhradit (ne u blízkých) | u části bytu ne, u celého ano |
+| Oznámit počet osob | ne | ano | ano |
+
+Hranice mezi dlouhou návštěvou a členem domácnosti není v zákoně a v praxi se posuzuje podle toho, jestli tam ten člověk bydlí — má tam věci, poštu, spí tam pravidelně. Podrobnosti k podnájmu rozebírá samostatný článek o podnájmu.
+
+## Proč to není jen formalita: zálohy a opotřebení
+
+Oznamovací povinnost není byrokracie pro byrokracii. Visí na ní peníze.
+
+- Vodné, stočné a odpad se rozúčtovávají podle osob. Když se v bytě nenápadně zdvojnásobí počet lidí, zálohy nastavené na jednoho přestanou stačit a na konci roku z toho je nedoplatek, který se vymáhá hůř než vyšší záloha. Postup rozebírá článek o vyúčtování služeb.
+- Opotřebení roste rychleji než lineárně. Co je u dvou lidí běžné opotřebení, u pěti už bývá škoda, kterou lze strhnout z jistoty.
+- Při havárii potřebuješ vědět, s kým jednat. A u revize plynu potřebuješ do bytu — s někým, kdo o tobě nikdy neslyšel, se to domlouvá hůř.
+
+## Co si ujednat ve smlouvě
+
+Smysl má jediné: vyhradit si souhlas tam, kde to zákon dovolí, stanovit přiměřený počet osob a připomenout oznamovací povinnost. Víc z toho nevytlučeš.
+
+Co napsat
+
+„Byt je určen k bydlení nejvýše tří osob. Nájemce je povinen bez zbytečného odkladu písemně oznámit pronajímateli každou změnu počtu osob žijících v bytě, a to i snížení. K přijetí nového člena nájemcovy domácnosti, který není osobou nájemci blízkou, se vyžaduje předchozí písemný souhlas pronajímatele.“
+
+Spočítáno na příkladu
+
+Nájemce bydlí v 2+kk sám. V květnu se k němu nastěhuje přítelkyně, v červenci její sestra. O přítelkyni ti nájemce napsal druhý den — tam není co řešit, je to osoba blízká a oznámeno bylo včas. O sestře mlčel. V srpnu to zjistíš při revizi. Sestra není osoba blízká nájemci, takže pokud sis ve smlouvě souhlas vyhradil, přijata být neměla — a oznámení nepřišlo vůbec. Výzva míří na obojí.
+
+V Housiu
+
+V Housiu vedeš u bytu jednotlivé nájemníky i počet osob. Když se počet změní, máš doloženo, odkdy v bytě bydlí kolik lidí — a to je přesně ten údaj, který potřebuješ doložit u vyúčtování vody i u sporu o zálohy.
+
+## Časté dotazy
+
+**Může se nájemník nastěhovat s partnerkou, aniž by se mě zeptal?**
+
+Ano. Zákon dává nájemci právo přijmout do své domácnosti kohokoli a u osoby blízké si souhlas vyhradit nemůžeš. Musí ti ale bez zbytečného odkladu oznámit, že se počet osob v bytě zvýšil — pokud to neudělá do dvou měsíců, má se za to, že závažně porušil svou povinnost.
+
+**Můžu ve smlouvě zakázat, aby v bytě bydlel někdo další?**
+
+Úplně zakázat ne. Můžeš si ale ve smlouvě vyhradit souhlas s přijetím nového člena domácnosti — to neplatí u osob blízkých a u případů zvláštního zřetele hodných. Souhlas s přijetím jiné než blízké osoby musí být písemný.
+
+**Kolik lidí smí v bytě bydlet?**
+
+Zákon číslo neuvádí. Máš právo požadovat, aby počet osob odpovídal velikosti bytu a aby v něm všichni mohli žít v obvyklých pohodlných a hygienicky vyhovujících podmínkách. Čtyři dospělí v garsonce tuhle podmínku nesplňují, dva dospělí a dvě děti v 3+1 ano.
+
+**Je spolubydlící podnájemník?**
+
+Záleží, jestli za bydlení platí nájemci. Když platí, jde o podnájem části bytu — ten smí nájemce zřídit bez tvého souhlasu, pokud v bytě sám trvale bydlí. Když neplatí a jen tam bydlí, je to člen domácnosti. Pro tebe je rozdíl hlavně v tom, co můžeš požadovat doložit.
+
+**Musí mi nájemník hlásit, když se někdo odstěhuje?**
+
+Ano, snížení počtu členů domácnosti má oznámit bez zbytečného odkladu stejně jako zvýšení. V praxi se na to zapomíná častěji — a je to ve prospěch nájemníka, protože zálohy na vodu a odpad se počítají podle osob.
+
+**Co se stane, když nájemce zemře?**
+
+Nájem přejde na člena domácnosti, který v bytě žil ke dni smrti a nemá vlastní byt. U blízkých příbuzných automaticky, u ostatních jen s tvým souhlasem. Takto přešlý nájem skončí nejpozději za dva roky — to neplatí, pokud bylo té osobě ke dni přechodu aspoň sedmdesát let.
+
+Opřeno o: § 2272 a § 2273 občanského zákoníku · § 2279 občanského zákoníku · § 22 odst. 1 občanského zákoníku
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Společný nájem: když je na smlouvě víc lidí a jeden z nich odejde
+
+Adresa: https://www.housio.app/blog/spolecny-najem
+Téma: Smlouva a předání bytu
+Shrnutí: Tři studenti na jedné smlouvě vypadají jako jistota — platí za sebe navzájem. Dokud jeden neodejde a zbylí dva neřeknou, že za něj platit nebudou. Co zákon opravdu říká a jak to ošetřit předem.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Společný nájem vypadá jako pojistka — když jeden nezaplatí, doplatí to ostatní. Jenže to ze zákona samo od sebe neplyne. Musíš si to ujednat, a většina smluv to neřeší.
+
+Co si z toho odnést
+
+- Společný nájem vznikne, když smlouvu podepíše víc osob.
+- Solidární závazek ze zákona neplyne — musí být ve smlouvě.
+- Odejít může jeden nájemce jen dohodou, ne sám.
+- Výpověď musí dostat každý z nich, jinak neplatí.
+
+## Co společný nájem znamená
+
+Podle § 2270 se společnými nájemci stanou všichni, kdo uzavřou nájemní smlouvu s pronajímatelem. Totéž platí o tom, kdo ke smlouvě později se souhlasem stran přistoupí. § 2271 k tomu dodává, že společní nájemci mají stejná práva a povinnosti a že se přiměřeně použijí ustanovení o společnosti.
+
+Podstatné je, co z toho neplyne: že by ti každý z nich dlužil celé nájemné. Z přiměřeného použití pravidel o společnosti se spíš dovozuje, že se podílejí rovným dílem. Když tedy tři studenti platí 21 000 Kč a jeden přestane posílat svých 7 000 Kč, nemáš bez dalšího nárok žádat po zbylých dvou, aby to doplatili.
+
+Na tohle pozor
+
+Tohle je nejčastější omyl u studentských bytů. Pronajímatel si myslí, že má tři dlužníky na celou částku, a ve skutečnosti má tři dlužníky na třetinu. Opravit to jde jedinou větou ve smlouvě — viz poslední kapitola.
+
+## Kdo ti dluží, když jeden nezaplatí
+
+| | Bez ujednání ve smlouvě | Se solidárním závazkem |
+| --- | --- | --- |
+| Po kom vymáháš | po každém jeho podíl | po kterémkoli celou dlužnou částku |
+| Když jeden zmizí | jeho podíl vymáháš po něm | doplatí ostatní, ty neřešíš kdo |
+| Vypořádání mezi nájemci | netýká se tě | netýká se tě |
+| Jistota | pokrývá dluh všech dohromady | pokrývá dluh všech dohromady |
+
+Praktický rozdíl je obrovský a projeví se přesně ve chvíli, kdy jeden z nájemců přestane být k zastižení. Postup při dluhu popisuje článek o neplatícím nájemníkovi — u společného nájmu jen dvakrát zkontroluj, komu přesně výzvu posíláš.
+
+## Jeden z nájemců chce odejít
+
+Tohle řeší u spolubydlení skoro každý. A zákon na to odpověď nemá — nájem je jeden a nedá se z něj „odhlásit“.
+
+- Dohoda všech stran. Jediná čistá cesta. Dodatek, ve kterém odcházející nájemce ze smlouvy vystupuje a zbylí v nájmu pokračují, podepsaný tebou i všemi. Co má dodatek obsahovat, rozebírá článek o dodatcích.
+- Přistoupení náhradníka. Nový spolubydlící se stane společným nájemcem, pokud se všichni dohodnou. Je to tentýž dodatek, jen o jeden podpis delší. Pozor na to, že nového nájemce si máš prověřit stejně jako toho prvního — tohle není formalita.
+- Nic nepodepíšeš. Pak odcházející nájemce zůstává nájemcem se vším všudy: dál mu běží povinnost platit a dál má právo byt užívat. To bývá nepříjemné pro všechny a obvykle to skončí výpovědí celého nájmu.
+
+Spočítáno na příkladu
+
+Tři nájemci, smlouva na dva roky. Po roce jeden odchází na Erasmus a chce ze smlouvy ven. Správně: dodatek, kde on vystupuje, nastupuje čtvrtý, a všichni čtyři plus ty ho podepíšou. Špatně: odcházející ti pošle e-mail „od září už tam nebydlím“. Tím se nestane nic — pořád je nájemce a pořád mu běží povinnosti ze smlouvy.
+
+## Výpověď u společného nájmu
+
+Nájem je jeden, takže výpověď se týká všech. Z toho plynou dvě věci, na kterých padají výpovědi u soudu:
+
+- Doručit musíš každému. Nestačí hodit jednu obálku do schránky bytu. Každý společný nájemce musí výpověď dostat — a ty to musíš umět doložit. Nedoručíš-li jednomu, výpověď nevyvolá účinky vůbec.
+- Výzva k nápravě taky každému. U výpovědi pro porušení povinnosti je předchozí písemná výzva podmínkou. Platí pro ni totéž. Podrobnosti v článku o výpovědi z nájmu.
+
+Výpovědní doba je i tady tři měsíce a běží od prvního dne měsíce následujícího po doručení — po doručení poslednímu z nájemců.
+
+## Manželé jsou zvláštní případ
+
+U manželů se společný nájem řeší jinde. Uzavře-li nájemní smlouvu jeden z manželů za trvání manželství, vzniká podle § 745 společné nájemní právo oběma — i když je na smlouvě podepsaný jen jeden.
+
+Pro tebe to znamená, že druhý manžel je nájemcem, i když jsi ho nikdy neviděl: výpověď i výzvy musíš doručit oběma. Manželé si můžou ujednat jinak, ale takové ujednání musíš mít doložené, jinak budeš počítat s tím, že nájemci jsou dva.
+
+## Co si ujednat předem
+
+Společný nájem je pro tebe lepší než jeden nájemce s podnájemníky — máš vztah s každým, kdo v bytě bydlí. Stojí a padá ale se třemi větami ve smlouvě.
+
+Co napsat
+
+„Nájemci jsou zavázáni společně a nerozdílně; pronajímatel je oprávněn požadovat splnění celého dluhu po kterémkoli z nich. Změna v osobách nájemců, včetně přistoupení dalšího nájemce a vystoupení některého z nich, je možná pouze písemným dodatkem podepsaným všemi smluvními stranami. Jistota bude po skončení nájmu vrácena na účet č. … bez ohledu na to, kdo ji složil.“
+
+- Solidární závazek je ta nejdůležitější. Bez ní vymáháš po každém jen jeho podíl.
+- Změna jen dodatkem ti dá páku, abys nového spolubydlícího mohl prověřit dřív, než se stane nájemcem.
+- Jeden účet pro vrácení jistoty. Jinak na konci nájmu rozhodneš spor, do kterého ti nic není. Jak se jistota vrací a co se z ní smí strhnout, rozebírá článek o jistotě; úrok, který k ní na konci nájmu přibude, spočítá kalkulačka úroku z kauce.
+
+V Housiu
+
+V Housiu vedeš u jedné smlouvy všechny nájemníky i jejich kontakty, takže při výzvě nebo výpovědi víš, komu všemu se doručuje. Platby i jistota zůstávají u smlouvy, ne u jednoho člověka — a když se sestava spolubydlících změní, historie zůstává dohledatelná.
+
+## Časté dotazy
+
+**Můžu vymáhat celé nájemné po jednom ze společných nájemců?**
+
+Jen pokud jste si solidární závazek ujednali ve smlouvě. Zákon říká, že společní nájemci mají stejná práva a povinnosti a že se přiměřeně použijí ustanovení o společnosti — z toho se dovozuje spíš dělený závazek. Bez výslovného ujednání tedy po jednom nájemci vymůžeš jeho podíl, ne celek.
+
+**Jak jeden ze společných nájemců vystoupí ze smlouvy?**
+
+Dohodou všech stran, tedy dodatkem, který podepíšeš ty i všichni nájemci. Sám od sebe ze společného nájmu vystoupit nemůže — nájem je jeden a vztahuje se na všechny. Jednostranná výpověď ukončí nájem celý, ne jen jeho část.
+
+**Může nový spolubydlící přistoupit ke smlouvě?**
+
+Ano. Zákon s tím výslovně počítá: společným nájemcem se stane i osoba, která se souhlasem stran přistoupí ke smlouvě. Prakticky to znamená dodatek podepsaný tebou i všemi stávajícími nájemci.
+
+**Komu vrátím kauci, když nájemci odcházejí postupně?**
+
+Jistotu jsi přijal jednou a vracíš ji jednou, na konci nájmu. Komu přesně, si ujednej už ve smlouvě — jinak budeš na konci rozhodovat spor mezi lidmi, se kterými nemáš nic společného. Nejjednodušší je určit jeden účet pro vrácení.
+
+**Musím dát výpověď všem společným nájemcům?**
+
+Ano. Nájem je jeden, takže výpověď musí být doručena každému z nich. Když jednomu doručena nebude, výpověď neplatí — a tříměsíční lhůta se počítá znovu až po řádném doručení všem.
+
+**Je společný nájem výhodnější než jeden nájemce a podnájemníci?**
+
+Pro tebe zpravidla ano: máš smluvní vztah s každým, kdo v bytě bydlí, a každý z nich ručí za to, co užívá. U jednoho nájemce s podnájemníky máš vztah jen s ním a vše řešíš přes něj.
+
+Opřeno o: § 2270 a § 2271 občanského zákoníku · § 745 a § 2272 občanského zákoníku
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
 # Výpověď z nájmu bytu: důvody, lhůty a co v ní nesmí chybět
 
 Adresa: https://www.housio.app/blog/vypoved-z-najmu
@@ -2106,3 +2442,506 @@ Fotky bytu s osobními věcmi, fotografiemi nebo dokumenty nájemníka do inzer�
 Opřeno o: nařízení (EU) 2016/679 (GDPR) · zákon č. 110/2019 Sb., o zpracování osobních údajů
 
 Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Výnos z pronájmu: jak ho spočítat tak, aby nelhal
+
+Adresa: https://www.housio.app/blog/vynos-z-pronajmu
+Téma: Byt jako investice
+Shrnutí: Hrubý výnos ti řekne, že byt vydělává pět procent. Po odečtení toho, co se opravdu platí, z toho bývá polovina. Jak počítat čistý výnos, co do nákladů patří a proč je výnos z kapitálu jiné číslo než výnos z ceny bytu.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+„Ten byt dělá šest procent.“ Skoro vždycky je to hrubý výnos, tedy roční nájemné dělené cenou. Čísla, která z něj zbydou po dani, pojistce, fondu oprav a jednom prázdném měsíci, vypadají úplně jinak.
+
+Co si z toho odnést
+
+- Hrubý výnos = roční nájemné ÷ pořizovací cena včetně vedlejších nákladů.
+- Čistý výnos odečítá všechno, co ti z účtu odejde.
+- Neobsazenost není smůla, ale položka v rozpočtu.
+- Zhodnocení ceny není příjem, dokud neprodáš.
+
+## Hrubý výnos a proč sám o sobě nestačí
+
+Hrubý výnos je nejjednodušší číslo, jaké o bytu můžeš mít:
+
+Spočítáno na příkladu
+
+Byt za 4 500 000 Kč, nájemné 18 000 Kč měsíčně bez služeb.
+Roční nájemné 216 000 Kč ÷ 4 500 000 Kč = 4,8 % hrubého výnosu.
+
+Dvě věci, na kterých se tohle číslo nejčastěji nafoukne. První: do ceny se počítá jen kupní cena, ne to, co koupě doopravdy stála. Druhá: do nájemného se započítají i zálohy na služby, které ale nejsou tvůj příjem — jen je vybíráš a na konci roku vyúčtuješ.
+
+Na tohle pozor
+
+Do pořizovací ceny patří i vedlejší náklady: poplatek za vklad do katastru, odhad pro banku, právní služby, případná provize a hlavně to, co jsi do bytu musel dát, než se dal pronajmout. U staršího bytu to bývají statisíce a posunou výnos o půl procenta i víc.
+
+## Čistý výnos: co se musí odečíst
+
+Čistý výnos počítá s tím, co ti z účtu opravdu odejde. Seznam není dlouhý, ale skoro nikdo ho nemá celý:
+
+| Položka | Typicky ročně | Poznámka |
+| --- | --- | --- |
+| Daň z nemovitých věcí | stovky až jednotky tisíc | platí vlastník, sazby se od 2024 zvýšily |
+| Pojištění nemovitosti | jednotky tisíc | daňově uznatelný výdaj |
+| Příspěvek do fondu oprav | tisíce až desetitisíce | u jednotky v SVJ, nese ho vlastník |
+| Opravy a údržba | těžko odhadnout, rezervuj si | nejvíc podceňovaná položka |
+| Revize | stovky až tisíce | plyn, elektro, komín |
+| Neobsazenost | viz níže | počítej s ní, i když letos nebyla |
+| Daň z příjmu | 15 % ze základu | po odečtení výdajů nebo paušálu |
+
+Čistý výnos pak spočítáš jako (roční nájemné − roční náklady) ÷ pořizovací cena. Z příkladu výše: 216 000 Kč nájemného, 38 000 Kč nákladů před daní, daň přibližně 23 000 Kč — zbývá 155 000 Kč, tedy 3,4 % čistého výnosu. Z 4,8 % se stala necelá třetina ubraná.
+
+Jakou daň přesně zaplatíš, záleží na tom, jestli uplatníš skutečné výdaje nebo výdajový paušál. Obě varianty vedle sebe spočítá kalkulačka daně z pronájmu, souvislosti rozebírá článek o daních z pronájmu.
+
+## Výnos z vlastního kapitálu
+
+Dvě různé otázky, dvě různá čísla:
+
+- Vyplatí se ten byt? → výnos z celé pořizovací ceny, bez ohledu na to, jak je financovaný. Měří nemovitost.
+- Vyplatí se mi do něj dát svoje peníze? → výnos z vlastního kapitálu, tedy z toho, co jsi do bytu vložil ze svého. Měří tvou investici.
+
+Spočítáno na příkladu
+
+Stejný byt za 4 500 000 Kč, hypotéka 3 000 000 Kč, vlastní peníze 1 500 000 Kč. Úroky za rok 135 000 Kč (4,5 %). Čistý příjem po nákladech a dani byl 155 000 Kč, po úrocích zbývá 20 000 Kč.
+Výnos z vlastního kapitálu: 20 000 ÷ 1 500 000 = 1,3 %.
+Zároveň ti ale nájemníci za rok umořili část jistiny — a ta ti zůstává v majetku.
+
+Tohle je ta věc, kterou páka dělá v obou směrech. Když je úrok nižší než čistý výnos nemovitosti, hypotéka tvůj výnos z vlastních peněz zvedá. Když je vyšší, snižuje ho — a může ho stáhnout i pod nulu. Limity a podmínky rozebírá článek o hypotéce na investiční byt.
+
+## Počítej s tím, že byt bude občas prázdný
+
+Mezi dvěma nájemníky je skoro vždycky mezera: výpovědní doba, úklid, malování, inzerát, prohlídky, podpis. Měsíc je optimistický odhad.
+
+Jeden prázdný měsíc za rok znamená, že přijde 11 nájmů místo 12 — tedy o 8,3 % nižší příjem. Při výnosu 3,4 % to z něj ubere zhruba 0,3 procentního bodu. A to je případ, kdy se nic nepokazí.
+
+Na tohle pozor
+
+Neobsazenost nepočítej jako „letos se to nestalo, tak nula“. Počítej ji jako průměr: když se ti nájemníci mění po třech letech a výměna trvá měsíc, je to jeden měsíc ze 36 — tedy asi 2,8 % ročně natrvalo.
+
+## Zhodnocení ceny není výnos, dokud neprodáš
+
+Byt, který jsi koupil za 3 000 000 Kč a dnes má hodnotu 4 500 000 Kč, ti vydělal 1 500 000 Kč. Na papíře. Dokud neprodáš, není to příjem — nedá se z toho žít a nedá se z toho zaplatit oprava střechy.
+
+Navíc to není celé tvoje. Jestli příjem z prodeje nebude osvobozený, zdaníš ho — a tam rozhoduje, kdy jsi byt nabyl. Rozebírá to článek o dani při prodeji bytu.
+
+Počítat zhodnocení do výnosu z pronájmu je tedy míchání dvou různých věcí. Nájem je pravidelný příjem s pravidelnými náklady. Zhodnocení je jednorázová a nejistá položka, která se projeví jednou — nebo taky ne.
+
+## S čím výnos srovnávat
+
+Číslo samo o sobě nic neříká. Smysl dává až ve srovnání — a ne s jiným bytem, ale s alternativou, kterou máš.
+
+- S bezrizikovou sazbou. Spořicí účet nebo státní dluhopis nic nestojí a nic nezabere. Rozdíl mezi nimi a čistým výnosem bytu je to, co ti pronájem platí za riziko a práci. Když je rozdíl nula, děláš to zadarmo.
+- S vlastním časem. Pronájem není pasivní příjem. Prohlídky, vyúčtování, revize, opravy, občas spor. Když to děláš sám, je to pár desítek hodin ročně — a ty v tom výnosu nejsou započítané.
+- Se stavem bytu. Byt, který bude za pět let potřebovat novou koupelnu a okna, nemá výnos, jaký ukazuje tabulka. Má ho o tu rekonstrukci nižší — jen ještě nezaplacenou.
+
+V Housiu
+
+V Housiu vidíš u každého bytu příjmy i výdaje za rok vedle sebe a k tomu obsazenost — tedy přesně ta čísla, ze kterých se čistý výnos počítá. Nemusíš je dohledávat v bance a ve složce faktur a nemusíš odhadovat, kolik měsíců byl byt prázdný.
+
+## Časté dotazy
+
+**Jaký výnos je u bytu dobrý?**
+
+Univerzální číslo neexistuje a kdo ho tvrdí, prodává. Smysluplné srovnání je proti bezrizikové alternativě: pokud ti spořicí účet nebo státní dluhopis dává podobně jako čistý výnos bytu, nebereš za riziko a práci nic navíc. Rozdíl mezi nimi je to, co ti pronájem platí za starost.
+
+**Mám do výnosu počítat splátku hypotéky?**
+
+Do čistého výnosu z ceny nemovitosti ne — ten má měřit nemovitost, ne způsob financování. Do výnosu z vlastního kapitálu ano, ale jen úrokovou část; splátka jistiny není náklad, jen přesun peněz z účtu do majetku.
+
+**Patří do nákladů i odpisy?**
+
+Do daňového výpočtu ano, do peněžního ne. Odpis snižuje daň, ale žádné peníze ti z účtu neodejdou. Pro posouzení, jestli se byt vyplatí, počítej hlavně s penězi; odpis si pak připočti jako daňovou úsporu.
+
+**Jak počítat výnos, když byt teprve kupuju?**
+
+Do pořizovací ceny započti i vedlejší náklady — poplatek za vklad do katastru, odhad, právní služby, provizi, a hlavně náklady na uvedení bytu do pronajímatelného stavu. Bez nich vyjde výnos optimisticky o celé procento.
+
+**Má smysl počítat výnos u bytu, který už roky vlastním?**
+
+Ano, ale ne z původní kupní ceny. Počítej z dnešní tržní hodnoty: to je částka, kterou v bytě skutečně držíš. Byt koupený před deseti lety může vykazovat krásný výnos z tehdejší ceny a nic moc z té dnešní — a právě to druhé číslo rozhoduje, jestli ho držet dál.
+
+Opřeno o: Vlastní výpočet; použité sazby a lhůty vycházejí z českých daňových předpisů platných k datu aktualizace.
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Koupě bytu na pronájem: na co se dívat dřív než na cenu
+
+Adresa: https://www.housio.app/blog/koupe-bytu-na-pronajem
+Téma: Byt jako investice
+Shrnutí: Byt, který se dobře kupuje, se nemusí dobře pronajímat. Čím se liší investiční koupě od koupě pro sebe, co zjistit v SVJ, jaké vedlejší náklady počítat a kde se nejčastěji prodělá.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+U bytu pro sebe rozhoduje, jestli se ti v něm bude líbit. U bytu na pronájem rozhoduje, jestli se bude líbit někomu, koho ještě neznáš — a jestli ti po všech nákladech něco zbyde.
+
+Co si z toho odnést
+
+- Rozhoduje poptávka po nájmu, ne tvůj vkus.
+- Vedlejší náklady koupě umí ukrojit půl procenta z výnosu.
+- Fond oprav a plánované investice SVJ zjisti před podpisem.
+- Spočítej čistý výnos, ne hrubý — a to před rezervační smlouvou.
+
+## Pro nájemníka, ne pro sebe
+
+Nejčastější chyba u první investiční koupě je, že člověk kupuje byt, ve kterém by chtěl bydlet. Nájemník má ale jiné priority — a hlavně jich má míň, protože v bytě nebude dvacet let.
+
+| Co řeší kupující pro sebe | Co řeší nájemník |
+| --- | --- |
+| Orientace oken, výhled | cena a dojezd do práce |
+| Sousedé a klid na roky | jestli je byt hned volný |
+| Vlastní vkus v kuchyni | jestli kuchyň funguje |
+| Potenciál zhodnocení | nic, ten ho nezajímá |
+| Balkon jako plus | parkování jako plus |
+
+- Dostupnost rozhoduje nejvíc. Zastávka do deseti minut pěšky zkracuje dobu hledání nájemníka víc než nová koupelna.
+- Menší byty se pronajímají rychleji. Lidí, kteří hledají 2+kk, je mnohonásobně víc než těch, kdo hledají 4+1. Zato se v malém bytě nájemníci střídají častěji — a každá výměna je prázdný měsíc.
+- Dívej se, kdo bydlí v okolí. Studentská čtvrť, rodiny, senioři — z toho plyne, jak dlouhé nájmy čekat a jak často budeš hledat.
+
+## Co koupě opravdu stojí
+
+Kupní cena není cena koupě. Dobrá zpráva je, že daň z nabytí nemovitých věcí už neexistuje — byla zrušena a kupující z ní neplatí nic. Zbytek ale zůstává.
+
+| Položka | Kdo platí | Poznámka |
+| --- | --- | --- |
+| Správní poplatek za vklad do katastru | obvykle kupující | podle sazebníku správních poplatků |
+| Právní služby a úschova | bývá dělené | advokátní, notářská nebo bankovní úschova |
+| Odhad nemovitosti pro banku | kupující | u hypotéky vždy |
+| Provize realitní kanceláře | podle smlouvy | ověř si, kdo ji platí, dřív než podepíšeš rezervaci |
+| Uvedení do pronajímatelného stavu | kupující | nejvíc podceňovaná položka |
+| Vybavení | kupující | pračka, lednice, postele u zařízeného bytu |
+
+Na tohle pozor
+
+Poslední dvě položky rozhodují. Byt, který je „hned k nastěhování“, ho podle inzerátu bývá vždycky — a po převzetí zjistíš, že je potřeba vymalovat, vyměnit baterie a koupit spotřebiče. U staršího bytu počítej spíš se stovkami tisíc než s desítkami.
+
+## Co si zjistit o domě a SVJ
+
+U jednotky v domě nekupuješ jen byt, ale i podíl na společných částech — a s ním podíl na tom, co dům čeká. Tohle je část, kterou lidé při koupi pro sebe odbydou a u investice se jim to vrátí.
+
+- Stav fondu oprav. Kolik v něm je a kolik se ročně vybere. Prázdný fond u domu z šedesátých let znamená, že platit bude někdo — a ten někdo budeš ty.
+- Plánované investice. Zápisy ze shromáždění za poslední dva tři roky. Chystaná výměna výtahu, střecha, zateplení, rozvody. Zvýšení příspěvku do fondu oprav jde z tvého výnosu, nájemníkovi ho nepřeúčtuješ.
+- Dluhy vlastníků. Dům, kde třetina vlastníků neplatí, nemá na opravy a zbytek to doplácí. Ptej se výboru přímo.
+- Úvěr SVJ. Mnoho domů má na rekonstrukci úvěr. Splátka je součástí měsíční platby a poběží ještě roky.
+- Pravidla pro pronájem. SVJ ti nemůže zakázat byt pronajímat, ale domovní řád může omezovat krátkodobé ubytování nebo užívání společných prostor. Přečti si ho.
+
+## Právní kontrola před podpisem
+
+Výpis z katastru nemovitostí si stáhni sám a přečti si ho celý — zvlášť list vlastnictví část C a D.
+
+| Co hledat | Proč |
+| --- | --- |
+| Zástavní právo | musí být vymazáno nebo ošetřeno v úschově |
+| Exekuce, insolvence | prodej může být neplatný |
+| Věcné břemeno | právo dožití někoho cizího v bytě |
+| Předkupní právo | spoluvlastník může mít přednost |
+| Poznámka o zahájeném řízení | něco se děje a ještě to není dokončené |
+| Soulad výměry a dispozice | to, co je v inzerátu, nemusí být v katastru |
+
+Na tohle pozor
+
+Kupní cenu posílej jen do úschovy — advokátní, notářské nebo bankovní. Nikdy přímo prodávajícímu před zápisem do katastru. Poplatek za úschovu je zlomek ceny bytu a řeší přesně tu situaci, kdy se mezi podpisem a vkladem něco pokazí.
+
+## Technický stav a co se vyplatí
+
+U pronájmu platí jiná logika než u vlastního bydlení: investice se musí vrátit v nájemném nebo v kratší době hledání nájemníka. Jinak je to útrata, ne investice.
+
+| Zásah | Vrátí se? |
+| --- | --- |
+| Vymalovat | téměř vždy — byt vypadá na fotkách i při prohlídce jinak |
+| Opravit, co nefunguje | vždy — jinak to vyřešíš při první havárii dráž |
+| Vyměnit staré spotřebiče | obvykle ano, hlavně v úsporách za reklamace |
+| Nová koupelna ve starém bytě | někdy — zvedne nájemné i okruh zájemců |
+| Luxusní kuchyň v paneláku | spíš ne — nájemník za ni víc nezaplatí |
+| Podlahové vytápění, chytrá domácnost | ne — nájemník to neocení |
+
+Nezapomeň na povinné revize. U bytu s plynem potřebuješ platné revizní zprávy ještě před nastěhováním nájemníka a staré rozvody můžou znamenat nečekaný výdaj hned v prvním roce.
+
+## Spočítej si to dřív, než podepíšeš
+
+Rezervační smlouva se podepisuje rychle a často pod tlakem. Jedna tabulka před ní ti ušetří roky vysvětlování, proč to nevychází.
+
+- Zjisti reálné nájemné, ne to z inzerátů. Inzerát je nabídka, ne uzavřený obchod. Jak se určuje, rozebírá článek o výši nájemného.
+- Sečti pořizovací cenu včetně všeho z kapitoly o nákladech.
+- Sečti roční náklady: daň z nemovitých věcí, pojistka, fond oprav, revize, rezerva na opravy, a připočti neobsazenost.
+- Spočítej čistý výnos a porovnej ho s tím, co ti dá spořicí účet. Postup i vzorce jsou v článku o výnosu z pronájmu.
+- Spočítej daň. Skutečné výdaje versus paušál spočítá kalkulačka daně z pronájmu, odpisy kalkulačka odpisů.
+
+Spočítáno na příkladu
+
+Byt 2+kk za 4 200 000 Kč, nájemné 16 000 Kč. Hrubý výnos vypadá na 4,6 %.
+Po připočtení 280 000 Kč vedlejších nákladů a vybavení je pořizovací cena 4 480 000 Kč. Po odečtení 36 000 Kč ročních nákladů, jednoho prázdného měsíce ze tří let a daně zbývá zhruba 142 000 Kč.
+Čistý výnos 3,2 % — pořád se může vyplatit, ale je to jiné číslo než 4,6 %, se kterým jsi do toho šel.
+
+V Housiu
+
+Jakmile byt koupíš, založ si ho v Housiu i s kupní cenou a cenou rekonstrukce. Zní to jako detail, ale jsou to přesně ty údaje, které budeš potřebovat při odpisech a jednou při prodeji — a za pět let už je nikde nenajdeš.
+
+## Časté dotazy
+
+**Jaký byt se nejlépe pronajímá?**
+
+Menší byty v dosahu dopravy a práce mívají nejvyšší výnos na korunu ceny a nejkratší dobu hledání nájemníka. Velké byty se pronajímají hůř a déle, protože rodin, které si je mohou dovolit, je míň — zato se v nich nájemníci drží dlouho.
+
+**Kolik počítat na vedlejší náklady koupě?**
+
+Daň z nabytí už neplatíš, ale zbytek zůstává: správní poplatek za vklad do katastru, odhad pro banku, právní služby a úschova, případná provize a hlavně uvedení bytu do pronajímatelného stavu. U staršího bytu to bývají desítky až stovky tisíc.
+
+**Co je nejdůležitější zjistit o SVJ?**
+
+Stav fondu oprav, plánované velké investice a dluhy ostatních vlastníků. Chystaná výměna výtahu nebo zateplení znamená buď jednorázový příspěvek, nebo zvýšení měsíční platby — a to jde z tvého výnosu, ne z nájemníkova.
+
+**Vyplatí se byt před pronájmem rekonstruovat?**
+
+Záleží, jestli se tím zvýší nájemné nebo zkrátí doba hledání nájemníka. Vymalovat a opravit, co nefunguje, se vyplatí skoro vždy. Luxusní kuchyň v panelovém bytě se na nájemném zpravidla nevrátí — nájemník za ni víc nezaplatí.
+
+**Mám kupovat byt v místě, kde bydlím?**
+
+Pokud byt chceš spravovat sám, je to velká výhoda — prohlídky, havárie i předání jsou otázka dvaceti minut, ne dne. U bytu přes republiku počítej buď s cestováním, nebo se správcovskou firmou, a tu zahrň do nákladů.
+
+Opřeno o: § 1166 a násl. občanského zákoníku (bytové spoluvlastnictví) · zákon č. 256/2013 Sb., o katastru nemovitostí · zákon č. 634/2004 Sb., o správních poplatcích
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Hypotéka na investiční byt: co se od dubna 2026 změnilo
+
+Adresa: https://www.housio.app/blog/hypoteka-na-investicni-byt
+Téma: Byt jako investice
+Shrnutí: ČNB doporučila bankám u investičních hypoték přísnější limity — LTV 70 % a DTI 7. Co to znamená pro třetí byt v pořadí, co se počítá jako investiční hypotéka a proč je úrok daňově něco jiného než splátka.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Od dubna 2026 banky u investičních hypoték počítají přísněji. Není to zákon ani vyhláška, je to doporučení ČNB — v praxi se ale podle něj úvěry schvalují.
+
+Co si z toho odnést
+
+- Závazné je jen LTV 80 % (90 % do 36 let na vlastní bydlení).
+- DTI a DSTI zůstávají deaktivované, bez závazné hranice.
+- U investičních hypoték ČNB doporučuje LTV 70 % a DTI 7 od 1. 4. 2026.
+- Investiční = třetí a další byt, nebo byt určený k pronájmu.
+
+## Jaké limity dnes platí
+
+| Ukazatel | Co měří | Závazná hranice |
+| --- | --- | --- |
+| LTV | úvěr ÷ hodnota zastavené nemovitosti | 80 %, u žadatelů do 36 let na vlastní bydlení 90 % |
+| DTI | celkový dluh ÷ roční čistý příjem | deaktivováno — bez závazné hranice |
+| DSTI | měsíční splátky ÷ měsíční čistý příjem | deaktivováno — bez závazné hranice |
+
+To, že DTI a DSTI nemají závaznou hranici, neznamená, že je banka nepočítá. Počítá, jen podle vlastních pravidel. Deaktivace znamená, že ji k nim nenutí ČNB.
+
+## Co je investiční hypotéka
+
+Definice z doporučení ČNB je konkrétní a stojí za přečtení, protože se netýká jen lidí, kteří o sobě říkají „investor“. Investiční hypotéka je úvěr poskytnutý:
+
+- na pořízení třetí a další obytné nemovitosti, nebo
+- na pořízení obytné nemovitosti určené k pronájmu.
+
+Na tohle pozor
+
+První podmínka je ta, která překvapuje. Máš byt, ve kterém bydlíš, chalupu po babičce a kupuješ si menší byt pro dceru na studia? Je to třetí obytná nemovitost — a banka podle doporučení sáhne po přísnějším limitu, i když o žádnou investici nejde.
+
+Rozdíl v praxi: u běžné hypotéky doložíš 20 % z ceny, u investiční 30 %. U bytu za 4 500 000 Kč je to 900 000 Kč proti 1 350 000 Kč — o 450 000 Kč vlastních peněz navíc.
+
+## Doporučení není zákaz
+
+ČNB v téže zprávě z 27. listopadu 2025 nechala kapitálové rezervy beze změny a limity u investičních hypoték vydala jako doporučení, ne jako závaznou hranici. Sama k tomu poznamenala, že právní závaznost by byla pro rovné podmínky na trhu zásadní — tedy že by ji preferovala.
+
+Pro tebe z toho plyne praktická věc: banky se liší. Doporučení si každá implementuje po svém a některá může být vstřícnější. Má tedy smysl ptát se víc než jedné, a ptát se konkrétně: „Považujete tenhle úvěr za investiční podle doporučení ČNB?“
+
+## Počítá banka nájemné jako příjem
+
+Částečně a opatrně. Typický postup je, že banka uzná jen část očekávaného nájemného — zbytek si nechává jako rezervu na neobsazenost a náklady. A často chce vidět podepsanou nájemní smlouvu, ne odhad z inzerátů.
+
+U prvního investičního bytu proto počítej s tím, že úvěr musíš unést ze svých ostatních příjmů. Teprve u dalšího ti historie plateb z prvního bytu pomůže — a tam se hodí mít příjmy doložené, ne jen tvrzené.
+
+Spočítáno na příkladu
+
+Byt za 4 500 000 Kč, nájemné 18 000 Kč měsíčně. Banka uzná 70 % nájemného, tedy 12 600 Kč. Splátka hypotéky na 3 150 000 Kč (LTV 70 %) na 25 let při 4,5 % je zhruba 17 500 Kč. Rozdíl 4 900 Kč měsíčně musíš unést z vlastních příjmů — a to je stav, kdy je byt pronajatý.
+
+## Úrok ano, splátka ne
+
+Tohle je nejčastější chyba v daňovém přiznání z pronájmu. Splátka hypotéky má dvě části a daňově se chovají úplně jinak.
+
+| Část splátky | Daňově | Proč |
+| --- | --- | --- |
+| Úrok | uznatelný výdaj | je to cena za půjčené peníze |
+| Jistina | není výdaj | jen splácíš dluh, majetek ti zůstává |
+| Poplatky za vedení úvěru | uznatelný výdaj | souvisí s dosažením příjmu |
+| Pojištění nemovitosti | uznatelný výdaj | souvisí s pronajímaným majetkem |
+
+Uplatnit úrok můžeš jen při skutečných výdajích. Při výdajovém paušálu je v paušálu zahrnuto všechno a nic navíc si neodečteš — což u bytu na hypotéku obvykle znamená, že se paušál nevyplatí. Obě varianty porovnává článek o daních z pronájmu.
+
+Na tohle pozor
+
+Nepleť si to s odpočtem úroků z úvěru na vlastní bytovou potřebupodle § 15, který si lidé odečítají od základu daně za bydlení. U bytu, který pronajímáš, jde o jinou věc: úrok je výdajem na dosažení příjmu podle § 24.
+
+## Čeho se u páky bát
+
+Hypotéka zvětšuje výsledek oběma směry. Co se stane, když se něco pokazí:
+
+- Prázdný byt. Nájem nechodí, splátka ano. Tři měsíce bez nájemníka u bytu, kde splátka převyšuje nájem, znamená vzít peníze odjinud.
+- Konec fixace. Úrok se mění, splátka taky. Byt, který při 2,5 % vydělával, při 5,5 % prodělává — a ty s tím do konce fixace nic neuděláš.
+- Neplatící nájemník. Vymáhání trvá měsíce a splátka běží celou dobu. Postup popisuje článek o neplatícím nájemníkovi, ale ani nejrychlejší postup ti peníze nevrátí hned.
+- Pokles ceny. Při LTV 70 % stačí pokles o 30 % a dluh se rovná hodnotě. Při refinancování to banka uvidí.
+
+Nic z toho není důvod hypotéku nebrat. Je to důvod mít rezervu — a za rozumnou se u bytu na úvěr považuje aspoň půlroční splátka stranou, plus rezerva na opravu.
+
+V Housiu
+
+V Housiu vedeš u bytu příjmy i výdaje včetně úroků a pojistného, takže na konci roku máš podklad pro skutečné výdaje pohromadě a nemusíš ho skládat z výpisů. Z ročního přehledu zároveň uvidíš, kolik měsíců byl byt obsazený.
+
+## Časté dotazy
+
+**Jaké limity pro hypotéky teď platí závazně?**
+
+Závazná je jen horní hranice LTV: 80 % hodnoty zastavené nemovitosti, u žadatelů mladších 36 let financujících vlastní bydlení 90 %. Ukazatele DTI a DSTI zůstávají podle rozhodnutí bankovní rady ČNB deaktivované, tedy bez závazné horní hranice.
+
+**Co přesně ČNB doporučila u investičních hypoték?**
+
+V tiskové zprávě z 27. 11. 2025 doporučila poskytovatelům uplatňovat od 1. dubna 2026 u investičních hypotečních úvěrů obezřetnější úroveň LTV 70 % a DTI 7. Je to doporučení, ne závazná vyhláška — banky se jím ale v praxi řídí.
+
+**Kdy je hypotéka podle ČNB investiční?**
+
+Podle definice z téže zprávy jde o úvěr poskytnutý na pořízení třetí a další obytné nemovitosti, nebo na pořízení obytné nemovitosti určené k pronájmu. Nerozhoduje tedy jen tvůj záměr, ale i to, kolik nemovitostí už máš.
+
+**Můžu si úroky z hypotéky odečíst od příjmu z pronájmu?**
+
+Pokud uplatňuješ skutečné výdaje, ano — úroky z úvěru na pořízení pronajímané nemovitosti jsou daňově uznatelný výdaj. Splátka jistiny výdajem není, jen snižuje dluh. Při výdajovém paušálu si nemůžeš odečíst nic navíc, paušál pokrývá všechno.
+
+**Zohlední banka nájemné, které z bytu budu mít?**
+
+Většinou částečně — banky typicky uznávají jen část očekávaného nájemného a často až po doložení podepsané nájemní smlouvy. Na plný příjem z nepronajatého bytu nespoléhej; u prvního investičního bytu počítej s tím, že úvěr musíš unést z ostatních příjmů.
+
+**Mám si brát hypotéku, když mám na byt celou částku?**
+
+Je to otázka na porovnání úroku s výnosem, ne na univerzální odpověď. Když je úrok nižší než čistý výnos bytu, páka ti výnos z vlastních peněz zvedá. Když vyšší, snižuje ho. A u každé páky platí, že zvětšuje i ztrátu.
+
+Opřeno o: ČNB, tisková zpráva z 27. 11. 2025 (doporučení k investičním hypotečním úvěrům) · ČNB, stanovení horní hranice úvěrových ukazatelů LTV, DTI a DSTI · § 24 zákona o daních z příjmů
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Daň při prodeji bytu: pět let, deset let, nebo vůbec
+
+Adresa: https://www.housio.app/blog/dan-pri-prodeji-bytu
+Téma: Byt jako investice
+Shrnutí: Časový test se v roce 2021 prodloužil z pěti let na deset — ale jen pro byty nabyté od té doby. U starších platí dál pětiletý. Kdy je příjem z prodeje osvobozený, co dělat, když test nesplníš, a jak se počítá základ daně.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Většina prodejů bytu je od daně osvobozená. „Většina“ je ale slabá útěcha, když se do ní zrovna nevejdeš — u bytu za pět milionů jde o statisíce.
+
+Co si z toho odnést
+
+- Nabyto do konce 2020 → časový test 5 let. Od 2021 → 10 let.
+- Dva roky bydliště v bytě osvobozují bez ohledu na časový test.
+- Použití peněz na vlastní bytovou potřebu osvobozuje i při nesplněném testu.
+- Daň z nabytí nemovitých věcí byla zrušena, kupující neplatí nic.
+
+## Tři cesty k osvobození
+
+Zákon nabízí tři samostatné důvody, proč nemusíš příjem z prodeje zdanit. Stačí splnit jeden z nich.
+
+| Cesta | Podmínka | Kde v zákoně |
+| --- | --- | --- |
+| Časový test | vlastnil jsi 5 nebo 10 let podle data nabytí | § 4 odst. 1 písm. b) |
+| Bydliště | měl jsi v bytě bydliště poslední 2 roky před prodejem | § 4 odst. 1 písm. a) |
+| Bytová potřeba | peníze použiješ na obstarání vlastní bytové potřeby | § 4 odst. 1 písm. a) a b) |
+
+U investičního bytu, ve kterém jsi nikdy nebydlel a peníze chceš použít jinde, zbývá jediná — časový test. Proto se o něm mluví nejvíc.
+
+## Časový test: pět, nebo deset let
+
+Do roku 2020 byl časový test pětiletý. Zákon č. 386/2020 Sb. ho od 1. ledna 2021 prodloužil na deset let. Zásadní je, co stojí v jeho přechodném ustanovení: u nemovitosti nabyté před účinností změny se použije osvobození podle dosavadního znění.
+
+Spočítáno na příkladu
+
+Byt koupený v září 2019 → platí pětiletý test, od září 2024 je prodej osvobozený.
+Byt koupený v únoru 2021 → platí desetiletý test, osvobozeno bude až od února 2031.
+Dva sousedé, skoro stejné byty, rozdíl pět let.
+
+Doba se počítá od nabytí vlastnického práva, a to je u nemovitosti zapsané v katastru den, ke kterému nastaly právní účinky vkladu — tedy den podání návrhu na vklad. Ne den podpisu kupní smlouvy a ne den, kdy katastr rozhodl.
+
+Na tohle pozor
+
+§ 4 má u obou testů výjimku, na kterou se zapomíná: osvobození se nevztahuje na nemovitosti, které jsou nebo v rozhodné době byly zahrnuty do obchodního majetku. U pětiletého testu jsou to 2 roky od vyřazení, u desetiletého 10 let před prodejem. Pokud jsi byt měl v obchodním majetku jako OSVČ, počítej s tím zvlášť.
+
+## Dva roky bydliště
+
+Druhá cesta se týká vlastního bydlení: měl-li jsi v bytě bydliště nejméně 2 roky bezprostředně před prodejem, je příjem osvobozený bez ohledu na to, jak dlouho byt vlastníš.
+
+Bydliště není totéž co trvalý pobyt zapsaný na úřadě. Je to místo, kde se skutečně zdržuješ s úmyslem žít tam — trvalý pobyt je jen jeden z důkazů. Finanční úřad se dívá i na to, kam ti chodí pošta, kde máš uzavřené smlouvy na energie a kde jsi reálně bydlel.
+
+U investičního bytu tahle cesta zpravidla nepřipadá v úvahu. Zmiňuju ji proto, že se hodí ve chvíli, kdy se rozhoduješ, který ze dvou bytů prodat.
+
+## Peníze použité na vlastní bydlení
+
+Třetí cesta je záchranná brzda: i když test nesplníš, je příjem osvobozený, pokud získané prostředky použiješ na obstarání vlastní bytové potřeby.
+
+- Musí jít o tvou vlastní bytovou potřebu, ne o byt pro děti či rodiče a ne o další investiční byt.
+- Použití je vázané lhůtami a musí se finančnímu úřadu oznámit. Tohle je bod, kde se vyplatí jedna konzultace s daňovým poradcem dřív, než podepíšeš kupní smlouvu — ne až v březnu při přiznání.
+- Splacení hypotéky na vlastní bydlení se za bytovou potřebu považuje. Splacení hypotéky na pronajímaný byt ne.
+
+## Když osvobozený nejsi: jak se počítá daň
+
+Neosvobozený příjem z prodeje nemovitosti patří mezi ostatní příjmy podle § 10. Základem daně je rozdíl mezi příjmem a výdaji.
+
+| Co se odečítá | Poznámka |
+| --- | --- |
+| Kupní cena, za kterou jsi byt pořídil | u zděděného a darovaného se postupuje jinak |
+| Prokazatelně vynaložené náklady na opravy a údržbu | je třeba mít doklady |
+| Technické zhodnocení | rekonstrukce, která zvýšila hodnotu |
+| Náklady spojené s prodejem | provize, znalecký posudek, právní služby |
+| Zaplacené odpisy, pokud jsi je uplatňoval | snižují daňovou vstupní cenu — pozor na to |
+
+Poslední řádek je u investičních bytů podstatný. Pokud jsi byt odpisoval a snižoval si tím daň z nájmu, při prodeji se to projeví — odečteš jen zůstatkovou cenu, ne celou pořizovací. Daňová úspora z odpisů se tak částečně vrací.
+
+Výsledek se zdaní sazbou podle tvého celkového základu: 15 %, nad zákonným limitem 23 %. Jednorázový prodej bytu přitom dokáže základ vyhnat do vyšší sazby — a to je přesně situace, kdy se vyplatí ptát se poradce dopředu.
+
+## Čtyři chyby, které stojí statisíce
+
+- Počítat test od podpisu smlouvy. Počítá se od právních účinků vkladu. Pár týdnů rozhodne, jestli jsi uvnitř, nebo venku.
+- Nevědět o budoucím prodeji. Zákon řeší i případ, kdy se prodej uskuteční až po uplynutí testu, ale smlouva o budoucím prodeji byla uzavřena dřív. Osvobození se na takový příjem nevztahuje. Posunout podpis rezervační smlouvy o dva měsíce tedy nemusí stačit.
+- Zahodit doklady o rekonstrukci. Faktury za novou koupelnu snižují základ daně. Bez nich zaplatíš z celého rozdílu. Schovávej je po celou dobu držení.
+- Zapomenout na oznámení osvobozeného příjmu. Osvobozený příjem nad 5 milionů korun se finančnímu úřadu oznamuje podle § 38v, i když se nedaní. Za nesplnění hrozí pokuta.
+
+Na tohle pozor
+
+Dobrá zpráva na závěr: daň z nabytí nemovitých věcí už neexistuje.Zrušil ji zákon č. 386/2020 Sb. a kupující tedy ze čtyř procent z ceny neplatí nic. Pokud na ni někdo u prodeje upozorňuje, pracuje se zastaralými informacemi.
+
+V Housiu
+
+V Housiu máš u bytu pořizovací cenu, cenu rekonstrukce i přiložené faktury za opravy — tedy přesně to, co při prodeji odečítáš od příjmu. Export do Excelu z toho udělá podklad pro daňového poradce za pár vteřin místo večera nad šanony.
+
+## Časté dotazy
+
+**Platí u mého bytu pětiletý, nebo desetiletý test?**
+
+Rozhoduje den nabytí vlastnického práva. U nemovitostí nabytých do 31. 12. 2020 platí původní pětiletý test, u nabytých od 1. 1. 2021 desetiletý. Vyplývá to z přechodného ustanovení zákona č. 386/2020 Sb.
+
+**Odkdy se doba počítá — od podpisu smlouvy, nebo od katastru?**
+
+Od nabytí vlastnického práva, tedy od právních účinků vkladu do katastru. Ty nastávají ke dni podání návrhu na vklad, ne ke dni, kdy katastr rozhodl. Den podpisu kupní smlouvy sám o sobě nerozhoduje.
+
+**Musím prodej uvést v přiznání, i když je osvobozený?**
+
+Do přiznání osvobozený příjem neuvádíš. Pozor ale na oznamovací povinnost u osvobozených příjmů nad 5 milionů korun — tu splníš samostatným oznámením finančnímu úřadu, ne přiznáním.
+
+**Platí se ještě daň z nabytí nemovitých věcí?**
+
+Ne. Byla zrušena zákonem č. 386/2020 Sb. a zanikly i povinnosti, u nichž lhůta pro podání přiznání uplynula od 31. 3. 2020. Kupující tedy ze čtyř procent ceny neplatí nic.
+
+**Co když byt prodám se ztrátou?**
+
+Ztrátu z prodeje nemovitosti podle § 10 nelze uplatnit proti jiným druhům příjmů. Dá se jen započíst proti jinému příjmu téhož druhu v témže roce — tedy proti zisku z jiného prodeje.
+
+**Zkracuje se test, když jsem byt zdědil?**
+
+U dědění po příbuzném v řadě přímé nebo po manželovi se doba zkracuje o dobu, po kterou nemovitost prokazatelně vlastnil zůstavitel. U ostatních zůstavitelů se nezkracuje.
+
+Opřeno o: § 4 odst. 1 písm. a) a b) zákona o daních z příjmů · zákon č. 386/2020 Sb. (zrušení daně z nabytí, přechodná ustanovení) · § 10 a § 38v zákona o daních z příjmů
+
+Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.

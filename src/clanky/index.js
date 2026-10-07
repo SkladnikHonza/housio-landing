@@ -14,6 +14,13 @@ import * as provereniNajemnika from './provereni-najemnika'
 import * as dodatekKeSmlouve from './dodatek-ke-smlouve'
 import * as povinneRevize from './povinne-revize'
 import * as gdprPronajimatel from './gdpr-pronajimatel'
+import * as cleneDomacnosti from './clenove-domacnosti'
+import * as spolecnyNajem from './spolecny-najem'
+import * as souhlasSPodnajmem from './souhlas-s-podnajmem'
+import * as vynosZPronajmu from './vynos-z-pronajmu'
+import * as koupeBytuNaPronajem from './koupe-bytu-na-pronajem'
+import * as hypotekaNaInvesticniByt from './hypoteka-na-investicni-byt'
+import * as danPriProdejiBytu from './dan-pri-prodeji-bytu'
 
 // Prurvodce pronajmem — jediny zdroj pravdy pro rozcestnik, detail i sitemapu.
 //
@@ -53,6 +60,11 @@ export const TEMATA = [
     nazev: 'Provoz a povinnosti',
     popis: 'Revize, osobní údaje a další věci, které musíš hlídat, i když se nic neděje.',
   },
+  {
+    id: 'investice',
+    nazev: 'Byt jako investice',
+    popis: 'Jestli se to vyplatí, za co se kupuje, jak se financuje a co ze zisku zbyde.',
+  },
 ]
 
 const MODULY = [
@@ -67,6 +79,9 @@ const MODULY = [
   jistotaKauce,
   predavaciProtokol,
   podnajem,
+  souhlasSPodnajmem,
+  cleneDomacnosti,
+  spolecnyNajem,
   // Když se to zvrtne
   vypovedZNajmu,
   neplaticiNajemnik,
@@ -77,6 +92,11 @@ const MODULY = [
   // Provoz a povinnosti
   povinneRevize,
   gdprPronajimatel,
+  // Byt jako investice
+  vynosZPronajmu,
+  koupeBytuNaPronajem,
+  hypotekaNaInvesticniByt,
+  danPriProdejiBytu,
 ]
 
 export const CLANKY = MODULY.map((m) => ({ ...m.META, Obsah: m.default }))
