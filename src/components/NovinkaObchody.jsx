@@ -1,6 +1,4 @@
-'use client'
-
-import { useTranslations, useLocale } from 'next-intl'
+import { getTranslations, getLocale } from 'next-intl/server'
 import Image from 'next/image'
 
 // Oznameni "Housio je v obchodech" — velka centrovana sekce pod Hero.
@@ -17,9 +15,9 @@ const ODKAZ_APPLE = 'https://apps.apple.com/app/housio/id6794914113'
 const GOOGLE_BEZ_MUTACE = new Set(['uk'])
 const APPLE_BEZ_MUTACE = new Set(['hr', 'uk'])
 
-export default function NovinkaObchody() {
-  const t = useTranslations('obchody')
-  const locale = useLocale()
+export default async function NovinkaObchody() {
+  const t = await getTranslations('obchody')
+  const locale = await getLocale()
   const odznakGoogle = GOOGLE_BEZ_MUTACE.has(locale) ? 'en' : locale
   const odznakApple = APPLE_BEZ_MUTACE.has(locale) ? 'en' : locale
 

@@ -69,3 +69,55 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+/* Poletujici odznaky nad nahledem Nastenky (Hero).
+   Drive to byl <style jsx> primo v Hero.jsx — jenze styled-jsx je klientska
+   knihovna a drzela celou komponentu na klientovi. Tady je to obycejne CSS. */
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+@keyframes float-delayed { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+.animate-float { animation: float 4s ease-in-out infinite; }
+.animate-float-delayed { animation: float-delayed 5s ease-in-out infinite 1s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float, .animate-float-delayed { animation: none; }
+}
+
+/* Horni lista (Nav). Taky to byval <style jsx global> uvnitr komponenty —
+   obycejne staticke CSS, ktere ale tahalo styled-jsx do klientskeho balicku. */
+.nav-blur {
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  backdrop-filter: saturate(180%) blur(16px);
+}
+.nav-link {
+  position: relative;
+  transition: opacity 0.15s;
+}
+.nav-link::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -6px;
+  height: 2px;
+  background: var(--teal-900);
+  transition: left 0.25s ease, right 0.25s ease;
+  border-radius: 2px;
+}
+.nav-link:hover::before {
+  left: 0;
+  right: 0;
+}
+.nav-cta {
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+.nav-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(31, 78, 95, 0.25);
+}
+.nav-cta-arrow {
+  transition: transform 0.2s ease;
+}
+.nav-cta:hover .nav-cta-arrow {
+  transform: translateX(3px);
+}
+      

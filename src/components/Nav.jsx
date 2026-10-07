@@ -208,44 +208,6 @@ export default function Nav() {
         </button>
       </nav>
 
-      <style jsx global>{`
-        .nav-blur {
-          -webkit-backdrop-filter: saturate(180%) blur(16px);
-          backdrop-filter: saturate(180%) blur(16px);
-        }
-        .nav-link {
-          position: relative;
-          transition: opacity 0.15s;
-        }
-        .nav-link::before {
-          content: '';
-          position: absolute;
-          left: 50%;
-          right: 50%;
-          bottom: -6px;
-          height: 2px;
-          background: var(--teal-900);
-          transition: left 0.25s ease, right 0.25s ease;
-          border-radius: 2px;
-        }
-        .nav-link:hover::before {
-          left: 0;
-          right: 0;
-        }
-        .nav-cta {
-          transition: transform 0.15s ease, box-shadow 0.2s ease;
-        }
-        .nav-cta:hover {
-          transform: translateY(-1px);
-          box-shadow: 0 8px 24px rgba(31, 78, 95, 0.25);
-        }
-        .nav-cta-arrow {
-          transition: transform 0.2s ease;
-        }
-        .nav-cta:hover .nav-cta-arrow {
-          transform: translateX(3px);
-        }
-      `}</style>
     </header>
 
     {menuOpen && (

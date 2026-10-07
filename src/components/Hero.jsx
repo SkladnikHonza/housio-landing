@@ -1,7 +1,11 @@
-'use client'
-
-import { useTranslations, useLocale } from 'next-intl'
+import { getTranslations, getLocale } from 'next-intl/server'
 import { ArrowRight, Play, Check, Star, Lock } from 'lucide-react'
+
+// Hero je zamerne SERVEROVA komponenta. Jediny kus interaktivity, ktery tu kdy
+// byl, bylo plynule odrolovani na #funkce — a to uz roky umi CSS samo
+// (`html { scroll-behavior: smooth }` v globals.css). Kdyby to byla klientska
+// komponenta, poslali bychom kazdemu navstevnikovi slovniky nize ve VSECH
+// jazycich; takhle se na klienta nedostane ani rádek.
 
 // Demo data pro náhled Nástěnky — částky/měna zvlášť (Kč pro CZ, € pro zbytek).
 const AMT = {
@@ -98,17 +102,11 @@ const W = {
     r1n: 'Apartmán', r1d: '2-izbový · Bratislava', r2n: 'Rodinný dom', r2d: '5-izbový · Košice', r3n: 'Garáž', r3d: 'Žilina', paid: 'Zaplatené' },
 }
 
-export default function Hero() {
-  const t = useTranslations('hero')
-  const locale = useLocale()
+export default async function Hero() {
+  const t = await getTranslations('hero')
+  const locale = await getLocale()
   const w = W[locale] || W.en
   const a = locale === 'cs' ? AMT.cs : AMT.eur
-
-  const scrollTo = (id) => (e) => {
-    e.preventDefault()
-    const el = document.getElementById(id)
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
 
   return (
     <section className="relative px-6 py-12 md:py-16 lg:py-24 overflow-hidden" style={{ background: 'var(--bg-warm)' }}>
@@ -143,7 +141,7 @@ export default function Hero() {
             {t('ctaPrimary')}
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a href="#funkce" onClick={scrollTo('funkce')} className="inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
+          <a href="#funkce" className="inline-flex items-center justify-center gap-2 text-base font-medium px-7 py-4 rounded-xl bg-white/70 hover:bg-white transition cursor-pointer" style={{ color: 'var(--teal-900)' }}>
             <Play className="w-4 h-4" />
             {t('ctaSecondary')}
           </a>
@@ -333,13 +331,6 @@ export default function Hero() {
         </div>
 
       </div>
-
-      <style jsx>{`
-        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
-        @keyframes float-delayed { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
-        .animate-float { animation: float 4s ease-in-out infinite; }
-        .animate-float-delayed { animation: float-delayed 5s ease-in-out infinite 1s; }
-      `}</style>
     </section>
   )
 }
