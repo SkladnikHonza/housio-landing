@@ -35,19 +35,23 @@ describe('volba jazyka', () => {
     expect(presmerovanoNa(res)).toBeNull()
   })
 
-  it('novy navstevnik s anglickym prohlizecem dostane na uvodni strance anglictinu', () => {
+  // Drive sem proxy cizince presmerovala. Google u presmerovane adresy
+  // indexuje cil, takze se ceska uvodni stranka do vysledku nedostavala.
+  // Ted se nikdo nikam neposila a jiny jazyk nabidne pruh nahore
+  // (components/NabidkaJazyka.jsx, logika v lib/nabidkaJazyka.js).
+  it('novy navstevnik s anglickym prohlizecem se NIKAM nepresmeruje', () => {
     const res = proxy(pozadavek('/', { jazyk: 'en-US,en;q=0.9' }))
-    expect(presmerovanoNa(res)).toBe('https://www.housio.app/en')
+    expect(presmerovanoNa(res)).toBeNull()
+  })
+
+  it('ani zeme podle IP uz nic nepresmeruje', () => {
+    const res = proxy(pozadavek('/', { jazyk: 'ja-JP,ja;q=0.9', zeme: 'PL' }))
+    expect(presmerovanoNa(res)).toBeNull()
   })
 
   it('cech zustane na uvodni strance v cestine', () => {
     const res = proxy(pozadavek('/', { jazyk: 'cs-CZ,cs;q=0.9', zeme: 'CZ' }))
     expect(presmerovanoNa(res)).toBeNull()
-  })
-
-  it('zeme podle IP rozhodne, kdyz jazyk prohlizece neumime', () => {
-    const res = proxy(pozadavek('/', { jazyk: 'ja-JP,ja;q=0.9', zeme: 'PL' }))
-    expect(presmerovanoNa(res)).toBe('https://www.housio.app/pl')
   })
 
   it('vracejici se navstevnik dostane svuj ulozeny jazyk i proti prohlizeci', () => {
@@ -60,8 +64,15 @@ describe('volba jazyka', () => {
     expect(presmerovanoNa(res)).toBeNull()
   })
 
-  it('nesmyslna cookie se ignoruje a rozhodne prohlizec', () => {
+  it('nesmyslna cookie nic nerozbije', () => {
     const res = proxy(pozadavek('/', { cookie: 'klingon', jazyk: 'de-DE,de;q=0.9' }))
-    expect(presmerovanoNa(res)).toBe('https://www.housio.app/de')
+    expect(presmerovanoNa(res)).toBeNull()
+  })
+
+  // Googlebot nema cookie ani Accept-Language, ktery by ho nekam poslal —
+  // uvodni stranku tedy vidi jako 200 a muze ji zaindexovat.
+  it('uvodni stranka je pro Googlebota bez presmerovani', () => {
+    expect(presmerovanoNa(proxy(pozadavek('/')))).toBeNull()
+    expect(presmerovanoNa(proxy(pozadavek('/', { jazyk: 'en-US,en;q=0.9', zeme: 'US' })))).toBeNull()
   })
 })

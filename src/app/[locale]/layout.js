@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { adresa, hreflangMapa } from '@/lib/seo'
 import Nav from '@/components/Nav'
+import NabidkaJazyka from '@/components/NabidkaJazyka'
 import AnalyticsTracker from '@/components/AnalyticsTracker'
 import PredaniZdroje from '@/components/PredaniZdroje'
 import CookieConsentBanner from '@/components/CookieConsentBanner'
@@ -145,6 +146,9 @@ export default async function LocaleLayout({ children, params }) {
         <NextIntlClientProvider>
           <AnalyticsTracker />
           <PredaniZdroje />
+          {/* Nad navigací — jinak by pruh odsunul lepivou hlavičku a ta by
+              se při odrolování zasekla pod horním okrajem. */}
+          <NabidkaJazyka />
           <Nav />
           {children}
           <CookieConsentBanner />

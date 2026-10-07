@@ -5,82 +5,41 @@ import { routing } from './i18n/routing'
 // Standardni next-intl (locale routing + cookie NEXT_LOCALE).
 const intlProxy = createIntlMiddleware(routing)
 
-// Mapa zeme (ISO kod z Vercel geo hlavicky x-vercel-ip-country) -> nas jazyk.
-// Slouzi jen jako zaloha, kdyz prohlizec neposle jazyk, ktery umime.
-const COUNTRY_TO_LOCALE = {
-  CZ: 'cs',
-  SK: 'sk',
-  GB: 'en', IE: 'en', US: 'en', CA: 'en', AU: 'en', NZ: 'en',
-  DE: 'de', AT: 'de', CH: 'de', LI: 'de',
-  IT: 'it', SM: 'it', VA: 'it',
-  ES: 'es', MX: 'es', AR: 'es', CO: 'es', CL: 'es', PE: 'es', VE: 'es',
-  UA: 'uk',
-  RU: 'ru', BY: 'ru', KZ: 'ru',
-  FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr',
-  PL: 'pl',
-  HR: 'hr',
-}
-
-// Vyber jazyka pro NOVEHO navstevnika (bez ulozene volby):
-//   1) jazyk prohlizece / telefonu (Accept-Language) — nejpresnejsi signal
-//      (Ital s italskym telefonem -> italsky, i kdyz je zrovna v cizine)
-//   2) zeme podle IP (Vercel geo) — kdyz prohlizec posle jazyk, ktery neumime
-//   3) cizinec, kde nic nesedi -> anglicky (radeji nez cesky)
-//   4) uplny fallback -> vychozi jazyk (cs)
-function vyberJazyk(request) {
-  const podporovane = routing.locales
-
-  const acceptLanguage = (request.headers.get('accept-language') || '').toLowerCase()
-  for (const cast of acceptLanguage.split(',')) {
-    const zaklad = cast.split(';')[0].trim().split('-')[0] // "it-it;q=0.9" -> "it"
-    if (zaklad && podporovane.includes(zaklad)) return zaklad
-  }
-
-  const zeme = (request.headers.get('x-vercel-ip-country') || '').toUpperCase()
-  if (zeme) {
-    if (COUNTRY_TO_LOCALE[zeme]) return COUNTRY_TO_LOCALE[zeme]
-    if (zeme === 'CZ' || zeme === 'SK') return 'cs'
-    return 'en' // cizi zeme, jazyk prohlizece neumime -> anglicky
-  }
-
-  return routing.defaultLocale // cs
-}
+// Odhad jazyka podle země (Vercel geo) tady BYL a je pryč spolu
+// s automatickým přesměrováním. Nabídku jiného jazyka dělá teď pruh nahoře,
+// který se rozhoduje v prohlížeči podle Accept-Language — a to je přesnější
+// signál než IP: Ital s italským telefonem chce italsky, i když je zrovna
+// na dovolené v Chorvatsku.
 
 export function proxy(request) {
   const { pathname } = request.nextUrl
 
-  // JAZYK SE ROZHODUJE JEN NA UVODNI STRANCE.
+  // ŽÁDNÉ AUTOMATICKÉ PŘESMĚROVÁNÍ PODLE JAZYKA PROHLÍŽEČE.
   //
-  // Automaticke rozpoznavani jazyka v next-intl je vypnute (viz routing.js).
-  // Duvod: presmerovavalo kazdou adresu bez prefixu podle Accept-Language,
-  // takze cesky clanek skoncil na /en/blog/... a tam 404 — pro ctenare
-  // s anglickym prohlizecem i pro Googlebota byl cely cesky obsah pryc.
-  // Podstranka proto zustava tam, kam na ni clovek klikl. Jazyk se resi
-  // vyhradne tady a vyhradne na "/".
+  // Dřív jsme nového návštěvníka s cizím prohlížečem poslali na /<jazyk>.
+  // Mělo to dvě vady:
+  //   1) Google u přesměrované adresy neindexuje původní, ale cíl — česká
+  //      úvodní stránka se tak Googlu jevila jako přesměrování na /en
+  //      a do výsledků se dostávala anglická verze. Google sám automatické
+  //      přesměrování podle Accept-Language nedoporučuje.
+  //   2) Čech s anglickým telefonem skončil na anglické verzi a musel se
+  //      ručně vracet.
+  // Nabídku jiného jazyka dělá místo toho nenápadný pruh nahoře
+  // (components/NabidkaJazyka.jsx) — rozhoduje se v prohlížeči, takže
+  // stránka zůstane statická a pro všechny stejná.
+  //
+  // Jediná výjimka je VLASTNÍ volba člověka uložená v cookie. Tu respektujeme,
+  // protože si ji vybral sám. Googlebot cookie nemá, takže ho to nepotká.
   if (pathname === '/') {
     const ulozeny = request.cookies.get('NEXT_LOCALE')?.value
-
-    // Vracejici se navstevnik: respektuj jeho volbu.
-    if (ulozeny && routing.locales.includes(ulozeny)) {
-      if (ulozeny !== routing.defaultLocale) {
-        const url = request.nextUrl.clone()
-        url.pathname = `/${ulozeny}`
-        return NextResponse.redirect(url)
-      }
-    } else {
-      // Novy navstevnik: jazyk prohlizece -> zeme podle IP -> anglictina.
-      const jazyk = vyberJazyk(request)
-      if (jazyk !== routing.defaultLocale) {
-        const url = request.nextUrl.clone()
-        url.pathname = `/${jazyk}`
-        const res = NextResponse.redirect(url)
-        res.cookies.set('NEXT_LOCALE', jazyk, { path: '/', maxAge: 60 * 60 * 24 * 365 })
-        return res
-      }
+    if (ulozeny && routing.locales.includes(ulozeny) && ulozeny !== routing.defaultLocale) {
+      const url = request.nextUrl.clone()
+      url.pathname = `/${ulozeny}`
+      return NextResponse.redirect(url)
     }
   }
 
-  // Vse ostatni (vc. /it, /en, /kontakt ...) obslouzi standardni next-intl.
+  // Vše ostatní (vč. /it, /en, /kontakt …) obslouží standardní next-intl.
   return intlProxy(request)
 }
 
