@@ -48,19 +48,35 @@ function vyberJazyk(request) {
 
 export function proxy(request) {
   const { pathname } = request.nextUrl
-  const maUlozenouVolbu = request.cookies.has('NEXT_LOCALE')
 
-  // Jen uvodni stranka bez ulozene volby: jazyk rozhodneme sami (prohlizec -> IP).
-  // Kdyz vyjde jiny nez vychozi (cs), presmerujeme na /<jazyk> a zapamatujeme si to.
-  // (Cesta uz s prefixem sem znovu nespadne -> zadna smycka.)
-  if (pathname === '/' && !maUlozenouVolbu) {
-    const jazyk = vyberJazyk(request)
-    if (jazyk !== routing.defaultLocale) {
-      const url = request.nextUrl.clone()
-      url.pathname = `/${jazyk}`
-      const res = NextResponse.redirect(url)
-      res.cookies.set('NEXT_LOCALE', jazyk, { path: '/', maxAge: 60 * 60 * 24 * 365 })
-      return res
+  // JAZYK SE ROZHODUJE JEN NA UVODNI STRANCE.
+  //
+  // Automaticke rozpoznavani jazyka v next-intl je vypnute (viz routing.js).
+  // Duvod: presmerovavalo kazdou adresu bez prefixu podle Accept-Language,
+  // takze cesky clanek skoncil na /en/blog/... a tam 404 — pro ctenare
+  // s anglickym prohlizecem i pro Googlebota byl cely cesky obsah pryc.
+  // Podstranka proto zustava tam, kam na ni clovek klikl. Jazyk se resi
+  // vyhradne tady a vyhradne na "/".
+  if (pathname === '/') {
+    const ulozeny = request.cookies.get('NEXT_LOCALE')?.value
+
+    // Vracejici se navstevnik: respektuj jeho volbu.
+    if (ulozeny && routing.locales.includes(ulozeny)) {
+      if (ulozeny !== routing.defaultLocale) {
+        const url = request.nextUrl.clone()
+        url.pathname = `/${ulozeny}`
+        return NextResponse.redirect(url)
+      }
+    } else {
+      // Novy navstevnik: jazyk prohlizece -> zeme podle IP -> anglictina.
+      const jazyk = vyberJazyk(request)
+      if (jazyk !== routing.defaultLocale) {
+        const url = request.nextUrl.clone()
+        url.pathname = `/${jazyk}`
+        const res = NextResponse.redirect(url)
+        res.cookies.set('NEXT_LOCALE', jazyk, { path: '/', maxAge: 60 * 60 * 24 * 365 })
+        return res
+      }
     }
   }
 
