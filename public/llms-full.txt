@@ -132,10 +132,11 @@ Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
 - [Kalkulačka vyúčtování služeb](https://www.housio.app/kalkulacky/vyuctovani-sluzeb): Spočítá přeplatek nebo nedoplatek, doporučí novou zálohu a ukáže zákonné lhůty podle zákona č. 67/2013 Sb.
 - [Kalkulačka odpisů nemovitosti](https://www.housio.app/kalkulacky/odpisy-nemovitosti): Rozepíše odpisy bytu nebo domu na všech 30 let — rovnoměrně i zrychleně, s odepsanou i zůstatkovou cenou.
 - [Kalkulačka daně z pronájmu](https://www.housio.app/kalkulacky/dan-z-pronajmu): Porovná paušál 30 % se skutečnými výdaji a ukáže, která varianta tě vyjde levněji a o kolik.
+- [Kalkulačka výnosu z pronájmu](https://www.housio.app/kalkulacky/vynos-z-pronajmu): Spočítá hrubý i čistý výnos bytu a u bytu na hypotéku i výnos z vlastních peněz — po nákladech, neobsazenosti a dani.
 
 ## Encyklopedie pronájmu
 
-40 pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
+56 pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
 
 ### Smlouva a nájem
 
@@ -188,6 +189,25 @@ Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
 - [Ubytovací služba](https://www.housio.app/encyklopedie/ubytovaci-sluzba): Přechodné ubytování se službami — typicky krátkodobý pronájem přes platformy; daní se podle § 7 a vyžaduje živnost.
 - [Poplatek z pobytu](https://www.housio.app/encyklopedie/poplatek-z-pobytu): Místní poplatek, který platí host za každý započatý den pobytu kromě dne příjezdu; horní hranice sazby je 50 Kč.
 - [Identifikovaná osoba](https://www.housio.app/encyklopedie/identifikovana-osoba): Kdo není plátcem DPH, ale přijal službu od osoby povinné k dani ze zahraničí a musí z ní odvést daň.
+
+### Koupě, hypotéka a prodej
+
+- [Hrubý výnos](https://www.housio.app/encyklopedie/hruby-vynos): Roční nájemné dělené pořizovací cenou nemovitosti, bez odečtení jakýchkoli nákladů.
+- [Čistý výnos](https://www.housio.app/encyklopedie/cisty-vynos): Roční nájemné po odečtení provozních nákladů, neobsazenosti a daně, dělené pořizovací cenou.
+- [Výnos z vlastního kapitálu](https://www.housio.app/encyklopedie/vynos-z-vlastniho-kapitalu): Čistý příjem po zaplacení úroků, dělený penězi, které jsi do bytu vložil ze svého.
+- [Neobsazenost](https://www.housio.app/encyklopedie/neobsazenost): Doba, po kterou byt nemá nájemníka a nepřináší příjem; do výnosu patří jako pravidelná položka, ne jako smůla.
+- [LTV](https://www.housio.app/encyklopedie/ltv): Poměr výše úvěru k hodnotě zastavené nemovitosti; závazná horní hranice je 80 %, u žadatelů do 36 let na vlastní bydlení 90 %.
+- [DTI](https://www.housio.app/encyklopedie/dti): Poměr celkového zadlužení žadatele k jeho ročnímu čistému příjmu; závazná horní hranice je podle rozhodnutí ČNB deaktivovaná.
+- [DSTI](https://www.housio.app/encyklopedie/dsti): Poměr měsíčních splátek všech úvěrů k měsíčnímu čistému příjmu; závazná horní hranice je stejně jako u DTI deaktivovaná.
+- [Investiční hypotéka](https://www.housio.app/encyklopedie/investicni-hypoteka): Podle ČNB úvěr na pořízení třetí a další obytné nemovitosti, nebo nemovitosti určené k pronájmu; od 1. 4. 2026 u ní banky uplatňují přísnější limity.
+- [Časový test](https://www.housio.app/encyklopedie/casovy-test): Doba vlastnictví, po jejímž uplynutí je příjem z prodeje nemovitosti osvobozen od daně — 5 let u nemovitostí nabytých do konce roku 2020, 10 let u nabytých od roku 2021.
+- [Daň z prodeje nemovitosti](https://www.housio.app/encyklopedie/dan-z-prodeje): Neosvobozený příjem z prodeje nemovitosti se daní jako ostatní příjem; základem je rozdíl mezi prodejní cenou a prokázanými výdaji.
+- [Vlastní bytová potřeba](https://www.housio.app/encyklopedie/bytova-potreba): Použití peněz z prodeje na vlastní bydlení, které osvobodí příjem od daně i tehdy, když jsi nesplnil časový test.
+- [List vlastnictví](https://www.housio.app/encyklopedie/list-vlastnictvi): Výpis z katastru nemovitostí, který u konkrétní nemovitosti uvádí vlastníka, zástavní práva, věcná břemena a probíhající řízení.
+- [Úschova kupní ceny](https://www.housio.app/encyklopedie/uschova-kupni-ceny): Uložení kupní ceny u advokáta, notáře nebo banky, odkud se prodávajícímu vyplatí až po zápisu nového vlastníka do katastru.
+- [Vklad do katastru](https://www.housio.app/encyklopedie/vklad-do-katastru): Zápis vlastnického práva do katastru nemovitostí; jeho právní účinky nastávají ke dni podání návrhu, ne ke dni rozhodnutí.
+- [Zástavní právo](https://www.housio.app/encyklopedie/zastavni-pravo): Právo věřitele uspokojit se z nemovitosti, když dlužník nesplácí; zapisuje se do katastru a přechází s nemovitostí na nového vlastníka.
+- [Věcné břemeno](https://www.housio.app/encyklopedie/vecne-bremeno): Právo třetí osoby užívat cizí nemovitost nebo omezení vlastníka v jejím užívání; zapisuje se do katastru a přechází na nového vlastníka.
 
 ## Nejčastější dotazy
 
@@ -2523,7 +2543,7 @@ Do pořizovací ceny patří i vedlejší náklady: poplatek za vklad do katastr
 | Neobsazenost | viz níže | počítej s ní, i když letos nebyla |
 | Daň z příjmu | 15 % ze základu | po odečtení výdajů nebo paušálu |
 
-Čistý výnos pak spočítáš jako (roční nájemné − roční náklady) ÷ pořizovací cena. Z příkladu výše: 216 000 Kč nájemného, 38 000 Kč nákladů před daní, daň přibližně 23 000 Kč — zbývá 155 000 Kč, tedy 3,4 % čistého výnosu. Z 4,8 % se stala necelá třetina ubraná.
+Čistý výnos pak spočítáš jako (roční nájemné − roční náklady) ÷ pořizovací cena. Z příkladu výše: 216 000 Kč nájemného, 38 000 Kč nákladů, daň 26 700 Kč z rozdílu — zbývá 151 300 Kč, tedy 3,4 % čistého výnosu. Z 4,8 % zmizela skoro třetina.
 
 Jakou daň přesně zaplatíš, záleží na tom, jestli uplatníš skutečné výdaje nebo výdajový paušál. Obě varianty vedle sebe spočítá kalkulačka daně z pronájmu, souvislosti rozebírá článek o daních z pronájmu.
 
@@ -2536,8 +2556,8 @@ Dvě různé otázky, dvě různá čísla:
 
 Spočítáno na příkladu
 
-Stejný byt za 4 500 000 Kč, hypotéka 3 000 000 Kč, vlastní peníze 1 500 000 Kč. Úroky za rok 135 000 Kč (4,5 %). Čistý příjem po nákladech a dani byl 155 000 Kč, po úrocích zbývá 20 000 Kč.
-Výnos z vlastního kapitálu: 20 000 ÷ 1 500 000 = 1,3 %.
+Stejný byt za 4 500 000 Kč, hypotéka 3 000 000 Kč, vlastní peníze 1 500 000 Kč. Úroky za rok 135 000 Kč (4,5 %). Čistý příjem po nákladech a dani byl 151 300 Kč, po úrocích zbývá 16 300 Kč.
+Výnos z vlastního kapitálu: 16 300 ÷ 1 500 000 = 1,1 %.
 Zároveň ti ale nájemníci za rok umořili část jistiny — a ta ti zůstává v majetku.
 
 Tohle je ta věc, kterou páka dělá v obou směrech. Když je úrok nižší než čistý výnos nemovitosti, hypotéka tvůj výnos z vlastních peněz zvedá. Když je vyšší, snižuje ho — a může ho stáhnout i pod nulu. Limity a podmínky rozebírá článek o hypotéce na investiční byt.
@@ -2546,7 +2566,7 @@ Tohle je ta věc, kterou páka dělá v obou směrech. Když je úrok nižší n
 
 Mezi dvěma nájemníky je skoro vždycky mezera: výpovědní doba, úklid, malování, inzerát, prohlídky, podpis. Měsíc je optimistický odhad.
 
-Jeden prázdný měsíc za rok znamená, že přijde 11 nájmů místo 12 — tedy o 8,3 % nižší příjem. Při výnosu 3,4 % to z něj ubere zhruba 0,3 procentního bodu. A to je případ, kdy se nic nepokazí.
+Jeden prázdný měsíc za rok znamená, že přijde 11 nájmů místo 12 — tedy o 8,3 % nižší příjem. Z čistého výnosu 3,4 % to v příkladu výše udělá 3,1 %. A to je případ, kdy se nic nepokazí.
 
 Na tohle pozor
 
@@ -2703,9 +2723,9 @@ Rezervační smlouva se podepisuje rychle a často pod tlakem. Jedna tabulka př
 
 Spočítáno na příkladu
 
-Byt 2+kk za 4 200 000 Kč, nájemné 16 000 Kč. Hrubý výnos vypadá na 4,6 %.
-Po připočtení 280 000 Kč vedlejších nákladů a vybavení je pořizovací cena 4 480 000 Kč. Po odečtení 36 000 Kč ročních nákladů, jednoho prázdného měsíce ze tří let a daně zbývá zhruba 142 000 Kč.
-Čistý výnos 3,2 % — pořád se může vyplatit, ale je to jiné číslo než 4,6 %, se kterým jsi do toho šel.
+Byt 2+kk za 4 200 000 Kč, nájemné 16 000 Kč. Z kupní ceny vychází hrubý výnos 4,6 %.
+Po připočtení 280 000 Kč vedlejších nákladů a vybavení je pořizovací cena 4 480 000 Kč a hrubý výnos klesá na 4,3 %. Po odečtení 36 000 Kč ročních nákladů, jednoho prázdného měsíce ze tří let a daně 22 608 Kč zbývá 128 112 Kč.
+Čistý výnos 2,9 % — pořád se může vyplatit, ale je to jiné číslo než 4,6 %, se kterým jsi do toho šel.
 
 V Housiu
 

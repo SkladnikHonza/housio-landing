@@ -102,9 +102,9 @@ export default function VynosZPronajmu() {
       />
       <P>
         Čistý výnos pak spočítáš jako <strong>(roční nájemné − roční náklady) ÷ pořizovací cena</strong>.
-        Z příkladu výše: 216 000 Kč nájemného, 38 000 Kč nákladů před daní, daň přibližně 23 000 Kč
-        — zbývá 155 000 Kč, tedy <strong>3,4 % čistého výnosu</strong>. Z 4,8 % se stala necelá
-        třetina ubraná.
+        Z příkladu výše: 216 000 Kč nájemného, 38 000 Kč nákladů, daň 26 700 Kč z rozdílu —
+        zbývá 151 300 Kč, tedy <strong>3,4 % čistého výnosu</strong>. Z 4,8 % zmizela skoro
+        třetina.
       </P>
       <P>
         Jakou daň přesně zaplatíš, záleží na tom, jestli uplatníš skutečné výdaje nebo
@@ -130,9 +130,9 @@ export default function VynosZPronajmu() {
       <Ramecek druh="priklad">
         <p>
           Stejný byt za 4 500 000 Kč, hypotéka 3 000 000 Kč, vlastní peníze 1 500 000 Kč.
-          Úroky za rok 135 000 Kč (4,5 %). Čistý příjem po nákladech a dani byl 155 000 Kč,
-          po úrocích zbývá 20 000 Kč.<br />
-          Výnos z vlastního kapitálu: 20 000 ÷ 1 500 000 = <strong>1,3 %</strong>.<br />
+          Úroky za rok 135 000 Kč (4,5 %). Čistý příjem po nákladech a dani byl 151 300 Kč,
+          po úrocích zbývá 16 300 Kč.<br />
+          Výnos z vlastního kapitálu: 16 300 ÷ 1 500 000 = <strong>1,1 %</strong>.<br />
           Zároveň ti ale nájemníci za rok umořili část jistiny — a ta ti zůstává v majetku.
         </p>
       </Ramecek>
@@ -150,8 +150,8 @@ export default function VynosZPronajmu() {
       </P>
       <P>
         Jeden prázdný měsíc za rok znamená, že přijde 11 nájmů místo 12 — tedy o 8,3 % nižší
-        příjem. Při výnosu 3,4 % to z něj ubere zhruba 0,3 procentního bodu. A to je případ, kdy
-        se nic nepokazí.
+        příjem. Z čistého výnosu 3,4 % to v příkladu výše udělá 3,1 %. A to je případ, kdy se
+        nic nepokazí.
       </P>
       <Ramecek druh="pozor">
         <p>

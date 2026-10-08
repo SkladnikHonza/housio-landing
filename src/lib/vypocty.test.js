@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { urokZKauce, zakonnaSazba, vyuctovaniSluzeb, lhutyVyuctovani, odpisyNemovitosti, danZPronajmu, PAUSAL } from './vypocty'
+import { urokZKauce, zakonnaSazba, vyuctovaniSluzeb, lhutyVyuctovani, odpisyNemovitosti, danZPronajmu, PAUSAL , vynosZPronajmu, prumernaNeobsazenost } from './vypocty'
 
 describe('úrok z jistoty', () => {
   it('spočítá úrok za celý rok', () => {
@@ -129,5 +129,94 @@ describe('daň z pronájmu', () => {
     expect(v.zakladSkutecne).toBe(0)
     expect(v.danSkutecne).toBe(0)
     expect(v.ztrata).toBe(50000)
+  })
+})
+
+describe('výnos z pronájmu', () => {
+  // Příklad z článku o výnosu — kdyby se čísla rozešla, článek lže.
+  const ZAKLAD = {
+    cena: 4500000, vedlejsiNaklady: 0, najemneMesicne: 18000,
+    rocniNaklady: 38000, neobsazenostMesicu: 0,
+  }
+
+  it('hrubý výnos je roční nájemné dělené pořizovací cenou', () => {
+    expect(vynosZPronajmu(ZAKLAD).hruby).toBe(4.8)
+  })
+
+  it('vedlejší náklady koupě snižují výnos', () => {
+    const bez = vynosZPronajmu(ZAKLAD).hruby
+    const s = vynosZPronajmu({ ...ZAKLAD, vedlejsiNaklady: 280000 }).hruby
+    expect(s).toBeLessThan(bez)
+    expect(vynosZPronajmu({ ...ZAKLAD, vedlejsiNaklady: 280000 }).porizovaci).toBe(4780000)
+  })
+
+  it('čistý výnos odečte náklady i daň', () => {
+    const v = vynosZPronajmu(ZAKLAD)
+    expect(v.vybrano).toBe(216000)
+    expect(v.dan).toBe(26700) // 15 % z (216 000 − 38 000)
+    expect(v.cistyPrijem).toBe(151300)
+    expect(v.cisty).toBe(3.4)
+  })
+
+  it('neobsazenost ubere z vybraného nájemného', () => {
+    const v = vynosZPronajmu({ ...ZAKLAD, neobsazenostMesicu: 1 })
+    expect(v.vybrano).toBe(198000)
+    expect(v.ztrataNeobsazenosti).toBe(18000)
+    expect(v.cisty).toBeLessThan(vynosZPronajmu(ZAKLAD).cisty)
+  })
+
+  // Bez hypotéky se vlastní kapitál rovná pořizovací ceně, takže obě
+  // procenta musí vyjít stejně. Kdyby ne, je chyba ve vzorci.
+  it('bez hypotéky se čistý výnos rovná výnosu z vlastního kapitálu', () => {
+    const v = vynosZPronajmu(ZAKLAD)
+    expect(v.naKapital).toBe(v.cisty)
+  })
+
+  it('páka: úrok nižší než výnos zvedne výnos z vlastních peněz', () => {
+    const v = vynosZPronajmu({ ...ZAKLAD, vlastniKapital: 1500000, urokRocne: 45000 })
+    expect(v.poUrocich).toBe(106300)
+    expect(v.naKapital).toBeGreaterThan(v.cisty)
+  })
+
+  it('páka: úrok vyšší než čistý příjem znamená, že byt prodělává', () => {
+    const v = vynosZPronajmu({ ...ZAKLAD, vlastniKapital: 1500000, urokRocne: 200000 })
+    expect(v.prodelava).toBe(true)
+    expect(v.naKapital).toBeLessThan(0)
+  })
+
+  it('náklady vyšší než nájemné nevyrobí zápornou daň', () => {
+    const v = vynosZPronajmu({ ...ZAKLAD, rocniNaklady: 300000 })
+    expect(v.dan).toBe(0)
+    expect(v.cistyPrijem).toBeLessThan(0)
+  })
+
+  it('celoroční neobsazenost znamená nulový příjem, ne zápornou', () => {
+    const v = vynosZPronajmu({ ...ZAKLAD, neobsazenostMesicu: 12 })
+    expect(v.vybrano).toBe(0)
+    expect(v.dan).toBe(0)
+  })
+
+  it('neobsazenost mimo rozsah se ořízne', () => {
+    expect(vynosZPronajmu({ ...ZAKLAD, neobsazenostMesicu: 30 }).vybrano).toBe(0)
+    expect(vynosZPronajmu({ ...ZAKLAD, neobsazenostMesicu: -5 }).vybrano).toBe(216000)
+  })
+
+  it('bez ceny nebo bez nájemného vrací null místo nesmyslu', () => {
+    expect(vynosZPronajmu({ ...ZAKLAD, cena: 0 })).toBeNull()
+    expect(vynosZPronajmu({ ...ZAKLAD, najemneMesicne: 0 })).toBeNull()
+  })
+})
+
+describe('průměrná neobsazenost', () => {
+  it('výměna za tři roky trvající měsíc je zhruba třetina měsíce ročně', () => {
+    expect(prumernaNeobsazenost({ let: 3, mesicuVymena: 1 })).toBe(0.33)
+  })
+
+  it('každoroční výměna na dva měsíce je dva měsíce ročně', () => {
+    expect(prumernaNeobsazenost({ let: 1, mesicuVymena: 2 })).toBe(2)
+  })
+
+  it('nesmyslný vstup vrací null', () => {
+    expect(prumernaNeobsazenost({ let: 0, mesicuVymena: 1 })).toBeNull()
   })
 })

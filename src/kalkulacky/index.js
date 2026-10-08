@@ -2,6 +2,7 @@ import UrokZKauce from '@/components/kalkulacky/UrokZKauce'
 import VyuctovaniSluzeb from '@/components/kalkulacky/VyuctovaniSluzeb'
 import Odpisy from '@/components/kalkulacky/Odpisy'
 import DanZPronajmu from '@/components/kalkulacky/DanZPronajmu'
+import VynosZPronajmu from '@/components/kalkulacky/VynosZPronajmu'
 
 // Kalkulačky pro pronajímatele.
 //
@@ -102,6 +103,37 @@ export const KALKULACKY = [
       },
     ],
     zdroje: ['§ 9 zákona o daních z příjmů'],
+  },
+  {
+    slug: 'vynos-z-pronajmu',
+    nadpis: 'Kalkulačka výnosu z pronájmu',
+    perex: 'Spočítá hrubý i čistý výnos bytu a u bytu na hypotéku i výnos z vlastních peněz — po nákladech, neobsazenosti a dani.',
+    uvod: 'Inzeráty uvádějí hrubý výnos: roční nájemné dělené cenou. Po odečtení toho, co se opravdu platí, z něj bývá polovina. Tahle kalkulačka ukáže obě čísla vedle sebe.',
+    clanek: 'vynos-z-pronajmu',
+    Komponenta: VynosZPronajmu,
+    vysvetleni: [
+      {
+        nadpis: 'Tři čísla, která se pletou',
+        text: 'Hrubý výnos měří cenu proti nájemnému a nic jiného. Čistý výnos odečte všechno, co ti z účtu odejde, a měří nemovitost. Výnos z vlastních peněz odečte navíc úroky a dělí tím, co jsi do bytu dal ze svého — ten měří tvou investici, ne byt.',
+      },
+      {
+        nadpis: 'Proč se počítá z pořizovací ceny, ne z kupní',
+        text: 'Do ceny patří i vklad do katastru, odhad, právní služby, provize a hlavně uvedení bytu do pronajímatelného stavu. U staršího bytu to bývají stovky tisíc a posunou výnos o půl procenta i víc.',
+      },
+      {
+        nadpis: 'Neobsazenost není smůla, ale položka',
+        text: 'Mezi dvěma nájemníky je skoro vždy mezera. Počítej ji jako průměr, ne podle letoška: když se nájemníci mění po třech letech a výměna trvá měsíc, je to 0,33 měsíce ročně natrvalo.',
+      },
+      {
+        nadpis: 'Splátka jistiny do nákladů nepatří',
+        text: 'Zadávej jen úrokovou část splátky. Jistina není náklad — jen přesouvá peníze z tvého účtu do tvého majetku. Daňově je to stejné: úrok je uznatelný výdaj, jistina ne.',
+      },
+      {
+        nadpis: 'Co kalkulačka nepočítá',
+        text: 'Zhodnocení ceny bytu. Není to příjem, dokud neprodáš, a při prodeji se navíc může zdanit. Míchat ho do výnosu z pronájmu znamená sčítat pravidelný příjem s jednorázovou a nejistou položkou.',
+      },
+    ],
+    zdroje: ['§ 9 a § 24 zákona o daních z příjmů'],
   },
 ]
 

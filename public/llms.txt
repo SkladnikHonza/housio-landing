@@ -132,6 +132,7 @@ Počítají přímo v prohlížeči, bez registrace a bez odesílání dat.
 - [Kalkulačka vyúčtování služeb](https://www.housio.app/kalkulacky/vyuctovani-sluzeb): Spočítá přeplatek nebo nedoplatek, doporučí novou zálohu a ukáže zákonné lhůty podle zákona č. 67/2013 Sb.
 - [Kalkulačka odpisů nemovitosti](https://www.housio.app/kalkulacky/odpisy-nemovitosti): Rozepíše odpisy bytu nebo domu na všech 30 let — rovnoměrně i zrychleně, s odepsanou i zůstatkovou cenou.
 - [Kalkulačka daně z pronájmu](https://www.housio.app/kalkulacky/dan-z-pronajmu): Porovná paušál 30 % se skutečnými výdaji a ukáže, která varianta tě vyjde levněji a o kolik.
+- [Kalkulačka výnosu z pronájmu](https://www.housio.app/kalkulacky/vynos-z-pronajmu): Spočítá hrubý i čistý výnos bytu a u bytu na hypotéku i výnos z vlastních peněz — po nákladech, neobsazenosti a dani.
 
 ## Průvodce pronájmem
 
@@ -180,7 +181,7 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 
 ## Encyklopedie pronájmu
 
-40 pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
+56 pojmů, na které pronajímatel narazí, vysvětlených jednou větou a odkazem na paragraf.
 
 ### Smlouva a nájem
 
@@ -233,6 +234,25 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 - [Ubytovací služba](https://www.housio.app/encyklopedie/ubytovaci-sluzba): Přechodné ubytování se službami — typicky krátkodobý pronájem přes platformy; daní se podle § 7 a vyžaduje živnost.
 - [Poplatek z pobytu](https://www.housio.app/encyklopedie/poplatek-z-pobytu): Místní poplatek, který platí host za každý započatý den pobytu kromě dne příjezdu; horní hranice sazby je 50 Kč.
 - [Identifikovaná osoba](https://www.housio.app/encyklopedie/identifikovana-osoba): Kdo není plátcem DPH, ale přijal službu od osoby povinné k dani ze zahraničí a musí z ní odvést daň.
+
+### Koupě, hypotéka a prodej
+
+- [Hrubý výnos](https://www.housio.app/encyklopedie/hruby-vynos): Roční nájemné dělené pořizovací cenou nemovitosti, bez odečtení jakýchkoli nákladů.
+- [Čistý výnos](https://www.housio.app/encyklopedie/cisty-vynos): Roční nájemné po odečtení provozních nákladů, neobsazenosti a daně, dělené pořizovací cenou.
+- [Výnos z vlastního kapitálu](https://www.housio.app/encyklopedie/vynos-z-vlastniho-kapitalu): Čistý příjem po zaplacení úroků, dělený penězi, které jsi do bytu vložil ze svého.
+- [Neobsazenost](https://www.housio.app/encyklopedie/neobsazenost): Doba, po kterou byt nemá nájemníka a nepřináší příjem; do výnosu patří jako pravidelná položka, ne jako smůla.
+- [LTV](https://www.housio.app/encyklopedie/ltv): Poměr výše úvěru k hodnotě zastavené nemovitosti; závazná horní hranice je 80 %, u žadatelů do 36 let na vlastní bydlení 90 %.
+- [DTI](https://www.housio.app/encyklopedie/dti): Poměr celkového zadlužení žadatele k jeho ročnímu čistému příjmu; závazná horní hranice je podle rozhodnutí ČNB deaktivovaná.
+- [DSTI](https://www.housio.app/encyklopedie/dsti): Poměr měsíčních splátek všech úvěrů k měsíčnímu čistému příjmu; závazná horní hranice je stejně jako u DTI deaktivovaná.
+- [Investiční hypotéka](https://www.housio.app/encyklopedie/investicni-hypoteka): Podle ČNB úvěr na pořízení třetí a další obytné nemovitosti, nebo nemovitosti určené k pronájmu; od 1. 4. 2026 u ní banky uplatňují přísnější limity.
+- [Časový test](https://www.housio.app/encyklopedie/casovy-test): Doba vlastnictví, po jejímž uplynutí je příjem z prodeje nemovitosti osvobozen od daně — 5 let u nemovitostí nabytých do konce roku 2020, 10 let u nabytých od roku 2021.
+- [Daň z prodeje nemovitosti](https://www.housio.app/encyklopedie/dan-z-prodeje): Neosvobozený příjem z prodeje nemovitosti se daní jako ostatní příjem; základem je rozdíl mezi prodejní cenou a prokázanými výdaji.
+- [Vlastní bytová potřeba](https://www.housio.app/encyklopedie/bytova-potreba): Použití peněz z prodeje na vlastní bydlení, které osvobodí příjem od daně i tehdy, když jsi nesplnil časový test.
+- [List vlastnictví](https://www.housio.app/encyklopedie/list-vlastnictvi): Výpis z katastru nemovitostí, který u konkrétní nemovitosti uvádí vlastníka, zástavní práva, věcná břemena a probíhající řízení.
+- [Úschova kupní ceny](https://www.housio.app/encyklopedie/uschova-kupni-ceny): Uložení kupní ceny u advokáta, notáře nebo banky, odkud se prodávajícímu vyplatí až po zápisu nového vlastníka do katastru.
+- [Vklad do katastru](https://www.housio.app/encyklopedie/vklad-do-katastru): Zápis vlastnického práva do katastru nemovitostí; jeho právní účinky nastávají ke dni podání návrhu, ne ke dni rozhodnutí.
+- [Zástavní právo](https://www.housio.app/encyklopedie/zastavni-pravo): Právo věřitele uspokojit se z nemovitosti, když dlužník nesplácí; zapisuje se do katastru a přechází s nemovitostí na nového vlastníka.
+- [Věcné břemeno](https://www.housio.app/encyklopedie/vecne-bremeno): Právo třetí osoby užívat cizí nemovitost nebo omezení vlastníka v jejím užívání; zapisuje se do katastru a přechází na nového vlastníka.
 
 ## Nejčastější dotazy
 

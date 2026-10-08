@@ -2,6 +2,7 @@ import { HESLA_SMLOUVA } from './hesla-smlouva'
 import { HESLA_PENIZE } from './hesla-penize'
 import { HESLA_SLUZBY } from './hesla-sluzby'
 import { HESLA_DANE } from './hesla-dane'
+import { HESLA_INVESTICE } from './hesla-investice'
 
 // Encyklopedie pojmů kolem pronájmu.
 //
@@ -27,9 +28,10 @@ export const OBLASTI = [
   { id: 'penize', nazev: 'Peníze a platby', popis: 'Nájemné, zálohy, jistota a co se s nimi smí dělat.' },
   { id: 'sluzby', nazev: 'Služby, energie a dům', popis: 'Vyúčtování, měřidla, odběrná místa a společenství vlastníků.' },
   { id: 'dane', nazev: 'Daně a účetnictví', popis: 'Co stát chce z příjmu z nájmu a co si smíš odečíst.' },
+  { id: 'investice', nazev: 'Koupě, hypotéka a prodej', popis: 'Co řeší pronajímatel před koupí bytu a při jeho prodeji.' },
 ]
 
-export const HESLA = [...HESLA_SMLOUVA, ...HESLA_PENIZE, ...HESLA_SLUZBY, ...HESLA_DANE]
+export const HESLA = [...HESLA_SMLOUVA, ...HESLA_PENIZE, ...HESLA_SLUZBY, ...HESLA_DANE, ...HESLA_INVESTICE]
 
 export const SLUGY = HESLA.map((h) => h.slug)
 

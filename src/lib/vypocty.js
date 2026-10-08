@@ -153,3 +153,69 @@ export function danZPronajmu({ prijmy, vydaje = {} }) {
     ztrata: p - skutecneVydaje < 0 ? naKoruny(skutecneVydaje - p) : 0,
   }
 }
+
+// ───────────────────────── výnos z pronájmu ─────────────────────────
+//
+// Tři různá čísla, která si lidé pletou:
+//   hrubý výnos  — roční nájemné ÷ pořizovací cena. Říká skoro nic, ale
+//                  inzeráty uvádějí jenom tohle.
+//   čistý výnos  — po nákladech, neobsazenosti a dani. Měří NEMOVITOST.
+//   výnos z vlastního kapitálu — totéž minus úroky, děleno vlastními penězi.
+//                  Měří TVOU INVESTICI.
+//
+// ROZHODNUTÍ: splátka jistiny se nikam nepočítá. Není to náklad — jen přesun
+// peněz z účtu do majetku. Do nákladů jde jenom úrok.
+export function vynosZPronajmu({
+  cena, vedlejsiNaklady = 0, najemneMesicne, rocniNaklady = 0,
+  neobsazenostMesicu = 0, sazbaDane = SAZBA_DANE,
+  vlastniKapital = null, urokRocne = 0,
+}) {
+  const porizovaci = Number(cena) + Number(vedlejsiNaklady)
+  const najem = Number(najemneMesicne)
+  if (!porizovaci || porizovaci < 0 || !najem || najem < 0) return null
+
+  const mesicu = Math.min(Math.max(Number(neobsazenostMesicu) || 0, 0), 12)
+  const najemRocne = najem * 12
+  const vybrano = najem * (12 - mesicu)
+
+  const naklady = Math.max(Number(rocniNaklady) || 0, 0)
+  const zaklad = Math.max(vybrano - naklady, 0)
+  const dan = (zaklad * (Number(sazbaDane) || 0)) / 100
+  const cistyPrijem = vybrano - naklady - dan
+
+  // Vlastní kapitál: když ho uživatel nezadá, bere se celá pořizovací cena —
+  // tedy nákup bez hypotéky, kde se obě čísla rovnají.
+  const kapital = vlastniKapital === null || vlastniKapital === '' ? porizovaci : Number(vlastniKapital)
+  const urok = Math.max(Number(urokRocne) || 0, 0)
+  const poUrocich = cistyPrijem - urok
+
+  const procenta = (cast, zaklad2) => (zaklad2 > 0 ? Math.round((cast / zaklad2) * 1000) / 10 : null)
+
+  return {
+    porizovaci,
+    najemRocne: naKoruny(najemRocne),
+    vybrano: naKoruny(vybrano),
+    ztrataNeobsazenosti: naKoruny(najemRocne - vybrano),
+    naklady: naKoruny(naklady),
+    dan: naKoruny(dan),
+    cistyPrijem: naKoruny(cistyPrijem),
+    urok: naKoruny(urok),
+    poUrocich: naKoruny(poUrocich),
+    kapital: naKoruny(kapital),
+    hruby: procenta(najemRocne, porizovaci),
+    cisty: procenta(cistyPrijem, porizovaci),
+    naKapital: kapital > 0 ? procenta(poUrocich, kapital) : null,
+    // Záporný výnos z kapitálu není chyba výpočtu — je to stav, kdy úrok
+    // převyšuje čistý příjem. Kalkulačka to musí říct nahlas.
+    prodelava: poUrocich < 0,
+  }
+}
+
+// Kolik měsíců ročně je byt v průměru prázdný, když se nájemníci mění
+// po `let` letech a výměna trvá `mesicuVymena` měsíců.
+export function prumernaNeobsazenost({ let: roky, mesicuVymena }) {
+  const r = Number(roky)
+  const m = Number(mesicuVymena)
+  if (!r || r <= 0 || m < 0) return null
+  return Math.round((m / (r * 12)) * 12 * 100) / 100
+}

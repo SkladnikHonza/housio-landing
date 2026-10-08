@@ -228,11 +228,11 @@ export default function KoupeBytuNaPronajem() {
       </Seznam>
       <Ramecek druh="priklad">
         <p>
-          Byt 2+kk za 4 200 000 Kč, nájemné 16 000 Kč. Hrubý výnos vypadá na 4,6 %.<br />
-          Po připočtení 280 000 Kč vedlejších nákladů a vybavení je pořizovací cena 4 480 000 Kč.
-          Po odečtení 36 000 Kč ročních nákladů, jednoho prázdného měsíce ze tří let a daně
-          zbývá zhruba 142 000 Kč.<br />
-          Čistý výnos <strong>3,2 %</strong> — pořád se může vyplatit, ale je to jiné číslo
+          Byt 2+kk za 4 200 000 Kč, nájemné 16 000 Kč. Z kupní ceny vychází hrubý výnos 4,6 %.<br />
+          Po připočtení 280 000 Kč vedlejších nákladů a vybavení je pořizovací cena 4 480 000 Kč
+          a hrubý výnos klesá na 4,3 %. Po odečtení 36 000 Kč ročních nákladů, jednoho prázdného
+          měsíce ze tří let a daně 22 608 Kč zbývá 128 112 Kč.<br />
+          Čistý výnos <strong>2,9 %</strong> — pořád se může vyplatit, ale je to jiné číslo
           než 4,6 %, se kterým jsi do toho šel.
         </p>
       </Ramecek>
