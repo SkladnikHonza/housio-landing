@@ -102,10 +102,19 @@ export default async function ClanekPage({ params }) {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <article className="px-6 pt-14 pb-16" style={{ background: 'var(--bg-warm)' }}>
+      <article id="zacatek" className="px-6 pt-14 pb-16 scroll-mt-20" style={{ background: 'var(--bg-warm)' }}>
         <div className="max-w-2xl mx-auto">
+          {/* Drobecky slouzily jen jako popisek cesty — sedy text, ktery nikdo
+              necte jako odkaz. Sipka z prvniho clanku dela zjevne tlacitko
+              zpet; druhy odkaz vede rovnou na to tema v rozcestniku. */}
           <nav className="flex flex-wrap items-center gap-2 text-sm mb-6" style={{ color: 'var(--text-light)' }}>
-            <Link href="/blog" className="hover:underline" style={{ color: 'var(--teal-900)' }}>Průvodce pronájmem</Link>
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-1.5 font-medium hover:underline"
+              style={{ color: 'var(--teal-900)' }}
+            >
+              <span aria-hidden="true">←</span> Průvodce pronájmem
+            </Link>
             <span>·</span>
             <Link href={`/blog#${clanek.tema}`} className="hover:underline" style={{ color: 'var(--teal-900)' }}>{tema}</Link>
           </nav>
@@ -121,6 +130,24 @@ export default async function ClanekPage({ params }) {
           </p>
 
           <Obsah />
+
+          {/* Po sedmi minutach cteni je rozcestnik dve obrazovky nahore.
+              Odkaz zpet patri i sem, at se ctenar nemusi vracet scrollovanim. */}
+          <div className="mt-10 pt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm" style={{ borderTop: '1px solid var(--border-warm)' }}>
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-1.5 font-medium hover:underline"
+              style={{ color: 'var(--teal-900)' }}
+            >
+              <span aria-hidden="true">←</span> Zpět na průvodce
+            </Link>
+            <Link href={`/blog#${clanek.tema}`} className="hover:underline" style={{ color: 'var(--teal-900)' }}>
+              Další z tématu {tema}
+            </Link>
+            <a href="#zacatek" className="hover:underline" style={{ color: 'var(--teal-900)' }}>
+              <span aria-hidden="true">↑</span> Zpět na obsah
+            </a>
+          </div>
         </div>
       </article>
 

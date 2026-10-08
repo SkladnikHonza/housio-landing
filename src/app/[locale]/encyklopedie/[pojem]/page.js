@@ -70,7 +70,13 @@ export default async function HesloPage({ params }) {
       <article className="px-6 pt-14 pb-16" style={{ background: 'var(--bg-warm)' }}>
         <div className="max-w-2xl mx-auto">
           <nav className="flex flex-wrap items-center gap-2 text-sm mb-6" style={{ color: 'var(--text-light)' }}>
-            <Link href="/encyklopedie" className="hover:underline" style={{ color: 'var(--teal-900)' }}>Encyklopedie pronájmu</Link>
+            <Link
+              href="/encyklopedie"
+              className="inline-flex items-center gap-1.5 font-medium hover:underline"
+              style={{ color: 'var(--teal-900)' }}
+            >
+              <span aria-hidden="true">←</span> Encyklopedie pronájmu
+            </Link>
             <span>·</span>
             <Link href={`/encyklopedie#${h.oblast}`} className="hover:underline" style={{ color: 'var(--teal-900)' }}>{oblast}</Link>
           </nav>
