@@ -4,7 +4,7 @@ export const META = {
   slug: 'clenove-domacnosti',
   nadpis: 'Kdo všechno smí v bytě bydlet: členové domácnosti, spolubydlící a návštěvy',
   perex: 'Nájemník se nastěhoval sám a dnes je jich v bytě pět. Co s tím zákon dělá, kdy si můžeš vyhradit souhlas, kde je hranice mezi návštěvou a členem domácnosti a co s tím má společného vyúčtování.',
-  tema: 'smlouva',
+  tema: 'kdo-bydli',
   datum: '2026-10-07',
   minut: 8,
   sekce: [

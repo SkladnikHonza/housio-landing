@@ -47,6 +47,11 @@ export const TEMATA = [
     popis: 'Co musí být na papíře, než nájemník převezme klíče.',
   },
   {
+    id: 'kdo-bydli',
+    nazev: 'Kdo v bytě bydlí',
+    popis: 'Podnájem, spolubydlící a víc lidí na jedné smlouvě — a kdy k tomu potřebuješ souhlas.',
+  },
+  {
     id: 'problemy',
     nazev: 'Když se to zvrtne',
     popis: 'Neplacení, výpověď a vystěhování — krok za krokem a bez chyb, které stojí měsíce.',

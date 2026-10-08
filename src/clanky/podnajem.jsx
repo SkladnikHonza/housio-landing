@@ -4,7 +4,7 @@ export const META = {
   slug: 'podnajem',
   nadpis: 'Podnájem: v čem se liší od nájmu a kdy k němu potřebuješ souhlas',
   perex: 'Kdy smí nájemník podnajmout byt bez tvého svolení, kdy ne, co riskuješ při podnájmu bez souhlasu a jak to ošetřit ve smlouvě.',
-  tema: 'smlouva',
+  tema: 'kdo-bydli',
   datum: '2026-10-05',
   minut: 7,
   sekce: [

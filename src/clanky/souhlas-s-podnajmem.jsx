@@ -4,7 +4,7 @@ export const META = {
   slug: 'souhlas-s-podnajmem',
   nadpis: 'Souhlas s podnájmem: když mlčíš měsíc, souhlasil jsi',
   perex: 'Nájemník požádal písemně o souhlas s podnájmem a ty jsi to odložil na později. Po měsíci platí souhlas, i když jsi nic nepodepsal. Jak lhůta funguje, kdy neběží a co napsat, když souhlas dát chceš — ale s podmínkami.',
-  tema: 'smlouva',
+  tema: 'kdo-bydli',
   datum: '2026-10-07',
   minut: 7,
   sekce: [

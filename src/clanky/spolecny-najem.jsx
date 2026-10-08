@@ -4,7 +4,7 @@ export const META = {
   slug: 'spolecny-najem',
   nadpis: 'Společný nájem: když je na smlouvě víc lidí a jeden z nich odejde',
   perex: 'Tři studenti na jedné smlouvě vypadají jako jistota — platí za sebe navzájem. Dokud jeden neodejde a zbylí dva neřeknou, že za něj platit nebudou. Co zákon opravdu říká a jak to ošetřit předem.',
-  tema: 'smlouva',
+  tema: 'kdo-bydli',
   datum: '2026-10-07',
   minut: 8,
   sekce: [

@@ -1225,7 +1225,7 @@ Stav k 1. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 # Podnájem: v čem se liší od nájmu a kdy k němu potřebuješ souhlas
 
 Adresa: https://www.housio.app/blog/podnajem
-Téma: Smlouva a předání bytu
+Téma: Kdo v bytě bydlí
 Shrnutí: Kdy smí nájemník podnajmout byt bez tvého svolení, kdy ne, co riskuješ při podnájmu bez souhlasu a jak to ošetřit ve smlouvě.
 Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
 
@@ -1319,7 +1319,7 @@ Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 # Souhlas s podnájmem: když mlčíš měsíc, souhlasil jsi
 
 Adresa: https://www.housio.app/blog/souhlas-s-podnajmem
-Téma: Smlouva a předání bytu
+Téma: Kdo v bytě bydlí
 Shrnutí: Nájemník požádal písemně o souhlas s podnájmem a ty jsi to odložil na později. Po měsíci platí souhlas, i když jsi nic nepodepsal. Jak lhůta funguje, kdy neběží a co napsat, když souhlas dát chceš — ale s podmínkami.
 Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
 
@@ -1424,7 +1424,7 @@ Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 # Kdo všechno smí v bytě bydlet: členové domácnosti, spolubydlící a návštěvy
 
 Adresa: https://www.housio.app/blog/clenove-domacnosti
-Téma: Smlouva a předání bytu
+Téma: Kdo v bytě bydlí
 Shrnutí: Nájemník se nastěhoval sám a dnes je jich v bytě pět. Co s tím zákon dělá, kdy si můžeš vyhradit souhlas, kde je hranice mezi návštěvou a členem domácnosti a co s tím má společného vyúčtování.
 Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
 
@@ -1543,7 +1543,7 @@ Stav k 7. 10. 2026. Text je praktický průvodce, ne právní ani daňové porad
 # Společný nájem: když je na smlouvě víc lidí a jeden z nich odejde
 
 Adresa: https://www.housio.app/blog/spolecny-najem
-Téma: Smlouva a předání bytu
+Téma: Kdo v bytě bydlí
 Shrnutí: Tři studenti na jedné smlouvě vypadají jako jistota — platí za sebe navzájem. Dokud jeden neodejde a zbylí dva neřeknou, že za něj platit nebudou. Co zákon opravdu říká a jak to ošetřit předem.
 Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
 

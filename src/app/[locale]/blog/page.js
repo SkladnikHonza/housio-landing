@@ -55,7 +55,7 @@ export default async function BlogPage({ params }) {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <section className="px-6 pt-20 pb-10" style={{ background: 'var(--bg-warm)' }}>
+      <section className="px-6 pt-20 pb-12" style={{ background: 'var(--bg-warm)' }}>
         <div className="max-w-3xl mx-auto">
           <h1
             className="text-4xl md:text-5xl font-medium leading-tight tracking-tight mb-4"
@@ -63,24 +63,45 @@ export default async function BlogPage({ params }) {
           >
             {NAZEV}
           </h1>
-          <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--olive-dark)' }}>
+          <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--olive-dark)' }}>
             {POPIS}
           </p>
 
-          {/* Rozcestnik po tematech — ctenar se dostane k tomu svemu na jeden klik. */}
-          <div className="flex flex-wrap gap-2">
-            {TEMATA.map((t) => (
-              <a
-                key={t.id}
-                href={`#${t.id}`}
-                className="rounded-full px-4 py-2 text-sm font-medium transition hover:opacity-80"
-                style={{ background: 'var(--bg-clean)', border: '1px solid var(--border-cool)', color: 'var(--teal-900)' }}
-              >
-                {t.nazev}
-                <span className="ml-2" style={{ color: 'var(--text-light)' }}>{clankyTematu(t.id).length}</span>
-              </a>
-            ))}
-          </div>
+          {/* Rozcestnik po tematech.
+              DRIV to byly „bublinky" ruzne sirky zalamovane do dvou radku —
+              vypadalo to jako shluk stitku, ne jako obsah knihy. Mrizka
+              stejne sirokych karet drzi radky i sloupce zarovnane a vejde se
+              do ni i popis, takze ctenar pozna, co pod tematem najde,
+              jeste nez klikne. */}
+          <nav aria-label="Témata průvodce" className="grid gap-3 sm:grid-cols-2">
+            {TEMATA.map((t) => {
+              const pocet = clankyTematu(t.id).length
+              if (!pocet) return null
+              return (
+                <a
+                  key={t.id}
+                  href={`#${t.id}`}
+                  className="group flex flex-col rounded-2xl px-5 py-4 transition hover:shadow-md"
+                  style={{ background: '#fff', border: '1px solid var(--border-cool)' }}
+                >
+                  <span className="flex items-baseline justify-between gap-3 mb-1">
+                    <span className="font-medium leading-snug" style={{ color: 'var(--teal-900)' }}>
+                      {t.nazev}
+                    </span>
+                    <span
+                      className="shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold tabular-nums"
+                      style={{ background: 'var(--bg-warm)', color: 'var(--text-light)' }}
+                    >
+                      {pocet}
+                    </span>
+                  </span>
+                  <span className="text-sm leading-relaxed" style={{ color: 'var(--olive-dark)' }}>
+                    {t.popis}
+                  </span>
+                </a>
+              )
+            })}
+          </nav>
         </div>
       </section>
 
