@@ -3,7 +3,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
-import { adresa, hreflangMapa } from '@/lib/seo'
+import { adresa, hreflangMapa, SEZNAM_WMT } from '@/lib/seo'
 import Nav from '@/components/Nav'
 import NabidkaJazyka from '@/components/NabidkaJazyka'
 import AnalyticsTracker from '@/components/AnalyticsTracker'
@@ -56,6 +56,8 @@ export async function generateMetadata({ params }) {
       icon: [{ url: '/favicon.ico' }, { url: '/icon.png', type: 'image/png', sizes: '32x32' }],
       apple: '/apple-icon.png',
     },
+    // Ověření pro Seznam Webmaster. Při prázdném kódu se značka nevykreslí.
+    ...(SEZNAM_WMT ? { verification: { other: { 'seznam-wmt': SEZNAM_WMT } } } : {}),
     robots: {
       index: true,
       follow: true,

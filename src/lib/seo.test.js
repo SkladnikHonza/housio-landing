@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { routing } from '@/i18n/routing'
-import { BASE, adresa, hreflangMapa, alternatesProStranku, openGraphStranky, twitterStranky, drobeckyJsonLd, faqJsonLd, NAHLED } from './seo'
+import { BASE, adresa, hreflangMapa, alternatesProStranku, openGraphStranky, twitterStranky, drobeckyJsonLd, faqJsonLd, NAHLED, SEZNAM_WMT } from './seo'
 
 describe('adresy', () => {
   it('čeština běží bez prefixu, ostatní jazyky s ním', () => {
@@ -85,5 +85,20 @@ describe('strukturovaná data', () => {
     expect(f.mainEntity).toHaveLength(3)
     expect(f.mainEntity[0].name).toBe('text-q1')
     expect(f.mainEntity[2].acceptedAnswer.text).toBe('text-a3')
+  })
+})
+
+describe('ověření pro Seznam Webmaster', () => {
+  it('prázdný kód znamená, že se žádná značka nevykreslí', () => {
+    // Prázdný meta tag by Seznam odmítl a v HTML by jen zabíral místo.
+    const metadata = SEZNAM_WMT ? { verification: { other: { 'seznam-wmt': SEZNAM_WMT } } } : {}
+    if (!SEZNAM_WMT) expect(metadata.verification).toBeUndefined()
+  })
+
+  it('vyplněný kód je jediný řádek bez mezer a uvozovek', () => {
+    // Nejčastější chyba je zkopírovat z konzole celou značku místo kódu.
+    if (!SEZNAM_WMT) return
+    expect(SEZNAM_WMT).not.toMatch(/[<>"'\s]/)
+    expect(SEZNAM_WMT.length).toBeGreaterThan(8)
   })
 })

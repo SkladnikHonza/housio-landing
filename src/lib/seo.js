@@ -41,6 +41,20 @@ const OG_LOCALE = {
   sk: 'sk_SK',
 }
 
+// Ověřovací kód pro Seznam Webmaster.
+//
+// Seznam neumí přihlášení přes Google Search Console a chce vlastní ověření.
+// Kód se generuje v jeho konzoli (search.seznam.cz/wmt) po přidání webu
+// a vkládá se jako <meta name="seznam-wmt" content="…">. Je veřejný, takže
+// patří do repozitáře — stejně jako Googlu slouží public/google95df….html.
+//
+// POZOR: vygenerování nového kódu v konzoli zneplatní ten předchozí. Když
+// se ověření nedaří, musí tady být ten POSLEDNÍ vygenerovaný.
+//
+// Prázdný řetězec znamená, že se značka nevykreslí vůbec — Next vynechá
+// pole s prázdnou hodnotou, takže v HTML nezůstane prázdný meta tag.
+export const SEZNAM_WMT = ''
+
 // Náhled při sdílení odkazu. Rozměry musí sedět se skutečným souborem,
 // jinak si ho Facebook ani LinkedIn nenačtou.
 export const NAHLED = { url: `${BASE}/og-image.png`, width: 1200, height: 630 }
