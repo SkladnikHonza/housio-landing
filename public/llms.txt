@@ -171,6 +171,7 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 
 - [Povinné revize v pronajímaném bytě: elektřina, plyn a komín](https://www.housio.app/blog/povinne-revize): Které kontroly musí proběhnout, jak často, kdo je platí a co se stane, když papír chybí a dojde ke škodě. S intervaly i s tím, co dát do smlouvy.
 - [GDPR pro pronajímatele: co smíš o nájemníkovi vědět a jak dlouho](https://www.housio.app/blog/gdpr-pronajimatel): Pronajímatel je správce osobních údajů, i když má jeden byt. Co smíš sbírat, na jakém základě, jak dlouho to držet a co udělat, když nájemník požádá o výmaz.
+- [Jak si udržet přehled v pronájmech, když bytů přibývá](https://www.housio.app/blog/prehled-v-pronajmech): U jednoho bytu stačí hlava, u třech už ne. Co je potřeba mít pod kontrolou, kde se přehled nejčastěji ztratí, jaký minimální systém funguje i v Excelu a kdy Excel přestane stačit.
 
 ### Byt jako investice
 

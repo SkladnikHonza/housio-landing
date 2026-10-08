@@ -307,7 +307,7 @@ Zůstanou tvoje. Před zrušením si je vyexportuješ, a když si přeješ úče
 
 ## Průvodce pronájmem — plné znění
 
-Následuje 23 návodů v plném znění.
+Následuje 24 návodů v plném znění.
 
 ---
 
@@ -2495,6 +2495,128 @@ Fotky bytu s osobními věcmi, fotografiemi nebo dokumenty nájemníka do inzer�
 Opřeno o: nařízení (EU) 2016/679 (GDPR) · zákon č. 110/2019 Sb., o zpracování osobních údajů
 
 Stav k 5. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
+
+---
+
+# Jak si udržet přehled v pronájmech, když bytů přibývá
+
+Adresa: https://www.housio.app/blog/prehled-v-pronajmech
+Téma: Provoz a povinnosti
+Shrnutí: U jednoho bytu stačí hlava, u třech už ne. Co je potřeba mít pod kontrolou, kde se přehled nejčastěji ztratí, jaký minimální systém funguje i v Excelu a kdy Excel přestane stačit.
+Stav k: 1. 10. 2026. Jde o praktický průvodce, ne o právní ani daňové poradenství.
+
+Pronájem jednoho bytu je koníček. Tři byty jsou práce na částečný úvazek a deset je malá firma. Přechod mezi těmi stavy nikdo nevyhlásí — pozná se až podle toho, že ti něco uteče.
+
+Co si z toho odnést
+
+- Hlídat se musí termíny, peníze, doklady a stav bytu.
+- Nejdráž vyjdou zapomenuté lhůty, ne nezaplacené nájmy.
+- Minimální systém zvládneš i v Excelu — ale musí být jeden.
+- Excel padá na více letech, více bytech a více lidech.
+
+## Čtyři věci, které musíš mít pod kontrolou
+
+Ať už to vedeš kdekoli, jde pořád o totéž. Když některý ze čtyř sloupů chybí, pozná se to vždycky ve špatnou chvíli.
+
+| Co | Konkrétně | Co se stane, když to nehlídáš |
+| --- | --- | --- |
+| Termíny | konec smlouvy, revize, pojistka, vyúčtování | propadlé lhůty, pokuty, prodloužený nájem |
+| Peníze | předpis, co přišlo, výdaje s doklady | nevíš, jestli byt vydělává, a daň platíš z víc |
+| Doklady | smlouva, protokol, faktury, revizní zprávy | u sporu i u kontroly stojíš s prázdnýma rukama |
+| Stav bytu | fotky při předání, stavy měřidel | nedokážeš odlišit opotřebení od škody |
+
+Na tohle pozor
+
+Nejdražší položka v téhle tabulce nejsou peníze, ale termíny. Nezaplacený nájem se dá vymáhat; zmeškaná výpovědní lhůta u smlouvy na dobu určitou znamená, že nájem běží dál a ty čekáš další měsíce.
+
+## Kde se přehled nejčastěji ztratí
+
+- V hlavě. U jednoho bytu funguje skvěle. Chyba přijde v momentě, kdy přibude druhý — protože mozek si pamatuje jeden datum konce smlouvy, ne dvě.
+- V e-mailu. Smlouva je v příloze někde z roku 2023, předávací protokol poslal nájemník přes WhatsApp a faktura za opravu leží ve fotkách. Nic z toho se nenajde, když to potřebuješ do hodiny.
+- Ve verzích Excelu. Klasika jménem byty_2026_final_opraveno_v3.xlsx. Dokud s tím pracuješ sám a na jednom počítači, jde to. Jakmile se zapojí partner nebo účetní, nikdo neví, který soubor platí.
+- Mezi lety. Letošní tabulku máš, loňskou někde, předloňskou nenajdeš. Přitom právě při prodeji bytu nebo při kontrole z finančního úřadu potřebuješ roky zpátky.
+
+## Minimální systém, který funguje i v Excelu
+
+Než začneš řešit nástroj, ujasni si systém. Tenhle funguje a dá se postavit za hodinu v čemkoli:
+
+- Jedno místo, ne pět. Jeden soubor a jedna složka na doklady, rozdělená po nemovitostech. Ne po letech, ne po typech — po bytech. Otázky, které ti chodí, jsou vždycky o konkrétním bytě.
+- Nájemné a zálohy odděleně. Ne jedna částka. Zálohy na služby nejsou tvůj příjem, jen je vybíráš a na konci roku vyúčtuješ. Sloučené se nedají vyúčtovat ani správně zdanit.
+- Ke každému výdaji doklad. Fotka faktury hned, ne večer. Bez dokladu výdaj daňově neuplatníš a při kontrole ho neobhájíš.
+- Seznam termínů s datem, ne s pocitem. Konec každé smlouvy, platnost každé revize a pojistky. A připomínku nastav tři měsíce dopředu — u výpovědi je tříměsíční lhůta a kratší varování je k ničemu.
+- Fotky při každém předání. Při nastěhování i při vrácení, se stavy měřidel. Je to nejlevnější pojistka, jakou v pronájmu máš, a rozhoduje při sporu o kauci.
+
+Pokud tohle máš, jsi dál než většina pronajímatelů — bez ohledu na to, v čem to vedeš.
+
+## Kdy Excel přestane stačit
+
+Excel je dobrý začátek a lhal by ti každý, kdo tvrdí opak. Přestává stačit v konkrétních chvílích, ne „obecně“:
+
+| Situace | Proč to Excel neutáhne |
+| --- | --- |
+| Víc než pět bytů | tabulka přestane být přehledná a hledá se v ní déle než se zapisuje |
+| Pracuje s tím víc lidí | verzování souborů; nikdo neví, co je platné |
+| Chceš doklady u záznamů | Excel soubory nedrží, zůstanou ve složce vedle |
+| Potřebuješ hlídat termíny | tabulka ti sama nic nepřipomene |
+| Chceš vystavit potvrzení nebo fakturu | píše se ručně a při každém se dá udělat chyba |
+| Zpětné roky | buď máš deset souborů, nebo jeden nepřehledný |
+
+Pokud ani v jednom řádku nejsi, zůstaň u Excelu. Vážně. Měnit nástroj bez důvodu je jen práce navíc.
+
+## Jak to řeší Housio
+
+Housio je aplikace, kterou kolem tohohle problému stavíme — tady je, co z těch čtyř sloupů pokrývá a jak.
+
+- Všechno u bytu, ne u typu záznamu. Každá nemovitost má kartu se záložkami: nájemníci, smlouvy, platby, výdaje, energie, pojištění, revize, dokumenty. Na otázku „kolik mě loni stál ten byt v Michálkovicích“ se odpovídá z jednoho místa.
+- Termíny jsou vidět samy. Končící smlouvy a propadlé nebo blížící se revize svítí v přehledu, aniž bys na ně musel kliknout.
+- Nájemné a zálohy odděleně od začátku. Předpis vychází ze smlouvy a proti němu se zapisuje, co opravdu přišlo. Rozdíl je vidět na první pohled.
+- Doklady se tisknou z dat, co už máš. Potvrzení o zaplacení nájmu, faktura, roční vyúčtování služeb, potvrzení o přijetí i vrácení kauce s rozpisem odpočtů a úroku. Nepřepisuje se nic, takže doklad nemůže říkat něco jiného než evidence.
+- Export do Excelu kdykoli. Celé portfolio nebo jedna nemovitost, po listech. Pro účetní, pro spoluvlastníka nebo prostě proto, že chceš svoje data mít.
+- Přístup pro vlastníka a pro tým. Majitel bytu, který ti ho svěřil, si může sám zobrazit obsazenost a výsledek — bez toho, aby viděl tvoje ostatní byty.
+
+Spočítáno na příkladu
+
+Nejčastější scénář, kvůli kterému si lidé Housio zakládají, není „chci moderní aplikaci“. Je to: v březnu sedí nad daňovým přiznáním, mají příjmy v bance, výdaje ve třech složkách a část faktur ve fotkách v telefonu — a slíbí si, že příští rok takhle ne.
+
+## Co Housio nedělá
+
+Tohle je část, kterou většina produktových textů vynechá, a přitom rozhoduje, jestli pro tebe nástroj dává smysl.
+
+- Nepáruje platby z banky. Napojení na banku nemáme, platby se zapisují. Dokud ho nebudeme mít doopravdy, nebudeme ho slibovat.
+- Nenabízí vzory smluv. Vzor, který neprošel advokátem, je u soudu spíš riziko než pomoc. Housio smlouvy eviduje a pracuje s jejich čísly, právníka nenahrazuje.
+- Neřídí rezervace. U krátkodobého pronájmu eviduje pobyty a umí načíst obsazenost z kalendáře Airbnb nebo Booking.com, ale rezervační systém to není.
+- Nedělá za tebe rozhodnutí. Jestli je oprava technické zhodnocení, jestli dát výpověď a jakou sazbu úroku použít u kauce — to zůstává na tobě a na tvém poradci. Housio dá podklad.
+- Není účetní program. S DPH nepracuje a podvojné účetnictví nevede. Pokud pronajímáš nebytové prostory jako plátce DPH, potřebuješ něco jiného.
+
+V Housiu
+
+Jedna nemovitost je v Housiu zdarma napořád a bez karty — dost na to, abys zjistil, jestli ti to sedí, než do toho přepíšeš celé portfolio. A kdyby ne, všechno si vyexportuješ do Excelu a odejdeš.
+
+## Časté dotazy
+
+**Od kolika bytů se vyplatí aplikace?**
+
+Zlom bývá mezi třetím a pátým bytem — tam přestává stačit paměť a začíná se chybovat v termínech. U jednoho bytu je aplikace spíš pohodlí než nutnost, u deseti je Excel riziko. Rozhoduje ale i to, jestli pronajímáš sám, nebo s někým.
+
+**Co se nejčastěji zapomene?**
+
+Konec nájemní smlouvy na dobu určitou a platnost revize plynu. Obojí má tříměsíční až roční dohru a obojí se pozná až ve chvíli, kdy je pozdě. Druhá nejčastější je lhůta pro doručení vyúčtování služeb — za její zmeškání vzniká nárok na pokutu padesát korun za každý den.
+
+**Stačí si vést evidenci v Excelu?**
+
+U jednoho až dvou bytů ano, pokud máš jeden soubor a jednu složku na doklady. Problém nastává s více byty, s více lety a hlavně ve chvíli, kdy s tím pracuje víc lidí — tam začne verzování a nikdo neví, který soubor je ten platný.
+
+**Je Housio zdarma?**
+
+Jedna nemovitost je zdarma bez časového omezení a bez karty. Placené plány začínají u patnácti bytů a přidávají smlouvy, výdaje, pojištění a doklady. Ceník je na webu.
+
+**Dostanu z Housia data ven, kdybych odešel?**
+
+Ano, celé portfolio i jednotlivou nemovitost vyexportuješ do Excelu — platby, výdaje, smlouvy, nájemníky, pojištění a revize, každé ve vlastním listu. Žádná výpovědní lhůta na data.
+
+Opřeno o: Vlastní zkušenost z provozu Housia a z pronájmu; právní lhůty v textu odkazují na příslušné články průvodce.
+
+Stav k 8. 10. 2026. Text je praktický průvodce, ne právní ani daňové poradenství — u konkrétní smlouvy nebo u sporu se poraď s advokátem či daňovým poradcem.
 
 ---
 

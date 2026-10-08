@@ -21,6 +21,7 @@ import * as vynosZPronajmu from './vynos-z-pronajmu'
 import * as koupeBytuNaPronajem from './koupe-bytu-na-pronajem'
 import * as hypotekaNaInvesticniByt from './hypoteka-na-investicni-byt'
 import * as danPriProdejiBytu from './dan-pri-prodeji-bytu'
+import * as prehledVPronajmech from './prehled-v-pronajmech'
 
 // Prurvodce pronajmem — jediny zdroj pravdy pro rozcestnik, detail i sitemapu.
 //
@@ -92,6 +93,7 @@ const MODULY = [
   // Provoz a povinnosti
   povinneRevize,
   gdprPronajimatel,
+  prehledVPronajmech,
   // Byt jako investice
   vynosZPronajmu,
   koupeBytuNaPronajem,
