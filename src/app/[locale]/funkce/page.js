@@ -108,7 +108,7 @@ export default async function FunkcePage({ params }) {
             Ještě se rozhodujete?
           </h2>
           <p className="leading-relaxed mb-5" style={{ color: 'var(--olive-dark)' }}>
-            Seznam funkcí odpovídá na otázku „co to umí". Na tu druhou — jestli to vůbec potřebujete —
+            Seznam funkcí odpovídá na otázku „co to umí“. Na tu druhou — jestli to vůbec potřebujete —
             je lepší srovnání s Excelem, účetním programem a správou přes realitní kancelář. Včetně toho,
             kdy se aplikace nevyplatí.
           </p>
