@@ -53,7 +53,7 @@ const OG_LOCALE = {
 //
 // Prázdný řetězec znamená, že se značka nevykreslí vůbec — Next vynechá
 // pole s prázdnou hodnotou, takže v HTML nezůstane prázdný meta tag.
-export const SEZNAM_WMT = 'BTcFcD6qX4hhrfIsEhvFjDjiccnNw3D7'
+export const SEZNAM_WMT = ''
 
 // Náhled při sdílení odkazu. Rozměry musí sedět se skutečným souborem,
 // jinak si ho Facebook ani LinkedIn nenačtou.
