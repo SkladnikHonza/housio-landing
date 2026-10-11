@@ -77,7 +77,7 @@ export const SKUPINY = [
     klic: 'kazdy-den',
     nazev: 'Každodenní práce',
     popis: 'Drobnosti, které rozhodují, jestli se aplikace používá.',
-    slugy: ['poznamky-a-ukoly', 'mobilni-aplikace', 'deset-jazyku'],
+    slugy: ['poznamky-a-ukoly', 'mobilni-aplikace', 'jazykove-verze'],
   },
 ]
 

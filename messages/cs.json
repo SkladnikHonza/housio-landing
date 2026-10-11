@@ -167,7 +167,7 @@
     "f6Desc": "Dodavatelé elektřiny, plynu, vody a tepla, čísla smluv, EAN i EIC. Když se stěhuje nájemník, máš všechno po ruce za pět vteřin.",
     "f7Title": "Výkazy pro účetní za deset vteřin",
     "f7Desc": "Potvrzení o platbě v PDF, roční přehledy a export do Excelu. Účetní dostane, co potřebuje, bez skládání tabulek na kolenou.",
-    "f8Title": "Deset jazyků, sedm měn",
+    "f8Title": "Jedenáct jazyků, sedm měn",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "Jsou moje data v bezpečí?",
     "a3": "Housio běží na prověřené evropské infrastruktuře (Supabase, Vercel) se servery v EU. Všechna data jsou šifrovaná, automaticky zálohovaná a chráněná podle GDPR. Tvoje smlouvy a osobní údaje nájemníků neprodáváme a nesdílíme pro cizí účely — používáme jen prověřené zpracovatele infrastruktury vázané smlouvou. Podrobnosti najdeš na stránce Bezpečnost a data.",
     "q4": "V jakých zemích Housio funguje?",
-    "a4": "Housio je navržené pro celou EU. Podporujeme češtinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.",
+    "a4": "Housio je navržené pro celou EU. Podporujeme češtinu, slovenštinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Bratislavě, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.",
     "q5": "Co když mám víc než 15 nemovitostí?",
     "a5": "Basic plán pokrývá až 15 nemovitostí za 299 Kč/měs. Pro 16–25 nemovitostí použij Pro plán (599 Kč/měs) s PDF reporty a prioritní podporou. Pro neomezený počet zvol Business plán (999 Kč/měs) se 3 členy týmu a API přístupem (brzy).",
     "q6": "Můžu Housio používat na mobilu?",

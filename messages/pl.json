@@ -167,7 +167,7 @@
     "f6Desc": "Dostawcy prądu, gazu, wody i ciepła, numery umów i identyfikatory punktów poboru. Przy przeprowadzce najemcy masz wszystko od ręki.",
     "f7Title": "Zestawienia dla księgowej w dziesięć sekund",
     "f7Desc": "Potwierdzenia wpłat w PDF, podsumowania roczne i eksport do Excela. Bez sklejania tabel ręcznie.",
-    "f8Title": "Dziesięć języków, siedem walut",
+    "f8Title": "Jedenaście języków, siedem walut",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF i HUF. Dla wynajmujących, którzy mają mieszkanie w kraju i drugie za granicą."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "Czy moje dane są bezpieczne?",
     "a3": "Housio działa na sprawdzonej europejskiej infrastrukturze (Supabase, Vercel) z serwerami w UE. Wszystkie dane są szyfrowane, automatycznie archiwizowane i chronione zgodnie z RODO. Twoich umów ani danych osobowych najemców nie sprzedajemy i nie udostępniamy do obcych celów — korzystamy wyłącznie ze sprawdzonych dostawców infrastruktury związanych umową. Szczegóły znajdziesz na stronie Bezpieczeństwo i dane.",
     "q4": "W jakich krajach działa Housio?",
-    "a4": "Housio jest zaprojektowane dla całej UE. Obsługujemy polski, czeski, angielski, niemiecki, włoski, hiszpański, ukraiński, rosyjski, francuski i chorwacki. Możesz pracować w PLN, CZK, EUR, CHF i innych walutach. Niezależnie od tego, czy wynajmujesz w Warszawie, Pradze, Wiedniu, Berlinie, Rzymie czy Madrycie — Housio Cię rozumie.",
+    "a4": "Housio jest zaprojektowane dla całej UE. Obsługujemy czeski, słowacki, angielski, niemiecki, włoski, hiszpański, ukraiński, rosyjski, francuski, polski i chorwacki. Możesz pracować w CZK, EUR, PLN, CHF i innych walutach. Niezależnie od tego, czy wynajmujesz w Pradze, Bratysławie, Wiedniu, Berlinie, Rzymie czy Madrycie — Housio Cię rozumie.",
     "q5": "A co, jeśli mam więcej niż 15 nieruchomości?",
     "a5": "Plan Basic obejmuje do 15 nieruchomości za 12 €/mies. Dla 16–25 nieruchomości wybierz plan Pro (24 €/mies.) z raportami PDF i priorytetowym wsparciem. Dla nieograniczonej liczby wybierz plan Business (40 €/mies.) z 3 członkami zespołu i dostępem do API (wkrótce).",
     "q6": "Czy mogę korzystać z Housio na telefonie?",

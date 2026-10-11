@@ -167,7 +167,7 @@
     "f6Desc": "Dobavljači struje, plina, vode i topline, brojevi ugovora i oznake obračunskih mjesta. Kod selidbe najmoprimca sve je pri ruci.",
     "f7Title": "Izvještaji za knjigovođu u deset sekundi",
     "f7Desc": "Potvrde o plaćanju u PDF-u, godišnji pregledi i izvoz u Excel. Bez ručnog slaganja tablica.",
-    "f8Title": "Deset jezika, sedam valuta",
+    "f8Title": "Jedanaest jezika, sedam valuta",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF i HUF. Za najmodavce koji imaju stan kod kuće i drugi preko granice."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "Jesu li moji podaci sigurni?",
     "a3": "Housio radi na provjerenoj europskoj infrastrukturi (Supabase, Vercel) sa serverima u EU. Svi su podaci šifrirani, automatski sigurnosno kopirani i zaštićeni prema GDPR-u. Tvoje ugovore i osobne podatke najmoprimaca ne prodajemo niti ih dijelimo u tuđe svrhe — koristimo samo provjerene pružatelje infrastrukture vezane ugovorom. Pojedinosti pronađi na stranici Sigurnost i podaci.",
     "q4": "U kojim zemljama Housio funkcionira?",
-    "a4": "Housio je osmišljen za cijelu EU. Podržavamo hrvatski, češki, engleski, njemački, talijanski, španjolski, ukrajinski, ruski, francuski i poljski. Možeš raditi u EUR, CZK, PLN, CHF i drugim valutama. Bio ti najmodavac u Zagrebu, Beču, Berlinu, Rimu ili Madridu — Housio te razumije.",
+    "a4": "Housio je osmišljen za cijelu EU. Podržavamo češki, slovački, engleski, njemački, talijanski, španjolski, ukrajinski, ruski, francuski, poljski i hrvatski. Možete raditi u CZK, EUR, PLN, CHF i drugim valutama. Bili vi najmodavac u Pragu, Bratislavi, Beču, Berlinu, Rimu ili Madridu — Housio vas razumije.",
     "q5": "Što ako imam više od 15 nekretnina?",
     "a5": "Plan Basic pokriva do 15 nekretnina za 12 €/mj. Za 16–25 nekretnina odaberi plan Pro (24 €/mj.) s PDF izvještajima i prioritetnom podrškom. Za neograničen broj odaberi plan Business (40 €/mj.) s 3 člana tima i API pristupom (uskoro).",
     "q6": "Mogu li koristiti Housio na mobitelu?",

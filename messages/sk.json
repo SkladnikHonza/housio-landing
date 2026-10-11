@@ -167,7 +167,7 @@
     "f6Desc": "Dodávatelia elektriny, plynu, vody a tepla, čísla zmlúv, EAN aj EIC. Keď sa sťahuje nájomník, máte všetko poruke za päť sekúnd.",
     "f7Title": "Výkazy pre účtovníčku za desať sekúnd",
     "f7Desc": "Potvrdenie o platbe v PDF, ročné prehľady a export do Excelu. Účtovníčka dostane, čo potrebuje, bez skladania tabuliek na kolene.",
-    "f8Title": "Desať jazykov, sedem mien",
+    "f8Title": "Jedenásť jazykov, sedem mien",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF a HUF. Pre prenajímateľov, ktorí majú byt na Slovensku a druhý za hranicami."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "Sú moje dáta v bezpečí?",
     "a3": "Housio beží na overenej európskej infraštruktúre (Supabase, Vercel) so servermi v EÚ. Všetky dáta sú šifrované, automaticky zálohované a chránené podľa GDPR. Vaše zmluvy a osobné údaje nájomníkov nepredávame a nezdieľame na cudzie účely — používame len overených sprostredkovateľov infraštruktúry viazaných zmluvou. Podrobnosti nájdete na stránke Bezpečnosť a dáta.",
     "q4": "Funguje Housio na Slovensku a v akých jazykoch?",
-    "a4": "Áno, Housio je navrhnuté pre celú EÚ a slovenskí prenajímatelia ho používajú bez obmedzení — vrátane eura ako hlavnej meny. Aplikácia hovorí po česky, anglicky, nemecky, taliansky, španielsky, ukrajinsky, rusky, francúzsky, poľsky a chorvátsky; samostatnú slovenčinu zatiaľ nemá, takže si väčšina Slovákov zapne češtinu alebo angličtinu. Účtovať môžete v EUR, CZK, PLN, CHF aj ďalších menách.",
+    "a4": "Housio je navrhnuté pre celú EÚ. Podporujeme češtinu, slovenčinu, angličtinu, nemčinu, taliančinu, španielčinu, ukrajinčinu, ruštinu, francúzštinu, poľštinu a chorvátčinu. Môžeš pracovať v CZK, EUR, PLN, CHF a ďalších menách. Či si prenajímateľ v Prahe, Bratislave, Viedni, Berlíne, Ríme alebo Madride — Housio ti rozumie.",
     "q5": "Čo keď mám viac ako 15 nehnuteľností?",
     "a5": "Plán Basic pokrýva až 15 nehnuteľností za 12 €/mes. Pre 16–25 nehnuteľností použite plán Pro (24 €/mes.) s PDF reportmi a prioritnou podporou. Pre neobmedzený počet zvoľte plán Business (40 €/mes.) s 3 členmi tímu a prístupom k API (už skoro).",
     "q6": "Môžem Housio používať na mobile?",

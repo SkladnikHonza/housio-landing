@@ -20,7 +20,7 @@ Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatels
 - **Pojištění pod kontrolou**: Pojišťovna, číslo smlouvy, pojistná částka i roční pojistné na jednom místě. Aplikace ukáže, kolik dní zbývá do konce, ať tě výročí nepřekvapí.
 - **Energie bez hledání v šuplíku**: Dodavatelé elektřiny, plynu, vody a tepla, čísla smluv, EAN i EIC. Když se stěhuje nájemník, máš všechno po ruce za pět vteřin.
 - **Výkazy pro účetní za deset vteřin**: Potvrzení o platbě v PDF, roční přehledy a export do Excelu. Účetní dostane, co potřebuje, bez skládání tabulek na kolenou.
-- **Deset jazyků, sedm měn**: CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi.
+- **Jedenáct jazyků, sedm měn**: CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi.
 
 ## Ceník
 
@@ -90,7 +90,7 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 
 - [Poznámky a úkoly](https://www.housio.app/funkce/poznamky-a-ukoly) (Zdarma): Co je potřeba zařídit, u koho a do kdy — bez dalšího nástroje.
 - [Mobilní aplikace](https://www.housio.app/funkce/mobilni-aplikace) (Zdarma): Housio na iPhonu i Androidu — stejná data jako na počítači.
-- [Deset jazyků](https://www.housio.app/funkce/deset-jazyku) (Zdarma): Česky, slovensky srozumitelně, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky.
+- [Jedenáct jazyků](https://www.housio.app/funkce/jazykove-verze) (Zdarma): Česky, slovensky, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky — a doklady se tisknou v jazyce, který si nastavíte.
 
 ## Srovnání: kdy se aplikace na správu nájmu vyplatí a kdy ne
 
@@ -225,7 +225,7 @@ Housio běží na prověřené evropské infrastruktuře (Supabase, Vercel) se s
 
 **V jakých zemích Housio funguje?**
 
-Housio je navržené pro celou EU. Podporujeme češtinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.
+Housio je navržené pro celou EU. Podporujeme češtinu, slovenštinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Bratislavě, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.
 
 **Co když mám víc než 15 nemovitostí?**
 

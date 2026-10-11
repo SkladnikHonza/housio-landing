@@ -20,7 +20,7 @@ Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatels
 - **Pojištění pod kontrolou**: Pojišťovna, číslo smlouvy, pojistná částka i roční pojistné na jednom místě. Aplikace ukáže, kolik dní zbývá do konce, ať tě výročí nepřekvapí.
 - **Energie bez hledání v šuplíku**: Dodavatelé elektřiny, plynu, vody a tepla, čísla smluv, EAN i EIC. Když se stěhuje nájemník, máš všechno po ruce za pět vteřin.
 - **Výkazy pro účetní za deset vteřin**: Potvrzení o platbě v PDF, roční přehledy a export do Excelu. Účetní dostane, co potřebuje, bez skládání tabulek na kolenou.
-- **Deset jazyků, sedm měn**: CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi.
+- **Jedenáct jazyků, sedm měn**: CZK, EUR, USD, GBP, PLN, CHF a HUF. Pro pronajímatele, kteří mají byt v Česku a druhý za hranicemi.
 
 ## Ceník
 
@@ -90,7 +90,7 @@ Ceny jsou včetně DPH. V jiných jazycích než v češtině jsou ceny v eurech
 
 - [Poznámky a úkoly](https://www.housio.app/funkce/poznamky-a-ukoly) (Zdarma): Co je potřeba zařídit, u koho a do kdy — bez dalšího nástroje.
 - [Mobilní aplikace](https://www.housio.app/funkce/mobilni-aplikace) (Zdarma): Housio na iPhonu i Androidu — stejná data jako na počítači.
-- [Deset jazyků](https://www.housio.app/funkce/deset-jazyku) (Zdarma): Česky, slovensky srozumitelně, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky.
+- [Jedenáct jazyků](https://www.housio.app/funkce/jazykove-verze) (Zdarma): Česky, slovensky, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky — a doklady se tisknou v jazyce, který si nastavíte.
 
 ## Srovnání: kdy se aplikace na správu nájmu vyplatí a kdy ne
 
@@ -263,7 +263,7 @@ Praktické návody pro pronajímatele podle české úpravy. Jen v češtině �
 - **Jak funguje 7denní zkušební doba zdarma?** Při registraci nezadáváš žádnou platební kartu. Máš plný přístup ke všem funkcím na 7 dní zdarma. Po skončení trial si můžeš vybrat — pokračovat za 299 Kč/měs (Basic), 599 Kč/měs (Pro) nebo zůstat na bezplatném FREE plánu. Nikdy ti nic nestrhneme automaticky.
 - **Můžu Housio kdykoli zrušit?** Ano. Bez výpovědní lhůty, bez sankcí. Stačí v nastavení kliknout na "Zrušit předplatné" a do konce zaplaceného období můžeš dál používat. Tvoje data zůstanou bezpečně uložená — pokud se vrátíš, najdeš všechno na svém místě.
 - **Jsou moje data v bezpečí?** Housio běží na prověřené evropské infrastruktuře (Supabase, Vercel) se servery v EU. Všechna data jsou šifrovaná, automaticky zálohovaná a chráněná podle GDPR. Tvoje smlouvy a osobní údaje nájemníků neprodáváme a nesdílíme pro cizí účely — používáme jen prověřené zpracovatele infrastruktury vázané smlouvou. Podrobnosti najdeš na stránce Bezpečnost a data.
-- **V jakých zemích Housio funguje?** Housio je navržené pro celou EU. Podporujeme češtinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.
+- **V jakých zemích Housio funguje?** Housio je navržené pro celou EU. Podporujeme češtinu, slovenštinu, angličtinu, němčinu, italštinu, španělštinu, ukrajinštinu, ruštinu, francouzštinu, polštinu a chorvatštinu. Můžeš pracovat v CZK, EUR, PLN, CHF a dalších měnách. Ať jsi pronajímatel v Praze, Bratislavě, Vídni, Berlíně, Římě nebo Madridu — Housio ti rozumí.
 - **Co když mám víc než 15 nemovitostí?** Basic plán pokrývá až 15 nemovitostí za 299 Kč/měs. Pro 16–25 nemovitostí použij Pro plán (599 Kč/měs) s PDF reporty a prioritní podporou. Pro neomezený počet zvol Business plán (999 Kč/měs) se 3 členy týmu a API přístupem (brzy).
 - **Můžu Housio používat na mobilu?** Ano, a máš na výběr. Housio funguje v prohlížeči na mobilu, tabletu i počítači, a kromě toho ho stáhneš jako aplikaci pro iPhone i Android. Všechno se synchronizuje v reálném čase, takže je jedno, kde zrovna něco zapíšeš.
 - **Posíláte upozornění o končících smlouvách?** Ano, automaticky. Housio tě upozorní emailem 30, 14 a 7 dní před koncem smlouvy. Nikdy nezapomeneš prodloužit a nepřijdeš o nájemníka. Stejně tak ti přijde notifikace o nezaplaceném nájmu nebo blížícím se konci pojištění.

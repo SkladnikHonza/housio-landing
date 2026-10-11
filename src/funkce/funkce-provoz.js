@@ -308,12 +308,15 @@ export const FUNKCE_PROVOZ = [
         odpoved: 'Ne. Stahuje se zdarma a platí se jen plán, který máte.',
       },
     ],
-    souvisi: ['evidence-vydaju', 'deset-jazyku'],
+    souvisi: ['evidence-vydaju', 'jazykove-verze'],
   },
   {
-    slug: 'deset-jazyku',
-    nadpis: 'Deset jazyků',
-    perex: 'Česky, slovensky srozumitelně, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky.',
+    // POZOR: slug je bez cisla zamerne. Puvodni „deset-jazyku" zastaral
+    // ve chvili, kdy pribyla slovenstina — a adresu zmenit je drazsi
+    // nez nadpis, protoze uz je v sitemape a Google ji zna.
+    slug: 'jazykove-verze',
+    nadpis: 'Jedenáct jazyků',
+    perex: 'Česky, slovensky, anglicky, německy, italsky, španělsky, francouzsky, polsky, chorvatsky, rusky a ukrajinsky — a doklady se tisknou v jazyce, který si nastavíte.',
     plan: 'free',
     uvod: 'Byty v Česku nevlastní jen Češi a nespravují je jen Češi. Jazyk aplikace by neměl být důvod, proč někdo zůstane u Excelu.',
     sekce: [
@@ -330,7 +333,7 @@ export const FUNKCE_PROVOZ = [
         text: 'Každý jazyk má vlastní formát datumu, oddělovač tisíců i tvar množného čísla. Housio je nepřepíná ručně — používá systémové formátování, takže Němec vidí 1.234,50 a Čech 1 234,50, aniž by se o to kdokoli staral.',
       },
       {
-        nadpis: 'Proč zrovna těchhle deset',
+        nadpis: 'Proč zrovna těchhle jedenáct',
         text: 'Vycházejí z toho, kdo v Česku byty vlastní a pronajímá: čeština a slovenština jako domácí trh, angličtina a němčina pro zahraniční investory, ukrajinština a ruština kvůli nájemníkům, polština, chorvatština, italština, španělština a francouzština kvůli vlastníkům z EU.',
       },
     ],

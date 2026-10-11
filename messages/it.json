@@ -167,7 +167,7 @@
     "f6Desc": "Fornitori di luce, gas, acqua e riscaldamento, numeri di contratto e codici del punto di fornitura. Al cambio di inquilino è tutto pronto.",
     "f7Title": "Report per il commercialista in dieci secondi",
     "f7Desc": "Ricevute di pagamento in PDF, riepiloghi annuali ed esportazione in Excel. Senza rifare tabelle a mano.",
-    "f8Title": "Dieci lingue, sette valute",
+    "f8Title": "Undici lingue, sette valute",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF e HUF. Per chi ha un appartamento a casa e un altro oltre confine."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "I miei dati sono al sicuro?",
     "a3": "Housio gira su un'infrastruttura europea affidabile (Supabase, Vercel) con server nell'UE. Tutti i dati sono crittografati, salvati automaticamente e protetti dal GDPR. Non vendiamo né condividiamo i tuoi contratti e i dati dei tuoi inquilini per scopi di terzi — usiamo solo fornitori di infrastruttura vincolati da contratto. Trovi i dettagli nella pagina Sicurezza e dati.",
     "q4": "In quali paesi funziona Housio?",
-    "a4": "Housio è progettato per tutta l'UE. Supportiamo italiano, inglese, tedesco, ceco, spagnolo, ucraino, russo, francese, polacco e croato. Puoi lavorare in EUR, CZK, PLN, CHF e altre valute. Che tu sia un proprietario a Roma, Vienna, Berlino, Praga o Madrid — Housio ti capisce.",
+    "a4": "Housio è pensato per tutta l’UE. Supportiamo ceco, slovacco, inglese, tedesco, italiano, spagnolo, ucraino, russo, francese, polacco e croato. Puoi lavorare in CZK, EUR, PLN, CHF e altre valute. Che tu sia un locatore a Praga, Bratislava, Vienna, Berlino, Roma o Madrid — Housio ti capisce.",
     "q5": "Cosa succede se ho più di 15 immobili?",
     "a5": "Il piano Basic copre fino a 15 immobili a €12/mese. Per 16–25 immobili usa il piano Pro (€24/mese) con report PDF e supporto prioritario. Per immobili illimitati scegli Business (€40/mese) con 3 membri del team e accesso API (in arrivo).",
     "q6": "Posso usare Housio sul cellulare?",

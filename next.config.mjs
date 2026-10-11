@@ -22,6 +22,16 @@ const nextConfig = {
   // build padal na „Cannot find module '@tailwindcss/postcss'", přestože
   // balíček nainstalovaný byl. Next na to sám upozorňoval ve varování.
   turbopack: { root: import.meta.dirname },
+  // Stránka o jazycích se přejmenovala z „deset-jazyku" na „jazykove-verze",
+  // protože původní adresa zastarala ve chvíli, kdy přibyla slovenština.
+  // Stará adresa je v sitemapě od 5. 10. a Google ji zná, proto trvalé
+  // přesměrování místo 404.
+  async redirects() {
+    return [
+      { source: '/funkce/deset-jazyku', destination: '/funkce/jazykove-verze', permanent: true },
+    ]
+  },
+
   async headers() {
     return [{ source: '/(.*)', headers: bezpecnostniHlavicky }]
   },

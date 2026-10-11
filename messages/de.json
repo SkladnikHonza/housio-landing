@@ -167,7 +167,7 @@
     "f6Desc": "Anbieter für Strom, Gas, Wasser und Wärme, Vertragsnummern und Zählpunkte. Beim Mieterwechsel haben Sie alles in fünf Sekunden.",
     "f7Title": "Auswertungen für die Buchhaltung in zehn Sekunden",
     "f7Desc": "Zahlungsbestätigungen als PDF, Jahresübersichten und Excel-Export. Ohne Tabellen von Hand zu bauen.",
-    "f8Title": "Zehn Sprachen, sieben Währungen",
+    "f8Title": "Elf Sprachen, sieben Währungen",
     "f8Desc": "CZK, EUR, USD, GBP, PLN, CHF und HUF. Für Vermieter mit einer Wohnung zu Hause und einer im Ausland."
   },
   "personae": {
@@ -199,7 +199,7 @@
     "q3": "Sind meine Daten sicher?",
     "a3": "Housio läuft auf bewährter europäischer Infrastruktur (Supabase, Vercel) mit Servern in der EU. Alle Daten sind verschlüsselt, automatisch gesichert und nach DSGVO geschützt. Deine Verträge und die Daten deiner Mieter verkaufen oder teilen wir nicht für fremde Zwecke — wir nutzen nur vertraglich gebundene Infrastruktur-Auftragsverarbeiter. Details findest du auf der Seite Sicherheit & Daten.",
     "q4": "In welchen Ländern funktioniert Housio?",
-    "a4": "Housio ist für die gesamte EU konzipiert. Wir unterstützen Tschechisch, Englisch, Deutsch, Italienisch, Spanisch, Ukrainisch, Russisch, Französisch, Polnisch und Kroatisch. Du kannst in CZK, EUR, PLN, CHF und anderen Währungen arbeiten. Ob Vermieter in Prag, Wien, Berlin, Rom oder Madrid — Housio versteht dich.",
+    "a4": "Housio ist für die gesamte EU konzipiert. Wir unterstützen Tschechisch, Slowakisch, Englisch, Deutsch, Italienisch, Spanisch, Ukrainisch, Russisch, Französisch, Polnisch und Kroatisch. Du kannst in CZK, EUR, PLN, CHF und anderen Währungen arbeiten. Ob Vermieter in Prag, Bratislava, Wien, Berlin, Rom oder Madrid — Housio versteht dich.",
     "q5": "Was, wenn ich mehr als 15 Immobilien habe?",
     "a5": "Der Basic-Plan deckt bis zu 15 Immobilien für 12 €/Mon. ab. Für 16–25 Immobilien wähle den Pro-Plan (24 €/Mon.) mit PDF-Berichten und Priority Support. Für unbegrenzte Immobilien wähle Business (40 €/Mon.) mit 3 Teammitgliedern und API-Zugang (bald).",
     "q6": "Kann ich Housio auf dem Handy nutzen?",
