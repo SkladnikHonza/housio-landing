@@ -25,7 +25,7 @@ Data běží na evropské infrastruktuře, zpracování podle GDPR, zpracovatels
 ## Ceník
 
 - **Free** — 0 Kč (navždy zdarma): 1 nemovitost, 1 nájemník, Smlouvy, pojištění a výdaje, Základní přehled, Poznámky
-- **Basic** — 299 Kč/měs (7 dní zdarma na zkoušku): Až 15 nemovitostí, Neomezené nájemníky, Smlouvy a pojištění, Výdaje + Excel export, Email notifikace, Potvrzení o zaplacení (PDF), Poznámky
+- **Basic** — 299 Kč/měs (7 dní zdarma na zkoušku): Až 15 nemovitostí, Neomezené nájemníky, Vše z plánu Free, Export do Excelu, Email notifikace, Potvrzení o zaplacení (PDF), Poznámky
 - **Pro** — 599 Kč/měs (7 dní zdarma na zkoušku): Až 25 nemovitostí, Vše z Basic, PDF reporty, Prioritní podpora, Roční PDF vyúčtování, Poznámky
 - **Business** — 999 Kč/měs (Pro velké portfolia): Neomezené nemovitosti, Až 3 členové týmu, Vše z Pro, Přednostní nasazení novinek, API přístup (brzy), Poznámky
 
@@ -253,7 +253,7 @@ Basic 299 Kč měsíčně pokrývá až 15 nemovitostí, Pro 599 Kč až 25 a Bu
 
 **Vyplatí se Housio, když pronajímám jediný byt?**
 
-Upřímně: u jednoho bytu ti možná pořád stačí poznámky v telefonu. Housio dává smysl ve chvíli, kdy přestáváš mít jistotu, komu kdy končí smlouva nebo kdo zaplatil. Zkušebka je na 7 dní zdarma a bez karty, takže to poznáš sám a nic neriskuješ.
+Free plán je udělaný přesně na jeden byt a je zdarma napořád — vejde se do něj nájemník, smlouva, pojištění i výdaje. Platit začne mít smysl ve chvíli, kdy chceš, aby termíny hlídala aplikace místo tebe: konec smlouvy, chybějící platba, propadlá revize. Zkušebka je na 7 dní zdarma a bez karty, takže to poznáš sám.
 
 **Pozná Housio, kdo nezaplatil nájem?**
 

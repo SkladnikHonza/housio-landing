@@ -96,7 +96,7 @@ export const SROVNANI = [
         { kriterium: 'Nemovitosti', hodnoty: ['1', '15 (Basic), 25 (Pro), bez omezení (Business)'] },
         { kriterium: 'Nájemníci', hodnoty: ['1', 'Bez omezení'] },
         { kriterium: 'Evidence plateb a předpis nájmu', hodnoty: ['Ano', 'Ano'] },
-        { kriterium: 'Evidence výdajů', hodnoty: ['Ne', 'Ano, od plánu Basic'] },
+        { kriterium: 'Smlouvy, pojištění a výdaje', hodnoty: ['Ano', 'Ano'] },
         { kriterium: 'Upozornění e-mailem', hodnoty: ['Ne', 'Ano — konce smluv, nezaplacené nájemné, revize, pojištění'] },
         { kriterium: 'Potvrzení o platbě v PDF', hodnoty: ['Ne', 'Ano'] },
         { kriterium: 'Export do Excelu', hodnoty: ['Ne', 'Ano'] },
