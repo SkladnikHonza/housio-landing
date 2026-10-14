@@ -85,7 +85,7 @@ export const FUNKCE_EVIDENCE = [
     slug: 'najemni-smlouvy',
     nadpis: 'Nájemní smlouvy',
     perex: 'Evidence smluv s hlídáním konce doby nájmu, výše nájemného, záloh i kauce — a s doklady, které z nich vznikají.',
-    plan: 'basic',
+    plan: 'free',
     uvod: 'Smlouva není papír, který se podepíše a zapomene. Je to zdroj dat pro skoro všechno ostatní: kolik se platí, do kdy, kolik je kauce a kdy se musí dát výpověď, aby lhůta sedla.',
     sekce: [
       {
@@ -105,7 +105,7 @@ export const FUNKCE_EVIDENCE = [
         text: 'Záměrně. Vzor nájemní smlouvy, který není posouzený advokátem, je u soudu spíš riziko než pomoc — a chyba ve výpovědní doložce stojí tři měsíce nájmu. Housio smlouvy eviduje a pracuje s jejich čísly, nenahrazuje právníka.',
       },
     ],
-    proKoho: 'Kdokoli, kdo má aspoň jednu smlouvu na dobu určitou. Od plánu Basic.',
+    proKoho: 'Kdokoli, kdo má aspoň jednu smlouvu na dobu určitou. Zdarma už u jedné nemovitosti.',
     faq: [
       {
         otazka: 'Můžu nahrát podepsanou smlouvu v PDF?',
@@ -160,7 +160,7 @@ export const FUNKCE_EVIDENCE = [
     slug: 'evidence-vydaju',
     nadpis: 'Evidence výdajů',
     perex: 'Opravy, poplatky, pojistné i daně u konkrétního bytu — s fakturou, dodavatelem a kategorií.',
-    plan: 'basic',
+    plan: 'free',
     uvod: 'Výdaje jsou druhá polovina čísla, které vás zajímá. Bez nich víte, kolik vám byt vynesl na papíře, ne kolik vám opravdu zůstalo — a bez doložených výdajů za ně navíc zaplatíte daň.',
     sekce: [
       {
@@ -176,7 +176,7 @@ export const FUNKCE_EVIDENCE = [
         text: 'U příjmů z pronájmu si můžete vybrat mezi skutečnými výdaji a paušálem 30 % (strop 600 000 Kč podle § 9 zákona o daních z příjmů). Evidence má smysl u obou — jen u paušálu ji potřebujete pro sebe, ne pro úřad.',
       },
     ],
-    proKoho: 'Pronajímatel, který uplatňuje skutečné výdaje, nebo chce znát reálný výnos bytu. Od plánu Basic.',
+    proKoho: 'Pronajímatel, který uplatňuje skutečné výdaje, nebo chce znát reálný výnos bytu. Zdarma už u jedné nemovitosti.',
     faq: [
       {
         otazka: 'Pozná Housio, co je oprava a co technické zhodnocení?',
@@ -195,7 +195,7 @@ export const FUNKCE_EVIDENCE = [
     slug: 'pojisteni-nemovitosti',
     nadpis: 'Evidence pojištění',
     perex: 'Která pojistka ke kterému bytu patří, kolik stojí ročně a kdy končí.',
-    plan: 'basic',
+    plan: 'free',
     uvod: 'Pojistku člověk vyřeší jednou a pak na ni nemyslí — až do chvíle, kdy praskne stoupačka a zjistí, že smlouva loni propadla.',
     sekce: [
       {
@@ -215,7 +215,7 @@ export const FUNKCE_EVIDENCE = [
         text: 'Běžně jsou dvě: pojištění nemovitosti (zdi, instalace) a pojištění odpovědnosti. U každé je jiná pojišťovna, jiné číslo a jiná platnost — v evidenci je proto vedete zvlášť.',
       },
     ],
-    proKoho: 'Majitel víc než jednoho bytu, kde se pojistky pletou. Od plánu Basic.',
+    proKoho: 'Majitel víc než jednoho bytu, kde se pojistky pletou. Zdarma už u jedné nemovitosti.',
     faq: [
       {
         otazka: 'Hlídá Housio i pojištění domácnosti nájemníka?',
